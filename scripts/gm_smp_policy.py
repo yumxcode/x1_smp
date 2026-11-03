@@ -71,8 +71,7 @@ def main() -> int:
     cmd = [sys.executable, str(ROOT / 'scripts' / 'train_x1.py'), TASK_ID,
            f'--env.scene.num-envs={args.num_envs}',
            f'--agent.max-iterations={args.max_iterations}',
-           f'--env.events.init_smp_state.params.ckpt_path={prior}',
-           '--headless'] + extra
+           f'--env.events.init_smp_state.params.ckpt_path={prior}'] + extra
     if args.resume:
         cmd += ['--resume', args.resume]
     print('[policy] exec:', ' '.join(cmd), flush=True)
