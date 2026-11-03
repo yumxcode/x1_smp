@@ -7,10 +7,9 @@ Per-task configs extend this with task-specific commands/observations/rewards.
 
 from __future__ import annotations
 
-from mjlab.asset_zoo.robots import (
-  G1_ACTION_SCALE,
-  get_g1_robot_cfg,
-)
+from smp.x1_asset import get_x1_robot_cfg, x1_action_scale
+
+X1_ACTION_SCALE = x1_action_scale()
 from mjlab.envs import ManagerBasedRlEnvCfg, mdp
 from mjlab.envs.mdp import dr, time_out
 from mjlab.envs.mdp.actions import JointPositionActionCfg
@@ -36,20 +35,20 @@ from smp.rl.events import (
 )
 
 
-def g1_smp_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
-  """Build the shared G1 + SMP env cfg (denoiser ckpt path set on
+def x1_smp_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
+  """Build the shared X1 + SMP env cfg (denoiser ckpt path set on
   ``init_smp_state`` below; override it from the task config)."""
 
   # --- Observations --------------------------------------------------------
   actor_terms = {
     "base_lin_vel": ObservationTermCfg(
       func=mdp.builtin_sensor,
-      params={"sensor_name": "robot/imu_lin_vel"},
+      params={"sensor_name": "robot/body-linear-vel"},
       noise=Unoise(n_min=-0.5, n_max=0.5),
     ),
     "base_ang_vel": ObservationTermCfg(
       func=mdp.builtin_sensor,
-      params={"sensor_name": "robot/imu_ang_vel"},
+      params={"sensor_name": "robot/body-angular-velocity"},
       noise=Unoise(n_min=-0.2, n_max=0.2),
     ),
     "projected_gravity": ObservationTermCfg(
@@ -90,7 +89,7 @@ def g1_smp_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
     "joint_pos": JointPositionActionCfg(
       entity_name="robot",
       actuator_names=(".*",),
-      scale=G1_ACTION_SCALE,
+      scale=X1_ACTION_SCALE,
       use_default_offset=True,
     )
   }
@@ -137,7 +136,7 @@ def g1_smp_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
       func=dr.geom_friction,
       params={
         "asset_cfg": SceneEntityCfg(
-          "robot", geom_names=r"^(left|right)_foot[1-7]_collision$"
+          "robot", geom_names=r"^(left|right)_foot_[1-4]_collision$"
         ),
         "operation": "abs",
         "ranges": (0.3, 1.2),
@@ -156,7 +155,7 @@ def g1_smp_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
       mode="startup",
       func=dr.body_com_offset,
       params={
-        "asset_cfg": SceneEntityCfg("robot", body_names="torso_link"),
+        "asset_cfg": SceneEntityCfg("robot", body_names="lumbar_pitch_link"),
         "operation": "add",
         "ranges": {
           0: (-0.025, 0.025),
@@ -175,8 +174,8 @@ def g1_smp_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
   # --- Sensors -------------------------------------------------------------
   self_collision_cfg = ContactSensorCfg(
     name="self_collision",
-    primary=ContactMatch(mode="subtree", pattern="pelvis", entity="robot"),
-    secondary=ContactMatch(mode="subtree", pattern="pelvis", entity="robot"),
+    primary=ContactMatch(mode="subtree", pattern="base_link", entity="robot"),
+    secondary=ContactMatch(mode="subtree", pattern="base_link", entity="robot"),
     fields=("found",),
     reduce="none",
     num_slots=1,
@@ -194,7 +193,7 @@ def g1_smp_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
   cfg = ManagerBasedRlEnvCfg(
     scene=SceneCfg(
       terrain=TerrainEntityCfg(terrain_type="plane"),
-      entities={"robot": get_g1_robot_cfg()},
+      entities={"robot": get_x1_robot_cfg()},
       num_envs=1,
       extent=2.0,
       sensors=(self_collision_cfg,),
@@ -208,7 +207,7 @@ def g1_smp_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
     viewer=ViewerConfig(
       origin_type=ViewerConfig.OriginType.ASSET_BODY,
       entity_name="robot",
-      body_name="torso_link",
+      body_name="lumbar_pitch_link",
       distance=3.0,
       elevation=-5.0,
       azimuth=90.0,

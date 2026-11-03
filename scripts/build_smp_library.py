@@ -158,8 +158,13 @@ def main() -> int:
     t0 = time.time()
 
     for ti, trial in enumerate(trials):
-        stem = trial.name.replace('_poses.npz', '')
-        wins = select_windows(trial, args.win_s, args.max_per_trial)
+        stem = trial.name.replace('.npz', '')
+        try:
+            wins = select_windows(trial, args.win_s, args.max_per_trial)
+        except Exception as e:  # noqa: BLE001 -- corrupt/incomplete downloads from the mirror
+            print(f'[{ti+1}/{len(trials)}] {trial.name}: BAD FILE ({type(e).__name__}), skip', flush=True)
+            report.append({'clip': trial.name, 'error': f'bad raw file: {type(e).__name__}'})
+            continue
         if not wins:
             continue
         for wi, (i, j, wm) in enumerate(wins):

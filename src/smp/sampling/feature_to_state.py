@@ -20,16 +20,15 @@ from mjlab.utils.lab_api.math import (
 
 NUM_JOINTS = 29
 
-# Tracked end-effector bodies. ``torso_link`` proxies the head (mjlab's G1
-# asset has no separate head body, but the head is rigidly attached to the
-# torso so the kinematic signal is the same).  Order must match
-# ``scripts/csv_to_npz.py::EE_BODY_NAMES``.
+# Tracked end-effector bodies, X1 asset (ported from the G1 set). Order must
+# match scripts/x1_data_lib.py::EE_BODY_NAMES (the offline window builder).
+# lumbar_pitch_link proxies the head/torso-top (X1 has no head body).
 EE_BODY_NAMES: tuple[str, ...] = (
   "left_ankle_roll_link",
   "right_ankle_roll_link",
-  "torso_link",
-  "left_wrist_yaw_link",
-  "right_wrist_yaw_link",
+  "lumbar_pitch_link",
+  "left_wrist_roll_link",
+  "right_wrist_roll_link",
 )
 NUM_EE = len(EE_BODY_NAMES)
 

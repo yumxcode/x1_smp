@@ -12,7 +12,7 @@ from mjlab.managers.reward_manager import RewardTermCfg
 from mjlab.managers.scene_entity_config import SceneEntityCfg
 from mjlab.managers.termination_manager import TerminationTermCfg
 
-from smp.rl.env_cfg import g1_smp_env_cfg
+from smp.rl.env_cfg import g1_smp_env_cfg, x1_smp_env_cfg
 from smp.rl.rewards import task_smp_product
 from smp.rl.tasks.steering import mdp
 
@@ -70,4 +70,50 @@ def g1_forward_smp_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
     },
   )
 
+  return cfg
+
+
+def x1_forward_smp_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
+  """X1 forward env: fixed +x heading, low-cadence speed band 0.4-1.4 m/s.
+
+  The band covers the walk05 (0.5) and walk10 (1.0) evaluation commands with
+  margin on both sides; the prior library itself spans 0.4-1.3 m/s
+  (data/x1_smp_train.npz, gait-audited).
+  """
+  cfg = x1_smp_env_cfg(play=play)
+  cfg.commands["steering"] = mdp.SteeringCommandCfg(
+    entity_name="robot",
+    resampling_time_range=(6.0, 12.0),
+    rand_tar_dir=False,
+    rand_face_dir=False,
+    tar_speed_min=0.4,
+    tar_speed_max=1.4,
+    debug_vis=False,
+  )
+  command_obs = ObservationTermCfg(
+    func=mdp.generated_commands,
+    params={"command_name": "steering"},
+  )
+  cfg.observations["actor"].terms["command"] = command_obs
+  cfg.observations["critic"].terms["command"] = command_obs
+  cfg.rewards["task_smp_product"] = RewardTermCfg(
+    func=task_smp_product,
+    weight=1.0,
+    params={
+      "task_terms": (
+        (
+          mdp.steering_target_velocity,
+          1.0,
+          {"command_name": "steering", "vel_err_scale": 0.5},
+        ),
+      ),
+    },
+  )
+  import os
+  cfg.events["init_smp_state"].params["ckpt_path"] = os.environ.get(
+    "SMP_PRIOR_CKPT", "data/prior/x1_walk_prior.pt")
+  cfg.terminations["base_too_low"] = TerminationTermCfg(
+    func=mdp.root_height_below_minimum,
+    params={"minimum_height": 0.28, "asset_cfg": SceneEntityCfg("robot")},
+  )
   return cfg
