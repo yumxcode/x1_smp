@@ -123,6 +123,8 @@ def x1_collision_cfgs():
     return (
         CollisionCfg(
             geom_names_expr=('.*_collision',),
+            contype=1,
+            conaffinity=1,
             condim={foot: X1_FOOT_CONDIM, '.*_collision': 1},
             priority={foot: X1_FOOT_PRIORITY},
             friction={foot: X1_FOOT_FRICTION},

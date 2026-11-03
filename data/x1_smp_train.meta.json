@@ -591,6 +591,254 @@
    "error": "bad raw file: BadZipFile"
   },
   {
+   "clip": "11_01.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "126_01.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "126_02.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "126_03.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "126_04.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "126_05.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "126_06.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "126_07.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "126_08.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "126_09.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "126_10.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "126_11.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "126_12.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "126_13.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "126_14.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_01.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_02.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_03.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_04.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_05.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_06.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_07.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_08.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_09.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_10.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_11.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_12.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_13.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_14.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_15.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_16.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_17.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_18.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_19.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_20.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_21.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_22.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_23.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_24.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_25.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_26.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_28.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_29.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_30.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_31.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_33.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_34.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_35.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_36.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_37.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "127_38.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "128_01.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "128_02.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "128_03.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "128_04.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "128_05.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "128_06.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "128_07.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "128_08.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "128_09.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "128_10.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "128_11.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
    "clip": "12_01.npz",
    "error": "bad raw file: UnpicklingError"
   },
@@ -773,6 +1021,110 @@
      0.05191192344783867
     ]
    }
+  },
+  {
+   "clip": "133_01.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "133_02.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "133_03.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "133_04.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "133_05.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "133_06.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "133_07.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "133_08.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "133_09.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "133_10.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "133_11.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "133_12.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "133_13.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "133_14.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "133_15.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "133_16.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "133_17.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "133_18.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "133_19.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "133_20.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "133_21.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "133_22.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "133_23.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "133_24.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "133_25.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "133_26.npz",
+   "error": "bad raw file: UnpicklingError"
   },
   {
    "clip": "136_05_w0",
@@ -1025,8 +1377,1296 @@
      0.064279595004022
     ]
    }
+  },
+  {
+   "clip": "139_01.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_02.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_03.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_04.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_05.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_06.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_07.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_08.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_09.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_10.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_11.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_12.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_13.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_14.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_15.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_16.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_17.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_18.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_19.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_21.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_22.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_23.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_24.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_25.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_26.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_27.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_29.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_30.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_31.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_32.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_33.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "139_34.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "140_01.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "140_02.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "140_04.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "140_06.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "140_07.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "140_08.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "140_09.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_01.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_02.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_03.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_04.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_05.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_06.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_07.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_08.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_09.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_10.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_11.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_12.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_13.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_14.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_15.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_16.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_17.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_18.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_19.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_20.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_21.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_22.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_23.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_24.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_25.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_26.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_27.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_28.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_29.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_30.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_31.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_32.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_33.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "141_34.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "142_01.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "142_02.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "142_04.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "142_06.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "142_08.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "142_09.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "142_11.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "142_12.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "142_13.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "142_14.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "142_15.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "142_16.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "142_17.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "142_18.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "142_19.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "142_20.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "142_21.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "142_22.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_01.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_02.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_03.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_04.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_05.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_06.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_07.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_08.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_09.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_10.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_11.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_12.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_13.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_14.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_15.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_16.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_17.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_18.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_19.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_20.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_21.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_22.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_23.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_24.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_26.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_27.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_28.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_29.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_32.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "144_34.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "18_01.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "18_02.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "18_03.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "18_04.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "18_06.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "18_07.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "18_08.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "18_09.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "18_10.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "18_11.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "18_13.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "18_14.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "18_15.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "22_01.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "22_02.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "22_03.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "22_04.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "22_05.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "22_06.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "22_07.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "22_08.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "22_10.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "22_11.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "22_12.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "22_13.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "22_14.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "22_15.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "22_16.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "22_17.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "22_18.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "22_19.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "22_20.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "22_21.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "22_22.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "22_23.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "22_24.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "22_25.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "24_01.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "25_01.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "26_01.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "26_02.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "26_03.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "26_05.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "26_10.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "27_01.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "27_02.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "27_03.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "27_04.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "27_05.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "27_06.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "27_07.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "27_08.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "27_09.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "27_10.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "27_11.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "28_01.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "28_02.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "28_03.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "28_04.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "28_05.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "28_06.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "28_07.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "28_09.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "28_10.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "28_11.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "28_12.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "28_13.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "28_14.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "28_15.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "28_16.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "28_17.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "28_19.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "29_01.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "29_02.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "29_03.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "29_04.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "29_05.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "29_06.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "29_07.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "29_08.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "29_09.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "29_10.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "29_11.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "29_12.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "29_13.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "29_14.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "29_15.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "29_16.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "29_17.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "29_18.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "29_19.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "29_20.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "29_21.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "29_22.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "29_23.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "29_24.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "29_25.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "30_01.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "30_02.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "30_03.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "30_04.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "30_06.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "30_07.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "30_08.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "30_09.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "30_10.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "30_11.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "30_12.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "30_13.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "30_14.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "30_15.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "30_16.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "30_17.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "30_18.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "30_19.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "30_20.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "30_21.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "30_22.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "30_23.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "31_01.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "31_02.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "31_03.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "31_05.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "31_06.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "31_07.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "31_08.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "31_09.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "31_10.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "31_11.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "31_13.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "31_14.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "31_15.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "31_16.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "31_17.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "31_18.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "31_19.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "31_20.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "31_21.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_01.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_02.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_03.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_04.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_05.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_06.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_07.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_08.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_09.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_10.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_11.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_12.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_13.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_14.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_15.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_16.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_17.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_18.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_19.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_20.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_21.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_22.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_23.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_24.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_25.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_26.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_27.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_28.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_29.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_30.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_31.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_32.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_33.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_34.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_35.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "36_36.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "40_02.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "40_03.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "40_04.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "40_05.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "40_06.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "40_07.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "40_08.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "40_09.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "40_10.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "40_11.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "40_12.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "41_02.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "41_03.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "41_04.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "41_05.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "41_06.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "41_07.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "41_08.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "41_09.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "41_10.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "41_11.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "43_01.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "43_02.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "43_03.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "45_01.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "46_01.npz",
+   "error": "bad raw file: UnpicklingError"
+  },
+  {
+   "clip": "47_01.npz",
+   "error": "bad raw file: UnpicklingError"
   }
  ],
- "built_at": "2026-11-03 17:27:07",
- "elapsed_s": 119.8
+ "built_at": "2026-11-03 17:36:12",
+ "elapsed_s": 120.3
 }
