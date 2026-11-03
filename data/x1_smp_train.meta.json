@@ -1,10 +1,10 @@
 {
  "out": "data/x1_smp_train.npz",
- "out_sha256": "bc6fac50889f1b09e7cb83e1fd2980556348203d3a8f486e69c5dfbeb8f5350d",
- "out_bytes": 329476,
- "clips_kept": 5,
- "frames": 1154,
- "hours": 0.0064,
+ "out_sha256": "b3930fd528d0dd8ae7349b67dae63de88e1e73cbedbf19e3e25023e727ac7dde",
+ "out_bytes": 807760,
+ "clips_kept": 18,
+ "frames": 4902,
+ "hours": 0.0158,
  "fps": 50.0,
  "joint_order": [
   "lumbar_yaw_joint",
@@ -38,7 +38,7 @@
   "right_ankle_roll_joint"
  ],
  "froude_scale": 0.811,
- "pipeline": "CMU_raw -> multi-window select (cad 95-140, v 0.7-1.9, step 0.5-0.85, straight>=0.85, prefer 0.9-1.5) -> stageii (XY*froude_scale) -> GMR 2-pass + arm_refine -> per-frame ground -> 50Hz -> gates A (retarget) + B (gait audit)",
+ "pipeline": "CMU_raw -> multi-window select (cad 95-140, v 0.7-1.9, step 0.5-0.85, straight>=0.85, prefer 0.9-1.5) -> stageii (XY*froude_scale) -> GMR 2-pass + arm_refine -> per-frame ground -> 50Hz -> gates A (retarget) + B (gait audit) + phase2 healthy merges (no froude scale, p2_ prefix)",
  "windows": [
   {
    "clip": "02_01_w0",
@@ -393,7 +393,7 @@
    },
    "frames": 315,
    "a_pass": true,
-   "b_pass": false,
+   "b_pass": true,
    "gait": {
     "cadence": [
      0.8064516129032259,
@@ -435,7 +435,7 @@
    },
    "frames": 315,
    "a_pass": true,
-   "b_pass": false,
+   "b_pass": true,
    "gait": {
     "cadence": [
      0.819672131147541,
@@ -587,274 +587,6 @@
    }
   },
   {
-   "clip": "115_01.npz",
-   "error": "bad raw file: BadZipFile"
-  },
-  {
-   "clip": "11_01.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "126_01.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "126_02.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "126_03.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "126_04.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "126_05.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "126_06.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "126_07.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "126_08.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "126_09.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "126_10.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "126_11.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "126_12.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "126_13.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "126_14.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_01.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_02.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_03.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_04.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_05.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_06.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_07.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_08.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_09.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_10.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_11.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_12.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_13.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_14.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_15.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_16.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_17.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_18.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_19.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_20.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_21.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_22.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_23.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_24.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_25.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_26.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_28.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_29.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_30.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_31.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_33.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_34.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_35.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_36.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_37.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "127_38.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "128_01.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "128_02.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "128_03.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "128_04.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "128_05.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "128_06.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "128_07.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "128_08.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "128_09.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "128_10.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "128_11.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "12_01.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "12_02.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "12_03.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "12_04.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
    "clip": "132_20_w0",
    "human_window": {
     "v": 1.856,
@@ -955,7 +687,7 @@
    },
    "frames": 258,
    "a_pass": true,
-   "b_pass": false,
+   "b_pass": true,
    "gait": {
     "cadence": [
      1.1111111111111112,
@@ -1023,110 +755,6 @@
    }
   },
   {
-   "clip": "133_01.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "133_02.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "133_03.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "133_04.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "133_05.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "133_06.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "133_07.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "133_08.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "133_09.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "133_10.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "133_11.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "133_12.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "133_13.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "133_14.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "133_15.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "133_16.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "133_17.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "133_18.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "133_19.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "133_20.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "133_21.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "133_22.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "133_23.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "133_24.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "133_25.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "133_26.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
    "clip": "136_05_w0",
    "human_window": {
     "v": 1.057,
@@ -1185,7 +813,7 @@
    },
    "frames": 315,
    "a_pass": true,
-   "b_pass": false,
+   "b_pass": true,
    "gait": {
     "cadence": [
      0.8695652173913042,
@@ -1311,7 +939,7 @@
    },
    "frames": 315,
    "a_pass": false,
-   "b_pass": true,
+   "b_pass": false,
    "gait": {
     "cadence": [
      0.8130081300813008,
@@ -1379,1294 +1007,385 @@
    }
   },
   {
-   "clip": "139_01.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_02.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_03.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_04.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_05.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_06.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_07.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_08.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_09.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_10.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_11.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_12.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_13.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_14.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_15.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_16.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_17.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_18.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_19.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_21.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_22.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_23.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_24.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_25.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_26.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_27.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_29.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_30.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_31.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_32.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_33.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "139_34.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "140_01.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "140_02.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "140_04.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "140_06.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "140_07.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "140_08.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "140_09.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_01.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_02.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_03.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_04.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_05.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_06.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_07.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_08.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_09.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_10.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_11.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_12.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_13.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_14.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_15.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_16.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_17.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_18.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_19.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_20.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_21.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_22.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_23.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_24.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_25.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_26.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_27.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_28.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_29.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_30.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_31.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_32.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_33.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "141_34.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "142_01.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "142_02.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "142_04.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "142_06.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "142_08.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "142_09.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "142_11.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "142_12.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "142_13.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "142_14.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "142_15.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "142_16.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "142_17.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "142_18.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "142_19.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "142_20.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "142_21.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "142_22.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_01.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_02.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_03.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_04.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_05.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_06.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_07.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_08.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_09.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_10.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_11.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_12.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_13.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_14.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_15.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_16.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_17.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_18.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_19.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_20.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_21.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_22.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_23.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_24.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_26.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_27.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_28.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_29.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_32.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "144_34.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "18_01.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "18_02.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "18_03.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "18_04.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "18_06.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "18_07.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "18_08.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "18_09.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "18_10.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "18_11.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "18_13.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "18_14.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "18_15.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "22_01.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "22_02.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "22_03.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "22_04.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "22_05.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "22_06.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "22_07.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "22_08.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "22_10.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "22_11.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "22_12.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "22_13.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "22_14.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "22_15.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "22_16.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "22_17.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "22_18.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "22_19.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "22_20.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "22_21.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "22_22.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "22_23.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "22_24.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "22_25.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "24_01.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "25_01.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "26_01.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "26_02.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "26_03.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "26_05.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "26_10.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "27_01.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "27_02.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "27_03.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "27_04.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "27_05.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "27_06.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "27_07.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "27_08.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "27_09.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "27_10.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "27_11.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "28_01.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "28_02.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "28_03.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "28_04.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "28_05.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "28_06.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "28_07.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "28_09.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "28_10.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "28_11.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "28_12.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "28_13.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "28_14.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "28_15.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "28_16.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "28_17.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "28_19.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "29_01.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "29_02.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "29_03.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "29_04.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "29_05.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "29_06.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "29_07.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "29_08.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "29_09.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "29_10.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "29_11.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "29_12.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "29_13.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "29_14.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "29_15.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "29_16.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "29_17.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "29_18.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "29_19.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "29_20.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "29_21.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "29_22.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "29_23.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "29_24.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "29_25.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "30_01.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "30_02.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "30_03.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "30_04.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "30_06.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "30_07.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "30_08.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "30_09.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "30_10.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "30_11.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "30_12.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "30_13.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "30_14.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "30_15.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "30_16.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "30_17.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "30_18.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "30_19.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "30_20.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "30_21.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "30_22.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "30_23.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "31_01.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "31_02.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "31_03.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "31_05.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "31_06.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "31_07.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "31_08.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "31_09.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "31_10.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "31_11.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "31_13.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "31_14.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "31_15.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "31_16.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "31_17.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "31_18.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "31_19.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "31_20.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "31_21.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_01.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_02.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_03.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_04.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_05.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_06.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_07.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_08.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_09.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_10.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_11.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_12.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_13.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_14.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_15.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_16.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_17.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_18.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_19.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_20.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_21.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_22.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_23.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_24.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_25.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_26.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_27.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_28.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_29.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_30.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_31.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_32.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_33.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_34.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_35.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "36_36.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "40_02.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "40_03.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "40_04.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "40_05.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "40_06.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "40_07.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "40_08.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "40_09.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "40_10.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "40_11.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "40_12.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "41_02.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "41_03.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "41_04.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "41_05.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "41_06.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "41_07.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "41_08.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "41_09.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "41_10.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "41_11.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "43_01.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "43_02.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "43_03.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "45_01.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "46_01.npz",
-   "error": "bad raw file: UnpicklingError"
-  },
-  {
-   "clip": "47_01.npz",
-   "error": "bad raw file: UnpicklingError"
+   "clip": "141_22_w0",
+   "human_window": {
+    "v": 0.989,
+    "straight": 0.9729681611061096,
+    "cad": 97.93,
+    "step": 0.606,
+    "step_hz": 1.632,
+    "fz": 1.632,
+    "fy": -0.681,
+    "pz": 0.374,
+    "py": 0.285,
+    "dur": 3.3,
+    "sway_amp": 0.512
+   },
+   "frames": 155,
+   "a_pass": true,
+   "b_pass": false,
+   "gait": {
+    "cadence": [
+     NaN,
+     NaN
+    ],
+    "speed": 0.6892639340152202,
+    "step": [
+     NaN,
+     NaN
+    ],
+    "swing": [
+     0.22,
+     1.46
+    ],
+    "duty": [
+     0.7677419354838709,
+     0.5225806451612903
+    ],
+    "lift": [
+     0.050603969708191775,
+     0.13494763495392548
+    ]
+   }
+  },
+  {
+   "clip": "141_24_w0",
+   "human_window": {
+    "v": 1.017,
+    "straight": 0.9439021944999695,
+    "cad": 104.416,
+    "step": 0.584,
+    "step_hz": 1.74,
+    "fz": 1.74,
+    "fy": 1.23,
+    "pz": 0.197,
+    "py": 0.084,
+    "dur": 4.333,
+    "sway_amp": 0.617
+   },
+   "frames": 206,
+   "a_pass": true,
+   "b_pass": false,
+   "gait": {
+    "cadence": [
+     0.45454545454545453,
+     0.9090909090909091
+    ],
+    "speed": 0.6925066747916715,
+    "step": [
+     0.7690231493873041,
+     0.3785737529777852
+    ],
+    "swing": [
+     0.27,
+     0.21
+    ],
+    "duty": [
+     0.7281553398058253,
+     0.6019417475728155
+    ],
+    "lift": [
+     0.06197289426401212,
+     0.13076829770291923
+    ]
+   }
+  },
+  {
+   "clip": "142_04_w0",
+   "human_window": {
+    "v": 1.004,
+    "straight": 0.9850814342498779,
+    "cad": 109.439,
+    "step": 0.55,
+    "step_hz": 1.824,
+    "fz": 1.824,
+    "fy": 0.442,
+    "pz": 0.281,
+    "py": 0.154,
+    "dur": 6.5,
+    "sway_amp": 0.846
+   },
+   "frames": 315,
+   "a_pass": true,
+   "b_pass": false,
+   "gait": {
+    "cadence": [
+     0.9259259259259258,
+     0.9345794392523364
+    ],
+    "speed": 0.6732387950613807,
+    "step": [
+     0.39995155356407175,
+     0.3726792712327722
+    ],
+    "swing": [
+     0.49,
+     0.22
+    ],
+    "duty": [
+     0.5936507936507937,
+     0.8095238095238095
+    ],
+    "lift": [
+     0.3251901504405029,
+     0.088626160299247
+    ]
+   }
+  },
+  {
+   "clip": "142_04_w1",
+   "human_window": {
+    "v": 0.983,
+    "straight": 0.9859997630119324,
+    "cad": 108.757,
+    "step": 0.542,
+    "step_hz": 1.813,
+    "fz": 1.813,
+    "fy": 0.556,
+    "pz": 0.276,
+    "py": 0.181,
+    "dur": 6.5,
+    "sway_amp": 0.602
+   },
+   "frames": 315,
+   "a_pass": false,
+   "b_pass": false,
+   "gait": {
+    "cadence": [
+     0.9345794392523364,
+     0.9615384615384615
+    ],
+    "speed": 0.7336894515303495,
+    "step": [
+     0.43587093460501103,
+     0.4082436454592651
+    ],
+    "swing": [
+     0.81,
+     0.22
+    ],
+    "duty": [
+     0.1873015873015873,
+     0.8444444444444444
+    ],
+    "lift": [
+     0.4097453272091124,
+     0.2832334442799961
+    ]
+   }
+  },
+  {
+   "clip": "142_09_w0",
+   "human_window": {
+    "v": 0.939,
+    "straight": 0.9872773885726929,
+    "cad": 99.623,
+    "step": 0.566,
+    "step_hz": 1.66,
+    "fz": 1.66,
+    "fy": -1.121,
+    "pz": 0.201,
+    "py": 0.261,
+    "dur": 6.5,
+    "sway_amp": 3.625
+   },
+   "frames": 315,
+   "a_pass": true,
+   "b_pass": true,
+   "gait": {
+    "cadence": [
+     0.8333333333333334,
+     0.9259259259259258
+    ],
+    "speed": 0.6578407428756314,
+    "step": [
+     0.30821252603064025,
+     0.42218846782024855
+    ],
+    "swing": [
+     0.48,
+     0.26
+    ],
+    "duty": [
+     0.6603174603174603,
+     0.7746031746031746
+    ],
+    "lift": [
+     0.21442416229796232,
+     0.15008334875986012
+    ]
+   }
+  },
+  {
+   "clip": "142_09_w1",
+   "human_window": {
+    "v": 0.922,
+    "straight": 0.8913944959640503,
+    "cad": 108.638,
+    "step": 0.509,
+    "step_hz": 1.811,
+    "fz": 1.811,
+    "fy": 0.392,
+    "pz": 0.308,
+    "py": 0.196,
+    "dur": 6.5,
+    "sway_amp": 7.248
+   },
+   "frames": 315,
+   "a_pass": false,
+   "b_pass": false,
+   "gait": {
+    "cadence": [
+     1.1235955056179776,
+     1.0869565217391304
+    ],
+    "speed": 0.5814092840650928,
+    "step": [
+     0.21336499966148886,
+     0.3180105753497659
+    ],
+    "swing": [
+     0.24,
+     0.36
+    ],
+    "duty": [
+     0.5206349206349207,
+     0.8825396825396825
+    ],
+    "lift": [
+     0.13429128664841922,
+     0.11275270645901751
+    ]
+   }
+  },
+  {
+   "clip": "22_12_w0",
+   "human_window": {
+    "v": 0.998,
+    "straight": 0.9533326625823975,
+    "cad": 97.654,
+    "step": 0.613,
+    "step_hz": 1.628,
+    "fz": 1.628,
+    "fy": 0.117,
+    "pz": 0.128,
+    "py": 0.293,
+    "dur": 2.533,
+    "sway_amp": 0.077
+   },
+   "frames": 117,
+   "a_pass": true,
+   "b_pass": false,
+   "gait": {
+    "cadence": [
+     0.9803921568627451,
+     NaN
+    ],
+    "speed": 0.559143161156016,
+    "step": [
+     0.31548378390866716,
+     NaN
+    ],
+    "swing": [
+     0.23,
+     0.17
+    ],
+    "duty": [
+     0.8034188034188035,
+     0.8205128205128205
+    ],
+    "lift": [
+     0.046081036031481774,
+     0.04055223990060325
+    ]
+   }
+  },
+  {
+   "clip": "22_23_w0",
+   "human_window": {
+    "v": 1.024,
+    "straight": 0.9987300634384155,
+    "cad": 101.119,
+    "step": 0.608,
+    "step_hz": 1.685,
+    "fz": 1.685,
+    "fy": 0.618,
+    "pz": 0.392,
+    "py": 0.715,
+    "dur": 1.792,
+    "sway_amp": 0.019
+   },
+   "frames": 80,
+   "a_pass": true,
+   "b_pass": false,
+   "gait": {
+    "cadence": [
+     NaN,
+     NaN
+    ],
+    "speed": 0.6539369172722802,
+    "step": [
+     NaN,
+     NaN
+    ],
+    "swing": [
+     0.2,
+     0.24000000000000002
+    ],
+    "duty": [
+     0.85,
+     0.6625
+    ],
+    "lift": [
+     0.04472352504007014,
+     0.07296053618899503
+    ]
+   }
+  },
+  {
+   "clip": "43_01_w0",
+   "human_window": {
+    "v": 1.288,
+    "straight": 0.9968724846839905,
+    "cad": 107.722,
+    "step": 0.717,
+    "step_hz": 1.795,
+    "fz": 1.795,
+    "fy": 0.813,
+    "pz": 0.501,
+    "py": 0.482,
+    "dur": 3.508,
+    "sway_amp": 0.157
+   },
+   "frames": 165,
+   "a_pass": true,
+   "b_pass": true,
+   "gait": {
+    "cadence": [
+     0.9009009009009008,
+     0.9090909090909091
+    ],
+    "speed": 0.8425543463740884,
+    "step": [
+     0.45814026652501594,
+     0.4512167074441117
+    ],
+    "swing": [
+     0.4,
+     0.32
+    ],
+    "duty": [
+     0.5212121212121212,
+     0.7090909090909091
+    ],
+    "lift": [
+     0.0697663196422326,
+     0.046642835743022026
+    ]
+   }
   }
  ],
- "built_at": "2026-11-03 17:36:12",
- "elapsed_s": 120.3
+ "built_at": "2026-11-03 18:28:19",
+ "elapsed_s": 163.6,
+ "phase2_merged": 7
 }

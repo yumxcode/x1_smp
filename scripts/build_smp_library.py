@@ -106,8 +106,9 @@ def select_windows(npz_path: Path, want_dur: float = 8.0, max_per_trial: int = 2
         m = window_metrics(wx, wy, hy, z, fps, i, j)
         if m is None:
             continue
+        HUMAN_V_LO = 0.6  # v3: human 0.6 m/s -> X1 ~0.40-0.48 (inside the data band)
         if not (TGT['cad_lo'] <= m['cad'] <= TGT['cad_hi']
-                and TGT['v_lo'] <= m['v'] <= TGT['v_hi']
+                and HUMAN_V_LO <= m['v'] <= TGT['v_hi']
                 and TGT['s_lo'] <= m['step'] <= TGT['s_hi']
                 and m['straight'] >= 0.85):
             continue

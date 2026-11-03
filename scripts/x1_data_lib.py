@@ -279,10 +279,17 @@ GAIT_BANDS = dict(  # data-audit bands; v2 revision 2026-11-03 (amendment to exp
     # policies at duty 0.44.
     cadence_hz=(0.55, 1.20),   # R1 band per foot (unchanged)
     speed_mps=(0.40, 1.30),    # 1 m/s neighborhood (unchanged)
-    step_len_m=(0.35, 0.65),   # R4 data band (unchanged)
+    # v3 fix: an absolute step-length band calibrated at 1 m/s wrongly rejects
+    # slow clips -- a 0.5 m/s walk at 0.85 Hz/foot has step 0.29 m by physics.
+    # Replace the lower bound with the gait self-consistency ratio
+    # step/v = 1/(2 f), f in [0.55, 1.2] -> ratio in [0.42, 0.91]; keep an
+    # absolute cap 0.65 m (jump-scale strides stay out).
+    step_ratio=(0.40, 0.95),
+    step_len_max=0.65,
     swing_s=(0.15, None),      # v2: 0.24 -> 0.15 (data side; policy R2 >= 0.28 unchanged)
     duty=(None, 0.87),         # v2: 0.80 -> 0.87 (data side; policy R3 <= 0.75 unchanged)
-    lift_m=(0.025, None),      # unchanged
+    lift_m=(0.025, 0.25),      # v3: cap added -- 21-41 cm lifts measured on clips
+                               # with jump/gesture frames inside the "walk" window
 )
 
 
@@ -306,6 +313,9 @@ def audit_pass(m: dict, bands: dict = GAIT_BANDS) -> tuple[bool, dict]:
         ok &= in_band(vals['swing_s_med'][i], bands['swing_s']) if not np.isnan(vals['swing_s_med'][i]) else True
         ok &= in_band(vals['duty'][i], bands['duty']) if not np.isnan(vals['duty'][i]) else True
         ok &= in_band(vals['lift_m'][i], bands['lift_m']) if not np.isnan(vals['lift_m'][i]) else True
-        ok &= in_band(vals['step_len_m'][i], bands['step_len_m']) if not np.isnan(vals['step_len_m'][i]) else True
+        step = vals['step_len_m'][i]
+        if not np.isnan(step):
+            ok &= step <= bands['step_len_max']
+            ok &= in_band(step / max(vals['speed_mps'], 1e-6), bands['step_ratio'])
     ok &= in_band(vals['speed_mps'], bands['speed_mps'])
     return bool(ok), vals
