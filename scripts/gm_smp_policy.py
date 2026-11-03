@@ -40,7 +40,7 @@ def install_stack() -> bool:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument('--dry-run', action='store_true')
-    ap.add_argument('--num-envs', type=int, default=int(os.environ.get('SMP_NUM_ENVS', '4096')))
+    ap.add_argument('--num-envs', type=int, default=int(os.environ.get('SMP_NUM_ENVS', '2048')))
     ap.add_argument('--max-iterations', type=int, default=int(os.environ.get('SMP_ITERS', '12000')))
     ap.add_argument('--resume', default='')
     args, extra = ap.parse_known_args()
