@@ -33,7 +33,7 @@ def main() -> int:
     import subprocess as sp
     for idx in ('', 'https://pypi.org/simple', 'https://mirrors.aliyun.com/pypi/simple/'):
         flag = ['--index-url', idx] if idx else []
-        r = sp.run([sys.executable, '-m', 'pip', 'install', 'mjlab==1.6.0', *flag],
+        r = sp.run([sys.executable, '-m', 'pip', 'install', 'mjlab==1.6.0', 'warp-lang==1.16.0', *flag],
                    capture_output=True, text=True)
         ok = r.returncode == 0
         print(f'pip mjlab==1.6.0 idx={idx or "default"}: {"OK" if ok else r.stderr.strip().splitlines()[-1][:200]}', flush=True)
