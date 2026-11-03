@@ -233,3 +233,8 @@ def x1_smp_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
     cfg.events["init_smp_state"].params["gsi_buffer_size"] = 1024
 
   return cfg
+
+
+# Backward-compat alias: the X1 port renamed the builder; task modules that
+# still reference the G1 name keep working (the robot is now the X1).
+g1_smp_env_cfg = x1_smp_env_cfg
