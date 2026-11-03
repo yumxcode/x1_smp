@@ -29,7 +29,18 @@ def sh(cmd: str) -> None:
 
 def main() -> int:
     print('== [1/4] install stack ==', flush=True)
-    sh(f'{sys.executable} -m pip install -q "mjlab==1.6.0" "numpy" 2>&1 | tail -3')
+    print(f'python {sys.version}', flush=True)
+    import subprocess as sp
+    for idx in ('', 'https://pypi.org/simple', 'https://mirrors.aliyun.com/pypi/simple/'):
+        flag = ['--index-url', idx] if idx else []
+        r = sp.run([sys.executable, '-m', 'pip', 'install', 'mjlab==1.6.0', *flag],
+                   capture_output=True, text=True)
+        ok = r.returncode == 0
+        print(f'pip mjlab==1.6.0 idx={idx or "default"}: {"OK" if ok else r.stderr.strip().splitlines()[-1][:200]}', flush=True)
+        if ok:
+            break
+    else:
+        print('FAIL: no pip index has mjlab==1.6.0'); return 2
     import torch
     print(f'torch {torch.__version__} cuda={torch.cuda.is_available()} '
           f'dev={torch.cuda.get_device_name(0) if torch.cuda.is_available() else "?"}')

@@ -248,9 +248,12 @@ def main() -> int:
     np.savez(args.out, qpos=np.concatenate(qpos_all), qvel=np.concatenate(qvel_all),
              starts=starts, lengths=lengths, names=np.array(names), fps=np.array(FPS_OUT))
     def _jsonable(o):
-    if isinstance(o, (np.floating, np.integer)): return o.item()
-    if isinstance(o, np.ndarray): return o.tolist()
-    return str(o)
+        if isinstance(o, (np.floating, np.integer)):
+            return o.item()
+        if isinstance(o, np.ndarray):
+            return o.tolist()
+        return str(o)
+
     meta = {'out': str(args.out), 'out_sha256': sha256(args.out), 'out_bytes': args.out.stat().st_size,
             'clips_kept': len(names), 'frames': int(lengths.sum()), 'hours': round(float(lengths.sum()) / FPS_OUT / 3600, 4),
             'fps': FPS_OUT, 'joint_order': list(fk.model and __import__('x1_data_lib').X1_JOINT_ORDER),
