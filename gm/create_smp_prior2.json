@@ -1,0 +1,30 @@
+{
+ "taskBaseInfo": {
+  "projectId": "PRO_20261102_002",
+  "taskType": "1",
+  "trainType": "1",
+  "taskName": "x1-smp-p2-prior-v2",
+  "taskDescription": "P2: pretrain TinyMDM motion prior (d_model 128, 20k epochs ~200k steps) on 4740 X1 walk windows. Entry gm_smp_prior.py installs tyro, trains, mirrors checkpoints to output/.",
+  "taskTag": [
+   "x1",
+   "smp",
+   "smoke"
+  ],
+  "goodsId": "ESKU000001",
+  "imageId": "BJX00000178",
+  "imageVersion": "V000446",
+  "personalDataPath": ""
+ },
+ "taskCodeInfo": {
+  "codeType": "2",
+  "codeUrl": "[{\"codeUrl\":\"https://github.com/yumxcode/X1_SMP.git\",\"versionType\":\"1\",\"versionName\":\"main\"}]",
+  "mainCodeUri": "X1_SMP/scripts/gm_smp_prior.py",
+  "hparamsPath": "",
+  "startScript": "gm-run X1_SMP/scripts/gm_smp_prior.py",
+  "isOpen": "1"
+ },
+ "runtimeReminderConfig": {
+  "enableRuntimeReminder": false,
+  "reminderDurations": []
+ }
+}

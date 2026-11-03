@@ -62,9 +62,11 @@ def main() -> int:
            f'--batch-size={args.batch_size}', f'--lr={args.lr}',
            '--no-use-ema', '--no-use-wandb', '--save-interval=250',
            '--train-split=0.95', '--name=x1_walk_prior'] + extra
+    env = dict(os.environ)
+    env['PYTHONPATH'] = str(ROOT / 'src') + (':' + env['PYTHONPATH'] if env.get('PYTHONPATH') else '')
     print('[prior] exec:', ' '.join(cmd), flush=True)
     t0 = time.time()
-    proc = subprocess.run(cmd, cwd=str(ROOT))
+    proc = subprocess.run(cmd, cwd=str(ROOT), env=env)
     dt = (time.time() - t0) / 60
     print(f'[prior] pretrain exited {proc.returncode} after {dt:.1f} min', flush=True)
 
