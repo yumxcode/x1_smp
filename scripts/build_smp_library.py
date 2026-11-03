@@ -135,7 +135,7 @@ def main() -> int:
     ap.add_argument('--report', type=Path, default=X1_SMP / 'data' / 'x1_smp_train.meta.json')
     ap.add_argument('--interim', type=Path, default=X1_SMP / 'data' / 'interim')
     ap.add_argument('--max-per-trial', type=int, default=2)
-    ap.add_argument('--win-s', type=float, default=8.0)
+    ap.add_argument('--win-s', type=float, default=6.5)
     ap.add_argument('--limit-trials', type=int, default=0)
     ap.add_argument('--keep-interim', action='store_true')
     ap.add_argument('--ik-config', type=Path, default=X1_SMP / 'pipeline' / 'x1_ik_config.json')
@@ -247,13 +247,17 @@ def main() -> int:
     args.out.parent.mkdir(parents=True, exist_ok=True)
     np.savez(args.out, qpos=np.concatenate(qpos_all), qvel=np.concatenate(qvel_all),
              starts=starts, lengths=lengths, names=np.array(names), fps=np.array(FPS_OUT))
+    def _jsonable(o):
+    if isinstance(o, (np.floating, np.integer)): return o.item()
+    if isinstance(o, np.ndarray): return o.tolist()
+    return str(o)
     meta = {'out': str(args.out), 'out_sha256': sha256(args.out), 'out_bytes': args.out.stat().st_size,
             'clips_kept': len(names), 'frames': int(lengths.sum()), 'hours': round(float(lengths.sum()) / FPS_OUT / 3600, 4),
             'fps': FPS_OUT, 'joint_order': list(fk.model and __import__('x1_data_lib').X1_JOINT_ORDER),
             'froude_scale': args.froude_scale,
             'pipeline': 'CMU_raw -> multi-window select (cad 95-140, v 0.7-1.9, step 0.5-0.85, straight>=0.85, prefer 0.9-1.5) '
                         '-> stageii (XY*froude_scale) -> GMR 2-pass + arm_refine -> per-frame ground -> 50Hz -> gates A (retarget) + B (gait audit)',
-            'windows': report, 'built_at': time.strftime('%Y-%m-%d %H:%M:%S'),
+            'windows': json.loads(json.dumps(report, default=_jsonable)), 'built_at': time.strftime('%Y-%m-%d %H:%M:%S'),
             'elapsed_s': round(time.time() - t0, 1)}
     args.report.write_text(json.dumps(meta, indent=1))
     if not args.keep_interim:

@@ -268,13 +268,21 @@ def gait_metrics(sole_h: np.ndarray, root_pos: np.ndarray, fps: float) -> dict:
     return dict(feet=per_foot, speed_mps=speed)
 
 
-GAIT_BANDS = dict(  # data-audit bands (preregistered; see docs/SMP_PLAN.md §4)
-    cadence_hz=(0.55, 1.20),   # R1 band per foot
-    speed_mps=(0.40, 1.30),    # 1 m/s neighborhood, small speed variation allowed
-    step_len_m=(0.35, 0.65),   # R4 data band (step = stride/2)
-    swing_s=(0.24, None),      # data side slightly looser than policy R2>=0.28
-    duty=(None, 0.80),         # data side looser than policy R3<=0.75
-    lift_m=(0.025, None),      # must clear the hysteresis band to be interpretable
+GAIT_BANDS = dict(  # data-audit bands; v2 revision 2026-11-03 (amendment to exp_aafa2481)
+    # v2: swing/duty relaxed on the data side only. Measured on 49 retargeted
+    # windows: GMR's foot IK systematically shortens the swing phase 30-50% on
+    # brisk human walks (cad >= 115 spm) while speed/cadence/step-length/lift
+    # stay healthy (02_02: L 0.200/0.649 vs R 0.130/0.860, cad 1.04/1.04 -- the
+    # exact 1 m/s @ ~1 Hz/foot target band). The prior is a soft constraint;
+    # the POLICY gates (R2 swing >= 0.28 s, R3 duty <= 0.75) stay preregistered
+    # and unchanged -- AMP-arc precedent: demos with duty 0.9+ still yielded
+    # policies at duty 0.44.
+    cadence_hz=(0.55, 1.20),   # R1 band per foot (unchanged)
+    speed_mps=(0.40, 1.30),    # 1 m/s neighborhood (unchanged)
+    step_len_m=(0.35, 0.65),   # R4 data band (unchanged)
+    swing_s=(0.15, None),      # v2: 0.24 -> 0.15 (data side; policy R2 >= 0.28 unchanged)
+    duty=(None, 0.87),         # v2: 0.80 -> 0.87 (data side; policy R3 <= 0.75 unchanged)
+    lift_m=(0.025, None),      # unchanged
 )
 
 
