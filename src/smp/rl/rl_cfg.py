@@ -38,7 +38,7 @@ def unitree_g1_smp_ppo_runner_cfg():
       max_grad_norm=1.0,
     ),
     experiment_name="g1_tracking",
-    save_interval=500,
+    save_interval=100,
     num_steps_per_env=24,
     max_iterations=30_000,
     wandb_project="smp",

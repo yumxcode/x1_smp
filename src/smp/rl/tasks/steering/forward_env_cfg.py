@@ -81,6 +81,11 @@ def x1_forward_smp_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
   (data/x1_smp_train.npz, gait-audited).
   """
   cfg = x1_smp_env_cfg(play=play)
+  # X1 port: drop the periodic GSI-pool refresh. Both 4096-env and 2048-env
+  # instances died silently (no traceback, system-level kill) at iter ~405/471,
+  # i.e. right after the 4th 2400-step refresh; the static 4096-window pool
+  # suffices (upstream play cfg disables refresh as well).
+  cfg.events.pop("gsi_refresh", None)
   cfg.commands["steering"] = mdp.SteeringCommandCfg(
     entity_name="robot",
     resampling_time_range=(6.0, 12.0),

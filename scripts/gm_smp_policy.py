@@ -66,6 +66,22 @@ def main() -> int:
     print('[policy] X1 EntityCfg builds OK', flush=True)
 
     os.environ.setdefault('WANDB_MODE', 'disabled')
+
+    # resource watchdog: log GPU/RAM every 60 s so silent instance kills
+    # (two deaths at iter ~405/471 with no traceback) leave evidence behind
+    import threading
+    def _watchdog():
+        import subprocess as sp, time as _t
+        while True:
+            _t.sleep(60)
+            try:
+                gpu = sp.run(['nvidia-smi', '--query-gpu=memory.used,memory.total',
+                              '--format=csv,noheader'], capture_output=True, text=True).stdout.strip()
+                ram = sp.run(['free', '-m'], capture_output=True, text=True).stdout.splitlines()[1]
+                print(f'[watchdog] GPU {gpu} | RAM {ram}', flush=True)
+            except Exception:
+                pass
+    threading.Thread(target=_watchdog, daemon=True).start()
     env = dict(os.environ)
     env['PYTHONPATH'] = str(ROOT / 'src') + (':' + env['PYTHONPATH'] if env.get('PYTHONPATH') else '')
     cmd = [sys.executable, str(ROOT / 'scripts' / 'train_x1.py'), TASK_ID,
