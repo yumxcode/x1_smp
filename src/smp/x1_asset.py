@@ -126,7 +126,7 @@ def x1_collision_cfgs():
             contype=1,
             conaffinity=1,
             condim={foot: X1_FOOT_CONDIM, '.*_collision': 1},
-            priority={foot: X1_FOOT_PRIORITY},
+            priority={foot: X1_FOOT_PRIORITY, '.*': 0},
             friction={foot: X1_FOOT_FRICTION},
             solref={foot: X1_FOOT_SOLREF},
         ),
