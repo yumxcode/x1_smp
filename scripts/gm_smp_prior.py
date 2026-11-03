@@ -25,7 +25,7 @@ ROOT = Path(__file__).resolve().parent.parent
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument('--dry-run', action='store_true')
-    ap.add_argument('--num-epochs', type=int, default=int(os.environ.get('SMP_PRIOR_EPOCHS', '4000')))
+    ap.add_argument('--num-epochs', type=int, default=int(os.environ.get('SMP_PRIOR_EPOCHS', '20000')))
     ap.add_argument('--d-model', type=int, default=128)
     ap.add_argument('--batch-size', type=int, default=512)
     ap.add_argument('--lr', type=float, default=2e-4)
@@ -44,7 +44,15 @@ def main() -> int:
         return 0
 
     print('[prior] pip install tyro (image torch is kept)', flush=True)
-    subprocess.run([sys.executable, '-m', 'pip', 'install', '-q', 'tyro'], check=False)
+    installed = False
+    for idx in ('', 'https://pypi.org/simple', 'https://mirrors.aliyun.com/pypi/simple/'):
+        flag = ['--index-url', idx] if idx else []
+        r = subprocess.run([sys.executable, '-m', 'pip', 'install', '-q', 'tyro', *flag],
+                           capture_output=True, text=True)
+        installed = r.returncode == 0
+        print(f'pip tyro idx={idx or "default"}: {"OK" if installed else (r.stderr or "").strip().splitlines()[-1][:120]}', flush=True)
+        if installed:
+            break
     import torch  # noqa: F401  (after any installs)
 
     sys.path.insert(0, str(ROOT / 'src'))
