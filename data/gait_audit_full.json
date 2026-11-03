@@ -1,0 +1,5790 @@
+{
+ "cmu_walk": {
+  "07_01": {
+   "feet": [
+    {
+     "touchdowns": 5,
+     "stride_s": 0.54,
+     "cadence_hz": 1.8518518518518516,
+     "swing_s_med": 0.54,
+     "duty": 0.4262295081967213,
+     "lift_m": 0.07664702709838231,
+     "step_len_m": 0.2781627824384927
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 1.08,
+     "cadence_hz": 0.9259259259259258,
+     "swing_s_med": 0.12,
+     "duty": 0.9344262295081968,
+     "lift_m": 0.02675248040676511,
+     "step_len_m": 0.5553837466928517
+    }
+   ],
+   "speed_mps": 1.0794097326342382,
+   "pass": false
+  },
+  "07_02": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 1.26,
+     "cadence_hz": 0.7936507936507936,
+     "swing_s_med": 0.44999999999999996,
+     "duty": 0.3464566929133858,
+     "lift_m": 0.08310078065489604,
+     "step_len_m": 0.6137750515246326
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 1.0206278677070821,
+   "pass": false
+  },
+  "07_03": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.35,
+     "cadence_hz": 0.7407407407407407,
+     "swing_s_med": 0.37,
+     "duty": 0.4662576687116564,
+     "lift_m": 0.07792206770775223,
+     "step_len_m": 0.5115889881594076
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": 0.9815950920245399,
+     "lift_m": 0.022133921397387735,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.8116644513562729,
+   "pass": false
+  },
+  "07_06": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.16,
+     "cadence_hz": 0.8620689655172414,
+     "swing_s_med": 0.32,
+     "duty": 0.35365853658536583,
+     "lift_m": 0.09068703012153148,
+     "step_len_m": 0.5368559456485885
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.1400000000000001,
+     "cadence_hz": 0.8771929824561403,
+     "swing_s_med": 0.1,
+     "duty": 0.9329268292682927,
+     "lift_m": 0.029952552042198634,
+     "step_len_m": 0.5248090476419836
+    }
+   ],
+   "speed_mps": 0.9971006157215702,
+   "pass": false
+  },
+  "07_07": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.08,
+     "cadence_hz": 0.9259259259259258,
+     "swing_s_med": 0.3,
+     "duty": 0.40540540540540543,
+     "lift_m": 0.07694339578166637,
+     "step_len_m": 0.5439957773964201
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 1.18,
+     "cadence_hz": 0.8474576271186441,
+     "swing_s_med": 0.11,
+     "duty": 0.9256756756756757,
+     "lift_m": 0.030107946129455207,
+     "step_len_m": 0.5693480584304151
+    }
+   ],
+   "speed_mps": 1.0621433719960158,
+   "pass": false
+  },
+  "07_08": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 0.73,
+     "cadence_hz": 1.36986301369863,
+     "swing_s_med": 0.5800000000000001,
+     "duty": 0.524822695035461,
+     "lift_m": 0.07142058039236232,
+     "step_len_m": 0.364361353645555
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 1.32,
+     "cadence_hz": 0.7575757575757576,
+     "swing_s_med": 0.14,
+     "duty": 0.8723404255319149,
+     "lift_m": 0.036844799160659025,
+     "step_len_m": 0.6684637414966936
+    }
+   ],
+   "speed_mps": 1.066382661045524,
+   "pass": false
+  },
+  "07_09": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 1.22,
+     "cadence_hz": 0.819672131147541,
+     "swing_s_med": 0.32,
+     "duty": 0.5169491525423728,
+     "lift_m": 0.07180524434918885,
+     "step_len_m": 0.6743900887157172
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 1.1627642762647845,
+   "pass": false
+  },
+  "07_10": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.5700000000000001,
+     "duty": 0.4608695652173913,
+     "lift_m": 0.08114402911699536,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 1.06,
+     "cadence_hz": 0.9433962264150942,
+     "swing_s_med": 0.14,
+     "duty": 0.8521739130434782,
+     "lift_m": 0.037187788699822685,
+     "step_len_m": 0.6262625240095735
+    }
+   ],
+   "speed_mps": 1.2535516595573444,
+   "pass": false
+  },
+  "08_01": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.22,
+     "duty": 0.5142857142857142,
+     "lift_m": 0.055302212602917275,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.14,
+     "duty": 0.8761904761904762,
+     "lift_m": 0.030674719743768175,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 1.358815931997237,
+   "pass": false
+  },
+  "08_02": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 0.34,
+     "cadence_hz": 2.941176470588235,
+     "swing_s_med": 0.18,
+     "duty": 0.680672268907563,
+     "lift_m": 0.050087274303190266,
+     "step_len_m": 0.19978043733097
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.03,
+     "cadence_hz": 0.970873786407767,
+     "swing_s_med": 0.14,
+     "duty": 0.8235294117647058,
+     "lift_m": 0.039742247164620007,
+     "step_len_m": 0.6018528593056798
+    }
+   ],
+   "speed_mps": 1.2631527655826482,
+   "pass": false
+  },
+  "08_03": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 0.51,
+     "cadence_hz": 1.9607843137254901,
+     "swing_s_med": 0.18,
+     "duty": 0.5985401459854015,
+     "lift_m": 0.05310120444383917,
+     "step_len_m": 0.2947054054735482
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.02,
+     "cadence_hz": 0.9803921568627451,
+     "swing_s_med": 0.13,
+     "duty": 0.8686131386861314,
+     "lift_m": 0.04687431077790718,
+     "step_len_m": 0.5877640429454207
+    }
+   ],
+   "speed_mps": 1.2448209677476267,
+   "pass": false
+  },
+  "08_06": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 0.54,
+     "cadence_hz": 1.8518518518518516,
+     "swing_s_med": 0.22,
+     "duty": 0.5132743362831859,
+     "lift_m": 0.07032793616183178,
+     "step_len_m": 0.36174543803049475
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 0.86,
+     "cadence_hz": 1.1627906976744187,
+     "swing_s_med": 0.1,
+     "duty": 0.9380530973451328,
+     "lift_m": 0.03452612119362165,
+     "step_len_m": 0.5760033619769713
+    }
+   ],
+   "speed_mps": 1.4366409326245129,
+   "pass": false
+  },
+  "08_08": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 0.86,
+     "cadence_hz": 1.1627906976744187,
+     "swing_s_med": 0.14,
+     "duty": 0.5555555555555556,
+     "lift_m": 0.06145565989741613,
+     "step_len_m": 0.5974869794089405
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 0.9,
+     "cadence_hz": 1.1111111111111112,
+     "swing_s_med": NaN,
+     "duty": 0.9444444444444444,
+     "lift_m": 0.043375956169256845,
+     "step_len_m": 0.6288401198815771
+    }
+   ],
+   "speed_mps": 1.453015911102146,
+   "pass": false
+  },
+  "08_09": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 0.46,
+     "cadence_hz": 2.1739130434782608,
+     "swing_s_med": 0.16,
+     "duty": 0.6875,
+     "lift_m": 0.05548719950649947,
+     "step_len_m": 0.3007565426847173
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 0.89,
+     "cadence_hz": 1.1235955056179776,
+     "swing_s_med": NaN,
+     "duty": 0.9285714285714286,
+     "lift_m": 0.043564425346920906,
+     "step_len_m": 0.5832968969315031
+    }
+   ],
+   "speed_mps": 1.3686748105280393,
+   "pass": false
+  },
+  "103_07": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 0.7000000000000001,
+     "cadence_hz": 1.4285714285714284,
+     "swing_s_med": 0.2,
+     "duty": 0.7365591397849462,
+     "lift_m": 0.06411994144213537,
+     "step_len_m": 0.3175972184644609
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 1.1,
+     "cadence_hz": 0.9090909090909091,
+     "swing_s_med": 0.12,
+     "duty": 0.9032258064516129,
+     "lift_m": 0.031888980485949486,
+     "step_len_m": 0.5074628913870635
+    }
+   ],
+   "speed_mps": 1.0042299765496079,
+   "pass": false
+  },
+  "35_01": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 0.75,
+     "cadence_hz": 1.3333333333333333,
+     "swing_s_med": 0.16,
+     "duty": 0.6474820143884892,
+     "lift_m": 0.0383518277589581,
+     "step_len_m": 0.3473292727803628
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.9505632000452484,
+   "pass": false
+  },
+  "35_02": {
+   "feet": [
+    {
+     "touchdowns": 5,
+     "stride_s": 0.5700000000000001,
+     "cadence_hz": 1.7543859649122806,
+     "swing_s_med": 0.16999999999999998,
+     "duty": 0.6226415094339622,
+     "lift_m": 0.04254481311588289,
+     "step_len_m": 0.2587660963500736
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.9008818748074323,
+   "pass": false
+  },
+  "35_03": {
+   "feet": [
+    {
+     "touchdowns": 6,
+     "stride_s": 0.7000000000000001,
+     "cadence_hz": 1.4285714285714284,
+     "swing_s_med": 0.16999999999999998,
+     "duty": 0.6369047619047619,
+     "lift_m": 0.041850375227129186,
+     "step_len_m": 0.31764825653178386
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": 0.9880952380952381,
+     "lift_m": 0.022336421056968495,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.9334652157193877,
+   "pass": false
+  },
+  "35_04": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.11,
+     "cadence_hz": 0.9009009009009008,
+     "swing_s_med": 0.25,
+     "duty": 0.5294117647058824,
+     "lift_m": 0.04513697265620733,
+     "step_len_m": 0.4893143589517905
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.9203814894403108,
+   "pass": false
+  },
+  "35_05": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.16,
+     "cadence_hz": 0.8620689655172414,
+     "swing_s_med": 0.24,
+     "duty": 0.5714285714285714,
+     "lift_m": 0.05037340376722738,
+     "step_len_m": 0.5076460422749611
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.1,
+     "duty": 0.9523809523809523,
+     "lift_m": 0.02424210322968018,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.883746892193407,
+   "pass": false
+  },
+  "35_06": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 0.8,
+     "cadence_hz": 1.25,
+     "swing_s_med": 0.24,
+     "duty": 0.5606936416184971,
+     "lift_m": 0.04019871856069721,
+     "step_len_m": 0.3433058550728244
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": 0.9942196531791907,
+     "lift_m": 0.021186044244454742,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.8789078033244119,
+   "pass": false
+  },
+  "35_07": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 0.72,
+     "cadence_hz": 1.3888888888888888,
+     "swing_s_med": 0.24,
+     "duty": 0.5714285714285714,
+     "lift_m": 0.043162098977247466,
+     "step_len_m": 0.3435030799261135
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.9332124934205508,
+   "pass": false
+  },
+  "35_08": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.11,
+     "cadence_hz": 0.9009009009009008,
+     "swing_s_med": 0.2,
+     "duty": 0.5555555555555556,
+     "lift_m": 0.04453438254795689,
+     "step_len_m": 0.48113388302846083
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": 0.9777777777777777,
+     "lift_m": 0.024486955655803617,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.8916498132443011,
+   "pass": false
+  },
+  "35_09": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 0.4,
+     "cadence_hz": 2.5,
+     "swing_s_med": 0.22,
+     "duty": 0.56,
+     "lift_m": 0.05195076083539528,
+     "step_len_m": 0.17149209824552905
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": 0.9733333333333334,
+     "lift_m": 0.0212184849650811,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.8907803012561445,
+   "pass": false
+  },
+  "35_10": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.12,
+     "cadence_hz": 0.8928571428571428,
+     "swing_s_med": 0.18,
+     "duty": 0.611764705882353,
+     "lift_m": 0.04213903906961939,
+     "step_len_m": 0.4809811857500319
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": 0.9764705882352941,
+     "lift_m": 0.022816248190282058,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.8986478866289718,
+   "pass": false
+  },
+  "35_11": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.11,
+     "cadence_hz": 0.9009009009009008,
+     "swing_s_med": 0.39,
+     "duty": 0.4866666666666667,
+     "lift_m": 0.04723775893809552,
+     "step_len_m": 0.4754657002251813
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 1.1,
+     "cadence_hz": 0.9090909090909091,
+     "swing_s_med": 0.12,
+     "duty": 0.9333333333333333,
+     "lift_m": 0.026179246493421827,
+     "step_len_m": 0.4706533988189937
+    }
+   ],
+   "speed_mps": 0.8798965408761306,
+   "pass": false
+  },
+  "35_12": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 1.12,
+     "cadence_hz": 0.8928571428571428,
+     "swing_s_med": 0.24,
+     "duty": 0.5483870967741935,
+     "lift_m": 0.04575788628930132,
+     "step_len_m": 0.466735415198604
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.8552459819076599,
+   "pass": false
+  },
+  "35_13": {
+   "feet": [
+    {
+     "touchdowns": 6,
+     "stride_s": 0.7000000000000001,
+     "cadence_hz": 1.4285714285714284,
+     "swing_s_med": 0.2,
+     "duty": 0.6145251396648045,
+     "lift_m": 0.040109696066160425,
+     "step_len_m": 0.3136004245192116
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.8943503133735019,
+   "pass": false
+  },
+  "35_14": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.1400000000000001,
+     "cadence_hz": 0.8771929824561403,
+     "swing_s_med": 0.28,
+     "duty": 0.577639751552795,
+     "lift_m": 0.053589907661313406,
+     "step_len_m": 0.4975736585411854
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.12,
+     "duty": 0.9627329192546584,
+     "lift_m": 0.0264085091575674,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.8899456543318047,
+   "pass": false
+  },
+  "35_15": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.11,
+     "cadence_hz": 0.9009009009009008,
+     "swing_s_med": 0.23,
+     "duty": 0.559748427672956,
+     "lift_m": 0.047041467910899505,
+     "step_len_m": 0.479842797176131
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.8917183366445602,
+   "pass": false
+  },
+  "35_16": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 0.74,
+     "cadence_hz": 1.3513513513513513,
+     "swing_s_med": 0.28,
+     "duty": 0.5428571428571428,
+     "lift_m": 0.051152358993163165,
+     "step_len_m": 0.3196718832536792
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": 0.9885714285714285,
+     "lift_m": 0.026102719391656738,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.8769039661508762,
+   "pass": false
+  },
+  "35_28": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.1500000000000001,
+     "cadence_hz": 0.8695652173913042,
+     "swing_s_med": 0.33,
+     "duty": 0.5121951219512195,
+     "lift_m": 0.05314627427885959,
+     "step_len_m": 0.48710890792037287
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.8789716468299011,
+   "pass": false
+  },
+  "35_30": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.03,
+     "cadence_hz": 0.970873786407767,
+     "swing_s_med": 0.21000000000000002,
+     "duty": 0.6111111111111112,
+     "lift_m": 0.046056625847239845,
+     "step_len_m": 0.43479929699820263
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": 0.9814814814814815,
+     "lift_m": 0.023008876581225066,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.8684418771896818,
+   "pass": false
+  },
+  "35_31": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 1.18,
+     "cadence_hz": 0.8474576271186441,
+     "swing_s_med": 0.24,
+     "duty": 0.5818181818181818,
+     "lift_m": 0.04394759738052335,
+     "step_len_m": 0.5060122163391365
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": 0.9878787878787879,
+     "lift_m": 0.020585643444852683,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.8731512403191523,
+   "pass": false
+  },
+  "35_32": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 0.76,
+     "cadence_hz": 1.3157894736842106,
+     "swing_s_med": 0.22,
+     "duty": 0.49673202614379086,
+     "lift_m": 0.04794572013405083,
+     "step_len_m": 0.36158475355483627
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.933901634896392,
+   "pass": false
+  },
+  "35_33": {
+   "feet": [
+    {
+     "touchdowns": 5,
+     "stride_s": 0.5700000000000001,
+     "cadence_hz": 1.7543859649122806,
+     "swing_s_med": 0.19,
+     "duty": 0.6181818181818182,
+     "lift_m": 0.042087432403459905,
+     "step_len_m": 0.26472366422073534
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": 0.9818181818181818,
+     "lift_m": 0.028460028092277795,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.9714262311947133,
+   "pass": false
+  },
+  "35_34": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 0.76,
+     "cadence_hz": 1.3157894736842106,
+     "swing_s_med": 0.21000000000000002,
+     "duty": 0.5950920245398773,
+     "lift_m": 0.0449709468103179,
+     "step_len_m": 0.3578698677244659
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.9382745731792155,
+   "pass": false
+  },
+  "38_01": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 1.2,
+     "cadence_hz": 0.8333333333333334,
+     "swing_s_med": 0.68,
+     "duty": 0.4744525547445255,
+     "lift_m": 0.10159384353081669,
+     "step_len_m": 0.5786968395191576
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.1400000000000001,
+     "cadence_hz": 0.8771929824561403,
+     "swing_s_med": 0.14,
+     "duty": 0.8394160583941606,
+     "lift_m": 0.06049197406244607,
+     "step_len_m": 0.5119832180865209
+    }
+   ],
+   "speed_mps": 0.9027683354909242,
+   "pass": false
+  },
+  "38_02": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.05,
+     "cadence_hz": 0.9523809523809523,
+     "swing_s_med": 0.24,
+     "duty": 0.43636363636363634,
+     "lift_m": 0.0686373680270071,
+     "step_len_m": 0.5331121515027999
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 1.0,
+     "cadence_hz": 1.0,
+     "swing_s_med": NaN,
+     "duty": 0.9575757575757575,
+     "lift_m": 0.04435898001499279,
+     "step_len_m": 0.5528943292500603
+    }
+   ],
+   "speed_mps": 1.0718933392476373,
+   "pass": false
+  },
+  "82_12": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 0.8200000000000001,
+     "cadence_hz": 1.2195121951219512,
+     "swing_s_med": 0.12,
+     "duty": 0.8037974683544303,
+     "lift_m": 0.03623582366555823,
+     "step_len_m": 0.4451714209303786
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.1,
+     "duty": 0.9177215189873418,
+     "lift_m": 0.05912467652781779,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 1.1069702553570702,
+   "pass": false
+  },
+  "82_13": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 0.74,
+     "cadence_hz": 1.3513513513513513,
+     "swing_s_med": 0.18,
+     "duty": 0.8209876543209876,
+     "lift_m": 0.03698054658156329,
+     "step_len_m": 0.4070060682322602
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.1500000000000001,
+     "cadence_hz": 0.8695652173913042,
+     "swing_s_med": 0.1,
+     "duty": 0.9135802469135802,
+     "lift_m": 0.05234259089396954,
+     "step_len_m": 0.6007008106316631
+    }
+   ],
+   "speed_mps": 1.162160332233236,
+   "pass": false
+  }
+ },
+ "phase2_train": {
+  "02_01_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 0.72,
+     "cadence_hz": 1.3888888888888888,
+     "swing_s_med": 0.2,
+     "duty": 0.6165413533834586,
+     "lift_m": 0.04454079431621298,
+     "step_len_m": 0.3235365903290106
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 0.8,
+     "cadence_hz": 1.25,
+     "swing_s_med": 0.12,
+     "duty": 0.8421052631578947,
+     "lift_m": 0.04262604067112544,
+     "step_len_m": 0.36851169728569577
+    }
+   ],
+   "speed_mps": 0.893040305069325,
+   "pass": false
+  },
+  "06_01_walk": {
+   "feet": [
+    {
+     "touchdowns": 7,
+     "stride_s": 0.46,
+     "cadence_hz": 2.1739130434782608,
+     "swing_s_med": 0.16999999999999998,
+     "duty": 0.6632653061224489,
+     "lift_m": 0.03922986784672819,
+     "step_len_m": 0.18161612783633457
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.7826490372055829,
+   "pass": false
+  },
+  "06_05_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 0.8200000000000001,
+     "cadence_hz": 1.2195121951219512,
+     "swing_s_med": 0.18,
+     "duty": 0.76,
+     "lift_m": 0.04368728739852829,
+     "step_len_m": 0.3939416177446998
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 0.87,
+     "cadence_hz": 1.1494252873563218,
+     "swing_s_med": 0.16,
+     "duty": 0.7933333333333333,
+     "lift_m": 0.051089080787097056,
+     "step_len_m": 0.42219003611003103
+    }
+   ],
+   "speed_mps": 1.0488576297668146,
+   "pass": false
+  },
+  "07_02_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 1.26,
+     "cadence_hz": 0.7936507936507936,
+     "swing_s_med": 0.44999999999999996,
+     "duty": 0.3464566929133858,
+     "lift_m": 0.0831006275947746,
+     "step_len_m": 0.613780682733183
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 1.023223433092645,
+   "pass": false
+  },
+  "07_05_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 1.72,
+     "cadence_hz": 0.5813953488372093,
+     "swing_s_med": 0.84,
+     "duty": 0.4682926829268293,
+     "lift_m": 0.06640593752802898,
+     "step_len_m": 0.6280289345153733
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.59,
+     "cadence_hz": 0.6289308176100629,
+     "swing_s_med": 0.12,
+     "duty": 0.9073170731707317,
+     "lift_m": 0.028067837557026215,
+     "step_len_m": 0.5723011968072427
+    }
+   ],
+   "speed_mps": 0.7494648795154588,
+   "pass": false
+  },
+  "105_14_walk": {
+   "feet": [
+    {
+     "touchdowns": 5,
+     "stride_s": 1.48,
+     "cadence_hz": 0.6756756756756757,
+     "swing_s_med": 0.36,
+     "duty": 0.6076923076923076,
+     "lift_m": 0.06670865892878478,
+     "step_len_m": 0.3427614060254246
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 1.4000000000000001,
+     "cadence_hz": 0.7142857142857142,
+     "swing_s_med": 0.27,
+     "duty": 0.7897435897435897,
+     "lift_m": 0.06344087293838335,
+     "step_len_m": 0.3252940423770974
+    }
+   ],
+   "speed_mps": 0.4318829548708458,
+   "pass": false
+  },
+  "105_17_walk": {
+   "feet": [
+    {
+     "touchdowns": 9,
+     "stride_s": 0.6900000000000001,
+     "cadence_hz": 1.4492753623188404,
+     "swing_s_med": 0.24,
+     "duty": 0.6948717948717948,
+     "lift_m": 0.08570086485580347,
+     "step_len_m": 0.34281094244247534
+    },
+    {
+     "touchdowns": 8,
+     "stride_s": 0.72,
+     "cadence_hz": 1.3888888888888888,
+     "swing_s_med": 0.16,
+     "duty": 0.7923076923076923,
+     "lift_m": 0.056144184901827515,
+     "step_len_m": 0.3059839293615969
+    }
+   ],
+   "speed_mps": 0.5993870484529116,
+   "pass": false
+  },
+  "105_36_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 1.3800000000000001,
+     "cadence_hz": 0.7246376811594202,
+     "swing_s_med": 0.34,
+     "duty": 0.7388888888888889,
+     "lift_m": 0.06208068172180066,
+     "step_len_m": 0.391236994605565
+    },
+    {
+     "touchdowns": 7,
+     "stride_s": 0.96,
+     "cadence_hz": 1.0416666666666667,
+     "swing_s_med": 0.26,
+     "duty": 0.7555555555555555,
+     "lift_m": 0.06117268071225896,
+     "step_len_m": 0.2695539270803702
+    }
+   ],
+   "speed_mps": 0.5116523406684301,
+   "pass": false
+  },
+  "106_05_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 0.6900000000000001,
+     "cadence_hz": 1.4492753623188404,
+     "swing_s_med": 0.18,
+     "duty": 0.7845303867403315,
+     "lift_m": 0.06580023617831404,
+     "step_len_m": 0.1382481519575546
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 0.44,
+     "cadence_hz": 2.272727272727273,
+     "swing_s_med": 0.18,
+     "duty": 0.9226519337016574,
+     "lift_m": 0.04214227853567602,
+     "step_len_m": 0.059157598469817926
+    }
+   ],
+   "speed_mps": 0.3554734459719524,
+   "pass": false
+  },
+  "106_23_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 1.8800000000000001,
+     "cadence_hz": 0.5319148936170213,
+     "swing_s_med": 0.27,
+     "duty": 0.8325123152709359,
+     "lift_m": 0.04234981826014999,
+     "step_len_m": 0.06670313669729688
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.3,
+     "cadence_hz": 0.7692307692307692,
+     "swing_s_med": 0.7000000000000001,
+     "duty": 0.5911330049261084,
+     "lift_m": 0.05559512462602424,
+     "step_len_m": 0.10570502078571496
+    }
+   ],
+   "speed_mps": 0.39987125060190865,
+   "pass": false
+  },
+  "107_04_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.34,
+     "cadence_hz": 0.7462686567164178,
+     "swing_s_med": 0.54,
+     "duty": 0.6713881019830028,
+     "lift_m": 0.056512896875651114,
+     "step_len_m": 0.3672990299531747
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.43,
+     "cadence_hz": 0.6993006993006994,
+     "swing_s_med": 0.12000000000000001,
+     "duty": 0.8838526912181303,
+     "lift_m": 0.03629202189460447,
+     "step_len_m": 0.3821361041296478
+    }
+   ],
+   "speed_mps": 0.4904617742483243,
+   "pass": false
+  },
+  "107_10_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 1.98,
+     "cadence_hz": 0.5050505050505051,
+     "swing_s_med": 0.5,
+     "duty": 0.6410256410256411,
+     "lift_m": 0.17835703404685865,
+     "step_len_m": 0.28550862071393474
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 1.94,
+     "cadence_hz": 0.5154639175257733,
+     "swing_s_med": 0.44999999999999996,
+     "duty": 0.782051282051282,
+     "lift_m": 0.10402059731243915,
+     "step_len_m": 0.26872480449750447
+    }
+   ],
+   "speed_mps": 0.3591250771771711,
+   "pass": false
+  },
+  "107_13_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.4,
+     "duty": 0.7514792899408284,
+     "lift_m": 0.05084440619479051,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.18,
+     "duty": 0.9467455621301775,
+     "lift_m": 0.03845328013492048,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.36604654282370197,
+   "pass": false
+  },
+  "108_02_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 2.09,
+     "cadence_hz": 0.47846889952153115,
+     "swing_s_med": 0.32,
+     "duty": 0.6410256410256411,
+     "lift_m": 0.11033489462829879,
+     "step_len_m": 0.357482733995382
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 3.98,
+     "cadence_hz": 0.25125628140703515,
+     "swing_s_med": 0.22,
+     "duty": 0.9102564102564102,
+     "lift_m": 0.0423355278777193,
+     "step_len_m": 0.7074509344829437
+    }
+   ],
+   "speed_mps": 0.40795818892658026,
+   "pass": false
+  },
+  "10_04_walk": {
+   "feet": [
+    {
+     "touchdowns": 5,
+     "stride_s": 0.78,
+     "cadence_hz": 1.282051282051282,
+     "swing_s_med": 0.21,
+     "duty": 0.6575342465753424,
+     "lift_m": 0.04642931407037497,
+     "step_len_m": 0.33166038875387854
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.12,
+     "duty": 0.958904109589041,
+     "lift_m": 0.024283835916395068,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.818873347118301,
+   "pass": false
+  },
+  "111_23_walk": {
+   "feet": [
+    {
+     "touchdowns": 8,
+     "stride_s": 1.0,
+     "cadence_hz": 1.0,
+     "swing_s_med": 0.32,
+     "duty": 0.6076923076923076,
+     "lift_m": 0.12033781107115157,
+     "step_len_m": 0.37682360820859373
+    },
+    {
+     "touchdowns": 6,
+     "stride_s": 0.98,
+     "cadence_hz": 1.0204081632653061,
+     "swing_s_med": 0.32,
+     "duty": 0.7205128205128205,
+     "lift_m": 0.07965593449513891,
+     "step_len_m": 0.4203613172595958
+    }
+   ],
+   "speed_mps": 0.802278457448526,
+   "pass": true
+  },
+  "111_26_walk": {
+   "feet": [
+    {
+     "touchdowns": 5,
+     "stride_s": 1.52,
+     "cadence_hz": 0.6578947368421053,
+     "swing_s_med": 0.56,
+     "duty": 0.6282051282051282,
+     "lift_m": 0.11661663678534051,
+     "step_len_m": 0.18499497886523456
+    },
+    {
+     "touchdowns": 5,
+     "stride_s": 1.5,
+     "cadence_hz": 0.6666666666666666,
+     "swing_s_med": 0.49,
+     "duty": 0.6102564102564103,
+     "lift_m": 0.06863635749203026,
+     "step_len_m": 0.17868491807929618
+    }
+   ],
+   "speed_mps": 0.2676570142832658,
+   "pass": false
+  },
+  "113_03_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.16,
+     "duty": 0.9583333333333334,
+     "lift_m": 0.022057902886172702,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 1.94,
+     "cadence_hz": 0.5154639175257733,
+     "swing_s_med": 0.4,
+     "duty": 0.7916666666666666,
+     "lift_m": 0.05087741246226298,
+     "step_len_m": 0.055466707769248204
+    }
+   ],
+   "speed_mps": 0.21376095058029576,
+   "pass": false
+  },
+  "113_18_walk": {
+   "feet": [
+    {
+     "touchdowns": 6,
+     "stride_s": 1.4000000000000001,
+     "cadence_hz": 0.7142857142857142,
+     "swing_s_med": 0.27,
+     "duty": 0.8051282051282052,
+     "lift_m": 0.03981305333178309,
+     "step_len_m": 0.2876116669112796
+    },
+    {
+     "touchdowns": 5,
+     "stride_s": 1.4000000000000001,
+     "cadence_hz": 0.7142857142857142,
+     "swing_s_med": 0.35,
+     "duty": 0.7256410256410256,
+     "lift_m": 0.08411007274073734,
+     "step_len_m": 0.3001351886695929
+    }
+   ],
+   "speed_mps": 0.39479717125529035,
+   "pass": false
+  },
+  "113_21_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 4.62,
+     "cadence_hz": 0.21645021645021645,
+     "swing_s_med": 0.6900000000000001,
+     "duty": 0.823076923076923,
+     "lift_m": 0.029010164157954765,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 4.66,
+     "cadence_hz": 0.2145922746781116,
+     "swing_s_med": 2.05,
+     "duty": 0.47435897435897434,
+     "lift_m": 0.05330295017483274,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.06660698062188619,
+   "pass": false
+  },
+  "118_08_walk": {
+   "feet": [
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.05516704576603468,
+   "pass": false
+  },
+  "118_14_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": 0.9902912621359223,
+     "lift_m": 0.020893073468454038,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.2,
+     "duty": 0.9676375404530745,
+     "lift_m": 0.03894889296867263,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.16905271479705933,
+   "pass": false
+  },
+  "118_17_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 1.82,
+     "cadence_hz": 0.5494505494505494,
+     "swing_s_med": 0.22,
+     "duty": 0.8725868725868726,
+     "lift_m": 0.03415584624441483,
+     "step_len_m": 0.3042767621637462
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.1525526174109354,
+   "pass": false
+  },
+  "118_20_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 0.56,
+     "cadence_hz": 1.7857142857142856,
+     "swing_s_med": 0.2,
+     "duty": 0.9327354260089686,
+     "lift_m": 0.025360273268971882,
+     "step_len_m": 0.2244082453976134
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": 0.9865470852017937,
+     "lift_m": 0.029837625670566525,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.1428073391361369,
+   "pass": false
+  },
+  "118_26_walk": {
+   "feet": [
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.3,
+     "duty": 0.9425287356321839,
+     "lift_m": 0.05516010961034323,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.12257457235258848,
+   "pass": false
+  },
+  "122_07_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.6,
+     "duty": 0.8192771084337349,
+     "lift_m": 0.09245243299483324,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.34,
+     "duty": 0.8975903614457831,
+     "lift_m": 0.061552077272524486,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.12304543496445737,
+   "pass": false
+  },
+  "122_19_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.86,
+     "duty": 0.7871287128712872,
+     "lift_m": 0.19293018027991668,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.56,
+     "duty": 0.8613861386138614,
+     "lift_m": 0.11845806809071156,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.1307510698730247,
+   "pass": false
+  },
+  "123_02_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 1.58,
+     "cadence_hz": 0.6329113924050632,
+     "swing_s_med": 0.14,
+     "duty": 0.9117647058823529,
+     "lift_m": 0.03748344906551481,
+     "step_len_m": 0.4728654501932713
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 0.86,
+     "cadence_hz": 1.1627906976744187,
+     "swing_s_med": 0.16999999999999998,
+     "duty": 0.8464052287581699,
+     "lift_m": 0.04749868662093213,
+     "step_len_m": 0.32761615960640034
+    }
+   ],
+   "speed_mps": 0.5368437993326715,
+   "pass": false
+  },
+  "123_11_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 0.86,
+     "cadence_hz": 1.1627906976744187,
+     "swing_s_med": 0.12000000000000001,
+     "duty": 0.9163346613545816,
+     "lift_m": 0.030306025592748843,
+     "step_len_m": 0.30697489366406316
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 1.44,
+     "cadence_hz": 0.6944444444444444,
+     "swing_s_med": 0.14,
+     "duty": 0.8725099601593626,
+     "lift_m": 0.04411721307673684,
+     "step_len_m": 0.45426484235922737
+    }
+   ],
+   "speed_mps": 0.5556946716799025,
+   "pass": false
+  },
+  "12_03_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 1.36,
+     "cadence_hz": 0.7352941176470588,
+     "swing_s_med": 0.32,
+     "duty": 0.6977777777777778,
+     "lift_m": 0.0526084045977129,
+     "step_len_m": 0.40018900312603295
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.32,
+     "cadence_hz": 0.7575757575757576,
+     "swing_s_med": 0.32,
+     "duty": 0.7644444444444445,
+     "lift_m": 0.050821068923209804,
+     "step_len_m": 0.42276443671322017
+    }
+   ],
+   "speed_mps": 0.6547770878674353,
+   "pass": true
+  },
+  "132_03_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 2.2,
+     "cadence_hz": 0.45454545454545453,
+     "swing_s_med": 0.91,
+     "duty": 0.5205128205128206,
+     "lift_m": 0.13973728678654454,
+     "step_len_m": 0.3399420389998773
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 2.87,
+     "cadence_hz": 0.3484320557491289,
+     "swing_s_med": 0.69,
+     "duty": 0.6333333333333333,
+     "lift_m": 0.15079756810488512,
+     "step_len_m": 0.469681441312113
+    }
+   ],
+   "speed_mps": 0.2969641420717863,
+   "pass": false
+  },
+  "132_06_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.8800000000000001,
+     "cadence_hz": 0.5319148936170213,
+     "swing_s_med": 0.5900000000000001,
+     "duty": 0.6692307692307692,
+     "lift_m": 0.09577571225496964,
+     "step_len_m": 0.31761197749153336
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 2.05,
+     "cadence_hz": 0.48780487804878053,
+     "swing_s_med": 0.72,
+     "duty": 0.6512820512820513,
+     "lift_m": 0.1184594839463355,
+     "step_len_m": 0.35128057233880006
+    }
+   ],
+   "speed_mps": 0.35790034856439334,
+   "pass": false
+  },
+  "132_09_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 2.23,
+     "cadence_hz": 0.4484304932735426,
+     "swing_s_med": 0.76,
+     "duty": 0.7128205128205128,
+     "lift_m": 0.11730331927022529,
+     "step_len_m": 0.40130045437371575
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 2.08,
+     "cadence_hz": 0.4807692307692307,
+     "swing_s_med": 1.12,
+     "duty": 0.382051282051282,
+     "lift_m": 0.23116598898385676,
+     "step_len_m": 0.34749200969713656
+    }
+   ],
+   "speed_mps": 0.4143471605420751,
+   "pass": false
+  },
+  "132_12_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 2.39,
+     "cadence_hz": 0.41841004184100417,
+     "swing_s_med": 0.74,
+     "duty": 0.617948717948718,
+     "lift_m": 0.09558593592605213,
+     "step_len_m": 0.3255221264510757
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 2.4,
+     "cadence_hz": 0.4166666666666667,
+     "swing_s_med": 0.8500000000000001,
+     "duty": 0.6076923076923076,
+     "lift_m": 0.10991116725640383,
+     "step_len_m": 0.30818777747179765
+    }
+   ],
+   "speed_mps": 0.2891687441102612,
+   "pass": false
+  },
+  "132_29_walk": {
+   "feet": [
+    {
+     "touchdowns": 5,
+     "stride_s": 0.71,
+     "cadence_hz": 1.4084507042253522,
+     "swing_s_med": 0.33999999999999997,
+     "duty": 0.6592356687898089,
+     "lift_m": 0.10052456053648207,
+     "step_len_m": 0.266460205366444
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.35,
+     "cadence_hz": 0.7407407407407407,
+     "swing_s_med": 0.4,
+     "duty": 0.8184713375796179,
+     "lift_m": 0.06673630971493871,
+     "step_len_m": 0.5008749808529641
+    }
+   ],
+   "speed_mps": 0.6417187472471241,
+   "pass": false
+  },
+  "132_35_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 1.28,
+     "cadence_hz": 0.78125,
+     "swing_s_med": 0.86,
+     "duty": 0.12564102564102564,
+     "lift_m": 0.12400709274776212,
+     "step_len_m": 0.35762512217462955
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.4744612615295296,
+   "pass": false
+  },
+  "136_23_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 1.26,
+     "cadence_hz": 0.7936507936507936,
+     "swing_s_med": 0.56,
+     "duty": 0.6254180602006689,
+     "lift_m": 0.04343965360998812,
+     "step_len_m": 0.4826632090584613
+    },
+    {
+     "touchdowns": 5,
+     "stride_s": 1.34,
+     "cadence_hz": 0.7462686567164178,
+     "swing_s_med": 0.54,
+     "duty": 0.6053511705685619,
+     "lift_m": 0.06427683321183775,
+     "step_len_m": 0.473971893942595
+    }
+   ],
+   "speed_mps": 0.7299296772121782,
+   "pass": true
+  },
+  "138_11_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.19,
+     "cadence_hz": 0.8403361344537815,
+     "swing_s_med": 0.26,
+     "duty": 0.6666666666666666,
+     "lift_m": 0.07162693069778672,
+     "step_len_m": 0.45383545701944294
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.15000000000000002,
+     "duty": 0.896551724137931,
+     "lift_m": 0.04976758767028208,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.7762296053174433,
+   "pass": false
+  },
+  "138_18_walk": {
+   "feet": [
+    {
+     "touchdowns": 5,
+     "stride_s": 0.61,
+     "cadence_hz": 1.639344262295082,
+     "swing_s_med": 0.39,
+     "duty": 0.4900662251655629,
+     "lift_m": 0.07525824967085865,
+     "step_len_m": 0.26312346553689914
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 1.22,
+     "cadence_hz": 0.819672131147541,
+     "swing_s_med": 0.12,
+     "duty": 0.9205298013245033,
+     "lift_m": 0.0324525618487175,
+     "step_len_m": 0.5391093830272843
+    }
+   ],
+   "speed_mps": 0.8541998798774888,
+   "pass": false
+  },
+  "138_25_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 0.48,
+     "cadence_hz": 2.0833333333333335,
+     "swing_s_med": 0.16,
+     "duty": 0.6402877697841727,
+     "lift_m": 0.09689687518754646,
+     "step_len_m": 0.22312111011510913
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 1.1400000000000001,
+     "cadence_hz": 0.8771929824561403,
+     "swing_s_med": 0.15000000000000002,
+     "duty": 0.8705035971223022,
+     "lift_m": 0.09780807028794805,
+     "step_len_m": 0.5019246846532877
+    }
+   ],
+   "speed_mps": 0.8875724585754134,
+   "pass": false
+  },
+  "139_02_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.18,
+     "duty": 0.9769230769230769,
+     "lift_m": 0.020923784248611813,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.08002453485216836,
+   "pass": false
+  },
+  "139_34_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.2,
+     "cadence_hz": 0.8333333333333334,
+     "swing_s_med": 0.42,
+     "duty": 0.8384615384615385,
+     "lift_m": 0.044201501194076856,
+     "step_len_m": 0.17581860928088316
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 2.54,
+     "cadence_hz": 0.39370078740157477,
+     "swing_s_med": 0.15000000000000002,
+     "duty": 0.8846153846153846,
+     "lift_m": 0.031561370164947096,
+     "step_len_m": 0.33806531485396957
+    }
+   ],
+   "speed_mps": 0.1697646079105327,
+   "pass": false
+  },
+  "141_05_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 0.48,
+     "cadence_hz": 2.0833333333333335,
+     "swing_s_med": 0.3,
+     "duty": 0.8176795580110497,
+     "lift_m": 0.06603120285342359,
+     "step_len_m": 0.07455583059800625
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.12,
+     "duty": 0.9447513812154696,
+     "lift_m": 0.0345341225388286,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.3333846474962602,
+   "pass": false
+  },
+  "141_23_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 2.0,
+     "cadence_hz": 0.5,
+     "swing_s_med": 0.31,
+     "duty": 0.8374384236453202,
+     "lift_m": 0.048866452201100724,
+     "step_len_m": 0.046246631471566095
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 1.6,
+     "cadence_hz": 0.625,
+     "swing_s_med": 0.64,
+     "duty": 0.6798029556650246,
+     "lift_m": 0.0733373291062183,
+     "step_len_m": 0.07143553766617235
+    }
+   ],
+   "speed_mps": 0.3861159793474969,
+   "pass": false
+  },
+  "144_17_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 4.58,
+     "cadence_hz": 0.2183406113537118,
+     "swing_s_med": 0.64,
+     "duty": 0.8358974358974359,
+     "lift_m": 0.11900570659257308,
+     "step_len_m": 0.03259385686545917
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 1.46,
+     "cadence_hz": 0.684931506849315,
+     "swing_s_med": 0.5,
+     "duty": 0.717948717948718,
+     "lift_m": 0.1576644310771325,
+     "step_len_m": 0.08711204574176037
+    }
+   ],
+   "speed_mps": 0.4037553332244798,
+   "pass": false
+  },
+  "17_06_walk": {
+   "feet": [
+    {
+     "touchdowns": 8,
+     "stride_s": 0.68,
+     "cadence_hz": 1.4705882352941175,
+     "swing_s_med": 0.32,
+     "duty": 0.6435897435897436,
+     "lift_m": 0.09313733515272526,
+     "step_len_m": 0.1372426266272136
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 1.82,
+     "cadence_hz": 0.5494505494505494,
+     "swing_s_med": 0.23,
+     "duty": 0.8743589743589744,
+     "lift_m": 0.053641185192097374,
+     "step_len_m": 0.40520832590620687
+    }
+   ],
+   "speed_mps": 0.42121939925798657,
+   "pass": false
+  },
+  "35_02_walk": {
+   "feet": [
+    {
+     "touchdowns": 5,
+     "stride_s": 0.5700000000000001,
+     "cadence_hz": 1.7543859649122806,
+     "swing_s_med": 0.16999999999999998,
+     "duty": 0.6289308176100629,
+     "lift_m": 0.04154581684918938,
+     "step_len_m": 0.25862570147265285
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.9081978987484798,
+   "pass": false
+  },
+  "35_05_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.16,
+     "cadence_hz": 0.8620689655172414,
+     "swing_s_med": 0.24,
+     "duty": 0.5654761904761905,
+     "lift_m": 0.050112847139411554,
+     "step_len_m": 0.5073692821709648
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 1.2,
+     "cadence_hz": 0.8333333333333334,
+     "swing_s_med": 0.1,
+     "duty": 0.9464285714285714,
+     "lift_m": 0.02309777013022088,
+     "step_len_m": 0.5201225313809679
+    }
+   ],
+   "speed_mps": 0.8807083133619587,
+   "pass": false
+  },
+  "35_08_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.11,
+     "cadence_hz": 0.9009009009009008,
+     "swing_s_med": 0.2,
+     "duty": 0.55,
+     "lift_m": 0.044561313194365335,
+     "step_len_m": 0.48091038931752794
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": 0.9777777777777777,
+     "lift_m": 0.02453268429273317,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.8945989065150375,
+   "pass": false
+  },
+  "35_11_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.11,
+     "cadence_hz": 0.9009009009009008,
+     "swing_s_med": 0.39,
+     "duty": 0.4866666666666667,
+     "lift_m": 0.04729220357540643,
+     "step_len_m": 0.47521680371264086
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 1.1,
+     "cadence_hz": 0.9090909090909091,
+     "swing_s_med": 0.12,
+     "duty": 0.9333333333333333,
+     "lift_m": 0.026223296600236597,
+     "step_len_m": 0.4726674482133033
+    }
+   ],
+   "speed_mps": 0.8765443547621237,
+   "pass": false
+  },
+  "35_14_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.1400000000000001,
+     "cadence_hz": 0.8771929824561403,
+     "swing_s_med": 0.28,
+     "duty": 0.577639751552795,
+     "lift_m": 0.05384344643752774,
+     "step_len_m": 0.4973985706738765
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.14,
+     "duty": 0.9565217391304348,
+     "lift_m": 0.026453866756965663,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.8892917081080115,
+   "pass": false
+  },
+  "35_28_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.1500000000000001,
+     "cadence_hz": 0.8695652173913042,
+     "swing_s_med": 0.33,
+     "duty": 0.5121951219512195,
+     "lift_m": 0.05320979937189443,
+     "step_len_m": 0.4868446692163738
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.8827697520905293,
+   "pass": false
+  },
+  "35_31_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 1.16,
+     "cadence_hz": 0.8620689655172414,
+     "swing_s_med": 0.24,
+     "duty": 0.5818181818181818,
+     "lift_m": 0.04398444004878355,
+     "step_len_m": 0.4972619633733656
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": 0.9878787878787879,
+     "lift_m": 0.020628748483902032,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.8721525527130809,
+   "pass": false
+  },
+  "35_34_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 0.76,
+     "cadence_hz": 1.3157894736842106,
+     "swing_s_med": 0.21000000000000002,
+     "duty": 0.5950920245398773,
+     "lift_m": 0.04487602529400059,
+     "step_len_m": 0.3577414755377839
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.9332438151463942,
+   "pass": false
+  },
+  "38_02_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.05,
+     "cadence_hz": 0.9523809523809523,
+     "swing_s_med": 0.24,
+     "duty": 0.43636363636363634,
+     "lift_m": 0.06863640937342566,
+     "step_len_m": 0.533119025652985
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 1.0,
+     "cadence_hz": 1.0,
+     "swing_s_med": NaN,
+     "duty": 0.9575757575757575,
+     "lift_m": 0.04435973578246129,
+     "step_len_m": 0.5528948060573456
+    }
+   ],
+   "speed_mps": 1.0832186909034738,
+   "pass": false
+  },
+  "39_03_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.06,
+     "cadence_hz": 0.9433962264150942,
+     "swing_s_med": 0.24,
+     "duty": 0.5625,
+     "lift_m": 0.0576518670515352,
+     "step_len_m": 0.6021451666255009
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.05,
+     "cadence_hz": 0.9523809523809523,
+     "swing_s_med": 0.14,
+     "duty": 0.79375,
+     "lift_m": 0.04830487249430788,
+     "step_len_m": 0.6075562303176363
+    }
+   ],
+   "speed_mps": 1.219846744184259,
+   "pass": false
+  },
+  "39_06_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 1.02,
+     "cadence_hz": 0.9803921568627451,
+     "swing_s_med": 0.22,
+     "duty": 0.5384615384615384,
+     "lift_m": 0.050620802976032934,
+     "step_len_m": 0.593237422457493
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.01,
+     "cadence_hz": 0.9900990099009901,
+     "swing_s_med": 0.14,
+     "duty": 0.7972027972027972,
+     "lift_m": 0.04281106900236888,
+     "step_len_m": 0.5828752602858656
+    }
+   ],
+   "speed_mps": 1.2117382877365783,
+   "pass": false
+  },
+  "39_09_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 1.06,
+     "cadence_hz": 0.9433962264150942,
+     "swing_s_med": 0.24,
+     "duty": 0.5419354838709678,
+     "lift_m": 0.0673941725671369,
+     "step_len_m": 0.5550278154259269
+    },
+    {
+     "touchdowns": 5,
+     "stride_s": 0.52,
+     "cadence_hz": 1.923076923076923,
+     "swing_s_med": 0.14,
+     "duty": 0.8064516129032258,
+     "lift_m": 0.06164977916731327,
+     "step_len_m": 0.27890762640072053
+    }
+   ],
+   "speed_mps": 1.1165042833729193,
+   "pass": false
+  },
+  "39_12_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.05,
+     "cadence_hz": 0.9523809523809523,
+     "swing_s_med": 0.37,
+     "duty": 0.5595238095238095,
+     "lift_m": 0.06233061027317682,
+     "step_len_m": 0.5737134050783151
+    },
+    {
+     "touchdowns": 6,
+     "stride_s": 0.3,
+     "cadence_hz": 3.3333333333333335,
+     "swing_s_med": 0.14,
+     "duty": 0.7976190476190477,
+     "lift_m": 0.04977889871507225,
+     "step_len_m": 0.15343384597428567
+    }
+   ],
+   "speed_mps": 1.1892102618256923,
+   "pass": false
+  },
+  "60_03_walk": {
+   "feet": [
+    {
+     "touchdowns": 6,
+     "stride_s": 1.42,
+     "cadence_hz": 0.7042253521126761,
+     "swing_s_med": 0.18,
+     "duty": 0.823076923076923,
+     "lift_m": 0.05521176301358772,
+     "step_len_m": 0.13738032175654158
+    },
+    {
+     "touchdowns": 5,
+     "stride_s": 0.53,
+     "cadence_hz": 1.8867924528301885,
+     "swing_s_med": 0.19,
+     "duty": 0.7897435897435897,
+     "lift_m": 0.05836012592236455,
+     "step_len_m": 0.13487404155659438
+    }
+   ],
+   "speed_mps": 0.4089441471207992,
+   "pass": false
+  },
+  "77_02_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 1.18,
+     "duty": 0.8487179487179487,
+     "lift_m": 0.029169539909288916,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.07934173057560664,
+   "pass": false
+  },
+  "83_09_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.54,
+     "duty": 0.848314606741573,
+     "lift_m": 0.09744097668627646,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.36,
+     "duty": 0.898876404494382,
+     "lift_m": 0.06913263636010641,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.105127667125726,
+   "pass": false
+  },
+  "83_12_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.7000000000000001,
+     "duty": 0.8267326732673267,
+     "lift_m": 0.26552675342975063,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.8200000000000001,
+     "duty": 0.7970297029702971,
+     "lift_m": 0.18099250999699923,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.22671617463096036,
+   "pass": false
+  },
+  "83_15_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 0.5,
+     "cadence_hz": 2.0,
+     "swing_s_med": 0.25,
+     "duty": 0.8798076923076923,
+     "lift_m": 0.07485221381718403,
+     "step_len_m": 0.14571037974210352
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.74,
+     "duty": 0.8221153846153846,
+     "lift_m": 0.1388074798987033,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.1482371618063251,
+   "pass": false
+  },
+  "83_18_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.32,
+     "duty": 0.9130434782608695,
+     "lift_m": 0.025421818588781855,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.64,
+     "duty": 0.8260869565217391,
+     "lift_m": 0.047926393339593476,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.08107538063204624,
+   "pass": false
+  },
+  "83_21_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.88,
+     "duty": 0.7864077669902912,
+     "lift_m": 0.20392357867424205,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.64,
+     "duty": 0.8446601941747572,
+     "lift_m": 0.17619532738116434,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.19080654766189448,
+   "pass": false
+  },
+  "83_24_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 1.02,
+     "duty": 0.7594339622641509,
+     "lift_m": 0.21409784289754125,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.42,
+     "duty": 0.9009433962264151,
+     "lift_m": 0.12784013666482086,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.13677709734045262,
+   "pass": false
+  },
+  "83_27_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 1.6,
+     "cadence_hz": 0.625,
+     "swing_s_med": 0.47,
+     "duty": 0.7435897435897436,
+     "lift_m": 0.12195737193563898,
+     "step_len_m": 0.34137763131642535
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 1.42,
+     "cadence_hz": 0.7042253521126761,
+     "swing_s_med": 0.25,
+     "duty": 0.8025641025641026,
+     "lift_m": 0.14368188793758987,
+     "step_len_m": 0.29851910405572774
+    }
+   ],
+   "speed_mps": 0.36098764703855934,
+   "pass": false
+  },
+  "83_30_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 1.58,
+     "cadence_hz": 0.6329113924050632,
+     "swing_s_med": 0.44,
+     "duty": 0.7512820512820513,
+     "lift_m": 0.11534951607598527,
+     "step_len_m": 0.3596441977023718
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 1.22,
+     "cadence_hz": 0.819672131147541,
+     "swing_s_med": 0.22,
+     "duty": 0.7897435897435897,
+     "lift_m": 0.13063328736945057,
+     "step_len_m": 0.35243552659648686
+    }
+   ],
+   "speed_mps": 0.47660633962980725,
+   "pass": false
+  },
+  "83_33_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 1.78,
+     "cadence_hz": 0.5617977528089888,
+     "swing_s_med": 0.4,
+     "duty": 0.8179487179487179,
+     "lift_m": 0.07620570615844241,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.42,
+     "duty": 0.9461538461538461,
+     "lift_m": 0.05597193321507601,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.1022550666962467,
+   "pass": false
+  },
+  "83_42_walk": {
+   "feet": [
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.10626829267441402,
+   "pass": false
+  },
+  "83_45_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.12,
+     "duty": 0.9693877551020408,
+     "lift_m": 0.025051670978203017,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.14013200194152817,
+   "pass": false
+  },
+  "83_48_walk": {
+   "feet": [
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.08181609334243936,
+   "pass": false
+  },
+  "90_24_walk": {
+   "feet": [
+    {
+     "touchdowns": 5,
+     "stride_s": 0.52,
+     "cadence_hz": 1.923076923076923,
+     "swing_s_med": 0.24,
+     "duty": 0.8207547169811321,
+     "lift_m": 0.24897639206411604,
+     "step_len_m": 0.07485364559408082
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.16,
+     "duty": 0.949685534591195,
+     "lift_m": 0.04288156444846473,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.09458123929185602,
+   "pass": false
+  },
+  "05_01_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 1.18,
+     "cadence_hz": 0.8474576271186441,
+     "swing_s_med": 0.52,
+     "duty": 0.5313807531380753,
+     "lift_m": 0.05602633317627613,
+     "step_len_m": 0.4346022962637367
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.7425756453085858,
+   "pass": false
+  },
+  "06_03_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 1.04,
+     "cadence_hz": 0.9615384615384615,
+     "swing_s_med": 0.26,
+     "duty": 0.9095238095238095,
+     "lift_m": 0.042086263606560405,
+     "step_len_m": 0.49272746254576366
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 0.88,
+     "cadence_hz": 1.1363636363636365,
+     "swing_s_med": 0.23,
+     "duty": 0.6190476190476191,
+     "lift_m": 0.05721828678646124,
+     "step_len_m": 0.36627376291608504
+    }
+   ],
+   "speed_mps": 0.870204004273731,
+   "pass": false
+  },
+  "07_03_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.35,
+     "cadence_hz": 0.7407407407407407,
+     "swing_s_med": 0.37,
+     "duty": 0.4662576687116564,
+     "lift_m": 0.07792029707738721,
+     "step_len_m": 0.5115933462329412
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": 0.9815950920245399,
+     "lift_m": 0.022141636005095645,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.8115831884749791,
+   "pass": false
+  },
+  "07_09_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 1.22,
+     "cadence_hz": 0.819672131147541,
+     "swing_s_med": 0.32,
+     "duty": 0.5169491525423728,
+     "lift_m": 0.07180431463153149,
+     "step_len_m": 0.6743910793622779
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 1.1627382426026216,
+   "pass": false
+  },
+  "102_22_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 0.52,
+     "cadence_hz": 1.923076923076923,
+     "swing_s_med": 0.16,
+     "duty": 0.6881720430107527,
+     "lift_m": 0.1182419022562389,
+     "step_len_m": 0.6275473794733312
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.25,
+     "duty": 0.7204301075268817,
+     "lift_m": 0.14000614636724412,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 2.096911082009628,
+   "pass": false
+  },
+  "105_18_walk": {
+   "feet": [
+    {
+     "touchdowns": 5,
+     "stride_s": 1.1500000000000001,
+     "cadence_hz": 0.8695652173913042,
+     "swing_s_med": 0.4,
+     "duty": 0.6794871794871795,
+     "lift_m": 0.06327421518347212,
+     "step_len_m": 0.18259779232603432
+    },
+    {
+     "touchdowns": 8,
+     "stride_s": 0.6,
+     "cadence_hz": 1.6666666666666667,
+     "swing_s_med": 0.29000000000000004,
+     "duty": 0.7230769230769231,
+     "lift_m": 0.05624245517411784,
+     "step_len_m": 0.12649923157304022
+    }
+   ],
+   "speed_mps": 0.36126810530925346,
+   "pass": false
+  },
+  "105_21_walk": {
+   "feet": [
+    {
+     "touchdowns": 5,
+     "stride_s": 1.54,
+     "cadence_hz": 0.6493506493506493,
+     "swing_s_med": 0.38,
+     "duty": 0.6820512820512821,
+     "lift_m": 0.08902522306707465,
+     "step_len_m": 0.24389547833847158
+    },
+    {
+     "touchdowns": 7,
+     "stride_s": 0.92,
+     "cadence_hz": 1.0869565217391304,
+     "swing_s_med": 0.24000000000000002,
+     "duty": 0.7205128205128205,
+     "lift_m": 0.05513761022937234,
+     "step_len_m": 0.14571153547301924
+    }
+   ],
+   "speed_mps": 0.3413522924609395,
+   "pass": false
+  },
+  "105_37_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.28,
+     "duty": 0.5454545454545454,
+     "lift_m": 0.046582594207007874,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.4655943047095745,
+   "pass": false
+  },
+  "106_09_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 1.54,
+     "cadence_hz": 0.6493506493506493,
+     "swing_s_med": 0.63,
+     "duty": 0.6378378378378379,
+     "lift_m": 0.3920196569503784,
+     "step_len_m": 0.5331817274604133
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.48,
+     "cadence_hz": 0.6756756756756757,
+     "swing_s_med": 0.18,
+     "duty": 0.6432432432432432,
+     "lift_m": 0.5172770164555315,
+     "step_len_m": 0.4902783607581055
+    }
+   ],
+   "speed_mps": 0.716083004051935,
+   "pass": false
+  },
+  "106_21_walk": {
+   "feet": [
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.05270884081244909,
+   "pass": false
+  },
+  "106_27_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.93,
+     "cadence_hz": 0.5181347150259068,
+     "swing_s_med": 0.54,
+     "duty": 0.7769230769230769,
+     "lift_m": 0.06173148758398749,
+     "step_len_m": 0.28924731165791256
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.77,
+     "cadence_hz": 0.5649717514124294,
+     "swing_s_med": 0.32,
+     "duty": 0.6743589743589744,
+     "lift_m": 0.03901660890173833,
+     "step_len_m": 0.3250784623460158
+    }
+   ],
+   "speed_mps": 0.30065144658403503,
+   "pass": false
+  },
+  "106_33_walk": {
+   "feet": [
+    {
+     "touchdowns": 7,
+     "stride_s": 1.2,
+     "cadence_hz": 0.8333333333333334,
+     "swing_s_med": 0.14,
+     "duty": 0.7461538461538462,
+     "lift_m": 0.07263914462070381,
+     "step_len_m": 0.2634141044074152
+    },
+    {
+     "touchdowns": 5,
+     "stride_s": 1.22,
+     "cadence_hz": 0.819672131147541,
+     "swing_s_med": 0.32999999999999996,
+     "duty": 0.764102564102564,
+     "lift_m": 0.0816309604683024,
+     "step_len_m": 0.2533911255718473
+    }
+   ],
+   "speed_mps": 0.3737023817920768,
+   "pass": false
+  },
+  "107_02_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.53,
+     "cadence_hz": 0.6535947712418301,
+     "swing_s_med": 0.43,
+     "duty": 0.7974358974358975,
+     "lift_m": 0.05911404881143825,
+     "step_len_m": 0.4078659409205009
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 1.52,
+     "cadence_hz": 0.6578947368421053,
+     "swing_s_med": 0.19,
+     "duty": 0.882051282051282,
+     "lift_m": 0.048310347834603994,
+     "step_len_m": 0.3963393024597271
+    }
+   ],
+   "speed_mps": 0.4493063639853778,
+   "pass": false
+  },
+  "107_14_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 2.58,
+     "cadence_hz": 0.38759689922480617,
+     "swing_s_med": 0.56,
+     "duty": 0.6731843575418994,
+     "lift_m": 0.05454098808876895,
+     "step_len_m": 0.6307498558326036
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.42,
+     "cadence_hz": 0.7042253521126761,
+     "swing_s_med": 0.2,
+     "duty": 0.9078212290502793,
+     "lift_m": 0.040771171566783775,
+     "step_len_m": 0.3470417117438723
+    }
+   ],
+   "speed_mps": 0.4487309542409623,
+   "pass": false
+  },
+  "113_01_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 0.84,
+     "cadence_hz": 1.1904761904761905,
+     "swing_s_med": 0.52,
+     "duty": 0.5236686390532544,
+     "lift_m": 0.05628818521239046,
+     "step_len_m": 0.13595154532389725
+    },
+    {
+     "touchdowns": 5,
+     "stride_s": 0.84,
+     "cadence_hz": 1.1904761904761905,
+     "swing_s_med": 0.12,
+     "duty": 0.8431952662721893,
+     "lift_m": 0.046583200928814426,
+     "step_len_m": 0.22917710574935163
+    }
+   ],
+   "speed_mps": 0.5416232245021837,
+   "pass": false
+  },
+  "113_16_walk": {
+   "feet": [
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.03171078869633999,
+   "pass": false
+  },
+  "113_25_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 1.02,
+     "cadence_hz": 0.9803921568627451,
+     "swing_s_med": 0.54,
+     "duty": 0.6895306859205776,
+     "lift_m": 0.04877985488409108,
+     "step_len_m": 0.41045262623104584
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 0.92,
+     "cadence_hz": 1.0869565217391304,
+     "swing_s_med": 0.15000000000000002,
+     "duty": 0.8916967509025271,
+     "lift_m": 0.04165099558684477,
+     "step_len_m": 0.345751705469184
+    }
+   ],
+   "speed_mps": 0.68504459115871,
+   "pass": false
+  },
+  "118_06_walk": {
+   "feet": [
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.09784632515154054,
+   "pass": false
+  },
+  "118_12_walk": {
+   "feet": [
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.07085876814271883,
+   "pass": false
+  },
+  "118_18_walk": {
+   "feet": [
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.13889690913482744,
+   "pass": false
+  },
+  "118_21_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.44,
+     "duty": 0.9210526315789473,
+     "lift_m": 0.03372231805219725,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.10294885842859779,
+   "pass": false
+  },
+  "118_24_walk": {
+   "feet": [
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.16,
+     "duty": 0.9614035087719298,
+     "lift_m": 0.03397743397229257,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.15705970766612418,
+   "pass": false
+  },
+  "118_30_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.8200000000000001,
+     "duty": 0.874251497005988,
+     "lift_m": 0.031196836998781514,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.1,
+     "duty": 0.9850299401197605,
+     "lift_m": 0.02565439164224042,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.08527833584403642,
+   "pass": false
+  },
+  "122_14_walk": {
+   "feet": [
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 1.1,
+     "duty": 0.6568047337278107,
+     "lift_m": 0.12980869935115225,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.1221638906388374,
+   "pass": false
+  },
+  "122_17_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.78,
+     "duty": 0.8125,
+     "lift_m": 0.19409999994983534,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.64,
+     "duty": 0.8461538461538461,
+     "lift_m": 0.3206588520925025,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.21105784302559005,
+   "pass": false
+  },
+  "122_20_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.78,
+     "duty": 0.7980769230769231,
+     "lift_m": 0.10293684969297898,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 1.04,
+     "duty": 0.75,
+     "lift_m": 0.11166545175352087,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.15203792701605312,
+   "pass": false
+  },
+  "122_23_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.96,
+     "duty": 0.7777777777777778,
+     "lift_m": 0.12546565280325403,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.42,
+     "duty": 0.9027777777777778,
+     "lift_m": 0.039091174907643605,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.11224886679115198,
+   "pass": false
+  },
+  "122_26_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 1.16,
+     "duty": 0.7211538461538461,
+     "lift_m": 0.3167595345900011,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.4,
+     "duty": 0.9038461538461539,
+     "lift_m": 0.17462371746139604,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.2700123903863674,
+   "pass": false
+  },
+  "122_32_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 2.43,
+     "cadence_hz": 0.4115226337448559,
+     "swing_s_med": 0.7000000000000001,
+     "duty": 0.782051282051282,
+     "lift_m": 0.1467231530975548,
+     "step_len_m": 0.48807090131507824
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.73,
+     "cadence_hz": 0.5780346820809249,
+     "swing_s_med": 0.32,
+     "duty": 0.8076923076923077,
+     "lift_m": 0.14742294987111482,
+     "step_len_m": 0.24284007023709617
+    }
+   ],
+   "speed_mps": 0.3998585216899729,
+   "pass": false
+  },
+  "122_41_walk": {
+   "feet": [
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.12651067621141557,
+   "pass": false
+  },
+  "122_68_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.56,
+     "duty": 0.8943396226415095,
+     "lift_m": 0.10981835625214922,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.8200000000000001,
+     "duty": 0.8452830188679246,
+     "lift_m": 0.21897560981696007,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.11036823457701585,
+   "pass": false
+  },
+  "123_03_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": 0.9923076923076923,
+     "lift_m": 0.030491206157850635,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.08643841793894555,
+   "pass": false
+  },
+  "123_12_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 2.18,
+     "cadence_hz": 0.4587155963302752,
+     "swing_s_med": 0.12,
+     "duty": 0.9347826086956522,
+     "lift_m": 0.0345883886050029,
+     "step_len_m": 0.6206315184721282
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 1.02,
+     "cadence_hz": 0.9803921568627451,
+     "swing_s_med": 0.26,
+     "duty": 0.8913043478260869,
+     "lift_m": 0.037226978158451184,
+     "step_len_m": 0.33916936099692246
+    }
+   ],
+   "speed_mps": 0.5471913127873379,
+   "pass": false
+  },
+  "127_18_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.3,
+     "cadence_hz": 0.7692307692307692,
+     "swing_s_med": 0.26,
+     "duty": 0.6233766233766234,
+     "lift_m": 0.10799245183926114,
+     "step_len_m": 0.5173129894176576
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 1.86,
+     "cadence_hz": 0.5376344086021505,
+     "swing_s_med": 0.13,
+     "duty": 0.8506493506493507,
+     "lift_m": 0.16326725568825673,
+     "step_len_m": 0.4211057206207555
+    }
+   ],
+   "speed_mps": 0.37900433622727114,
+   "pass": false
+  },
+  "12_01_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.29,
+     "cadence_hz": 0.7751937984496123,
+     "swing_s_med": 0.36,
+     "duty": 0.6826923076923077,
+     "lift_m": 0.05694005427528198,
+     "step_len_m": 0.42491947572674715
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.25,
+     "cadence_hz": 0.8,
+     "swing_s_med": 0.15000000000000002,
+     "duty": 0.8028846153846154,
+     "lift_m": 0.0502456799603349,
+     "step_len_m": 0.41587970210905667
+    }
+   ],
+   "speed_mps": 0.6722372899448871,
+   "pass": false
+  },
+  "12_04_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 1.83,
+     "duty": 0.5307692307692308,
+     "lift_m": 0.060416916031381815,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 5.78,
+     "cadence_hz": 0.17301038062283736,
+     "swing_s_med": 1.12,
+     "duty": 0.7051282051282052,
+     "lift_m": 0.13725852450324794,
+     "step_len_m": 0.12088757762391018
+    }
+   ],
+   "speed_mps": 0.13034511105545288,
+   "pass": false
+  },
+  "132_01_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 1.8800000000000001,
+     "cadence_hz": 0.5319148936170213,
+     "swing_s_med": 0.5800000000000001,
+     "duty": 0.6333333333333333,
+     "lift_m": 0.0697873094021216,
+     "step_len_m": 0.2815641775698849
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.96,
+     "cadence_hz": 0.5102040816326531,
+     "swing_s_med": 0.55,
+     "duty": 0.7333333333333333,
+     "lift_m": 0.07983077498934996,
+     "step_len_m": 0.30291867776538095
+    }
+   ],
+   "speed_mps": 0.3178841892520911,
+   "pass": false
+  },
+  "132_04_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.97,
+     "cadence_hz": 0.5076142131979695,
+     "swing_s_med": 0.71,
+     "duty": 0.6487179487179487,
+     "lift_m": 0.11633051400799782,
+     "step_len_m": 0.33181721230948985
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 1.68,
+     "cadence_hz": 0.5952380952380952,
+     "swing_s_med": 0.56,
+     "duty": 0.6307692307692307,
+     "lift_m": 0.14487119550375202,
+     "step_len_m": 0.2856285628699747
+    }
+   ],
+   "speed_mps": 0.30464986036141395,
+   "pass": false
+  },
+  "132_07_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 2.24,
+     "cadence_hz": 0.4464285714285714,
+     "swing_s_med": 0.84,
+     "duty": 0.6939890710382514,
+     "lift_m": 0.11969316039288413,
+     "step_len_m": 0.36487942040204413
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 2.25,
+     "cadence_hz": 0.4444444444444444,
+     "swing_s_med": 1.1400000000000001,
+     "duty": 0.5109289617486339,
+     "lift_m": 0.16457528563339907,
+     "step_len_m": 0.4054133592015674
+    }
+   ],
+   "speed_mps": 0.3575641632592909,
+   "pass": false
+  },
+  "132_10_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 2.07,
+     "cadence_hz": 0.48309178743961356,
+     "swing_s_med": 0.76,
+     "duty": 0.6692307692307692,
+     "lift_m": 0.11368881382413451,
+     "step_len_m": 0.32081266261554986
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 2.1,
+     "cadence_hz": 0.47619047619047616,
+     "swing_s_med": 0.96,
+     "duty": 0.5025641025641026,
+     "lift_m": 0.11622976290430947,
+     "step_len_m": 0.33100294647309697
+    }
+   ],
+   "speed_mps": 0.342448903414736,
+   "pass": false
+  },
+  "132_19_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 0.9,
+     "cadence_hz": 1.1111111111111112,
+     "swing_s_med": 0.18,
+     "duty": 0.8155339805825242,
+     "lift_m": 0.04745993424451266,
+     "step_len_m": 0.5845248823050763
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.26,
+     "duty": 0.8349514563106796,
+     "lift_m": 0.05965747113098916,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.8147284772388761,
+   "pass": false
+  },
+  "132_27_walk": {
+   "feet": [
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 5.4,
+     "duty": 0.07849829351535836,
+     "lift_m": 0.1864347901504825,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.6365706479911997,
+   "pass": false
+  },
+  "132_30_walk": {
+   "feet": [
+    {
+     "touchdowns": 5,
+     "stride_s": 0.9500000000000001,
+     "cadence_hz": 1.0526315789473684,
+     "swing_s_med": 0.27,
+     "duty": 0.759493670886076,
+     "lift_m": 0.07360018054566464,
+     "step_len_m": 0.30909973321081924
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.3,
+     "cadence_hz": 0.7692307692307692,
+     "swing_s_med": 0.32,
+     "duty": 0.7658227848101266,
+     "lift_m": 0.06667812348431637,
+     "step_len_m": 0.49333365529445006
+    }
+   ],
+   "speed_mps": 0.6594793887235757,
+   "pass": false
+  },
+  "136_21_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 1.22,
+     "cadence_hz": 0.819672131147541,
+     "swing_s_med": 0.4,
+     "duty": 0.5958333333333333,
+     "lift_m": 0.04568544980866335,
+     "step_len_m": 0.49988872788121874
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.24,
+     "cadence_hz": 0.8064516129032259,
+     "swing_s_med": 0.5,
+     "duty": 0.6791666666666667,
+     "lift_m": 0.061458840930347584,
+     "step_len_m": 0.5076976701120195
+    }
+   ],
+   "speed_mps": 0.7929866827793617,
+   "pass": true
+  },
+  "136_24_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 1.56,
+     "cadence_hz": 0.641025641025641,
+     "swing_s_med": 0.72,
+     "duty": 0.5641025641025641,
+     "lift_m": 0.049556033465918366,
+     "step_len_m": 0.45496966479573714
+    },
+    {
+     "touchdowns": 5,
+     "stride_s": 1.59,
+     "cadence_hz": 0.6289308176100629,
+     "swing_s_med": 0.58,
+     "duty": 0.6717948717948717,
+     "lift_m": 0.049539896263003036,
+     "step_len_m": 0.4516513194370878
+    }
+   ],
+   "speed_mps": 0.5685153891635775,
+   "pass": true
+  },
+  "136_27_walk": {
+   "feet": [
+    {
+     "touchdowns": 5,
+     "stride_s": 1.56,
+     "cadence_hz": 0.641025641025641,
+     "swing_s_med": 0.32,
+     "duty": 0.7307692307692307,
+     "lift_m": 0.05067726297757272,
+     "step_len_m": 0.46270386520993745
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 1.28,
+     "cadence_hz": 0.78125,
+     "swing_s_med": 0.11,
+     "duty": 0.9051282051282051,
+     "lift_m": 0.033718285746576246,
+     "step_len_m": 0.4716495869811081
+    }
+   ],
+   "speed_mps": 0.6933190392309003,
+   "pass": false
+  },
+  "138_19_walk": {
+   "feet": [
+    {
+     "touchdowns": 6,
+     "stride_s": 0.58,
+     "cadence_hz": 1.7241379310344829,
+     "swing_s_med": 0.32,
+     "duty": 0.5659340659340659,
+     "lift_m": 0.06713905967403422,
+     "step_len_m": 0.2107744641093161
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 1.24,
+     "cadence_hz": 0.8064516129032259,
+     "swing_s_med": 0.11,
+     "duty": 0.8956043956043956,
+     "lift_m": 0.027677963173456346,
+     "step_len_m": 0.4799478503273462
+    }
+   ],
+   "speed_mps": 0.7864438206677131,
+   "pass": false
+  },
+  "139_03_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.18,
+     "duty": 0.9769230769230769,
+     "lift_m": 0.030882652377049367,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.72,
+     "duty": 0.9076923076923077,
+     "lift_m": 0.050026969751187804,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.10498862582367148,
+   "pass": false
+  },
+  "141_21_walk": {
+   "feet": [
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.043910156821462376,
+   "pass": false
+  },
+  "141_27_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 2.07,
+     "cadence_hz": 0.48309178743961356,
+     "swing_s_med": 0.84,
+     "duty": 0.6512820512820513,
+     "lift_m": 0.06417346894446728,
+     "step_len_m": 0.3125335250508834
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.81,
+     "cadence_hz": 0.5524861878453039,
+     "swing_s_med": 0.49,
+     "duty": 0.8641025641025641,
+     "lift_m": 0.049505399683324146,
+     "step_len_m": 0.3382147906497691
+    }
+   ],
+   "speed_mps": 0.29283134954139134,
+   "pass": false
+  },
+  "141_33_walk": {
+   "feet": [
+    {
+     "touchdowns": 9,
+     "stride_s": 1.08,
+     "cadence_hz": 0.9259259259259258,
+     "swing_s_med": 0.18,
+     "duty": 0.7153846153846154,
+     "lift_m": 0.08350542855027185,
+     "step_len_m": 0.23661507990951475
+    },
+    {
+     "touchdowns": 5,
+     "stride_s": 1.22,
+     "cadence_hz": 0.819672131147541,
+     "swing_s_med": 0.33999999999999997,
+     "duty": 0.7435897435897436,
+     "lift_m": 0.07750078500721147,
+     "step_len_m": 0.25547233876308384
+    }
+   ],
+   "speed_mps": 0.3816284879021054,
+   "pass": false
+  },
+  "143_14_walk": {
+   "feet": [
+    {
+     "touchdowns": 6,
+     "stride_s": 1.22,
+     "cadence_hz": 0.819672131147541,
+     "swing_s_med": 0.4,
+     "duty": 0.5615384615384615,
+     "lift_m": 0.13944195404725837,
+     "step_len_m": 0.31604556562477665
+    },
+    {
+     "touchdowns": 5,
+     "stride_s": 1.42,
+     "cadence_hz": 0.7042253521126761,
+     "swing_s_med": 0.28,
+     "duty": 0.8076923076923077,
+     "lift_m": 0.11875613997843329,
+     "step_len_m": 0.33514993145092176
+    }
+   ],
+   "speed_mps": 0.4686563094190579,
+   "pass": false
+  },
+  "144_34_walk": {
+   "feet": [
+    {
+     "touchdowns": 5,
+     "stride_s": 1.36,
+     "cadence_hz": 0.7352941176470588,
+     "swing_s_med": 0.39,
+     "duty": 0.6846153846153846,
+     "lift_m": 0.0720998258344959,
+     "step_len_m": 0.3640988445756428
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 1.26,
+     "cadence_hz": 0.7936507936507936,
+     "swing_s_med": 0.2,
+     "duty": 0.8307692307692308,
+     "lift_m": 0.032687739837737116,
+     "step_len_m": 0.33364894343488116
+    }
+   ],
+   "speed_mps": 0.5566212571131015,
+   "pass": false
+  },
+  "16_34_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 0.56,
+     "cadence_hz": 1.7857142857142856,
+     "swing_s_med": 0.22,
+     "duty": 0.6814814814814815,
+     "lift_m": 0.053207395344584504,
+     "step_len_m": 0.2128407610255566
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 1.18,
+     "cadence_hz": 0.8474576271186441,
+     "swing_s_med": 0.18,
+     "duty": 0.9185185185185185,
+     "lift_m": 0.0372848086353672,
+     "step_len_m": 0.3592875970228752
+    }
+   ],
+   "speed_mps": 0.5920800209856546,
+   "pass": false
+  },
+  "37_01_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.29,
+     "cadence_hz": 0.7751937984496123,
+     "swing_s_med": 0.15000000000000002,
+     "duty": 0.7931034482758621,
+     "lift_m": 0.04273446566195326,
+     "step_len_m": 0.48209963948948953
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.43,
+     "cadence_hz": 0.6993006993006994,
+     "swing_s_med": 0.13,
+     "duty": 0.8916256157635468,
+     "lift_m": 0.06098888218517674,
+     "step_len_m": 0.5068728777633811
+    }
+   ],
+   "speed_mps": 0.7391187854013884,
+   "pass": false
+  },
+  "39_01_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 0.66,
+     "cadence_hz": 1.5151515151515151,
+     "swing_s_med": 0.22,
+     "duty": 0.5675675675675675,
+     "lift_m": 0.05789713075229874,
+     "step_len_m": 0.3893246336763335
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 0.8,
+     "cadence_hz": 1.25,
+     "swing_s_med": 0.14,
+     "duty": 0.8040540540540541,
+     "lift_m": 0.05396753982550875,
+     "step_len_m": 0.4761683187904807
+    }
+   ],
+   "speed_mps": 1.183827915559418,
+   "pass": false
+  },
+  "39_04_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.06,
+     "cadence_hz": 0.9433962264150942,
+     "swing_s_med": 0.22,
+     "duty": 0.5838509316770186,
+     "lift_m": 0.060840675098469216,
+     "step_len_m": 0.5719822154872497
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 0.93,
+     "cadence_hz": 1.075268817204301,
+     "swing_s_med": 0.14,
+     "duty": 0.782608695652174,
+     "lift_m": 0.053071834720394444,
+     "step_len_m": 0.5086079628254287
+    }
+   ],
+   "speed_mps": 1.1292876911820282,
+   "pass": false
+  },
+  "39_07_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 0.67,
+     "cadence_hz": 1.4925373134328357,
+     "swing_s_med": 0.22,
+     "duty": 0.5314685314685315,
+     "lift_m": 0.05436505505207834,
+     "step_len_m": 0.39726035534875676
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 0.49,
+     "cadence_hz": 2.0408163265306123,
+     "swing_s_med": 0.14,
+     "duty": 0.8041958041958042,
+     "lift_m": 0.04764209350968743,
+     "step_len_m": 0.2831521317458815
+    }
+   ],
+   "speed_mps": 1.245724164040106,
+   "pass": false
+  },
+  "77_03_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.5,
+     "duty": 0.9358974358974359,
+     "lift_m": 0.037708914982978424,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.9,
+     "duty": 0.8846153846153846,
+     "lift_m": 0.06365357795108768,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.10944336490532236,
+   "pass": false
+  },
+  "83_16_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.84,
+     "duty": 0.7931034482758621,
+     "lift_m": 0.1541996372515973,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.68,
+     "duty": 0.8325123152709359,
+     "lift_m": 0.24340417687720753,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.15574899545375542,
+   "pass": false
+  },
+  "83_19_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.86,
+     "duty": 0.7871287128712872,
+     "lift_m": 0.1864471812037003,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.62,
+     "duty": 0.8465346534653465,
+     "lift_m": 0.1275342998267722,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.13264286227303287,
+   "pass": false
+  },
+  "89_01_walk": {
+   "feet": [
+    {
+     "touchdowns": 8,
+     "stride_s": 0.9,
+     "cadence_hz": 1.1111111111111112,
+     "swing_s_med": 0.52,
+     "duty": 0.5538461538461539,
+     "lift_m": 0.08945017362020272,
+     "step_len_m": 0.06359165676180467
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 1.12,
+     "cadence_hz": 0.8928571428571428,
+     "swing_s_med": 0.16,
+     "duty": 0.8923076923076924,
+     "lift_m": 0.0884465287057887,
+     "step_len_m": 0.10716654417497905
+    }
+   ],
+   "speed_mps": 0.3277701737055718,
+   "pass": false
+  },
+  "93_08_walk": {
+   "feet": [
+    {
+     "touchdowns": 7,
+     "stride_s": 0.9500000000000001,
+     "cadence_hz": 1.0526315789473684,
+     "swing_s_med": 0.3,
+     "duty": 0.7205128205128205,
+     "lift_m": 0.07731771331260967,
+     "step_len_m": 0.06897952092006095
+    },
+    {
+     "touchdowns": 6,
+     "stride_s": 0.84,
+     "cadence_hz": 1.1904761904761905,
+     "swing_s_med": 0.2,
+     "duty": 0.8743589743589744,
+     "lift_m": 0.08490281441144998,
+     "step_len_m": 0.12498005015522246
+    }
+   ],
+   "speed_mps": 0.36074152566010903,
+   "pass": false
+  },
+  "06_04_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 0.48,
+     "cadence_hz": 2.0833333333333335,
+     "swing_s_med": 0.22,
+     "duty": 0.5290322580645161,
+     "lift_m": 0.0595429555266059,
+     "step_len_m": 0.2642623214403798
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 1.0057347142557398,
+   "pass": false
+  },
+  "06_07_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 0.9,
+     "cadence_hz": 1.1111111111111112,
+     "swing_s_med": 0.44,
+     "duty": 0.6956521739130435,
+     "lift_m": 0.09947831609258348,
+     "step_len_m": 0.41908103472924174
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.6,
+     "cadence_hz": 0.625,
+     "swing_s_med": 0.34,
+     "duty": 0.6521739130434783,
+     "lift_m": 0.07568272088712519,
+     "step_len_m": 0.7005309904416183
+    }
+   ],
+   "speed_mps": 0.868394173172044,
+   "pass": false
+  },
+  "07_01_walk": {
+   "feet": [
+    {
+     "touchdowns": 5,
+     "stride_s": 0.54,
+     "cadence_hz": 1.8518518518518516,
+     "swing_s_med": 0.54,
+     "duty": 0.4262295081967213,
+     "lift_m": 0.07664702709838231,
+     "step_len_m": 0.2781627824384927
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 1.08,
+     "cadence_hz": 0.9259259259259258,
+     "swing_s_med": 0.12,
+     "duty": 0.9344262295081968,
+     "lift_m": 0.02675248040676511,
+     "step_len_m": 0.5553837466928517
+    }
+   ],
+   "speed_mps": 1.0794097326342382,
+   "pass": false
+  },
+  "07_04_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.4000000000000001,
+     "cadence_hz": 0.7142857142857142,
+     "swing_s_med": 0.72,
+     "duty": 0.5423728813559322,
+     "lift_m": 0.06776361567470107,
+     "step_len_m": 0.49018997198403075
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 1.46,
+     "cadence_hz": 0.684931506849315,
+     "swing_s_med": 0.12,
+     "duty": 0.8926553672316384,
+     "lift_m": 0.02906059318935101,
+     "step_len_m": 0.4996261017440268
+    }
+   ],
+   "speed_mps": 0.7306971752488873,
+   "pass": false
+  },
+  "105_10_walk": {
+   "feet": [
+    {
+     "touchdowns": 7,
+     "stride_s": 0.88,
+     "cadence_hz": 1.1363636363636365,
+     "swing_s_med": 0.34,
+     "duty": 0.717948717948718,
+     "lift_m": 0.06161574793329996,
+     "step_len_m": 0.1638927743484444
+    },
+    {
+     "touchdowns": 7,
+     "stride_s": 1.31,
+     "cadence_hz": 0.7633587786259541,
+     "swing_s_med": 0.2,
+     "duty": 0.7410256410256411,
+     "lift_m": 0.046501181531979435,
+     "step_len_m": 0.2433189030002463
+    }
+   ],
+   "speed_mps": 0.4114522286756499,
+   "pass": false
+  },
+  "105_13_walk": {
+   "feet": [
+    {
+     "touchdowns": 5,
+     "stride_s": 0.8200000000000001,
+     "cadence_hz": 1.2195121951219512,
+     "swing_s_med": 0.54,
+     "duty": 0.5076923076923077,
+     "lift_m": 0.07912294375523207,
+     "step_len_m": 0.17197224470366784
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 1.58,
+     "cadence_hz": 0.6329113924050632,
+     "swing_s_med": 0.22,
+     "duty": 0.823076923076923,
+     "lift_m": 0.052402151209192234,
+     "step_len_m": 0.21994346419596747
+    }
+   ],
+   "speed_mps": 0.3836845427789536,
+   "pass": false
+  },
+  "105_28_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 1.8,
+     "cadence_hz": 0.5555555555555556,
+     "swing_s_med": 0.72,
+     "duty": 0.5820512820512821,
+     "lift_m": 0.1234576101294053,
+     "step_len_m": 0.3535443259610572
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 1.78,
+     "cadence_hz": 0.5617977528089888,
+     "swing_s_med": 0.7000000000000001,
+     "duty": 0.6564102564102564,
+     "lift_m": 0.10610465806632911,
+     "step_len_m": 0.35094692316248827
+    }
+   ],
+   "speed_mps": 0.43540403230033586,
+   "pass": true
+  },
+  "105_35_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 1.22,
+     "cadence_hz": 0.819672131147541,
+     "swing_s_med": 0.34,
+     "duty": 0.6128205128205129,
+     "lift_m": 0.07996961332351085,
+     "step_len_m": 0.3407219785235155
+    },
+    {
+     "touchdowns": 5,
+     "stride_s": 1.21,
+     "cadence_hz": 0.8264462809917356,
+     "swing_s_med": 0.24,
+     "duty": 0.8128205128205128,
+     "lift_m": 0.05537093862911974,
+     "step_len_m": 0.32861599756672144
+    }
+   ],
+   "speed_mps": 0.47002855857162296,
+   "pass": false
+  },
+  "105_38_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 1.0,
+     "cadence_hz": 1.0,
+     "swing_s_med": 0.35,
+     "duty": 0.8066298342541437,
+     "lift_m": 0.031096952163841923,
+     "step_len_m": 0.06383371432907115
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.12302245538742865,
+   "pass": false
+  },
+  "107_12_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.69,
+     "duty": 0.6584158415841584,
+     "lift_m": 0.049210355965624654,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 1.7,
+     "cadence_hz": 0.5882352941176471,
+     "swing_s_med": 0.32,
+     "duty": 0.8415841584158416,
+     "lift_m": 0.05831142701019472,
+     "step_len_m": 0.37855937228247544
+    }
+   ],
+   "speed_mps": 0.3190365990228827,
+   "pass": false
+  },
+  "108_01_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 1.28,
+     "cadence_hz": 0.78125,
+     "swing_s_med": 0.28,
+     "duty": 0.7731958762886598,
+     "lift_m": 0.061571786176749195,
+     "step_len_m": 0.45670103367875403
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 1.3,
+     "cadence_hz": 0.7692307692307692,
+     "swing_s_med": 0.2,
+     "duty": 0.9312714776632303,
+     "lift_m": 0.04157667378158623,
+     "step_len_m": 0.36972811222439006
+    }
+   ],
+   "speed_mps": 0.4844080385476168,
+   "pass": false
+  },
+  "111_04_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": 0.9795221843003413,
+     "lift_m": 0.025746743649406566,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 2.56,
+     "cadence_hz": 0.390625,
+     "swing_s_med": 0.22999999999999998,
+     "duty": 0.9112627986348123,
+     "lift_m": 0.0413007760487673,
+     "step_len_m": 0.031329683594853316
+    }
+   ],
+   "speed_mps": 0.1793844598199465,
+   "pass": false
+  },
+  "113_11_walk": {
+   "feet": [
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.04898945410971908,
+   "pass": false
+  },
+  "118_07_walk": {
+   "feet": [
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.0982277140270156,
+   "pass": false
+  },
+  "118_13_walk": {
+   "feet": [
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.09362066339225109,
+   "pass": false
+  },
+  "118_16_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": 0.9849624060150376,
+     "lift_m": 0.02089112198816781,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.16204651859315972,
+   "pass": false
+  },
+  "118_19_walk": {
+   "feet": [
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.16001767302314163,
+   "pass": false
+  },
+  "118_25_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": 0.9829059829059829,
+     "lift_m": 0.042303855306152674,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.11266777338018931,
+   "pass": false
+  },
+  "120_19_walk": {
+   "feet": [
+    {
+     "touchdowns": 6,
+     "stride_s": 1.32,
+     "cadence_hz": 0.7575757575757576,
+     "swing_s_med": 0.28,
+     "duty": 0.7025641025641025,
+     "lift_m": 0.035204411699606315,
+     "step_len_m": 0.29927199686210815
+    },
+    {
+     "touchdowns": 5,
+     "stride_s": 1.48,
+     "cadence_hz": 0.6756756756756757,
+     "swing_s_med": 0.1,
+     "duty": 0.9307692307692308,
+     "lift_m": 0.04158642731208144,
+     "step_len_m": 0.2900139037542038
+    }
+   ],
+   "speed_mps": 0.43605100235392336,
+   "pass": false
+  },
+  "122_09_walk": {
+   "feet": [
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.38,
+     "duty": 0.8932584269662921,
+     "lift_m": 0.06638464567769359,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.0967093648386482,
+   "pass": false
+  },
+  "122_12_walk": {
+   "feet": [
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.78,
+     "duty": 0.806930693069307,
+     "lift_m": 0.17794788440519627,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.22770000493716708,
+   "pass": false
+  },
+  "122_15_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.4,
+     "duty": 0.9038461538461539,
+     "lift_m": 0.0812995607422966,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.74,
+     "duty": 0.8221153846153846,
+     "lift_m": 0.1438150127166497,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.16239261942759964,
+   "pass": false
+  },
+  "122_18_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.38,
+     "duty": 0.8967391304347826,
+     "lift_m": 0.03272280806614691,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.66,
+     "duty": 0.8206521739130435,
+     "lift_m": 0.037952074116057916,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.08380504255978456,
+   "pass": false
+  },
+  "122_21_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.84,
+     "duty": 0.7961165048543689,
+     "lift_m": 0.21081359230749858,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.44,
+     "duty": 0.8932038834951457,
+     "lift_m": 0.182602296072586,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.1953444230198757,
+   "pass": false
+  },
+  "122_24_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.98,
+     "duty": 0.7688679245283019,
+     "lift_m": 0.22003369456120844,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.38,
+     "duty": 0.910377358490566,
+     "lift_m": 0.13247981644613588,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.1293006316993036,
+   "pass": false
+  },
+  "122_27_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 1.56,
+     "cadence_hz": 0.641025641025641,
+     "swing_s_med": 0.78,
+     "duty": 0.7871794871794872,
+     "lift_m": 0.11665367581188886,
+     "step_len_m": 0.3503506418681287
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 1.48,
+     "cadence_hz": 0.6756756756756757,
+     "swing_s_med": 0.28,
+     "duty": 0.8205128205128205,
+     "lift_m": 0.13262049408732568,
+     "step_len_m": 0.3052458159422341
+    }
+   ],
+   "speed_mps": 0.3724673627404768,
+   "pass": false
+  },
+  "122_30_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 2.2600000000000002,
+     "cadence_hz": 0.44247787610619466,
+     "swing_s_med": 0.69,
+     "duty": 0.8051282051282052,
+     "lift_m": 0.11053944179180786,
+     "step_len_m": 0.5466966157879657
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 1.24,
+     "cadence_hz": 0.8064516129032259,
+     "swing_s_med": 0.25,
+     "duty": 0.823076923076923,
+     "lift_m": 0.1317992693034089,
+     "step_len_m": 0.36250762738601805
+    }
+   ],
+   "speed_mps": 0.49189240527088585,
+   "pass": false
+  },
+  "122_33_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.5700000000000001,
+     "duty": 0.841025641025641,
+     "lift_m": 0.07624073118715041,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 4.42,
+     "cadence_hz": 0.22624434389140272,
+     "swing_s_med": 0.32,
+     "duty": 0.9179487179487179,
+     "lift_m": 0.05788416990287813,
+     "step_len_m": 0.04391689880910601
+    }
+   ],
+   "speed_mps": 0.10328782099426881,
+   "pass": false
+  },
+  "122_42_walk": {
+   "feet": [
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.12337412084414251,
+   "pass": false
+  },
+  "122_45_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.12,
+     "duty": 0.9693877551020408,
+     "lift_m": 0.024695673408649824,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.12434667876247708,
+   "pass": false
+  },
+  "122_48_walk": {
+   "feet": [
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.07671345826989351,
+   "pass": false
+  },
+  "123_01_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 1.6,
+     "cadence_hz": 0.625,
+     "swing_s_med": 0.16999999999999998,
+     "duty": 0.9409722222222222,
+     "lift_m": 0.03281218916026803,
+     "step_len_m": 0.4297343935460242
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.03,
+     "cadence_hz": 0.970873786407767,
+     "swing_s_med": 0.22999999999999998,
+     "duty": 0.8263888888888888,
+     "lift_m": 0.0377108697491597,
+     "step_len_m": 0.2991051488905243
+    }
+   ],
+   "speed_mps": 0.464755982550302,
+   "pass": false
+  },
+  "123_07_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": 0.9897435897435898,
+     "lift_m": 0.03961843779475289,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.09215680192907189,
+   "pass": false
+  },
+  "123_13_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 1.78,
+     "cadence_hz": 0.5617977528089888,
+     "swing_s_med": 0.12,
+     "duty": 0.9037037037037037,
+     "lift_m": 0.0355168022270132,
+     "step_len_m": 0.47013958275471823
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 1.72,
+     "cadence_hz": 0.5813953488372093,
+     "swing_s_med": 0.32,
+     "duty": 0.7814814814814814,
+     "lift_m": 0.044923250617323746,
+     "step_len_m": 0.4605388329654318
+    }
+   ],
+   "speed_mps": 0.40849811619653015,
+   "pass": false
+  },
+  "124_12_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 4.08,
+     "cadence_hz": 0.24509803921568626,
+     "swing_s_med": 0.25,
+     "duty": 0.9358974358974359,
+     "lift_m": 0.06208261867850126,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 1.82,
+     "cadence_hz": 0.5494505494505494,
+     "swing_s_med": 0.56,
+     "duty": 0.8564102564102564,
+     "lift_m": 0.0585441639086628,
+     "step_len_m": 0.058389176605545885
+    }
+   ],
+   "speed_mps": 0.16135921907045558,
+   "pass": false
+  },
+  "12_02_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 1.3,
+     "cadence_hz": 0.7692307692307692,
+     "swing_s_med": 0.4,
+     "duty": 0.6703703703703704,
+     "lift_m": 0.05330554165106806,
+     "step_len_m": 0.4229930946147367
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 1.26,
+     "cadence_hz": 0.7936507936507936,
+     "swing_s_med": 0.2,
+     "duty": 0.762962962962963,
+     "lift_m": 0.04389708184558389,
+     "step_len_m": 0.40351410891174105
+    }
+   ],
+   "speed_mps": 0.6743718845731498,
+   "pass": false
+  },
+  "132_02_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.6300000000000001,
+     "cadence_hz": 0.6134969325153374,
+     "swing_s_med": 1.05,
+     "duty": 0.7230769230769231,
+     "lift_m": 0.13600758325905898,
+     "step_len_m": 0.3123798217081822
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.82,
+     "cadence_hz": 0.5494505494505494,
+     "swing_s_med": 0.5,
+     "duty": 0.7512820512820513,
+     "lift_m": 0.09167527171404649,
+     "step_len_m": 0.4230881128880344
+    }
+   ],
+   "speed_mps": 0.38291881780496334,
+   "pass": false
+  },
+  "132_05_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 2.1,
+     "cadence_hz": 0.47619047619047616,
+     "swing_s_med": 1.26,
+     "duty": 0.5897435897435898,
+     "lift_m": 0.15889507328503752,
+     "step_len_m": 0.39024031869580655
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 2.14,
+     "cadence_hz": 0.4672897196261682,
+     "swing_s_med": 0.65,
+     "duty": 0.6256410256410256,
+     "lift_m": 0.18625153918555126,
+     "step_len_m": 0.3804288762819993
+    }
+   ],
+   "speed_mps": 0.3770543272951334,
+   "pass": false
+  },
+  "132_08_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 2.22,
+     "cadence_hz": 0.4504504504504504,
+     "swing_s_med": 0.48,
+     "duty": 0.6512820512820513,
+     "lift_m": 0.11621460793454144,
+     "step_len_m": 0.3824499059617119
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 1.86,
+     "cadence_hz": 0.5376344086021505,
+     "swing_s_med": 1.1,
+     "duty": 0.4794871794871795,
+     "lift_m": 0.16087708246480245,
+     "step_len_m": 0.29231269346936356
+    }
+   ],
+   "speed_mps": 0.37803420580544034,
+   "pass": false
+  },
+  "132_11_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.96,
+     "cadence_hz": 0.5102040816326531,
+     "swing_s_med": 0.78,
+     "duty": 0.5820512820512821,
+     "lift_m": 0.10021121557244758,
+     "step_len_m": 0.31672663503366727
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 2.06,
+     "cadence_hz": 0.4854368932038835,
+     "swing_s_med": 0.8300000000000001,
+     "duty": 0.5615384615384615,
+     "lift_m": 0.11723774381537148,
+     "step_len_m": 0.29364835106017506
+    }
+   ],
+   "speed_mps": 0.34495915600203647,
+   "pass": false
+  },
+  "132_17_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 0.76,
+     "cadence_hz": 1.3157894736842106,
+     "swing_s_med": 0.22,
+     "duty": 0.6862745098039216,
+     "lift_m": 0.07188749235141315,
+     "step_len_m": 0.49131038709631236
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.12,
+     "duty": 0.9215686274509803,
+     "lift_m": 0.036581060878582046,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.779889120085268,
+   "pass": false
+  },
+  "132_24_walk": {
+   "feet": [
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 0.18,
+     "duty": 0.959731543624161,
+     "lift_m": 0.06983562706262537,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.3,
+     "cadence_hz": 0.7692307692307692,
+     "swing_s_med": 1.46,
+     "duty": 0.1644295302013423,
+     "lift_m": 0.18689346276019214,
+     "step_len_m": 0.488117647348418
+    }
+   ],
+   "speed_mps": 0.5294962669084106,
+   "pass": false
+  },
+  "132_28_walk": {
+   "feet": [
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 1,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": 5.12,
+     "duty": 0.11418685121107267,
+     "lift_m": 0.208678001006858,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.6414523663018481,
+   "pass": false
+  },
+  "132_31_walk": {
+   "feet": [
+    {
+     "touchdowns": 5,
+     "stride_s": 0.93,
+     "cadence_hz": 1.075268817204301,
+     "swing_s_med": 0.26,
+     "duty": 0.7093425605536332,
+     "lift_m": 0.07415358071998876,
+     "step_len_m": 0.339876511493907
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.26,
+     "cadence_hz": 0.7936507936507936,
+     "swing_s_med": 0.34,
+     "duty": 0.8235294117647058,
+     "lift_m": 0.0753639437972645,
+     "step_len_m": 0.505692160132553
+    }
+   ],
+   "speed_mps": 0.7181890953239332,
+   "pass": false
+  },
+  "132_34_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 0.9400000000000001,
+     "cadence_hz": 1.0638297872340425,
+     "swing_s_med": 0.36,
+     "duty": 0.7024390243902439,
+     "lift_m": 0.0932465824421047,
+     "step_len_m": 0.4765028084088889
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.12,
+     "cadence_hz": 0.8928571428571428,
+     "swing_s_med": 0.3,
+     "duty": 0.7804878048780488,
+     "lift_m": 0.05199069138688028,
+     "step_len_m": 0.43910141137457875
+    }
+   ],
+   "speed_mps": 0.8990479924962869,
+   "pass": true
+  },
+  "132_40_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 0.9,
+     "cadence_hz": 1.1111111111111112,
+     "swing_s_med": 0.3,
+     "duty": 0.6676384839650146,
+     "lift_m": 0.07413807389448406,
+     "step_len_m": 0.300150235612248
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 1.3,
+     "cadence_hz": 0.7692307692307692,
+     "swing_s_med": 0.19,
+     "duty": 0.8600583090379009,
+     "lift_m": 0.06449822219211931,
+     "step_len_m": 0.40607772101161277
+    }
+   ],
+   "speed_mps": 0.5979118460223765,
+   "pass": false
+  },
+  "132_46_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 2.31,
+     "cadence_hz": 0.4329004329004329,
+     "swing_s_med": 0.86,
+     "duty": 0.6076923076923076,
+     "lift_m": 0.09968567542017093,
+     "step_len_m": 0.41639449155166874
+    },
+    {
+     "touchdowns": 5,
+     "stride_s": 1.86,
+     "cadence_hz": 0.5376344086021505,
+     "swing_s_med": 0.34,
+     "duty": 0.8051282051282052,
+     "lift_m": 0.0511258127910182,
+     "step_len_m": 0.34049549042542354
+    }
+   ],
+   "speed_mps": 0.3405714283901444,
+   "pass": false
+  },
+  "132_50_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 3.5300000000000002,
+     "cadence_hz": 0.28328611898017,
+     "swing_s_med": 0.24,
+     "duty": 0.6897435897435897,
+     "lift_m": 0.06823754065121307,
+     "step_len_m": 0.35944219847534975
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 3.94,
+     "cadence_hz": 0.25380710659898476,
+     "swing_s_med": 0.48,
+     "duty": 0.8769230769230769,
+     "lift_m": 0.07562444785438788,
+     "step_len_m": 0.38144518007813594
+    }
+   ],
+   "speed_mps": 0.20949762221837961,
+   "pass": false
+  },
+  "136_25_walk": {
+   "feet": [
+    {
+     "touchdowns": 5,
+     "stride_s": 1.62,
+     "cadence_hz": 0.6172839506172839,
+     "swing_s_med": 0.31,
+     "duty": 0.6256410256410256,
+     "lift_m": 0.04776707055863635,
+     "step_len_m": 0.31706944020886724
+    },
+    {
+     "touchdowns": 5,
+     "stride_s": 1.73,
+     "cadence_hz": 0.5780346820809249,
+     "swing_s_med": 0.48,
+     "duty": 0.6871794871794872,
+     "lift_m": 0.06179762791247889,
+     "step_len_m": 0.33542447876628556
+    }
+   ],
+   "speed_mps": 0.3900623282031609,
+   "pass": false
+  },
+  "136_29_walk": {
+   "feet": [
+    {
+     "touchdowns": 6,
+     "stride_s": 1.28,
+     "cadence_hz": 0.78125,
+     "swing_s_med": 0.28,
+     "duty": 0.7692307692307693,
+     "lift_m": 0.03993179301473555,
+     "step_len_m": 0.34509809678136055
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 1.34,
+     "cadence_hz": 0.7462686567164178,
+     "swing_s_med": 0.15000000000000002,
+     "duty": 0.8025641025641026,
+     "lift_m": 0.04964587865855633,
+     "step_len_m": 0.34746048626719467
+    }
+   ],
+   "speed_mps": 0.548294035851161,
+   "pass": false
+  },
+  "136_32_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.8,
+     "cadence_hz": 0.5555555555555556,
+     "swing_s_med": 0.12,
+     "duty": 0.941025641025641,
+     "lift_m": 0.03909464199640685,
+     "step_len_m": 0.5021535142287632
+    },
+    {
+     "touchdowns": 2,
+     "stride_s": 3.66,
+     "cadence_hz": 0.27322404371584696,
+     "swing_s_med": 0.14,
+     "duty": 0.9641025641025641,
+     "lift_m": 0.027894700766318038,
+     "step_len_m": 0.9994128225028996
+    }
+   ],
+   "speed_mps": 0.3266058028746676,
+   "pass": false
+  },
+  "138_17_walk": {
+   "feet": [
+    {
+     "touchdowns": 5,
+     "stride_s": 0.63,
+     "cadence_hz": 1.5873015873015872,
+     "swing_s_med": 0.36,
+     "duty": 0.3815028901734104,
+     "lift_m": 0.11901774537376635,
+     "step_len_m": 0.2641358468665691
+    },
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    }
+   ],
+   "speed_mps": 0.849753300421817,
+   "pass": false
+  },
+  "13_35_walk": {
+   "feet": [
+    {
+     "touchdowns": 5,
+     "stride_s": 1.58,
+     "cadence_hz": 0.6329113924050632,
+     "swing_s_med": 0.78,
+     "duty": 0.5666666666666667,
+     "lift_m": 0.17096788006688934,
+     "step_len_m": 0.10961022480253557
+    },
+    {
+     "touchdowns": 5,
+     "stride_s": 1.3900000000000001,
+     "cadence_hz": 0.7194244604316546,
+     "swing_s_med": 0.44,
+     "duty": 0.7435897435897436,
+     "lift_m": 0.17510849998597872,
+     "step_len_m": 0.1198947544128515
+    }
+   ],
+   "speed_mps": 0.20004953300997305,
+   "pass": false
+  },
+  "142_13_walk": {
+   "feet": [
+    {
+     "touchdowns": 4,
+     "stride_s": 1.54,
+     "cadence_hz": 0.6493506493506493,
+     "swing_s_med": 0.37,
+     "duty": 0.6358974358974359,
+     "lift_m": 0.06087100460075214,
+     "step_len_m": 0.415293596470432
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 1.54,
+     "cadence_hz": 0.6493506493506493,
+     "swing_s_med": 0.14,
+     "duty": 0.9307692307692308,
+     "lift_m": 0.07390568004582315,
+     "step_len_m": 0.42059203602475376
+    }
+   ],
+   "speed_mps": 0.48390190645604436,
+   "pass": false
+  },
+  "17_05_walk": {
+   "feet": [
+    {
+     "touchdowns": 5,
+     "stride_s": 1.54,
+     "cadence_hz": 0.6493506493506493,
+     "swing_s_med": 0.32,
+     "duty": 0.6641025641025641,
+     "lift_m": 0.08848845018780688,
+     "step_len_m": 0.2862603185613628
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.69,
+     "cadence_hz": 0.591715976331361,
+     "swing_s_med": 0.44,
+     "duty": 0.8641025641025641,
+     "lift_m": 0.05471089537695212,
+     "step_len_m": 0.28181153242621726
+    }
+   ],
+   "speed_mps": 0.39713891459921336,
+   "pass": false
+  },
+  "35_01_walk": {
+   "feet": [
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.12,
+     "cadence_hz": 0.8928571428571428,
+     "swing_s_med": 0.28,
+     "duty": 0.5179856115107914,
+     "lift_m": 0.05945076014840319,
+     "step_len_m": 0.521360196027941
+    }
+   ],
+   "speed_mps": 0.9621092569907645,
+   "pass": false
+  },
+  "35_10_walk": {
+   "feet": [
+    {
+     "touchdowns": 0,
+     "stride_s": NaN,
+     "cadence_hz": NaN,
+     "swing_s_med": NaN,
+     "duty": NaN,
+     "lift_m": NaN,
+     "step_len_m": NaN
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 0.78,
+     "cadence_hz": 1.282051282051282,
+     "swing_s_med": 0.24,
+     "duty": 0.5411764705882353,
+     "lift_m": 0.054777324692702536,
+     "step_len_m": 0.31713020803209613
+    }
+   ],
+   "speed_mps": 0.9195849605770532,
+   "pass": false
+  },
+  "35_30_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 1.18,
+     "cadence_hz": 0.8474576271186441,
+     "swing_s_med": 0.12000000000000001,
+     "duty": 0.9259259259259259,
+     "lift_m": 0.02362845174620161,
+     "step_len_m": 0.4980868923496102
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 1.2,
+     "cadence_hz": 0.8333333333333334,
+     "swing_s_med": 0.28,
+     "duty": 0.5493827160493827,
+     "lift_m": 0.04503853835651484,
+     "step_len_m": 0.5114471379942499
+    }
+   ],
+   "speed_mps": 0.8483417181629603,
+   "pass": false
+  },
+  "38_01_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 1.2,
+     "cadence_hz": 0.8333333333333334,
+     "swing_s_med": 0.68,
+     "duty": 0.4744525547445255,
+     "lift_m": 0.10159384353081669,
+     "step_len_m": 0.5786968395191576
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.1400000000000001,
+     "cadence_hz": 0.8771929824561403,
+     "swing_s_med": 0.14,
+     "duty": 0.8394160583941606,
+     "lift_m": 0.06049197406244607,
+     "step_len_m": 0.5119832180865209
+    }
+   ],
+   "speed_mps": 0.9027683354909242,
+   "pass": false
+  },
+  "39_02_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 1.02,
+     "cadence_hz": 0.9803921568627451,
+     "swing_s_med": 0.24,
+     "duty": 0.554140127388535,
+     "lift_m": 0.05982907670880212,
+     "step_len_m": 0.575010420657189
+    },
+    {
+     "touchdowns": 4,
+     "stride_s": 0.8,
+     "cadence_hz": 1.25,
+     "swing_s_med": 0.13,
+     "duty": 0.7898089171974523,
+     "lift_m": 0.04983641936883979,
+     "step_len_m": 0.47755071299115504
+    }
+   ],
+   "speed_mps": 1.2069329166371348,
+   "pass": false
+  },
+  "39_05_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 1.06,
+     "cadence_hz": 0.9433962264150942,
+     "swing_s_med": 0.37,
+     "duty": 0.535031847133758,
+     "lift_m": 0.07202077613957242,
+     "step_len_m": 0.6036610607545468
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.16,
+     "cadence_hz": 0.8620689655172414,
+     "swing_s_med": 0.12,
+     "duty": 0.8152866242038217,
+     "lift_m": 0.04409700208340978,
+     "step_len_m": 0.6551345602680396
+    }
+   ],
+   "speed_mps": 1.260860269868041,
+   "pass": false
+  },
+  "39_08_walk": {
+   "feet": [
+    {
+     "touchdowns": 2,
+     "stride_s": 1.06,
+     "cadence_hz": 0.9433962264150942,
+     "swing_s_med": 0.22,
+     "duty": 0.6544117647058824,
+     "lift_m": 0.05235153745347634,
+     "step_len_m": 0.6065746531461941
+    },
+    {
+     "touchdowns": 5,
+     "stride_s": 0.51,
+     "cadence_hz": 1.9607843137254901,
+     "swing_s_med": 0.15000000000000002,
+     "duty": 0.7279411764705882,
+     "lift_m": 0.053215527369922674,
+     "step_len_m": 0.2957977897451027
+    }
+   ],
+   "speed_mps": 1.2048929074499952,
+   "pass": false
+  },
+  "39_14_walk": {
+   "feet": [
+    {
+     "touchdowns": 3,
+     "stride_s": 1.06,
+     "cadence_hz": 0.9433962264150942,
+     "swing_s_med": 0.22,
+     "duty": 0.5705128205128205,
+     "lift_m": 0.06311606763886504,
+     "step_len_m": 0.5666817030209745
+    },
+    {
+     "touchdowns": 3,
+     "stride_s": 1.01,
+     "cadence_hz": 0.9900990099009901,
+     "swing_s_med": 0.14,
+     "duty": 0.8141025641025641,
+     "lift_m": 0.0627138720373113,
+     "step_len_m": 0.544885753287601
+    }
+   ],
+   "speed_mps": 1.1377235466374955,
+   "pass": false
+  }
+ }
+}

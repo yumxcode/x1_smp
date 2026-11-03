@@ -1,0 +1,12 @@
+.meta-agent/
+third_party/
+__pycache__/
+*.pyc
+.DS_Store
+data/raw/
+data/interim/
+*.egg-info/
+.venv/
+runs/
+logs/
+wandb/
