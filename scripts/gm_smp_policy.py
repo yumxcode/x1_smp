@@ -66,7 +66,9 @@ def main() -> int:
     print('[policy] X1 EntityCfg builds OK', flush=True)
 
     os.environ.setdefault('WANDB_MODE', 'disabled')
-    cmd = [sys.executable, '-m', 'mjlab.scripts.train', TASK_ID,
+    env = dict(os.environ)
+    env['PYTHONPATH'] = str(ROOT / 'src') + (':' + env['PYTHONPATH'] if env.get('PYTHONPATH') else '')
+    cmd = [sys.executable, str(ROOT / 'scripts' / 'train_x1.py'), TASK_ID,
            f'--env.scene.num-envs={args.num_envs}',
            f'--agent.max-iterations={args.max_iterations}',
            f'--env.events.init_smp_state.params.ckpt_path={prior}',
@@ -75,7 +77,7 @@ def main() -> int:
         cmd += ['--resume', args.resume]
     print('[policy] exec:', ' '.join(cmd), flush=True)
     t0 = time.time()
-    proc = subprocess.run(cmd, cwd=str(ROOT))
+    proc = subprocess.run(cmd, cwd=str(ROOT), env=env)
     print(f'[policy] train exited {proc.returncode} after {(time.time()-t0)/60:.1f} min', flush=True)
 
     # mirror newest checkpoints to output/ (outside the git work tree)

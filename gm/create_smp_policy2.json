@@ -1,0 +1,30 @@
+{
+ "taskBaseInfo": {
+  "projectId": "PRO_20261102_002",
+  "taskType": "1",
+  "trainType": "1",
+  "taskName": "x1-smp-p3-policy-v2",
+  "taskDescription": "P3: policy training Smp-Forward-X1 (PPO + frozen SMP prior, multiplicative reward, GSI) 4096 envs, 12000 iters. Entry gm_smp_policy.py installs mjlab stack and launches mjlab train.",
+  "taskTag": [
+   "x1",
+   "smp",
+   "smoke"
+  ],
+  "goodsId": "ESKU000001",
+  "imageId": "BJX00000178",
+  "imageVersion": "V000446",
+  "personalDataPath": ""
+ },
+ "taskCodeInfo": {
+  "codeType": "2",
+  "codeUrl": "[{\"codeUrl\":\"https://github.com/yumxcode/X1_SMP.git\",\"versionType\":\"1\",\"versionName\":\"main\"}]",
+  "mainCodeUri": "X1_SMP/scripts/gm_smp_policy.py",
+  "hparamsPath": "",
+  "startScript": "gm-run X1_SMP/scripts/gm_smp_policy.py",
+  "isOpen": "1"
+ },
+ "runtimeReminderConfig": {
+  "enableRuntimeReminder": false,
+  "reminderDurations": []
+ }
+}
