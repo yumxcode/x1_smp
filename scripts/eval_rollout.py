@@ -62,9 +62,10 @@ def rollout(ckpt: str, speed: float, secs: float, tag: str, num_envs: int = 4,
             act = policy(obs)
             obs, _, _, _ = env.step(act)
             raw = env.unwrapped
-            q = raw.scene['robot'].data.root_state_w[0].detach().cpu().numpy()
-            jq = raw.scene['robot'].data.joint_pos[0].detach().cpu().numpy()
-            frames_q.append(np.concatenate([q[:7], jq]))
+            rd = raw.scene['robot'].data
+            qpos7 = torch.cat([rd.root_link_pos_w[0], rd.root_link_quat_w[0]]).detach().cpu().numpy()
+            jq = rd.joint_pos[0].detach().cpu().numpy()
+            frames_q.append(np.concatenate([qpos7, jq]))
             if video and t % 2 == 0:  # 25 fps video
                 img = raw.render() if hasattr(raw, 'render') else None
                 if img is not None:
