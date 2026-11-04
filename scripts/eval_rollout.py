@@ -88,10 +88,19 @@ def rollout(ckpt: str, speed: float, secs: float, tag: str, num_envs: int = 4,
     k = fk.fk_clip(qpos32.astype(np.float32), qvel)
     gm = gait_metrics(k['sole_h'], k['root_pos'], 50.0)
     f0, f1 = gm['feet']
+    # diagnostics: why cadence may not resolve
+    sh = k['sole_h']
+    rel = sh - sh.min(axis=1, keepdims=True)
+    print(f'[diag {tag}] sole L: min {sh[:,0].min():.4f} p50 {np.median(sh[:,0]):.4f} max {sh[:,0].max():.4f} | '
+          f'R: min {sh[:,1].min():.4f} p50 {np.median(sh[:,1]):.4f} max {sh[:,1].max():.4f} | '
+          f'rel>2cm frac L {(rel[:,0]>0.02).mean():.2f} R {(rel[:,1]>0.02).mean():.2f} | '
+          f'root_z {qpos32[:,2].min():.3f}-{qpos32[:,2].max():.3f} | '
+          f'xy travel {np.hypot(*(qpos32[-1,:2]-qpos32[0,:2])):.2f} m', flush=True)
 
     out_dir = ROOT / 'eval'
     out_dir.mkdir(exist_ok=True)
     np.savez(out_dir / f'rollout_{tag}.npz', qpos=qpos)
+    _copy_artifacts = [out_dir / f'rollout_{tag}.npz']
     result = dict(
         survival_s=T / 50.0, speed_cmd=speed, speed_measured=gm['speed_mps'],
         cadence_hz=[f0['cadence_hz'], f1['cadence_hz']],
@@ -106,9 +115,19 @@ def rollout(ckpt: str, speed: float, secs: float, tag: str, num_envs: int = 4,
             iio.mimwrite(str(out_dir / f'video_{tag}.mp4'), frames_img, fps=25,
                          quality=7, macro_block_size=None)
             result['video'] = str(out_dir / f'video_{tag}.mp4')
+            _copy_artifacts.append(out_dir / f'video_{tag}.mp4')
         except Exception as e:  # noqa: BLE001
             result['video_error'] = f'{type(e).__name__}: {e}'
     env.close()
+    try:
+        import shutil
+        odir = Path('/workspace/output')
+        odir.mkdir(parents=True, exist_ok=True)
+        for f in _copy_artifacts:
+            if f.exists():
+                shutil.copy2(f, odir / f'{tag}_{f.name}')
+    except Exception:
+        pass
     return {kk: (vv if not isinstance(vv, (list, tuple)) else [float(x) if x == x else None for x in vv])
             for kk, vv in result.items()}
 

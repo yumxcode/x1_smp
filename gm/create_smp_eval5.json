@@ -1,0 +1,30 @@
+{
+ "taskBaseInfo": {
+  "projectId": "PRO_20261102_002",
+  "taskType": "1",
+  "trainType": "1",
+  "taskName": "x1-smp-p5-eval-v5",
+  "taskDescription": "P5: gait acceptance of policy model_4100 at fixed speeds 0.5 and 1.0 m/s (20 s rollouts, rhythm metrics, videos).",
+  "taskTag": [
+   "x1",
+   "smp",
+   "smoke"
+  ],
+  "goodsId": "ESKU000001",
+  "imageId": "BJX00000178",
+  "imageVersion": "V000446",
+  "personalDataPath": ""
+ },
+ "taskCodeInfo": {
+  "codeType": "2",
+  "codeUrl": "[{\"codeUrl\":\"https://github.com/yumxcode/X1_SMP.git\",\"versionType\":\"1\",\"versionName\":\"main\"}]",
+  "mainCodeUri": "X1_SMP/scripts/gm_smp_eval.py",
+  "hparamsPath": "",
+  "startScript": "gm-run X1_SMP/scripts/gm_smp_eval.py",
+  "isOpen": "1"
+ },
+ "runtimeReminderConfig": {
+  "enableRuntimeReminder": false,
+  "reminderDurations": []
+ }
+}
