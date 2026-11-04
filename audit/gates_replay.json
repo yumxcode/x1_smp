@@ -1,0 +1,154 @@
+{
+ "rows": [
+  {
+   "clip": "105_19_w0",
+   "speed": 0.5446736256873587,
+   "v1": false,
+   "v2": false,
+   "v3": true,
+   "note": "meta_match(dspd 0.000, dcad 0.000)"
+  },
+  {
+   "clip": "105_57_w0",
+   "speed": 0.4956686615753184,
+   "v1": false,
+   "v2": false,
+   "v3": true,
+   "note": "meta_match(dspd 0.000, dcad 0.000)"
+  },
+  {
+   "clip": "108_09_w0",
+   "speed": 1.1707618919545246,
+   "v1": false,
+   "v2": true,
+   "v3": true,
+   "note": "meta_match(dspd 0.000, dcad 0.000)"
+  },
+  {
+   "clip": "132_32_w0",
+   "speed": 0.58129437596524,
+   "v1": false,
+   "v2": false,
+   "v3": true,
+   "note": "meta_match(dspd 0.000, dcad 0.000)"
+  },
+  {
+   "clip": "132_34_w0",
+   "speed": 0.7290252057711861,
+   "v1": true,
+   "v2": true,
+   "v3": true,
+   "note": "meta_match(dspd 0.000, dcad 0.000)"
+  },
+  {
+   "clip": "136_05_w0",
+   "speed": 0.6600771516443277,
+   "v1": true,
+   "v2": true,
+   "v3": true,
+   "note": "meta_match(dspd 0.000, dcad 0.000)"
+  },
+  {
+   "clip": "136_07_w0",
+   "speed": 0.49265969297608614,
+   "v1": false,
+   "v2": false,
+   "v3": true,
+   "note": "meta_match(dspd 0.000, dcad 0.000)"
+  },
+  {
+   "clip": "136_21_w0",
+   "speed": 0.6257149374786983,
+   "v1": true,
+   "v2": true,
+   "v3": true,
+   "note": "meta_match(dspd 0.000, dcad 0.000)"
+  },
+  {
+   "clip": "136_23_w0",
+   "speed": 0.5849533341658901,
+   "v1": true,
+   "v2": true,
+   "v3": true,
+   "note": "meta_match(dspd 0.000, dcad 0.000)"
+  },
+  {
+   "clip": "142_09_w0",
+   "speed": 0.6578407428756314,
+   "v1": false,
+   "v2": false,
+   "v3": true,
+   "note": "meta_match(dspd 0.000, dcad 0.000)"
+  },
+  {
+   "clip": "43_01_w0",
+   "speed": 0.8425543463740884,
+   "v1": true,
+   "v2": true,
+   "v3": true,
+   "note": "meta_match(dspd 0.000, dcad 0.000)"
+  },
+  {
+   "clip": "p2_111_23_walk",
+   "speed": 0.802278457448526,
+   "v1": true,
+   "v2": true,
+   "v3": true,
+   "note": ""
+  },
+  {
+   "clip": "p2_12_03_walk",
+   "speed": 0.6547770878674353,
+   "v1": true,
+   "v2": true,
+   "v3": true,
+   "note": ""
+  },
+  {
+   "clip": "p2_132_30_walk",
+   "speed": 0.6594793887235757,
+   "v1": false,
+   "v2": false,
+   "v3": true,
+   "note": ""
+  },
+  {
+   "clip": "p2_132_34_walk",
+   "speed": 0.8990479924962869,
+   "v1": true,
+   "v2": true,
+   "v3": true,
+   "note": ""
+  },
+  {
+   "clip": "p2_136_21_walk",
+   "speed": 0.7929866827793617,
+   "v1": true,
+   "v2": true,
+   "v3": true,
+   "note": ""
+  },
+  {
+   "clip": "p2_136_23_walk",
+   "speed": 0.7299296772121782,
+   "v1": true,
+   "v2": true,
+   "v3": true,
+   "note": ""
+  },
+  {
+   "clip": "p2_136_24_walk",
+   "speed": 0.5685153891635775,
+   "v1": true,
+   "v2": true,
+   "v3": true,
+   "note": ""
+  }
+ ],
+ "counts": {
+  "v1": 11,
+  "v2": 12,
+  "v3": 18
+ },
+ "phase2_kept_gate_status": {}
+}

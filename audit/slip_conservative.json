@@ -1,0 +1,344 @@
+{
+ "105_19_w0": {
+  "grounding": {
+   "min_sole_p50": 0.002000001004319997,
+   "frac_within_2mm": 0.4793650793650794,
+   "flight_frames_both_above_25mm": 0
+  },
+  "L": {
+   "n_strict": 141,
+   "slip_min_corner_p50": 0.5675461524852244,
+   "p90": 1.0248406317672905,
+   "slide_frac": 0.900709219858156
+  },
+  "R": {
+   "n_strict": 165,
+   "slip_min_corner_p50": 0.3470990387158097,
+   "p90": 0.9808507626889386,
+   "slide_frac": 0.7454545454545455
+  }
+ },
+ "105_57_w0": {
+  "grounding": {
+   "min_sole_p50": 0.001999998770663848,
+   "frac_within_2mm": 0.526984126984127,
+   "flight_frames_both_above_25mm": 0
+  },
+  "L": {
+   "n_strict": 130,
+   "slip_min_corner_p50": 0.21972767051284497,
+   "p90": 0.7796189305965152,
+   "slide_frac": 0.6538461538461539
+  },
+  "R": {
+   "n_strict": 176,
+   "slip_min_corner_p50": 0.20184492979599408,
+   "p90": 0.7924865370819624,
+   "slide_frac": 0.5681818181818182
+  }
+ },
+ "108_09_w0": {
+  "grounding": {
+   "min_sole_p50": 0.0019999956359009266,
+   "frac_within_2mm": 0.5894736842105263,
+   "flight_frames_both_above_25mm": 0
+  },
+  "L": {
+   "n_strict": 39,
+   "slip_min_corner_p50": 0.49822293586374083,
+   "p90": 1.2797682969472777,
+   "slide_frac": 0.9743589743589743
+  },
+  "R": {
+   "n_strict": 52,
+   "slip_min_corner_p50": 0.5392694194309762,
+   "p90": 1.4825579406640281,
+   "slide_frac": 0.9038461538461539
+  }
+ },
+ "132_32_w0": {
+  "grounding": {
+   "min_sole_p50": 0.0020000016289844803,
+   "frac_within_2mm": 0.4806201550387597,
+   "flight_frames_both_above_25mm": 0
+  },
+  "L": {
+   "n_strict": 83,
+   "slip_min_corner_p50": 0.4372919687593976,
+   "p90": 0.8398751450570067,
+   "slide_frac": 0.8795180722891566
+  },
+  "R": {
+   "n_strict": 171,
+   "slip_min_corner_p50": 0.23576318189934645,
+   "p90": 0.773161835653282,
+   "slide_frac": 0.6257309941520468
+  }
+ },
+ "132_34_w0": {
+  "grounding": {
+   "min_sole_p50": 0.0019999992090755855,
+   "frac_within_2mm": 0.5219512195121951,
+   "flight_frames_both_above_25mm": 0
+  },
+  "L": {
+   "n_strict": 74,
+   "slip_min_corner_p50": 0.6018235895502961,
+   "p90": 1.1091494598501848,
+   "slide_frac": 0.8648648648648649
+  },
+  "R": {
+   "n_strict": 126,
+   "slip_min_corner_p50": 0.19026942899917948,
+   "p90": 0.6881748183741129,
+   "slide_frac": 0.6111111111111112
+  }
+ },
+ "136_05_w0": {
+  "grounding": {
+   "min_sole_p50": 0.0020000022232435077,
+   "frac_within_2mm": 0.473015873015873,
+   "flight_frames_both_above_25mm": 0
+  },
+  "L": {
+   "n_strict": 133,
+   "slip_min_corner_p50": 0.21084951864895488,
+   "p90": 0.9342106563552007,
+   "slide_frac": 0.6390977443609023
+  },
+  "R": {
+   "n_strict": 171,
+   "slip_min_corner_p50": 0.2974632499278582,
+   "p90": 0.9645259548357099,
+   "slide_frac": 0.7309941520467836
+  }
+ },
+ "136_07_w0": {
+  "grounding": {
+   "min_sole_p50": 0.002000001380089003,
+   "frac_within_2mm": 0.4666666666666667,
+   "flight_frames_both_above_25mm": 0
+  },
+  "L": {
+   "n_strict": 131,
+   "slip_min_corner_p50": 0.19542969057337678,
+   "p90": 0.6642174739853365,
+   "slide_frac": 0.6030534351145038
+  },
+  "R": {
+   "n_strict": 174,
+   "slip_min_corner_p50": 0.2526259718094821,
+   "p90": 0.8123718875459192,
+   "slide_frac": 0.7586206896551724
+  }
+ },
+ "136_21_w0": {
+  "grounding": {
+   "min_sole_p50": 0.0020000044004007123,
+   "frac_within_2mm": 0.45,
+   "flight_frames_both_above_25mm": 0
+  },
+  "L": {
+   "n_strict": 101,
+   "slip_min_corner_p50": 0.34977384930535493,
+   "p90": 0.8425375177033351,
+   "slide_frac": 0.8712871287128713
+  },
+  "R": {
+   "n_strict": 132,
+   "slip_min_corner_p50": 0.23359473330586444,
+   "p90": 0.7594113213079086,
+   "slide_frac": 0.6515151515151515
+  }
+ },
+ "136_23_w0": {
+  "grounding": {
+   "min_sole_p50": 0.0019999978626681902,
+   "frac_within_2mm": 0.5317725752508361,
+   "flight_frames_both_above_25mm": 0
+  },
+  "L": {
+   "n_strict": 160,
+   "slip_min_corner_p50": 0.24309868024635384,
+   "p90": 0.7192915569367065,
+   "slide_frac": 0.69375
+  },
+  "R": {
+   "n_strict": 131,
+   "slip_min_corner_p50": 0.19251814774774992,
+   "p90": 0.9619202760584795,
+   "slide_frac": 0.6030534351145038
+  }
+ },
+ "142_09_w0": {
+  "grounding": {
+   "min_sole_p50": 0.001999997318374941,
+   "frac_within_2mm": 0.5555555555555556,
+   "flight_frames_both_above_25mm": 0
+  },
+  "L": {
+   "n_strict": 88,
+   "slip_min_corner_p50": 0.5583454702824341,
+   "p90": 1.5357920357631176,
+   "slide_frac": 0.9545454545454546
+  },
+  "R": {
+   "n_strict": 215,
+   "slip_min_corner_p50": 0.26448291284023634,
+   "p90": 2.0419852082951038,
+   "slide_frac": 0.6232558139534884
+  }
+ },
+ "43_01_w0": {
+  "grounding": {
+   "min_sole_p50": 0.0020000024109215475,
+   "frac_within_2mm": 0.4484848484848485,
+   "flight_frames_both_above_25mm": 0
+  },
+  "L": {
+   "n_strict": 71,
+   "slip_min_corner_p50": 0.3750795088171056,
+   "p90": 0.9715136551787613,
+   "slide_frac": 0.7605633802816901
+  },
+  "R": {
+   "n_strict": 90,
+   "slip_min_corner_p50": 0.3592356559478605,
+   "p90": 1.8142975633321696,
+   "slide_frac": 0.7444444444444445
+  }
+ },
+ "p2_111_23_walk": {
+  "grounding": {
+   "min_sole_p50": 0.0019999981097670663,
+   "frac_within_2mm": 0.5307692307692308,
+   "flight_frames_both_above_25mm": 0
+  },
+  "L": {
+   "n_strict": 163,
+   "slip_min_corner_p50": 0.6575374038384013,
+   "p90": 1.3165422025380475,
+   "slide_frac": 0.9447852760736196
+  },
+  "R": {
+   "n_strict": 217,
+   "slip_min_corner_p50": 0.6908605428001307,
+   "p90": 1.6876707691216413,
+   "slide_frac": 0.8755760368663594
+  }
+ },
+ "p2_12_03_walk": {
+  "grounding": {
+   "min_sole_p50": 0.0019999999354632925,
+   "frac_within_2mm": 0.5066666666666667,
+   "flight_frames_both_above_25mm": 0
+  },
+  "L": {
+   "n_strict": 91,
+   "slip_min_corner_p50": 0.30117755022462417,
+   "p90": 0.6665007815566384,
+   "slide_frac": 0.6593406593406593
+  },
+  "R": {
+   "n_strict": 130,
+   "slip_min_corner_p50": 0.13408109784458833,
+   "p90": 0.41605152880418644,
+   "slide_frac": 0.45384615384615384
+  }
+ },
+ "p2_132_30_walk": {
+  "grounding": {
+   "min_sole_p50": 0.0020000001210688442,
+   "frac_within_2mm": 0.49683544303797467,
+   "flight_frames_both_above_25mm": 0
+  },
+  "L": {
+   "n_strict": 133,
+   "slip_min_corner_p50": 0.29108426016458366,
+   "p90": 0.9451230983135739,
+   "slide_frac": 0.7142857142857143
+  },
+  "R": {
+   "n_strict": 189,
+   "slip_min_corner_p50": 0.1825546282332254,
+   "p90": 0.8816414051616579,
+   "slide_frac": 0.5502645502645502
+  }
+ },
+ "p2_132_34_walk": {
+  "grounding": {
+   "min_sole_p50": 0.0019999982332415817,
+   "frac_within_2mm": 0.5414634146341464,
+   "flight_frames_both_above_25mm": 0
+  },
+  "L": {
+   "n_strict": 74,
+   "slip_min_corner_p50": 0.5704108433791463,
+   "p90": 1.3465200837028741,
+   "slide_frac": 0.8783783783783784
+  },
+  "R": {
+   "n_strict": 126,
+   "slip_min_corner_p50": 0.20589299438255537,
+   "p90": 0.7493325720137978,
+   "slide_frac": 0.6111111111111112
+  }
+ },
+ "p2_136_21_walk": {
+  "grounding": {
+   "min_sole_p50": 0.0019999974066186935,
+   "frac_within_2mm": 0.5416666666666666,
+   "flight_frames_both_above_25mm": 0
+  },
+  "L": {
+   "n_strict": 101,
+   "slip_min_corner_p50": 0.40786497669998034,
+   "p90": 0.9256828663523852,
+   "slide_frac": 0.8910891089108911
+  },
+  "R": {
+   "n_strict": 132,
+   "slip_min_corner_p50": 0.32768741228284903,
+   "p90": 0.7674497398397169,
+   "slide_frac": 0.803030303030303
+  }
+ },
+ "p2_136_23_walk": {
+  "grounding": {
+   "min_sole_p50": 0.0019999986647262283,
+   "frac_within_2mm": 0.5317725752508361,
+   "flight_frames_both_above_25mm": 0
+  },
+  "L": {
+   "n_strict": 160,
+   "slip_min_corner_p50": 0.3209897325477773,
+   "p90": 0.8922944239951576,
+   "slide_frac": 0.74375
+  },
+  "R": {
+   "n_strict": 131,
+   "slip_min_corner_p50": 0.2195586247602118,
+   "p90": 0.9931333328831251,
+   "slide_frac": 0.7099236641221374
+  }
+ },
+ "p2_136_24_walk": {
+  "grounding": {
+   "min_sole_p50": 0.0019999995566115022,
+   "frac_within_2mm": 0.5076923076923077,
+   "flight_frames_both_above_25mm": 0
+  },
+  "L": {
+   "n_strict": 190,
+   "slip_min_corner_p50": 0.23335313748028874,
+   "p90": 0.5803796050996934,
+   "slide_frac": 0.6736842105263158
+  },
+  "R": {
+   "n_strict": 198,
+   "slip_min_corner_p50": 0.3518787674629529,
+   "p90": 1.0510114215103081,
+   "slide_frac": 0.7575757575757576
+  }
+ }
+}

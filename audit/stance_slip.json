@@ -1,0 +1,972 @@
+{
+ "105_19_w0": {
+  "feet": {
+   "L": {
+    "frames": 315,
+    "airborne_frac": 0.3238095238095238,
+    "strict_contact_frames": 137,
+    "dragband_frames": 44,
+    "strict_slip_mps": {
+     "p50": 0.6350143208894276,
+     "mean": 0.998488005825237,
+     "p90": 1.673356852858314,
+     "sliding_frac": 0.9534883720930233
+    },
+    "drag_speed_mps": {
+     "p50": 0.09394729129860158,
+     "p90": 0.4583804129735526
+    },
+    "stance_runs": 7,
+    "per_run_median_strict_slip": [
+     0.43,
+     0.7,
+     0.624,
+     0.563,
+     0.9
+    ]
+   },
+   "R": {
+    "frames": 315,
+    "airborne_frac": 0.346031746031746,
+    "strict_contact_frames": 164,
+    "dragband_frames": 11,
+    "strict_slip_mps": {
+     "p50": 0.48120967467253406,
+     "mean": 0.7991721779546173,
+     "p90": 1.5853972481907317,
+     "sliding_frac": 0.7834394904458599
+    },
+    "drag_speed_mps": {
+     "p50": 0.36053354307169105,
+     "p90": 7.057567617816822
+    },
+    "stance_runs": 6,
+    "per_run_median_strict_slip": [
+     0.056,
+     0.533,
+     0.648,
+     0.907,
+     0.603
+    ]
+   }
+  },
+  "no_support_frames": 64,
+  "no_support_frac": 0.20317460317460317,
+  "both_grounded_frac": 0.33015873015873015
+ },
+ "105_57_w0": {
+  "feet": {
+   "L": {
+    "frames": 315,
+    "airborne_frac": 0.2571428571428571,
+    "strict_contact_frames": 137,
+    "dragband_frames": 66,
+    "strict_slip_mps": {
+     "p50": 0.2938700239553752,
+     "mean": 0.8287610570724029,
+     "p90": 1.602688946784083,
+     "sliding_frac": 0.7384615384615385
+    },
+    "drag_speed_mps": {
+     "p50": 0.07758320873053628,
+     "p90": 0.470239136788493
+    },
+    "stance_runs": 6,
+    "per_run_median_strict_slip": [
+     0.206,
+     0.357,
+     0.42,
+     0.337,
+     0.442
+    ]
+   },
+   "R": {
+    "frames": 315,
+    "airborne_frac": 0.2698412698412698,
+    "strict_contact_frames": 176,
+    "dragband_frames": 8,
+    "strict_slip_mps": {
+     "p50": 0.30049800471652377,
+     "mean": 0.7092793944116875,
+     "p90": 1.7128755244023375,
+     "sliding_frac": 0.6726190476190477
+    },
+    "drag_speed_mps": {
+     "p50": 0.5636756570329686,
+     "p90": 0.6601283012779173
+    },
+    "stance_runs": 8,
+    "per_run_median_strict_slip": [
+     0.069,
+     0.201,
+     0.453,
+     0.48,
+     0.644,
+     0.226
+    ]
+   }
+  },
+  "no_support_frames": 84,
+  "no_support_frac": 0.26666666666666666,
+  "both_grounded_frac": 0.473015873015873
+ },
+ "108_09_w0": {
+  "feet": {
+   "L": {
+    "frames": 95,
+    "airborne_frac": 0.43157894736842106,
+    "strict_contact_frames": 32,
+    "dragband_frames": 0,
+    "strict_slip_mps": {
+     "p50": 0.6530889598466937,
+     "mean": 1.6669052351856906,
+     "p90": 6.189969862425644,
+     "sliding_frac": 1.0
+    },
+    "drag_speed_mps": {
+     "p50": null,
+     "p90": null
+    },
+    "stance_runs": 4,
+    "per_run_median_strict_slip": [
+     0.653,
+     0.603,
+     2.978
+    ]
+   },
+   "R": {
+    "frames": 95,
+    "airborne_frac": 0.22105263157894736,
+    "strict_contact_frames": 50,
+    "dragband_frames": 6,
+    "strict_slip_mps": {
+     "p50": 0.8193426654407232,
+     "mean": 1.228860957205924,
+     "p90": 2.7557981103786617,
+     "sliding_frac": 1.0
+    },
+    "drag_speed_mps": {
+     "p50": 2.7602473194755124,
+     "p90": 3.4298926113658945
+    },
+    "stance_runs": 3,
+    "per_run_median_strict_slip": [
+     0.878,
+     0.572
+    ]
+   }
+  },
+  "no_support_frames": 33,
+  "no_support_frac": 0.3473684210526316,
+  "both_grounded_frac": 0.3473684210526316
+ },
+ "132_32_w0": {
+  "feet": {
+   "L": {
+    "frames": 258,
+    "airborne_frac": 0.2364341085271318,
+    "strict_contact_frames": 90,
+    "dragband_frames": 77,
+    "strict_slip_mps": {
+     "p50": 0.5234839514733758,
+     "mean": 0.9008511279101261,
+     "p90": 1.7543653538050172,
+     "sliding_frac": 0.9036144578313253
+    },
+    "drag_speed_mps": {
+     "p50": 0.21568740620719298,
+     "p90": 1.7020109497161138
+    },
+    "stance_runs": 5,
+    "per_run_median_strict_slip": [
+     0.453,
+     0.554,
+     0.763,
+     0.386
+    ]
+   },
+   "R": {
+    "frames": 258,
+    "airborne_frac": 0.1511627906976744,
+    "strict_contact_frames": 165,
+    "dragband_frames": 19,
+    "strict_slip_mps": {
+     "p50": 0.3126688121648719,
+     "mean": 0.49978009525312433,
+     "p90": 0.9752686300836182,
+     "sliding_frac": 0.6772151898734177
+    },
+    "drag_speed_mps": {
+     "p50": 0.38886062350731154,
+     "p90": 2.878316313418401
+    },
+    "stance_runs": 6,
+    "per_run_median_strict_slip": [
+     0.081,
+     0.477,
+     0.512,
+     0.389
+    ]
+   }
+  },
+  "no_support_frames": 94,
+  "no_support_frac": 0.3643410852713178,
+  "both_grounded_frac": 0.6124031007751938
+ },
+ "132_34_w0": {
+  "feet": {
+   "L": {
+    "frames": 205,
+    "airborne_frac": 0.25853658536585367,
+    "strict_contact_frames": 73,
+    "dragband_frames": 47,
+    "strict_slip_mps": {
+     "p50": 0.7156056499734917,
+     "mean": 0.9212128629453251,
+     "p90": 1.672140198157878,
+     "sliding_frac": 0.9428571428571428
+    },
+    "drag_speed_mps": {
+     "p50": 0.10801789266074538,
+     "p90": 1.6071153911239486
+    },
+    "stance_runs": 6,
+    "per_run_median_strict_slip": [
+     0.999,
+     0.688,
+     0.574
+    ]
+   },
+   "R": {
+    "frames": 205,
+    "airborne_frac": 0.2048780487804878,
+    "strict_contact_frames": 122,
+    "dragband_frames": 13,
+    "strict_slip_mps": {
+     "p50": 0.2752815965076771,
+     "mean": 0.66387511486278,
+     "p90": 1.6689274705995842,
+     "sliding_frac": 0.6974789915966386
+    },
+    "drag_speed_mps": {
+     "p50": 0.3923275784067381,
+     "p90": 1.526225420336826
+    },
+    "stance_runs": 6,
+    "per_run_median_strict_slip": [
+     0.137,
+     0.545,
+     0.471
+    ]
+   }
+  },
+  "no_support_frames": 61,
+  "no_support_frac": 0.2975609756097561,
+  "both_grounded_frac": 0.5365853658536586
+ },
+ "136_05_w0": {
+  "feet": {
+   "L": {
+    "frames": 315,
+    "airborne_frac": 0.346031746031746,
+    "strict_contact_frames": 138,
+    "dragband_frames": 34,
+    "strict_slip_mps": {
+     "p50": 0.2362761759585256,
+     "mean": 0.4084263651788714,
+     "p90": 1.0007849990460211,
+     "sliding_frac": 0.7175572519083969
+    },
+    "drag_speed_mps": {
+     "p50": 0.39378479558099155,
+     "p90": 1.912336949228255
+    },
+    "stance_runs": 6,
+    "per_run_median_strict_slip": [
+     0.194,
+     0.124,
+     0.335,
+     0.249,
+     0.377
+    ]
+   },
+   "R": {
+    "frames": 315,
+    "airborne_frac": 0.24761904761904763,
+    "strict_contact_frames": 169,
+    "dragband_frames": 20,
+    "strict_slip_mps": {
+     "p50": 0.34210423599638884,
+     "mean": 0.543419217894969,
+     "p90": 1.0637189397082258,
+     "sliding_frac": 0.7625
+    },
+    "drag_speed_mps": {
+     "p50": 1.0336938107295481,
+     "p90": 2.150816304664563
+    },
+    "stance_runs": 8,
+    "per_run_median_strict_slip": [
+     0.203,
+     0.259,
+     0.342,
+     0.292,
+     0.437,
+     0.61
+    ]
+   }
+  },
+  "no_support_frames": 105,
+  "no_support_frac": 0.3333333333333333,
+  "both_grounded_frac": 0.40634920634920635
+ },
+ "136_07_w0": {
+  "feet": {
+   "L": {
+    "frames": 315,
+    "airborne_frac": 0.2698412698412698,
+    "strict_contact_frames": 139,
+    "dragband_frames": 59,
+    "strict_slip_mps": {
+     "p50": 0.21134510358298467,
+     "mean": 0.43390443015112634,
+     "p90": 0.7432613504045039,
+     "sliding_frac": 0.6461538461538462
+    },
+    "drag_speed_mps": {
+     "p50": 0.5086239770372012,
+     "p90": 1.6908607628290642
+    },
+    "stance_runs": 6,
+    "per_run_median_strict_slip": [
+     0.153,
+     0.248,
+     0.164,
+     0.315,
+     0.407
+    ]
+   },
+   "R": {
+    "frames": 315,
+    "airborne_frac": 0.19047619047619047,
+    "strict_contact_frames": 176,
+    "dragband_frames": 43,
+    "strict_slip_mps": {
+     "p50": 0.28981334506247586,
+     "mean": 0.6739816995295973,
+     "p90": 1.0720575389989433,
+     "sliding_frac": 0.8493975903614458
+    },
+    "drag_speed_mps": {
+     "p50": 0.3760157125753456,
+     "p90": 2.590946934213465
+    },
+    "stance_runs": 6,
+    "per_run_median_strict_slip": [
+     0.262,
+     0.251,
+     0.341,
+     0.184,
+     0.528,
+     0.482
+    ]
+   }
+  },
+  "no_support_frames": 132,
+  "no_support_frac": 0.41904761904761906,
+  "both_grounded_frac": 0.5396825396825397
+ },
+ "136_21_w0": {
+  "feet": {
+   "L": {
+    "frames": 240,
+    "airborne_frac": 0.39166666666666666,
+    "strict_contact_frames": 102,
+    "dragband_frames": 16,
+    "strict_slip_mps": {
+     "p50": 0.4787214762235481,
+     "mean": 0.6106218993611913,
+     "p90": 1.017488151833386,
+     "sliding_frac": 0.8979591836734694
+    },
+    "drag_speed_mps": {
+     "p50": 0.13644410982789762,
+     "p90": 0.3107054481610229
+    },
+    "stance_runs": 5,
+    "per_run_median_strict_slip": [
+     0.467,
+     0.502,
+     0.511,
+     0.231
+    ]
+   },
+   "R": {
+    "frames": 240,
+    "airborne_frac": 0.30416666666666664,
+    "strict_contact_frames": 127,
+    "dragband_frames": 16,
+    "strict_slip_mps": {
+     "p50": 0.3257808793970697,
+     "mean": 0.6783388107784649,
+     "p90": 2.022157504207214,
+     "sliding_frac": 0.7868852459016393
+    },
+    "drag_speed_mps": {
+     "p50": 0.2428225493577573,
+     "p90": 2.9940594535945393
+    },
+    "stance_runs": 4,
+    "per_run_median_strict_slip": [
+     0.432,
+     0.347,
+     0.395,
+     0.207
+    ]
+   }
+  },
+  "no_support_frames": 48,
+  "no_support_frac": 0.2,
+  "both_grounded_frac": 0.30416666666666664
+ },
+ "136_23_w0": {
+  "feet": {
+   "L": {
+    "frames": 299,
+    "airborne_frac": 0.3511705685618729,
+    "strict_contact_frames": 154,
+    "dragband_frames": 6,
+    "strict_slip_mps": {
+     "p50": 0.32955421198701135,
+     "mean": 0.541031225345225,
+     "p90": 0.9046276052293144,
+     "sliding_frac": 0.7718120805369127
+    },
+    "drag_speed_mps": {
+     "p50": 0.12659697039865878,
+     "p90": 0.13165936429802672
+    },
+    "stance_runs": 6,
+    "per_run_median_strict_slip": [
+     0.054,
+     0.318,
+     0.378,
+     0.524,
+     0.278
+    ]
+   },
+   "R": {
+    "frames": 299,
+    "airborne_frac": 0.36454849498327757,
+    "strict_contact_frames": 133,
+    "dragband_frames": 21,
+    "strict_slip_mps": {
+     "p50": 0.30845485218575397,
+     "mean": 0.6742871792387515,
+     "p90": 2.081772465235618,
+     "sliding_frac": 0.7596899224806202
+    },
+    "drag_speed_mps": {
+     "p50": 0.2610674283605519,
+     "p90": 0.34345014137266416
+    },
+    "stance_runs": 6,
+    "per_run_median_strict_slip": [
+     0.162,
+     0.351,
+     0.37,
+     0.351
+    ]
+   }
+  },
+  "no_support_frames": 49,
+  "no_support_frac": 0.16387959866220736,
+  "both_grounded_frac": 0.2842809364548495
+ },
+ "142_09_w0": {
+  "feet": {
+   "L": {
+    "frames": 315,
+    "airborne_frac": 0.32063492063492066,
+    "strict_contact_frames": 82,
+    "dragband_frames": 98,
+    "strict_slip_mps": {
+     "p50": 0.6056608545752326,
+     "mean": 0.9286953854161762,
+     "p90": 2.013503373989002,
+     "sliding_frac": 0.9736842105263158
+    },
+    "drag_speed_mps": {
+     "p50": 0.013358885011770905,
+     "p90": 0.3611003874151106
+    },
+    "stance_runs": 7,
+    "per_run_median_strict_slip": [
+     0.579,
+     0.829,
+     0.579,
+     0.44
+    ]
+   },
+   "R": {
+    "frames": 315,
+    "airborne_frac": 0.2253968253968254,
+    "strict_contact_frames": 203,
+    "dragband_frames": 9,
+    "strict_slip_mps": {
+     "p50": 0.350781099302021,
+     "mean": 0.8451603181965485,
+     "p90": 2.4069675605177565,
+     "sliding_frac": 0.6345177664974619
+    },
+    "drag_speed_mps": {
+     "p50": 1.7014878419710142,
+     "p90": 1.9036832383431879
+    },
+    "stance_runs": 6,
+    "per_run_median_strict_slip": [
+     0.012,
+     2.317,
+     0.808,
+     0.737,
+     0.627
+    ]
+   }
+  },
+  "no_support_frames": 65,
+  "no_support_frac": 0.20634920634920634,
+  "both_grounded_frac": 0.45396825396825397
+ },
+ "43_01_w0": {
+  "feet": {
+   "L": {
+    "frames": 165,
+    "airborne_frac": 0.4666666666666667,
+    "strict_contact_frames": 70,
+    "dragband_frames": 0,
+    "strict_slip_mps": {
+     "p50": 0.5789002955437753,
+     "mean": 0.8693536130668086,
+     "p90": 1.2461420478955165,
+     "sliding_frac": 0.9402985074626866
+    },
+    "drag_speed_mps": {
+     "p50": null,
+     "p90": null
+    },
+    "stance_runs": 3,
+    "per_run_median_strict_slip": [
+     0.705,
+     0.491,
+     0.544
+    ]
+   },
+   "R": {
+    "frames": 165,
+    "airborne_frac": 0.26666666666666666,
+    "strict_contact_frames": 89,
+    "dragband_frames": 8,
+    "strict_slip_mps": {
+     "p50": 0.5845134029073233,
+     "mean": 1.1845010411434909,
+     "p90": 3.0994836857131993,
+     "sliding_frac": 0.9047619047619048
+    },
+    "drag_speed_mps": {
+     "p50": 0.8592772275622179,
+     "p90": 2.4295925294677723
+    },
+    "stance_runs": 4,
+    "per_run_median_strict_slip": [
+     0.472,
+     0.563,
+     0.614,
+     1.308
+    ]
+   }
+  },
+  "no_support_frames": 42,
+  "no_support_frac": 0.2545454545454545,
+  "both_grounded_frac": 0.26666666666666666
+ },
+ "p2_111_23_walk": {
+  "feet": {
+   "L": {
+    "frames": 390,
+    "airborne_frac": 0.3641025641025641,
+    "strict_contact_frames": 167,
+    "dragband_frames": 31,
+    "strict_slip_mps": {
+     "p50": 0.7841596669191425,
+     "mean": 1.1199192535366758,
+     "p90": 1.957278964592786,
+     "sliding_frac": 1.0
+    },
+    "drag_speed_mps": {
+     "p50": 0.4781762071092524,
+     "p90": 0.9913682283090138
+    },
+    "stance_runs": 9,
+    "per_run_median_strict_slip": [
+     0.596,
+     0.637,
+     1.016,
+     0.989,
+     0.782,
+     0.958,
+     0.699,
+     0.795
+    ]
+   },
+   "R": {
+    "frames": 390,
+    "airborne_frac": 0.26666666666666666,
+    "strict_contact_frames": 215,
+    "dragband_frames": 29,
+    "strict_slip_mps": {
+     "p50": 0.9412437055669547,
+     "mean": 1.2528700482108934,
+     "p90": 2.518857979280785,
+     "sliding_frac": 0.9264705882352942
+    },
+    "drag_speed_mps": {
+     "p50": 1.1537362451681348,
+     "p90": 2.204216920799803
+    },
+    "stance_runs": 7,
+    "per_run_median_strict_slip": [
+     0.31,
+     0.778,
+     1.35,
+     1.172,
+     1.113,
+     1.261,
+     1.124
+    ]
+   }
+  },
+  "no_support_frames": 138,
+  "no_support_frac": 0.35384615384615387,
+  "both_grounded_frac": 0.36923076923076925
+ },
+ "p2_12_03_walk": {
+  "feet": {
+   "L": {
+    "frames": 225,
+    "airborne_frac": 0.2577777777777778,
+    "strict_contact_frames": 91,
+    "dragband_frames": 45,
+    "strict_slip_mps": {
+     "p50": 0.3520480003348542,
+     "mean": 0.6008255763575157,
+     "p90": 0.7676743426569547,
+     "sliding_frac": 0.6904761904761905
+    },
+    "drag_speed_mps": {
+     "p50": 0.6125834766679734,
+     "p90": 0.7884507328770226
+    },
+    "stance_runs": 6,
+    "per_run_median_strict_slip": [
+     0.211,
+     0.322,
+     0.438
+    ]
+   },
+   "R": {
+    "frames": 225,
+    "airborne_frac": 0.15555555555555556,
+    "strict_contact_frames": 124,
+    "dragband_frames": 28,
+    "strict_slip_mps": {
+     "p50": 0.15739509535505342,
+     "mean": 0.5563289352341552,
+     "p90": 0.4405909185955009,
+     "sliding_frac": 0.5169491525423728
+    },
+    "drag_speed_mps": {
+     "p50": 0.5271647787574626,
+     "p90": 1.3116200270420115
+    },
+    "stance_runs": 9,
+    "per_run_median_strict_slip": [
+     0.115,
+     0.136,
+     0.154,
+     0.224
+    ]
+   }
+  },
+  "no_support_frames": 72,
+  "no_support_frac": 0.32,
+  "both_grounded_frac": 0.5866666666666667
+ },
+ "p2_132_30_walk": {
+  "feet": {
+   "L": {
+    "frames": 316,
+    "airborne_frac": 0.21835443037974683,
+    "strict_contact_frames": 135,
+    "dragband_frames": 68,
+    "strict_slip_mps": {
+     "p50": 0.3279631690537697,
+     "mean": 0.4768690984634197,
+     "p90": 1.0276560184001493,
+     "sliding_frac": 0.7716535433070866
+    },
+    "drag_speed_mps": {
+     "p50": 0.157348730928226,
+     "p90": 0.37713754171802244
+    },
+    "stance_runs": 8,
+    "per_run_median_strict_slip": [
+     0.094,
+     0.215,
+     0.37,
+     0.706,
+     0.367
+    ]
+   },
+   "R": {
+    "frames": 316,
+    "airborne_frac": 0.1930379746835443,
+    "strict_contact_frames": 190,
+    "dragband_frames": 29,
+    "strict_slip_mps": {
+     "p50": 0.20658861988456914,
+     "mean": 0.5086714571804528,
+     "p90": 1.300843433798219,
+     "sliding_frac": 0.5891891891891892
+    },
+    "drag_speed_mps": {
+     "p50": 0.16590433711577804,
+     "p90": 2.532117003910011
+    },
+    "stance_runs": 8,
+    "per_run_median_strict_slip": [
+     0.109,
+     0.319,
+     0.588,
+     0.437
+    ]
+   }
+  },
+  "no_support_frames": 96,
+  "no_support_frac": 0.3037974683544304,
+  "both_grounded_frac": 0.5886075949367089
+ },
+ "p2_132_34_walk": {
+  "feet": {
+   "L": {
+    "frames": 205,
+    "airborne_frac": 0.25853658536585367,
+    "strict_contact_frames": 73,
+    "dragband_frames": 47,
+    "strict_slip_mps": {
+     "p50": 0.670000756521766,
+     "mean": 0.9477143506787483,
+     "p90": 1.8086103612369704,
+     "sliding_frac": 0.9571428571428572
+    },
+    "drag_speed_mps": {
+     "p50": 0.12535649207569952,
+     "p90": 1.5821059326659352
+    },
+    "stance_runs": 6,
+    "per_run_median_strict_slip": [
+     1.19,
+     0.613,
+     0.483
+    ]
+   },
+   "R": {
+    "frames": 205,
+    "airborne_frac": 0.2048780487804878,
+    "strict_contact_frames": 122,
+    "dragband_frames": 13,
+    "strict_slip_mps": {
+     "p50": 0.2592919425200521,
+     "mean": 0.6307524800737367,
+     "p90": 1.3914383177680434,
+     "sliding_frac": 0.7310924369747899
+    },
+    "drag_speed_mps": {
+     "p50": 0.30557123948384945,
+     "p90": 1.7413621314160055
+    },
+    "stance_runs": 6,
+    "per_run_median_strict_slip": [
+     0.15,
+     0.385,
+     0.484
+    ]
+   }
+  },
+  "no_support_frames": 64,
+  "no_support_frac": 0.3121951219512195,
+  "both_grounded_frac": 0.5365853658536586
+ },
+ "p2_136_21_walk": {
+  "feet": {
+   "L": {
+    "frames": 240,
+    "airborne_frac": 0.39166666666666666,
+    "strict_contact_frames": 102,
+    "dragband_frames": 16,
+    "strict_slip_mps": {
+     "p50": 0.511844629235068,
+     "mean": 0.6724538773823426,
+     "p90": 1.1282832665107945,
+     "sliding_frac": 0.9081632653061225
+    },
+    "drag_speed_mps": {
+     "p50": 0.1502271147006539,
+     "p90": 0.31854304369803804
+    },
+    "stance_runs": 5,
+    "per_run_median_strict_slip": [
+     0.514,
+     0.579,
+     0.602,
+     0.244
+    ]
+   },
+   "R": {
+    "frames": 240,
+    "airborne_frac": 0.30416666666666664,
+    "strict_contact_frames": 127,
+    "dragband_frames": 16,
+    "strict_slip_mps": {
+     "p50": 0.39431433342867794,
+     "mean": 0.7244331717983545,
+     "p90": 2.162645356118842,
+     "sliding_frac": 0.8852459016393442
+    },
+    "drag_speed_mps": {
+     "p50": 0.2207086134388565,
+     "p90": 2.9959535693997874
+    },
+    "stance_runs": 4,
+    "per_run_median_strict_slip": [
+     0.492,
+     0.422,
+     0.493,
+     0.21
+    ]
+   }
+  },
+  "no_support_frames": 52,
+  "no_support_frac": 0.21666666666666667,
+  "both_grounded_frac": 0.30416666666666664
+ },
+ "p2_136_23_walk": {
+  "feet": {
+   "L": {
+    "frames": 299,
+    "airborne_frac": 0.3511705685618729,
+    "strict_contact_frames": 154,
+    "dragband_frames": 6,
+    "strict_slip_mps": {
+     "p50": 0.3823686313383228,
+     "mean": 0.600963658771447,
+     "p90": 0.9873251121161926,
+     "sliding_frac": 0.7718120805369127
+    },
+    "drag_speed_mps": {
+     "p50": 0.17504100566464537,
+     "p90": 0.19745630305645254
+    },
+    "stance_runs": 6,
+    "per_run_median_strict_slip": [
+     0.052,
+     0.438,
+     0.468,
+     0.6,
+     0.316
+    ]
+   },
+   "R": {
+    "frames": 299,
+    "airborne_frac": 0.36454849498327757,
+    "strict_contact_frames": 133,
+    "dragband_frames": 21,
+    "strict_slip_mps": {
+     "p50": 0.2899031191303722,
+     "mean": 0.712397544507582,
+     "p90": 2.1867861890534557,
+     "sliding_frac": 0.8294573643410853
+    },
+    "drag_speed_mps": {
+     "p50": 0.26925020807411926,
+     "p90": 0.34918462303537007
+    },
+    "stance_runs": 6,
+    "per_run_median_strict_slip": [
+     0.2,
+     0.4,
+     0.403,
+     0.29
+    ]
+   }
+  },
+  "no_support_frames": 60,
+  "no_support_frac": 0.20066889632107024,
+  "both_grounded_frac": 0.2842809364548495
+ },
+ "p2_136_24_walk": {
+  "feet": {
+   "L": {
+    "frames": 390,
+    "airborne_frac": 0.4076923076923077,
+    "strict_contact_frames": 192,
+    "dragband_frames": 5,
+    "strict_slip_mps": {
+     "p50": 0.273975230831925,
+     "mean": 0.4696254993150229,
+     "p90": 0.6810748396823002,
+     "sliding_frac": 0.732620320855615
+    },
+    "drag_speed_mps": {
+     "p50": 0.045177975330414955,
+     "p90": 0.045177975330414955
+    },
+    "stance_runs": 7,
+    "per_run_median_strict_slip": [
+     0.099,
+     0.314,
+     0.33,
+     0.37,
+     0.325
+    ]
+   },
+   "R": {
+    "frames": 390,
+    "airborne_frac": 0.3,
+    "strict_contact_frames": 197,
+    "dragband_frames": 40,
+    "strict_slip_mps": {
+     "p50": 0.3898292612019748,
+     "mean": 0.6720455579274026,
+     "p90": 1.5280959099412401,
+     "sliding_frac": 0.8010471204188482
+    },
+    "drag_speed_mps": {
+     "p50": 0.0417669922507818,
+     "p90": 2.3810018881886497
+    },
+    "stance_runs": 6,
+    "per_run_median_strict_slip": [
+     0.002,
+     0.403,
+     0.376,
+     0.44,
+     0.399,
+     0.39
+    ]
+   }
+  },
+  "no_support_frames": 35,
+  "no_support_frac": 0.08974358974358974,
+  "both_grounded_frac": 0.2923076923076923
+ }
+}
