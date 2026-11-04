@@ -1,0 +1,30 @@
+{
+ "taskBaseInfo": {
+  "projectId": "PRO_20261102_002",
+  "taskType": "1",
+  "trainType": "1",
+  "taskName": "x1-smp-r3-policy-additive",
+  "taskDescription": "R3 policy: additive reward 0.5*task+0.5*smp, 63-dim contact prior, command band 0.4-0.9, 2048 envs, 10000 iters, no gsi_refresh, save 100.",
+  "taskTag": [
+   "x1",
+   "smp",
+   "smoke"
+  ],
+  "goodsId": "ESKU000001",
+  "imageId": "BJX00000178",
+  "imageVersion": "V000446",
+  "personalDataPath": ""
+ },
+ "taskCodeInfo": {
+  "codeType": "2",
+  "codeUrl": "[{\"codeUrl\":\"https://github.com/yumxcode/X1_SMP.git\",\"versionType\":\"1\",\"versionName\":\"main\"}]",
+  "mainCodeUri": "X1_SMP/scripts/gm_smp_policy.py",
+  "hparamsPath": "",
+  "startScript": "gm-run X1_SMP/scripts/gm_smp_policy.py",
+  "isOpen": "1"
+ },
+ "runtimeReminderConfig": {
+  "enableRuntimeReminder": false,
+  "reminderDurations": []
+ }
+}
