@@ -60,7 +60,7 @@ def rollout(ckpt: str, speed: float, secs: float, tag: str, num_envs: int = 4,
     with torch.inference_mode():
         for t in range(steps):
             act = policy(obs)
-            obs, _, _, _, _ = env.step(act)
+            obs, _, _, _ = env.step(act)
             raw = env.unwrapped
             q = raw.scene['robot'].data.root_state_w[0].detach().cpu().numpy()
             jq = raw.scene['robot'].data.joint_pos[0].detach().cpu().numpy()
