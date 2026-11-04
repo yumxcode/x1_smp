@@ -38,7 +38,7 @@ def install_stack() -> bool:
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument('--ckpt', default='/workspace/output/policy_model.pt')
+    ap.add_argument('--ckpt', default=str(Path(__file__).resolve().parent.parent / 'data' / 'policy' / 'model_4100.pt'))
     ap.add_argument('--speeds', default='0.5,1.0')
     ap.add_argument('--secs', type=float, default=20.0)
     ap.add_argument('--out', default='eval')
