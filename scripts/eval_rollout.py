@@ -32,6 +32,8 @@ TASK_ID = 'Smp-Forward-X1'
 
 def rollout(ckpt: str, speed: float, secs: float, tag: str, num_envs: int = 4,
             prior_ckpt: str | None = None, video: bool = True) -> dict:
+    if prior_ckpt is None:
+        prior_ckpt = str(ROOT / 'data' / 'prior' / 'x1_walk_prior.pt')
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     env_cfg = load_env_cfg(TASK_ID, play=True)
     env_cfg.scene.num_envs = num_envs
