@@ -18,11 +18,15 @@ if TYPE_CHECKING:
 
 def _update_buffer_from_sim(env: ManagerBasedRlEnv) -> None:
   """Push current sim kinematics onto the buffer tail, env-origin-relative
-  (matching ``_prime_sim_and_buffer``) so features are placement-invariant."""
+  (matching ``_prime_sim_and_buffer``) so features are placement-invariant.
+  Round 3: ankle z channels stay WORLD-frame (contact semantics) and their
+  per-step delta is taken against the buffer's previous tail."""
   robot = env.scene["robot"]
   ee_indexes = env._smp_ee_indexes  # type: ignore[attr-defined]
   buffer: MotionFeatureBuffer = env._smp_buffer  # type: ignore[attr-defined]
   origins = env.scene.env_origins
+  ankle_z_w = robot.data.body_link_pos_w[:, ee_indexes[:2], 2]  # world z, (N,2)
+  ankle_z_dz = ankle_z_w - buffer.ankle_z_w[:, -1]
   buffer.update(
     robot.data.root_link_pos_w - origins,
     robot.data.root_link_quat_w,
@@ -31,6 +35,8 @@ def _update_buffer_from_sim(env: ManagerBasedRlEnv) -> None:
     robot.data.body_link_pos_w[:, ee_indexes] - origins[:, None, :],
     robot.data.joint_pos,
     robot.data.joint_vel,
+    ankle_z_w=ankle_z_w,
+    ankle_z_dz=ankle_z_dz,
   )
 
 
@@ -75,6 +81,23 @@ def smp_guidance_reward(
   env._smp_raw_err = total_raw / len(fixed_timesteps)  # type: ignore[attr-defined]
   err = total_err / len(fixed_timesteps)
   return torch.exp(-err * ws)
+
+
+def task_smp_additive(
+  env: ManagerBasedRlEnv,
+  task_terms: tuple[TaskTerm, ...],
+  fixed_timesteps: tuple[int, ...] = (8, 15, 22),
+  ws: float = 6.0,
+  w_task: float = 0.5,
+  w_smp: float = 0.5,
+) -> torch.Tensor:
+  """``w_task * (sum w_i*task_i) + w_smp * r_smp`` -- the PAPER's additive form
+  (Eq. 9, Peng et al. 2021 weights), the preregistered round-3 variant: with
+  the multiplicative product a sliding gait can be the joint optimum (round-1
+  result); additive lets the task term pay for speed even where the prior
+  score is mediocre."""
+  task = sum(w * func(env, **kw) for func, w, kw in task_terms)
+  return w_task * task + w_smp * smp_guidance_reward(env, fixed_timesteps=fixed_timesteps, ws=ws)
 
 
 def task_smp_product(

@@ -98,7 +98,11 @@ class MotionFeatureBuffer:
          root_lin_vel(3), root_ang_vel(3)]``
 
   ``joint_vel`` is stored for symmetry but excluded from the output.  Positions
-  use the caller's frame (SMP RL feeds env-origin-relative)."""
+  use the caller's frame (SMP RL feeds env-origin-relative).
+
+  Round 3 appends 4 contact channels (world frame, NOT origin-relative):
+  ``ankle_z_w(2)`` = world z of both ankle_roll_link bodies, ``ankle_z_dz(2)``
+  = per-frame z delta -- the swing/stance signal the 59-dim layout lacked."""
 
   def __init__(
     self,
@@ -122,6 +126,9 @@ class MotionFeatureBuffer:
     self.ee_pos_w = torch.zeros(num_envs, window_size, num_ee, 3, device=self.device)
     self.joint_pos = torch.zeros(num_envs, window_size, num_joints, device=self.device)
     self.joint_vel = torch.zeros(num_envs, window_size, num_joints, device=self.device)
+    # round-3 contact channels: world z of the two ankle bodies (+ their per-step z delta)
+    self.ankle_z_w = torch.zeros(num_envs, window_size, 2, device=self.device)
+    self.ankle_z_dz = torch.zeros(num_envs, window_size, 2, device=self.device)
 
   def reset(
     self,
@@ -133,6 +140,8 @@ class MotionFeatureBuffer:
     ee_pos_w: torch.Tensor,
     joint_pos: torch.Tensor,
     joint_vel: torch.Tensor,
+    ankle_z_w: torch.Tensor | None = None,
+    ankle_z_dz: torch.Tensor | None = None,
   ) -> None:
     """Fill all W slots of ``env_ids`` with a pre-sampled trajectory."""
     if env_ids.numel() == 0:
@@ -144,6 +153,10 @@ class MotionFeatureBuffer:
     self.ee_pos_w[env_ids] = ee_pos_w
     self.joint_pos[env_ids] = joint_pos
     self.joint_vel[env_ids] = joint_vel
+    if ankle_z_w is not None:
+      self.ankle_z_w[env_ids] = ankle_z_w
+    if ankle_z_dz is not None:
+      self.ankle_z_dz[env_ids] = ankle_z_dz
 
   def update(
     self,
@@ -154,6 +167,8 @@ class MotionFeatureBuffer:
     ee_pos_w: torch.Tensor,
     joint_pos: torch.Tensor,
     joint_vel: torch.Tensor,
+    ankle_z_w: torch.Tensor | None = None,
+    ankle_z_dz: torch.Tensor | None = None,
   ) -> None:
     """Shift left by one and append the new frame at index W-1."""
     self.root_pos_w = torch.roll(self.root_pos_w, shifts=-1, dims=1)
@@ -163,6 +178,8 @@ class MotionFeatureBuffer:
     self.ee_pos_w = torch.roll(self.ee_pos_w, shifts=-1, dims=1)
     self.joint_pos = torch.roll(self.joint_pos, shifts=-1, dims=1)
     self.joint_vel = torch.roll(self.joint_vel, shifts=-1, dims=1)
+    self.ankle_z_w = torch.roll(self.ankle_z_w, shifts=-1, dims=1)
+    self.ankle_z_dz = torch.roll(self.ankle_z_dz, shifts=-1, dims=1)
     self.root_pos_w[:, -1] = root_pos_w
     self.root_quat_w[:, -1] = root_quat_w
     self.root_lin_vel_w[:, -1] = root_lin_vel_w
@@ -170,6 +187,9 @@ class MotionFeatureBuffer:
     self.ee_pos_w[:, -1] = ee_pos_w
     self.joint_pos[:, -1] = joint_pos
     self.joint_vel[:, -1] = joint_vel
+    if ankle_z_w is not None:
+      self.ankle_z_w[:, -1] = ankle_z_w
+      self.ankle_z_dz[:, -1] = ankle_z_dz if ankle_z_dz is not None else 0.0
 
   def compute_features(self) -> torch.Tensor:
     """Return features ``(num_envs, W, 3+6+J+E*3+3+3)``, all anchored to the LAST
@@ -223,6 +243,8 @@ class MotionFeatureBuffer:
         ee_pos_local,
         lin_vel_local,
         ang_vel_local,
+        self.ankle_z_w,
+        self.ankle_z_dz,
       ],
       dim=-1,
     )

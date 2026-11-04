@@ -13,7 +13,7 @@ from mjlab.managers.scene_entity_config import SceneEntityCfg
 from mjlab.managers.termination_manager import TerminationTermCfg
 
 from smp.rl.env_cfg import g1_smp_env_cfg, x1_smp_env_cfg
-from smp.rl.rewards import task_smp_product
+from smp.rl.rewards import task_smp_additive, task_smp_product
 from smp.rl.tasks.steering import mdp
 
 
@@ -42,8 +42,10 @@ def g1_forward_smp_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
 
   # --- Rewards -------------------------------------------------------------
   # task = velocity tracking, gated by SMP.
-  cfg.rewards["task_smp_product"] = RewardTermCfg(
-    func=task_smp_product,
+  # round 3 (exp_c8a50775): paper's ADDITIVE reward + 0.4-0.9 command band
+  # (median 0.65 ~= prior manifold center 0.62 -> speed-discount tension gone)
+  cfg.rewards["task_smp_additive"] = RewardTermCfg(
+    func=task_smp_additive,
     weight=1.0,
     params={
       "task_terms": (
@@ -53,6 +55,8 @@ def g1_forward_smp_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
           {"command_name": "steering", "vel_err_scale": 0.5},
         ),
       ),
+      "w_task": 0.5,
+      "w_smp": 0.5,
     },
   )
 
@@ -92,7 +96,7 @@ def x1_forward_smp_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
     rand_tar_dir=False,
     rand_face_dir=False,
     tar_speed_min=0.4,
-    tar_speed_max=1.4,
+    tar_speed_max=0.9,
     debug_vis=False,
   )
   command_obs = ObservationTermCfg(
@@ -101,8 +105,10 @@ def x1_forward_smp_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
   )
   cfg.observations["actor"].terms["command"] = command_obs
   cfg.observations["critic"].terms["command"] = command_obs
-  cfg.rewards["task_smp_product"] = RewardTermCfg(
-    func=task_smp_product,
+  # round 3 (exp_c8a50775): paper's ADDITIVE reward + 0.4-0.9 command band
+  # (median 0.65 ~= prior manifold center 0.62 -> speed-discount tension gone)
+  cfg.rewards["task_smp_additive"] = RewardTermCfg(
+    func=task_smp_additive,
     weight=1.0,
     params={
       "task_terms": (
@@ -112,6 +118,8 @@ def x1_forward_smp_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
           {"command_name": "steering", "vel_err_scale": 0.5},
         ),
       ),
+      "w_task": 0.5,
+      "w_smp": 0.5,
     },
   )
   import os

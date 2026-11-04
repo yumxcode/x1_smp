@@ -53,7 +53,13 @@ EE_BODY_NAMES = (
 
 NUM_JOINTS = len(X1_JOINT_ORDER)
 NUM_EE = len(EE_BODY_NAMES)
-FEATURE_DIM = 3 + 6 + NUM_JOINTS + NUM_EE * 3 + 3 + 3  # = 59
+FEATURE_DIM = 3 + 6 + NUM_JOINTS + NUM_EE * 3 + 3 + 3 + 4  # = 63 (round 3)
+# Round-3 contact channels (appended LAST so existing slice offsets are stable):
+#   ankle_z_w (2): world-frame z of both ankle_roll_link bodies -- the swing/
+#   stance signal the 59-dim features lack (attribution: freezing the foot
+#   channels cost only 8.3% prior reward -> the prior could not see stepping);
+#   ankle_zvel_w (2): d/dt of the same. World frame on purpose: foot lift is a
+#   world-z phenomenon.
 
 
 def quat_mul(a: np.ndarray, b: np.ndarray) -> np.ndarray:
@@ -208,7 +214,16 @@ def compute_windows(fk: dict, window_size: int = 10, stride: int = 1) -> np.ndar
     lin_local = quat_rotate_inverse(yaw_T_W, wb_lin.reshape(-1, 3)).reshape(N, W, 3)
     ang_local = quat_rotate_inverse(yaw_T_W, wb_ang.reshape(-1, 3)).reshape(N, W, 3)
 
-    return np.concatenate([root_pos_local, root_rot_6d, wj, ee_local, lin_local, ang_local],
+    # contact channels: world-frame ankle z (E=5, first two EE are the ankles)
+    ankle_z = wee[:, :, :2, 2]                                   # (N, W, 2)
+    ankle_zvel = np.zeros_like(ankle_z)
+    # z velocity: forward difference over the window (frame units; the q01/q99
+    # normalization absorbs the scale)
+    ankle_zvel[:, :-1, :] = ankle_z[:, 1:, :] - ankle_z[:, :-1, :]
+    ankle_zvel[:, -1, :] = ankle_zvel[:, -2, :]
+
+    return np.concatenate([root_pos_local, root_rot_6d, wj, ee_local, lin_local,
+                           ang_local, ankle_z, ankle_zvel],
                           axis=-1).astype(np.float32)
 
 

@@ -36,26 +36,27 @@ NUM_EE = len(EE_BODY_NAMES)
 def slice_features(frame: torch.Tensor) -> dict[str, torch.Tensor]:
   """Slice a feature vector into named components.
 
-  Layout (matches ``scripts/csv_to_npz.py::_compute_windows``):
-    [0:3]                   root_pos       xy in last-frame heading-inv, z world
-    [3:9]                   root_rot       6D tan-norm of heading_inv(T) ⊗ root_quat[t]
-    [9:9+J]                 joint_pos      raw joint angles (J = 29 for G1)
-    [9+J:9+J+E*3]           ee_pos         per-frame root offset, last-frame
-                                           heading-inv rotation (E = 5)
-    [9+J+E*3:12+J+E*3]      root_lin_vel   last-frame heading-inv
-    [12+J+E*3:15+J+E*3]     root_ang_vel   last-frame heading-inv
+  Layout (matches scripts/x1_data_lib.compute_windows, the offline builder):
+    [0:3]              root_pos       xy last-frame heading-inv, z world
+    [3:9]              root_rot       6D tan-norm of heading_inv(T) ⊗ root_quat[t]
+    [9:9+J]            joint_pos      raw joint angles (J = 29)
+    [9+J:9+J+E*3]      ee_pos         root offset, last-frame heading-inv (E = 5)
+    [9+J+E*3:12+J+E*3] root_lin_vel   last-frame heading-inv
+    [12+J+E*3:15+J+E*3] root_ang_vel  last-frame heading-inv
+    [+0:+2]            ankle_z_w      world z of both ankles (round 3, 63-dim only)
+    [+2:+4]            ankle_z_dz     per-frame z delta (round 3, 63-dim only)
   """
   J = NUM_JOINTS
   E = NUM_EE
-  expected = 3 + 6 + J + E * 3 + 3 + 3
-  if frame.shape[-1] != expected:
-    msg = f"expected feature_dim={expected}; got {frame.shape[-1]}"
+  base = 3 + 6 + J + E * 3 + 3 + 3
+  if frame.shape[-1] not in (base, base + 4):
+    msg = f"expected feature_dim={base} or {base + 4}; got {frame.shape[-1]}"
     raise ValueError(msg)
   joint_pos_end = 9 + J
   ee_pos_end = joint_pos_end + E * 3
   lin_vel_end = ee_pos_end + 3
   ang_vel_end = lin_vel_end + 3
-  return {
+  out = {
     "root_pos": frame[..., 0:3],
     "root_rot": frame[..., 3:9],
     "joint_pos": frame[..., 9:joint_pos_end],
@@ -63,6 +64,10 @@ def slice_features(frame: torch.Tensor) -> dict[str, torch.Tensor]:
     "root_lin_vel": frame[..., ee_pos_end:lin_vel_end],
     "root_ang_vel": frame[..., lin_vel_end:ang_vel_end],
   }
+  if frame.shape[-1] == base + 4:
+    out["ankle_z_w"] = frame[..., ang_vel_end:ang_vel_end + 2]
+    out["ankle_z_dz"] = frame[..., ang_vel_end + 2:ang_vel_end + 4]
+  return out
 
 
 def rot6d_to_matrix(d6: torch.Tensor) -> torch.Tensor:

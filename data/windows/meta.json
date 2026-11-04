@@ -4,7 +4,7 @@
  "windows": 4740,
  "window_size": 10,
  "stride": 1,
- "feature_dim": 59,
+ "feature_dim": 63,
  "fps": 50.0,
  "q_low": 0.01,
  "q_high": 0.99,

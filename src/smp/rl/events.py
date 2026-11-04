@@ -160,6 +160,16 @@ def _prime_sim_and_buffer(
   ee_offset_w = quat_apply(yaw_T_E, ee_pos_local.reshape(-1, 3)).reshape(n, W, E, 3)
   ee_pos_w = ee_offset_w + pelvis_pos_w[:, :, None, :]
 
+  # round-3 contact channels: world ankle z from the reconstructed ee frames;
+  # fall back to the window's own channels when present (fresher under GSI).
+  ankle_z_w = ee_pos_w[:, :, :2, 2].clone()
+  parts_ank = parts.get("ankle_z_w")
+  if parts_ank is not None:
+    ankle_z_w = parts_ank
+  ankle_z_dz = torch.zeros_like(ankle_z_w)
+  ankle_z_dz[:, :-1] = ankle_z_w[:, 1:] - ankle_z_w[:, :-1]
+  ankle_z_dz[:, -1] = ankle_z_dz[:, -2]
+
   # Buffer stays env-relative; the sim write is offset to each env's origin.
   origins = env.scene.env_origins[env_ids]
   last_root_state = torch.cat(
@@ -184,6 +194,8 @@ def _prime_sim_and_buffer(
     ee_pos_w,
     joint_pos,
     joint_vel,
+    ankle_z_w=ankle_z_w,
+    ankle_z_dz=ankle_z_dz,
   )
 
 
