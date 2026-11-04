@@ -40,6 +40,9 @@ class PretrainCfg:
   weight_decay: float = 1e-4
   max_grad_norm: float = 1.0
 
+  resume_from: str = ''
+  """Optional checkpoint path to resume from (model+optimizer+epoch)."""
+
   # Logging
   name: str = "pretrain"
   """Run identifier; used as the wandb run name and the save subfolder."""

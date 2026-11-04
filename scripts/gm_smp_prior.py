@@ -29,6 +29,7 @@ def main() -> int:
     ap.add_argument('--d-model', type=int, default=128)
     ap.add_argument('--batch-size', type=int, default=512)
     ap.add_argument('--lr', type=float, default=2e-4)
+    ap.add_argument('--resume-from', default='', help='prior ckpt to resume from')
     args, extra = ap.parse_known_args()
 
     windows = ROOT / 'data' / 'windows'
@@ -55,13 +56,27 @@ def main() -> int:
             break
     import torch  # noqa: F401  (after any installs)
 
+    import threading
+    def _watchdog():
+        import subprocess as sp, time as _t
+        while True:
+            _t.sleep(60)
+            try:
+                gpu = sp.run(['nvidia-smi', '--query-gpu=memory.used,memory.total', '--format=csv,noheader'],
+                             capture_output=True, text=True).stdout.strip()
+                ram = sp.run(['free', '-m'], capture_output=True, text=True).stdout.splitlines()[1]
+                print(f'[watchdog] GPU {gpu} | RAM {ram}', flush=True)
+            except Exception:
+                pass
+    threading.Thread(target=_watchdog, daemon=True).start()
+
     sys.path.insert(0, str(ROOT / 'src'))
     cmd = [sys.executable, str(ROOT / 'scripts' / 'pretrain_prior.py'),
            f'--data-dir={windows}', f'--norm-stats-file={stats}',
            f'--d-model={args.d_model}', f'--num-epochs={args.num_epochs}',
            f'--batch-size={args.batch_size}', f'--lr={args.lr}',
            '--no-use-ema', '--no-use-wandb', '--save-interval=250',
-           '--train-split=0.95', '--name=x1_walk_prior'] + extra
+           '--train-split=0.95', '--name=x1_walk_prior'] + ([f'--resume-from={args.resume_from}'] if args.resume_from else []) + extra
     env = dict(os.environ)
     env['PYTHONPATH'] = str(ROOT / 'src') + (':' + env['PYTHONPATH'] if env.get('PYTHONPATH') else '')
     print('[prior] exec:', ' '.join(cmd), flush=True)

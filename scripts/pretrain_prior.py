@@ -145,6 +145,21 @@ def pretrain(cfg: PretrainCfg) -> Path:
   if ema is not None:
     print(f"EMA enabled (decay={cfg.ema_decay})")
 
+  start_epoch = 0
+  if getattr(cfg, "resume_from", ""):
+    from pathlib import Path as _P
+    if _P(cfg.resume_from).exists():
+      ck = torch.load(cfg.resume_from, map_location=device, weights_only=False)
+      model.load_state_dict(ck["model"])
+      try:
+        optimizer.load_state_dict(ck["optimizer"])
+      except Exception as e:
+        print(f"[resume] optimizer not restored: {e}")
+      start_epoch = int(ck.get("epoch", -1)) + 1
+      print(f"[resume] {cfg.resume_from} @ epoch {start_epoch}", flush=True)
+    else:
+      print(f"[resume] {cfg.resume_from} NOT FOUND -- from scratch", flush=True)
+
   timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
   save_dir = Path(cfg.log_dir) / cfg.name / timestamp
   save_dir.mkdir(parents=True, exist_ok=True)
@@ -155,7 +170,7 @@ def pretrain(cfg: PretrainCfg) -> Path:
 
     wandb_run = wandb.init(project=cfg.wandb_project, name=cfg.name, config=vars(cfg))
 
-  for epoch in range(cfg.num_epochs):
+  for epoch in range(start_epoch, cfg.num_epochs):
     model.train()
     epoch_loss = torch.zeros((), device=device)
     n_batches = 0
