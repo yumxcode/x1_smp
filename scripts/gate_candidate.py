@@ -101,8 +101,11 @@ def gate_one(qpos: np.ndarray, fps: float, fk: X1FK, gate_model: GateModel,
         st = slip['feet'][s]
         s_stat[s] = st
         s_pass &= st['slip_p50'] is not None and st['slip_p50'] < 0.05
+    # flight>0 was ABOLISHED by SMP_PLAN Amendment 3 (2026-11-05 user ruling):
+    # walking gaits structurally have no double-swing (219/219 feet duty>0.5);
+    # contact authenticity is independently enforced by the slip gate above.
+    # Still reported as a diagnostic number.
     flight = slip['flight_frames_both_above_25mm']
-    s_pass &= flight > 0
     # diagnostics (not gated for external rollouts: physics contact IS the
     # reference; strict-contact fraction reported for transparency)
     for s in SIDES:

@@ -30,10 +30,13 @@ def main() -> int:
     ap.add_argument('--batch-size', type=int, default=512)
     ap.add_argument('--lr', type=float, default=2e-4)
     ap.add_argument('--resume-from', default='', help='prior ckpt to resume from')
+    ap.add_argument('--windows-dir', default='data/windows')
+    ap.add_argument('--stats', default='data/prior/norm_stats.npz')
+    ap.add_argument('--name', default='x1_walk_prior')
     args, extra = ap.parse_known_args()
 
-    windows = ROOT / 'data' / 'windows'
-    stats = ROOT / 'data' / 'prior' / 'norm_stats.npz'
+    windows = ROOT / args.windows_dir
+    stats = ROOT / args.stats
     missing = [p for p in (windows, stats) if not p.exists()]
     if missing:
         print(f'FAIL: missing {missing}; build windows first (scripts/build_x1_windows.py)', flush=True)
@@ -76,7 +79,7 @@ def main() -> int:
            f'--d-model={args.d_model}', f'--num-epochs={args.num_epochs}',
            f'--batch-size={args.batch_size}', f'--lr={args.lr}',
            '--no-use-ema', '--no-use-wandb', '--save-interval=250',
-           '--train-split=0.95', '--name=x1_walk_prior'] + ([f'--resume-from={args.resume_from}'] if args.resume_from else []) + extra
+           '--train-split=0.95', f'--name={args.name}'] + ([f'--resume-from={args.resume_from}'] if args.resume_from else []) + extra
     env = dict(os.environ)
     env['PYTHONPATH'] = str(ROOT / 'src') + (':' + env['PYTHONPATH'] if env.get('PYTHONPATH') else '')
     print('[prior] exec:', ' '.join(cmd), flush=True)
@@ -89,7 +92,7 @@ def main() -> int:
     out_dir = Path('/workspace/output') if Path('/workspace').exists() else ROOT / 'output'
     out_dir.mkdir(parents=True, exist_ok=True)
     import shutil
-    saved = ROOT / 'logs' / 'pretrain' / 'x1_walk_prior'
+    saved = ROOT / 'logs' / 'pretrain' / args.name
     n_mirrored = 0
     if saved.exists():
         for ck in sorted(saved.glob('*.pt')):

@@ -1,0 +1,430 @@
+{
+ "out": "data/x1_smp_train_v3.npz",
+ "clips": 4,
+ "frames": 2300,
+ "hours": 0.0128,
+ "fps": 50.0,
+ "pipeline": "G1'' (amendment rev3): physics-solved AMP policy MuJoCo rollouts (X1_29_AMP acceptance/v83_eval, read-only source), 0.5s head-drop, finite-diff qvel; gated per-clip by the corrected G1 gate set (slip p50<0.05 both feet, gait bands v3+sym, retarget A, hand/arm/torso R; flight>0 ABOLISHED by SMP_PLAN Amendment 3)",
+ "target_speed_mps": 0.45,
+ "source_policy_note": "c9196=v95c TASK_20261030_117 ckpt9196; sx50/sx70/y8000 = sx/y lineage of x7398",
+ "per_clip_gates": {
+  "sx70_walk05": {
+   "frames": 575,
+   "a_pass": true,
+   "b_pass": true,
+   "s_pass": true,
+   "r_pass": true,
+   "fk_sole_maxdiff_m": 0.0017469971149092212,
+   "gait": {
+    "speed": 0.45540686161532284,
+    "cadence": [
+     0.7812499999999993,
+     0.7812499999999993
+    ],
+    "step": [
+     0.2912977501211249,
+     0.29120963852174
+    ],
+    "swing": [
+     0.40000000000000036,
+     0.3600000000000003
+    ],
+    "duty": [
+     0.7008695652173913,
+     0.7530434782608696
+    ],
+    "lift": [
+     0.031046069499966945,
+     0.027071499690422808
+    ]
+   },
+   "bands": {
+    "cadence_hz": [
+     0.7812499999999993,
+     0.7812499999999993
+    ],
+    "swing_s_med": [
+     0.40000000000000036,
+     0.3600000000000003
+    ],
+    "duty": [
+     0.7008695652173913,
+     0.7530434782608696
+    ],
+    "lift_m": [
+     0.031046069499966945,
+     0.027071499690422808
+    ],
+    "step_len_m": [
+     0.2912977501211249,
+     0.29120963852174
+    ],
+    "speed_mps": 0.45540686161532284
+   },
+   "slip": {
+    "left": {
+     "n_strict": 288,
+     "slip_p50": 0.005033251024202323,
+     "slip_p90": 0.0118737109297768,
+     "slide_frac_gt015": 0.027777777777777776,
+     "contact_frac_z3mm": 1.0
+    },
+    "right": {
+     "n_strict": 292,
+     "slip_p50": 0.004541174351430238,
+     "slip_p90": 0.027934327713177345,
+     "slide_frac_gt015": 0.04452054794520548,
+     "contact_frac_z3mm": 1.0
+    }
+   },
+   "flight": 0,
+   "r_gates": {
+    "wrist_err_p50_m": null,
+    "wrist_err_p90_m": null,
+    "arm_at_limit_frac": true,
+    "arm_qd_max": true,
+    "lumbar_margin_ok": true,
+    "chest_yaw_err_p90_deg": null,
+    "twist_abs_p99_deg": true,
+    "tilt_max": true,
+    "joint_over_limit_max_rad": true,
+    "sole_pen_m": true,
+    "root_z_mean_band": true,
+    "self_collision_frames": true
+   },
+   "r_metrics": {
+    "wrist_err_p50_m": 0.0,
+    "wrist_err_p90_m": 0.0,
+    "arm_at_limit_frac": 0.007,
+    "arm_qd_max": 6.1181,
+    "lumbar_margin_ok": 1.0,
+    "chest_yaw_err_p90_deg": 11.2145,
+    "twist_abs_p99_deg": 14.4003,
+    "tilt_max": 0.0098,
+    "joint_over_limit_max_rad": 0.0,
+    "sole_pen_m": -0.0014,
+    "root_z_mean_band": 0.6077,
+    "self_collision_frames": 0,
+    "net_yaw_err_deg": 1.0535
+   },
+   "root_z": [
+    0.5842288775097432,
+    0.6262117234715427
+   ]
+  },
+  "sx50_walk05": {
+   "frames": 575,
+   "a_pass": true,
+   "b_pass": true,
+   "s_pass": true,
+   "r_pass": true,
+   "fk_sole_maxdiff_m": 0.0014738368810198743,
+   "gait": {
+    "speed": 0.45988616156796225,
+    "cadence": [
+     0.7812499999999993,
+     0.7812499999999993
+    ],
+    "step": [
+     0.28991859555935034,
+     0.2899146120922555
+    ],
+    "swing": [
+     0.28000000000000025,
+     0.38000000000000034
+    ],
+    "duty": [
+     0.7808695652173913,
+     0.7269565217391304
+    ],
+    "lift": [
+     0.03309522275957294,
+     0.029768129087866184
+    ]
+   },
+   "bands": {
+    "cadence_hz": [
+     0.7812499999999993,
+     0.7812499999999993
+    ],
+    "swing_s_med": [
+     0.28000000000000025,
+     0.38000000000000034
+    ],
+    "duty": [
+     0.7808695652173913,
+     0.7269565217391304
+    ],
+    "lift_m": [
+     0.03309522275957294,
+     0.029768129087866184
+    ],
+    "step_len_m": [
+     0.28991859555935034,
+     0.2899146120922555
+    ],
+    "speed_mps": 0.45988616156796225
+   },
+   "slip": {
+    "left": {
+     "n_strict": 300,
+     "slip_p50": 0.00505880594565896,
+     "slip_p90": 0.013679870556799692,
+     "slide_frac_gt015": 0.04,
+     "contact_frac_z3mm": 1.0
+    },
+    "right": {
+     "n_strict": 279,
+     "slip_p50": 0.004901987266454669,
+     "slip_p90": 0.01263418170215109,
+     "slide_frac_gt015": 0.010752688172043012,
+     "contact_frac_z3mm": 1.0
+    }
+   },
+   "flight": 0,
+   "r_gates": {
+    "wrist_err_p50_m": null,
+    "wrist_err_p90_m": null,
+    "arm_at_limit_frac": true,
+    "arm_qd_max": true,
+    "lumbar_margin_ok": true,
+    "chest_yaw_err_p90_deg": null,
+    "twist_abs_p99_deg": true,
+    "tilt_max": true,
+    "joint_over_limit_max_rad": true,
+    "sole_pen_m": true,
+    "root_z_mean_band": true,
+    "self_collision_frames": true
+   },
+   "r_metrics": {
+    "wrist_err_p50_m": 0.0,
+    "wrist_err_p90_m": 0.0,
+    "arm_at_limit_frac": 0.0052,
+    "arm_qd_max": 5.6954,
+    "lumbar_margin_ok": 1.0,
+    "chest_yaw_err_p90_deg": 11.2337,
+    "twist_abs_p99_deg": 16.8698,
+    "tilt_max": 0.0093,
+    "joint_over_limit_max_rad": 0.0,
+    "sole_pen_m": -0.0016,
+    "root_z_mean_band": 0.6075,
+    "self_collision_frames": 0,
+    "net_yaw_err_deg": 2.7583
+   },
+   "root_z": [
+    0.581431407277438,
+    0.6242306775697825
+   ]
+  },
+  "y8000_walk05": {
+   "frames": 575,
+   "a_pass": true,
+   "b_pass": true,
+   "s_pass": true,
+   "r_pass": true,
+   "fk_sole_maxdiff_m": 0.0015466173990437149,
+   "gait": {
+    "speed": 0.47712895068338457,
+    "cadence": [
+     0.7812499999999993,
+     0.7812499999999993
+    ],
+    "step": [
+     0.3010991716221497,
+     0.3011301290869415
+    ],
+    "swing": [
+     0.5000000000000004,
+     0.26000000000000023
+    ],
+    "duty": [
+     0.6243478260869565,
+     0.7843478260869565
+    ],
+    "lift": [
+     0.03432426698792687,
+     0.0326479564716192
+    ]
+   },
+   "bands": {
+    "cadence_hz": [
+     0.7812499999999993,
+     0.7812499999999993
+    ],
+    "swing_s_med": [
+     0.5000000000000004,
+     0.26000000000000023
+    ],
+    "duty": [
+     0.6243478260869565,
+     0.7843478260869565
+    ],
+    "lift_m": [
+     0.03432426698792687,
+     0.0326479564716192
+    ],
+    "step_len_m": [
+     0.3010991716221497,
+     0.3011301290869415
+    ],
+    "speed_mps": 0.47712895068338457
+   },
+   "slip": {
+    "left": {
+     "n_strict": 256,
+     "slip_p50": 0.0035803186515004195,
+     "slip_p90": 0.010377931082735247,
+     "slide_frac_gt015": 0.0,
+     "contact_frac_z3mm": 1.0
+    },
+    "right": {
+     "n_strict": 297,
+     "slip_p50": 0.004080845232406783,
+     "slip_p90": 0.010171405374702276,
+     "slide_frac_gt015": 0.0,
+     "contact_frac_z3mm": 1.0
+    }
+   },
+   "flight": 0,
+   "r_gates": {
+    "wrist_err_p50_m": null,
+    "wrist_err_p90_m": null,
+    "arm_at_limit_frac": true,
+    "arm_qd_max": true,
+    "lumbar_margin_ok": true,
+    "chest_yaw_err_p90_deg": null,
+    "twist_abs_p99_deg": true,
+    "tilt_max": true,
+    "joint_over_limit_max_rad": true,
+    "sole_pen_m": true,
+    "root_z_mean_band": true,
+    "self_collision_frames": true
+   },
+   "r_metrics": {
+    "wrist_err_p50_m": 0.0,
+    "wrist_err_p90_m": 0.0,
+    "arm_at_limit_frac": 0.0017,
+    "arm_qd_max": 4.8544,
+    "lumbar_margin_ok": 1.0,
+    "chest_yaw_err_p90_deg": 17.9885,
+    "twist_abs_p99_deg": 19.5102,
+    "tilt_max": 0.0121,
+    "joint_over_limit_max_rad": 0.0,
+    "sole_pen_m": -0.0018,
+    "root_z_mean_band": 0.6112,
+    "self_collision_frames": 0,
+    "net_yaw_err_deg": 14.5032
+   },
+   "root_z": [
+    0.5847628150316121,
+    0.6263024709945891
+   ]
+  },
+  "c9196_walk05": {
+   "frames": 575,
+   "a_pass": true,
+   "b_pass": true,
+   "s_pass": true,
+   "r_pass": true,
+   "fk_sole_maxdiff_m": 0.0017663221111603455,
+   "gait": {
+    "speed": 0.4815046365654324,
+    "cadence": [
+     0.7812499999999993,
+     0.7812499999999993
+    ],
+    "step": [
+     0.30710190964114764,
+     0.3079263015912848
+    ],
+    "swing": [
+     0.4600000000000004,
+     0.38000000000000034
+    ],
+    "duty": [
+     0.6556521739130434,
+     0.7060869565217391
+    ],
+    "lift": [
+     0.03665708122132515,
+     0.03983700578041321
+    ]
+   },
+   "bands": {
+    "cadence_hz": [
+     0.7812499999999993,
+     0.7812499999999993
+    ],
+    "swing_s_med": [
+     0.4600000000000004,
+     0.38000000000000034
+    ],
+    "duty": [
+     0.6556521739130434,
+     0.7060869565217391
+    ],
+    "lift_m": [
+     0.03665708122132515,
+     0.03983700578041321
+    ],
+    "step_len_m": [
+     0.30710190964114764,
+     0.3079263015912848
+    ],
+    "speed_mps": 0.4815046365654324
+   },
+   "slip": {
+    "left": {
+     "n_strict": 273,
+     "slip_p50": 0.0026431017323050574,
+     "slip_p90": 0.015003930839429325,
+     "slide_frac_gt015": 0.003663003663003663,
+     "contact_frac_z3mm": 1.0
+    },
+    "right": {
+     "n_strict": 284,
+     "slip_p50": 0.004253776940911497,
+     "slip_p90": 0.012175205853181083,
+     "slide_frac_gt015": 0.0,
+     "contact_frac_z3mm": 1.0
+    }
+   },
+   "flight": 0,
+   "r_gates": {
+    "wrist_err_p50_m": null,
+    "wrist_err_p90_m": null,
+    "arm_at_limit_frac": true,
+    "arm_qd_max": true,
+    "lumbar_margin_ok": true,
+    "chest_yaw_err_p90_deg": null,
+    "twist_abs_p99_deg": true,
+    "tilt_max": true,
+    "joint_over_limit_max_rad": true,
+    "sole_pen_m": true,
+    "root_z_mean_band": true,
+    "self_collision_frames": true
+   },
+   "r_metrics": {
+    "wrist_err_p50_m": 0.0,
+    "wrist_err_p90_m": 0.0,
+    "arm_at_limit_frac": 0.0017,
+    "arm_qd_max": 5.6253,
+    "lumbar_margin_ok": 1.0,
+    "chest_yaw_err_p90_deg": 23.1888,
+    "twist_abs_p99_deg": 28.2218,
+    "tilt_max": 0.0102,
+    "joint_over_limit_max_rad": 0.0,
+    "sole_pen_m": -0.0016,
+    "root_z_mean_band": 0.6106,
+    "self_collision_frames": 0,
+    "net_yaw_err_deg": 44.0004
+   },
+   "root_z": [
+    0.5865988544984266,
+    0.630837154187673
+   ]
+  }
+ },
+ "sweep_all": "data/candidate_gates_walk05_all.json (120 walk05 clips gated, 4 full-pass)",
+ "built_at": "2026-11-05 07:26:32"
+}

@@ -1,0 +1,21 @@
+{
+ "library": "data/x1_smp_train_v3.npz",
+ "clips": 4,
+ "windows": 2264,
+ "window_size": 10,
+ "stride": 1,
+ "feature_dim": 63,
+ "fps": 50.0,
+ "q_low": 0.01,
+ "q_high": 0.99,
+ "stats_frames": 16980,
+ "kept": [
+  "sx70_walk05",
+  "sx50_walk05",
+  "y8000_walk05",
+  "c9196_walk05"
+ ],
+ "heldout": [
+  "sx70_walk05"
+ ]
+}
