@@ -59,10 +59,6 @@ def main() -> int:
     sys.path.insert(0, str(ROOT / 'src'))
     import torch
     import smp.rl.tasks  # noqa: F401
-    from mjlab.tasks.registry import get_env_cfg_cls  # type: ignore
-
-    from mjlab.scripts.play import main as play_main  # noqa: F401  (unused; rollout below is custom)
-
     # Play with the trained policy at fixed speeds using the registered task's
     # play env: we override the steering command to the fixed speed per run.
     speeds = [float(s) for s in args.speeds.split(',')]
