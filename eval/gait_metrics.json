@@ -1,0 +1,28 @@
+{
+  "task": "TASK_20261104_129 (final eval run, policy model_4100 @ 4100 iters)",
+  "note": "cadence/swing/duty/lift/step_len are null because the policy slides with both soles <1.2 cm off the floor (no gait cycle to detect); see [diag] lines in the task log and SMP_REPORT.md section 4.",
+  "v0.5": {
+    "survival_s": 20.0,
+    "speed_cmd": 0.5,
+    "speed_measured": 0.2518465192499344,
+    "cadence_hz": [null, null],
+    "swing_s": [null, null],
+    "duty": [null, null],
+    "lift_m": [null, null],
+    "step_len_m": [null, null],
+    "video": "eval/video_v0p5.mp4",
+    "diag": {"sole_max_m": {"left": 0.0110, "right": 0.0066}, "rel_gt_2cm_frac": {"left": 0.0, "right": 0.0}, "root_z_range": [0.610, 0.622], "xy_travel_m": 4.92}
+  },
+  "v1.0": {
+    "survival_s": 20.0,
+    "speed_cmd": 1.0,
+    "speed_measured": 0.5598914722625388,
+    "cadence_hz": [null, null],
+    "swing_s": [null, null],
+    "duty": [null, null],
+    "lift_m": [null, null],
+    "step_len_m": [null, null],
+    "video": "eval/video_v1p0.mp4",
+    "diag": {"sole_max_m": {"left": 0.0114, "right": 0.0091}, "rel_gt_2cm_frac": {"left": 0.0, "right": 0.0}, "root_z_range": [0.611, 0.623], "xy_travel_m": 11.25}
+  }
+}
