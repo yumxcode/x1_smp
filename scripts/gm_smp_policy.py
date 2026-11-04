@@ -41,11 +41,11 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument('--dry-run', action='store_true')
     ap.add_argument('--num-envs', type=int, default=int(os.environ.get('SMP_NUM_ENVS', '2048')))
-    ap.add_argument('--max-iterations', type=int, default=int(os.environ.get('SMP_ITERS', '12000')))
+    ap.add_argument('--max-iterations', type=int, default=int(os.environ.get('SMP_ITERS', '10000')))
     ap.add_argument('--resume', default='')
     args, extra = ap.parse_known_args()
 
-    prior = Path(os.environ.get('SMP_PRIOR_CKPT', ROOT / 'data' / 'prior' / 'x1_walk_prior.pt'))
+    prior = Path(os.environ.get('SMP_PRIOR_CKPT', ROOT / 'data' / 'prior' / 'x1_walk_prior_r3.pt'))
     print(f'[policy] task={TASK_ID} envs={args.num_envs} iters={args.max_iterations} prior={prior}', flush=True)
     if not prior.exists():
         print(f'FAIL: prior checkpoint missing: {prior}', flush=True)
