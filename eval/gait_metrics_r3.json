@@ -1,0 +1,22 @@
+{
+  "task": "TASK_20261104_321 (R3 final eval, policy model_r3_3900 @ 3900 iters, additive reward + 63-dim contact prior, command band 0.4-0.9)",
+  "acceptance": "amendment 3: measured >= 0.7 m/s @ cmd 0.7 AND true stepping (clean swing/stance phases); sliding = hard fail",
+  "verdict": "FAIL (slide)",
+  "v0.5": {
+    "survival_s": 20.0,
+    "speed_cmd": 0.5,
+    "speed_measured": 0.4003,
+    "cadence_hz": [null, null], "swing_s": [null, null], "duty": [null, null],
+    "lift_m": [null, null], "step_len_m": [null, null],
+    "diag_sole": {"L": {"min_m": -0.0031, "p50_m": 0.0009, "max_m": 0.0190}, "R": {"min_m": -0.0021, "p50_m": 0.0012, "max_m": 0.0081}, "rel_gt2cm_frac": [0.0, 0.0], "root_z_m": [0.609, 0.624], "xy_travel_m": 7.79}
+  },
+  "v0.7": {
+    "survival_s": 20.0,
+    "speed_cmd": 0.7,
+    "speed_measured": 0.6405,
+    "cadence_hz": [null, null], "swing_s": [null, null], "duty": [null, null],
+    "lift_m": [null, null], "step_len_m": [null, null],
+    "diag_sole": {"L": {"min_m": -0.0047, "p50_m": 0.0011, "max_m": 0.0461}, "R": {"min_m": -0.0027, "p50_m": 0.0015, "max_m": 0.0184}, "rel_gt2cm_frac": [0.0, 0.0], "root_z_m": [0.609, 0.664], "xy_travel_m": 12.68}
+  },
+  "note": "cadence/swing/duty/lift/step_len null because no clean gait cycle: both soles stay ~1 mm off the floor (p50), no periodic >2cm liftoff fraction. Speed tracking improved to 91% (0.64/0.7) vs R1 60% - additive reward removed the speed discount, but the contact-semantic 63-dim prior + additive reward did NOT eliminate sliding."
+}
