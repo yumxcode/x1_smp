@@ -1,0 +1,6138 @@
+{
+ "x1_cmu_walk:07_01": {
+  "frames": 122,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 1.0794097326342382,
+   "cadence": [
+    1.8518518518518516,
+    0.9259259259259258
+   ],
+   "step": [
+    0.2781627824384927,
+    0.5553837466928517
+   ],
+   "swing": [
+    0.54,
+    0.12
+   ],
+   "duty": [
+    0.4262295081967213,
+    0.9344262295081968
+   ],
+   "lift": [
+    0.07664702709838231,
+    0.02675248040676511
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    1.8518518518518516,
+    0.9259259259259258
+   ],
+   "swing_s_med": [
+    0.54,
+    0.12
+   ],
+   "duty": [
+    0.4262295081967213,
+    0.9344262295081968
+   ],
+   "lift_m": [
+    0.07664702709838231,
+    0.02675248040676511
+   ],
+   "step_len_m": [
+    0.2781627824384927,
+    0.5553837466928517
+   ],
+   "speed_mps": 1.0794097326342382
+  },
+  "slip": {
+   "left": {
+    "n_strict": 10,
+    "slip_p50": 0.43533476612821276,
+    "slip_p90": 0.7166477998856908,
+    "slide_frac_gt015": 0.8,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 93,
+    "slip_p50": 0.744007983818224,
+    "slip_p90": 2.031285810342016,
+    "slide_frac_gt015": 0.967741935483871,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 2.5752,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 32.0459,
+   "twist_abs_p99_deg": 34.987,
+   "tilt_max": 0.0305,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6276,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 5.8457
+  },
+  "root_z": [
+   0.5994930267333984,
+   0.6450468301773071
+  ]
+ },
+ "x1_cmu_walk:07_02": {
+  "frames": 127,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 1.0206278677070821,
+   "cadence": [
+    0.7936507936507936,
+    NaN
+   ],
+   "step": [
+    0.6137750515246326,
+    NaN
+   ],
+   "swing": [
+    0.44999999999999996,
+    NaN
+   ],
+   "duty": [
+    0.3464566929133858,
+    NaN
+   ],
+   "lift": [
+    0.08310078065489604,
+    NaN
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.7936507936507936,
+    NaN
+   ],
+   "swing_s_med": [
+    0.44999999999999996,
+    NaN
+   ],
+   "duty": [
+    0.3464566929133858,
+    NaN
+   ],
+   "lift_m": [
+    0.08310078065489604,
+    NaN
+   ],
+   "step_len_m": [
+    0.6137750515246326,
+    NaN
+   ],
+   "speed_mps": 1.0206278677070821
+  },
+  "slip": {
+   "left": {
+    "n_strict": 13,
+    "slip_p50": 0.4928329602951744,
+    "slip_p90": 0.7599526843792456,
+    "slide_frac_gt015": 1.0,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 98,
+    "slip_p50": 0.7283314107058916,
+    "slip_p90": 2.1997628418263604,
+    "slide_frac_gt015": 0.9693877551020408,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 1.7635,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 30.4172,
+   "twist_abs_p99_deg": 34.3205,
+   "tilt_max": 0.0283,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6298,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 16.1414
+  },
+  "root_z": [
+   0.6020013689994812,
+   0.6509268283843994
+  ]
+ },
+ "x1_cmu_walk:07_03": {
+  "frames": 163,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.8116644513562729,
+   "cadence": [
+    0.7407407407407407,
+    NaN
+   ],
+   "step": [
+    0.5115889881594076,
+    NaN
+   ],
+   "swing": [
+    0.37,
+    NaN
+   ],
+   "duty": [
+    0.4662576687116564,
+    0.9815950920245399
+   ],
+   "lift": [
+    0.07792206770775223,
+    0.022133921397387735
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.7407407407407407,
+    NaN
+   ],
+   "swing_s_med": [
+    0.37,
+    NaN
+   ],
+   "duty": [
+    0.4662576687116564,
+    0.9815950920245399
+   ],
+   "lift_m": [
+    0.07792206770775223,
+    0.022133921397387735
+   ],
+   "step_len_m": [
+    0.5115889881594076,
+    NaN
+   ],
+   "speed_mps": 0.8116644513562729
+  },
+  "slip": {
+   "left": {
+    "n_strict": 29,
+    "slip_p50": 0.4171464518231382,
+    "slip_p90": 0.6639636959000322,
+    "slide_frac_gt015": 0.896551724137931,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 115,
+    "slip_p50": 0.4908611115441514,
+    "slip_p90": 1.4330235957984356,
+    "slide_frac_gt015": 0.9391304347826087,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 1.4127,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 27.7078,
+   "twist_abs_p99_deg": 29.5445,
+   "tilt_max": 0.0192,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6314,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 3.5929
+  },
+  "root_z": [
+   0.6120381951332092,
+   0.6487700343132019
+  ]
+ },
+ "x1_cmu_walk:07_06": {
+  "frames": 164,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.9971006157215702,
+   "cadence": [
+    0.8620689655172414,
+    0.8771929824561403
+   ],
+   "step": [
+    0.5368559456485885,
+    0.5248090476419836
+   ],
+   "swing": [
+    0.32,
+    0.1
+   ],
+   "duty": [
+    0.35365853658536583,
+    0.9329268292682927
+   ],
+   "lift": [
+    0.09068703012153148,
+    0.029952552042198634
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.8620689655172414,
+    0.8771929824561403
+   ],
+   "swing_s_med": [
+    0.32,
+    0.1
+   ],
+   "duty": [
+    0.35365853658536583,
+    0.9329268292682927
+   ],
+   "lift_m": [
+    0.09068703012153148,
+    0.029952552042198634
+   ],
+   "step_len_m": [
+    0.5368559456485885,
+    0.5248090476419836
+   ],
+   "speed_mps": 0.9971006157215702
+  },
+  "slip": {
+   "left": {
+    "n_strict": 21,
+    "slip_p50": 0.3336883362867725,
+    "slip_p90": 0.41853894980515255,
+    "slide_frac_gt015": 1.0,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 121,
+    "slip_p50": 0.5747045585897438,
+    "slip_p90": 1.662916668520678,
+    "slide_frac_gt015": 0.9338842975206612,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 2.1719,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 35.1574,
+   "twist_abs_p99_deg": 37.5896,
+   "tilt_max": 0.0294,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6292,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 3.8271
+  },
+  "root_z": [
+   0.6011022329330444,
+   0.64840167760849
+  ]
+ },
+ "x1_cmu_walk:07_07": {
+  "frames": 148,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 1.0621433719960158,
+   "cadence": [
+    0.9259259259259258,
+    0.8474576271186441
+   ],
+   "step": [
+    0.5439957773964201,
+    0.5693480584304151
+   ],
+   "swing": [
+    0.3,
+    0.11
+   ],
+   "duty": [
+    0.40540540540540543,
+    0.9256756756756757
+   ],
+   "lift": [
+    0.07694339578166637,
+    0.030107946129455207
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.9259259259259258,
+    0.8474576271186441
+   ],
+   "swing_s_med": [
+    0.3,
+    0.11
+   ],
+   "duty": [
+    0.40540540540540543,
+    0.9256756756756757
+   ],
+   "lift_m": [
+    0.07694339578166637,
+    0.030107946129455207
+   ],
+   "step_len_m": [
+    0.5439957773964201,
+    0.5693480584304151
+   ],
+   "speed_mps": 1.0621433719960158
+  },
+  "slip": {
+   "left": {
+    "n_strict": 17,
+    "slip_p50": 0.3277898659976496,
+    "slip_p90": 0.5184462134962016,
+    "slide_frac_gt015": 0.9411764705882353,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 110,
+    "slip_p50": 0.6375522445868845,
+    "slip_p90": 1.6706584630563848,
+    "slide_frac_gt015": 0.9090909090909091,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 2.4518,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 35.0284,
+   "twist_abs_p99_deg": 39.8661,
+   "tilt_max": 0.0328,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6237,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 11.3048
+  },
+  "root_z": [
+   0.5938120484352112,
+   0.6461480259895325
+  ]
+ },
+ "x1_cmu_walk:07_08": {
+  "frames": 141,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": false,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 1.066382661045524,
+   "cadence": [
+    1.36986301369863,
+    0.7575757575757576
+   ],
+   "step": [
+    0.364361353645555,
+    0.6684637414966936
+   ],
+   "swing": [
+    0.5800000000000001,
+    0.14
+   ],
+   "duty": [
+    0.524822695035461,
+    0.8723404255319149
+   ],
+   "lift": [
+    0.07142058039236232,
+    0.036844799160659025
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    1.36986301369863,
+    0.7575757575757576
+   ],
+   "swing_s_med": [
+    0.5800000000000001,
+    0.14
+   ],
+   "duty": [
+    0.524822695035461,
+    0.8723404255319149
+   ],
+   "lift_m": [
+    0.07142058039236232,
+    0.036844799160659025
+   ],
+   "step_len_m": [
+    0.364361353645555,
+    0.6684637414966936
+   ],
+   "speed_mps": 1.066382661045524
+  },
+  "slip": {
+   "left": {
+    "n_strict": 29,
+    "slip_p50": 0.4467809672376379,
+    "slip_p90": 0.6656178461492547,
+    "slide_frac_gt015": 1.0,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 97,
+    "slip_p50": 0.9241168309975663,
+    "slip_p90": 1.9280829802865729,
+    "slide_frac_gt015": 0.9690721649484536,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": false,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 2.0183,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 43.5943,
+   "twist_abs_p99_deg": 48.3709,
+   "tilt_max": 0.0329,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.614,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 21.3858
+  },
+  "root_z": [
+   0.5800439119338989,
+   0.6399125456809998
+  ]
+ },
+ "x1_cmu_walk:07_09": {
+  "frames": 118,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 1.1627642762647845,
+   "cadence": [
+    0.819672131147541,
+    NaN
+   ],
+   "step": [
+    0.6743900887157172,
+    NaN
+   ],
+   "swing": [
+    0.32,
+    NaN
+   ],
+   "duty": [
+    0.5169491525423728,
+    NaN
+   ],
+   "lift": [
+    0.07180524434918885,
+    NaN
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.819672131147541,
+    NaN
+   ],
+   "swing_s_med": [
+    0.32,
+    NaN
+   ],
+   "duty": [
+    0.5169491525423728,
+    NaN
+   ],
+   "lift_m": [
+    0.07180524434918885,
+    NaN
+   ],
+   "step_len_m": [
+    0.6743900887157172,
+    NaN
+   ],
+   "speed_mps": 1.1627642762647845
+  },
+  "slip": {
+   "left": {
+    "n_strict": 22,
+    "slip_p50": 0.3129662774823535,
+    "slip_p90": 0.7269170315900152,
+    "slide_frac_gt015": 0.9090909090909091,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 74,
+    "slip_p50": 0.5148267457588066,
+    "slip_p90": 1.8618850891224041,
+    "slide_frac_gt015": 0.972972972972973,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 2.6169,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 31.7572,
+   "twist_abs_p99_deg": 38.9591,
+   "tilt_max": 0.0323,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.622,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 18.2707
+  },
+  "root_z": [
+   0.5916329026222229,
+   0.6434919238090515
+  ]
+ },
+ "x1_cmu_walk:07_10": {
+  "frames": 115,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 1.2535516595573444,
+   "cadence": [
+    NaN,
+    0.9433962264150942
+   ],
+   "step": [
+    NaN,
+    0.6262625240095735
+   ],
+   "swing": [
+    0.5700000000000001,
+    0.14
+   ],
+   "duty": [
+    0.4608695652173913,
+    0.8521739130434782
+   ],
+   "lift": [
+    0.08114402911699536,
+    0.037187788699822685
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    NaN,
+    0.9433962264150942
+   ],
+   "swing_s_med": [
+    0.5700000000000001,
+    0.14
+   ],
+   "duty": [
+    0.4608695652173913,
+    0.8521739130434782
+   ],
+   "lift_m": [
+    0.08114402911699536,
+    0.037187788699822685
+   ],
+   "step_len_m": [
+    NaN,
+    0.6262625240095735
+   ],
+   "speed_mps": 1.2535516595573444
+  },
+  "slip": {
+   "left": {
+    "n_strict": 19,
+    "slip_p50": 0.6181739884427528,
+    "slip_p90": 1.1724122642875143,
+    "slide_frac_gt015": 0.9473684210526315,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 73,
+    "slip_p50": 0.6428601521844877,
+    "slip_p90": 1.796553851070298,
+    "slide_frac_gt015": 0.9726027397260274,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 2.4993,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 35.542,
+   "twist_abs_p99_deg": 39.7879,
+   "tilt_max": 0.0367,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6183,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 22.5964
+  },
+  "root_z": [
+   0.5779005289077759,
+   0.6437293887138367
+  ]
+ },
+ "x1_cmu_walk:08_01": {
+  "frames": 105,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 1.358815931997237,
+   "cadence": [
+    NaN,
+    NaN
+   ],
+   "step": [
+    NaN,
+    NaN
+   ],
+   "swing": [
+    0.22,
+    0.14
+   ],
+   "duty": [
+    0.5142857142857142,
+    0.8761904761904762
+   ],
+   "lift": [
+    0.055302212602917275,
+    0.030674719743768175
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    NaN,
+    NaN
+   ],
+   "swing_s_med": [
+    0.22,
+    0.14
+   ],
+   "duty": [
+    0.5142857142857142,
+    0.8761904761904762
+   ],
+   "lift_m": [
+    0.055302212602917275,
+    0.030674719743768175
+   ],
+   "step_len_m": [
+    NaN,
+    NaN
+   ],
+   "speed_mps": 1.358815931997237
+  },
+  "slip": {
+   "left": {
+    "n_strict": 18,
+    "slip_p50": 0.5427358456959629,
+    "slip_p90": 1.5702656844108964,
+    "slide_frac_gt015": 0.8888888888888888,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 61,
+    "slip_p50": 1.114615629324874,
+    "slip_p90": 2.299344413513174,
+    "slide_frac_gt015": 0.9672131147540983,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 2.8766,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 35.9349,
+   "twist_abs_p99_deg": 38.8417,
+   "tilt_max": 0.0582,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6275,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 6.805
+  },
+  "root_z": [
+   0.5810424089431763,
+   0.6510249972343445
+  ]
+ },
+ "x1_cmu_walk:08_02": {
+  "frames": 119,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 1.2631527655826482,
+   "cadence": [
+    2.941176470588235,
+    0.970873786407767
+   ],
+   "step": [
+    0.19978043733097,
+    0.6018528593056798
+   ],
+   "swing": [
+    0.18,
+    0.14
+   ],
+   "duty": [
+    0.680672268907563,
+    0.8235294117647058
+   ],
+   "lift": [
+    0.050087274303190266,
+    0.039742247164620007
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    2.941176470588235,
+    0.970873786407767
+   ],
+   "swing_s_med": [
+    0.18,
+    0.14
+   ],
+   "duty": [
+    0.680672268907563,
+    0.8235294117647058
+   ],
+   "lift_m": [
+    0.050087274303190266,
+    0.039742247164620007
+   ],
+   "step_len_m": [
+    0.19978043733097,
+    0.6018528593056798
+   ],
+   "speed_mps": 1.2631527655826482
+  },
+  "slip": {
+   "left": {
+    "n_strict": 40,
+    "slip_p50": 0.551916012365208,
+    "slip_p90": 1.6214622083345425,
+    "slide_frac_gt015": 0.9,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 48,
+    "slip_p50": 0.8359183562834802,
+    "slip_p90": 2.4171413270356052,
+    "slide_frac_gt015": 0.875,
+    "contact_frac_z3mm": 1.0
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 3.5181,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 36.0595,
+   "twist_abs_p99_deg": 39.7981,
+   "tilt_max": 0.0461,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6265,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 21.4496
+  },
+  "root_z": [
+   0.5896775722503662,
+   0.6514917612075806
+  ]
+ },
+ "x1_cmu_walk:08_03": {
+  "frames": 137,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 1.2448209677476267,
+   "cadence": [
+    1.9607843137254901,
+    0.9803921568627451
+   ],
+   "step": [
+    0.2947054054735482,
+    0.5877640429454207
+   ],
+   "swing": [
+    0.18,
+    0.13
+   ],
+   "duty": [
+    0.5985401459854015,
+    0.8686131386861314
+   ],
+   "lift": [
+    0.05310120444383917,
+    0.04687431077790718
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    1.9607843137254901,
+    0.9803921568627451
+   ],
+   "swing_s_med": [
+    0.18,
+    0.13
+   ],
+   "duty": [
+    0.5985401459854015,
+    0.8686131386861314
+   ],
+   "lift_m": [
+    0.05310120444383917,
+    0.04687431077790718
+   ],
+   "step_len_m": [
+    0.2947054054735482,
+    0.5877640429454207
+   ],
+   "speed_mps": 1.2448209677476267
+  },
+  "slip": {
+   "left": {
+    "n_strict": 31,
+    "slip_p50": 0.593958103419355,
+    "slip_p90": 1.7680651393995401,
+    "slide_frac_gt015": 0.7741935483870968,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 73,
+    "slip_p50": 1.1880040626487645,
+    "slip_p90": 3.287931689369921,
+    "slide_frac_gt015": 0.8904109589041096,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 3.7737,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 35.006,
+   "twist_abs_p99_deg": 36.4594,
+   "tilt_max": 0.0513,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.626,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 26.2196
+  },
+  "root_z": [
+   0.5875504612922668,
+   0.6507399082183838
+  ]
+ },
+ "x1_cmu_walk:08_06": {
+  "frames": 113,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 1.4366409326245129,
+   "cadence": [
+    1.8518518518518516,
+    1.1627906976744187
+   ],
+   "step": [
+    0.36174543803049475,
+    0.5760033619769713
+   ],
+   "swing": [
+    0.22,
+    0.1
+   ],
+   "duty": [
+    0.5132743362831859,
+    0.9380530973451328
+   ],
+   "lift": [
+    0.07032793616183178,
+    0.03452612119362165
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    1.8518518518518516,
+    1.1627906976744187
+   ],
+   "swing_s_med": [
+    0.22,
+    0.1
+   ],
+   "duty": [
+    0.5132743362831859,
+    0.9380530973451328
+   ],
+   "lift_m": [
+    0.07032793616183178,
+    0.03452612119362165
+   ],
+   "step_len_m": [
+    0.36174543803049475,
+    0.5760033619769713
+   ],
+   "speed_mps": 1.4366409326245129
+  },
+  "slip": {
+   "left": {
+    "n_strict": 12,
+    "slip_p50": 0.4397865279551537,
+    "slip_p90": 0.6732247383669749,
+    "slide_frac_gt015": 0.9166666666666666,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 66,
+    "slip_p50": 0.9097945075517817,
+    "slip_p90": 2.182072694625396,
+    "slide_frac_gt015": 0.9545454545454546,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 5.0519,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 34.6648,
+   "twist_abs_p99_deg": 37.672,
+   "tilt_max": 0.054,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6272,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 30.9371
+  },
+  "root_z": [
+   0.5820500254631042,
+   0.6527969837188721
+  ]
+ },
+ "x1_cmu_walk:08_08": {
+  "frames": 108,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 1.453015911102146,
+   "cadence": [
+    1.1627906976744187,
+    1.1111111111111112
+   ],
+   "step": [
+    0.5974869794089405,
+    0.6288401198815771
+   ],
+   "swing": [
+    0.14,
+    NaN
+   ],
+   "duty": [
+    0.5555555555555556,
+    0.9444444444444444
+   ],
+   "lift": [
+    0.06145565989741613,
+    0.043375956169256845
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    1.1627906976744187,
+    1.1111111111111112
+   ],
+   "swing_s_med": [
+    0.14,
+    NaN
+   ],
+   "duty": [
+    0.5555555555555556,
+    0.9444444444444444
+   ],
+   "lift_m": [
+    0.06145565989741613,
+    0.043375956169256845
+   ],
+   "step_len_m": [
+    0.5974869794089405,
+    0.6288401198815771
+   ],
+   "speed_mps": 1.453015911102146
+  },
+  "slip": {
+   "left": {
+    "n_strict": 19,
+    "slip_p50": 0.2994496854867833,
+    "slip_p90": 0.999073737073661,
+    "slide_frac_gt015": 1.0,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 57,
+    "slip_p50": 0.9768659109056912,
+    "slip_p90": 3.05251027979316,
+    "slide_frac_gt015": 0.9824561403508771,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 3.3505,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 37.6172,
+   "twist_abs_p99_deg": 39.6294,
+   "tilt_max": 0.0597,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6262,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 18.6257
+  },
+  "root_z": [
+   0.584143340587616,
+   0.6547558903694153
+  ]
+ },
+ "x1_cmu_walk:08_09": {
+  "frames": 112,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 1.3686748105280393,
+   "cadence": [
+    2.1739130434782608,
+    1.1235955056179776
+   ],
+   "step": [
+    0.3007565426847173,
+    0.5832968969315031
+   ],
+   "swing": [
+    0.16,
+    NaN
+   ],
+   "duty": [
+    0.6875,
+    0.9285714285714286
+   ],
+   "lift": [
+    0.05548719950649947,
+    0.043564425346920906
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    2.1739130434782608,
+    1.1235955056179776
+   ],
+   "swing_s_med": [
+    0.16,
+    NaN
+   ],
+   "duty": [
+    0.6875,
+    0.9285714285714286
+   ],
+   "lift_m": [
+    0.05548719950649947,
+    0.043564425346920906
+   ],
+   "step_len_m": [
+    0.3007565426847173,
+    0.5832968969315031
+   ],
+   "speed_mps": 1.3686748105280393
+  },
+  "slip": {
+   "left": {
+    "n_strict": 24,
+    "slip_p50": 0.44293858290028276,
+    "slip_p90": 1.246003072816842,
+    "slide_frac_gt015": 0.9166666666666666,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 55,
+    "slip_p50": 0.9205022516824263,
+    "slip_p90": 2.7032411350667327,
+    "slide_frac_gt015": 0.9454545454545454,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 3.0215,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 34.3903,
+   "twist_abs_p99_deg": 39.038,
+   "tilt_max": 0.0609,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6247,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 27.046
+  },
+  "root_z": [
+   0.581081211566925,
+   0.6531846523284912
+  ]
+ },
+ "x1_cmu_walk:103_07": {
+  "frames": 186,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 1.0042299765496079,
+   "cadence": [
+    1.4285714285714284,
+    0.9090909090909091
+   ],
+   "step": [
+    0.3175972184644609,
+    0.5074628913870635
+   ],
+   "swing": [
+    0.2,
+    0.12
+   ],
+   "duty": [
+    0.7365591397849462,
+    0.9032258064516129
+   ],
+   "lift": [
+    0.06411994144213537,
+    0.031888980485949486
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    1.4285714285714284,
+    0.9090909090909091
+   ],
+   "swing_s_med": [
+    0.2,
+    0.12
+   ],
+   "duty": [
+    0.7365591397849462,
+    0.9032258064516129
+   ],
+   "lift_m": [
+    0.06411994144213537,
+    0.031888980485949486
+   ],
+   "step_len_m": [
+    0.3175972184644609,
+    0.5074628913870635
+   ],
+   "speed_mps": 1.0042299765496079
+  },
+  "slip": {
+   "left": {
+    "n_strict": 51,
+    "slip_p50": 0.6339006459329217,
+    "slip_p90": 1.277557696665952,
+    "slide_frac_gt015": 0.9411764705882353,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 100,
+    "slip_p50": 0.6819594965546556,
+    "slip_p90": 2.321644991609961,
+    "slide_frac_gt015": 0.94,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 2.4802,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 24.0855,
+   "twist_abs_p99_deg": 26.666,
+   "tilt_max": 0.097,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.614,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 17.1319
+  },
+  "root_z": [
+   0.5568764805793762,
+   0.6402638554573059
+  ]
+ },
+ "x1_cmu_walk:35_01": {
+  "frames": 139,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.9505632000452484,
+   "cadence": [
+    1.3333333333333333,
+    NaN
+   ],
+   "step": [
+    0.3473292727803628,
+    NaN
+   ],
+   "swing": [
+    0.16,
+    NaN
+   ],
+   "duty": [
+    0.6474820143884892,
+    NaN
+   ],
+   "lift": [
+    0.0383518277589581,
+    NaN
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    1.3333333333333333,
+    NaN
+   ],
+   "swing_s_med": [
+    0.16,
+    NaN
+   ],
+   "duty": [
+    0.6474820143884892,
+    NaN
+   ],
+   "lift_m": [
+    0.0383518277589581,
+    NaN
+   ],
+   "step_len_m": [
+    0.3473292727803628,
+    NaN
+   ],
+   "speed_mps": 0.9505632000452484
+  },
+  "slip": {
+   "left": {
+    "n_strict": 45,
+    "slip_p50": 0.33298777448258027,
+    "slip_p90": 0.8476177406014136,
+    "slide_frac_gt015": 0.9777777777777777,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 77,
+    "slip_p50": 0.4528187240509529,
+    "slip_p90": 1.4460960298129988,
+    "slide_frac_gt015": 0.974025974025974,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.5801,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 17.3291,
+   "twist_abs_p99_deg": 19.5279,
+   "tilt_max": 0.0803,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.61,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 10.8604
+  },
+  "root_z": [
+   0.5631630420684814,
+   0.6373897790908813
+  ]
+ },
+ "x1_cmu_walk:35_02": {
+  "frames": 159,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.9008818748074323,
+   "cadence": [
+    1.7543859649122806,
+    NaN
+   ],
+   "step": [
+    0.2587660963500736,
+    NaN
+   ],
+   "swing": [
+    0.16999999999999998,
+    NaN
+   ],
+   "duty": [
+    0.6226415094339622,
+    NaN
+   ],
+   "lift": [
+    0.04254481311588289,
+    NaN
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    1.7543859649122806,
+    NaN
+   ],
+   "swing_s_med": [
+    0.16999999999999998,
+    NaN
+   ],
+   "duty": [
+    0.6226415094339622,
+    NaN
+   ],
+   "lift_m": [
+    0.04254481311588289,
+    NaN
+   ],
+   "step_len_m": [
+    0.2587660963500736,
+    NaN
+   ],
+   "speed_mps": 0.9008818748074323
+  },
+  "slip": {
+   "left": {
+    "n_strict": 36,
+    "slip_p50": 0.34227217659862685,
+    "slip_p90": 1.7329392096267404,
+    "slide_frac_gt015": 0.9444444444444444,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 95,
+    "slip_p50": 0.4930738839601537,
+    "slip_p90": 2.3235988766786964,
+    "slide_frac_gt015": 0.9368421052631579,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.6768,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 16.5656,
+   "twist_abs_p99_deg": 18.5444,
+   "tilt_max": 0.0808,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6108,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 8.202
+  },
+  "root_z": [
+   0.5648059844970703,
+   0.63836270570755
+  ]
+ },
+ "x1_cmu_walk:35_03": {
+  "frames": 168,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.9334652157193877,
+   "cadence": [
+    1.4285714285714284,
+    NaN
+   ],
+   "step": [
+    0.31764825653178386,
+    NaN
+   ],
+   "swing": [
+    0.16999999999999998,
+    NaN
+   ],
+   "duty": [
+    0.6369047619047619,
+    0.9880952380952381
+   ],
+   "lift": [
+    0.041850375227129186,
+    0.022336421056968495
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    1.4285714285714284,
+    NaN
+   ],
+   "swing_s_med": [
+    0.16999999999999998,
+    NaN
+   ],
+   "duty": [
+    0.6369047619047619,
+    0.9880952380952381
+   ],
+   "lift_m": [
+    0.041850375227129186,
+    0.022336421056968495
+   ],
+   "step_len_m": [
+    0.31764825653178386,
+    NaN
+   ],
+   "speed_mps": 0.9334652157193877
+  },
+  "slip": {
+   "left": {
+    "n_strict": 37,
+    "slip_p50": 0.4275404781456363,
+    "slip_p90": 1.0787415641336855,
+    "slide_frac_gt015": 0.918918918918919,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 97,
+    "slip_p50": 0.482762700474993,
+    "slip_p90": 1.3801647285620904,
+    "slide_frac_gt015": 0.9484536082474226,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 1.2913,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 18.045,
+   "twist_abs_p99_deg": 20.5853,
+   "tilt_max": 0.0862,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6067,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 3.0086
+  },
+  "root_z": [
+   0.5610983371734619,
+   0.6394287943840027
+  ]
+ },
+ "x1_cmu_walk:35_04": {
+  "frames": 170,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.9203814894403108,
+   "cadence": [
+    0.9009009009009008,
+    NaN
+   ],
+   "step": [
+    0.4893143589517905,
+    NaN
+   ],
+   "swing": [
+    0.25,
+    NaN
+   ],
+   "duty": [
+    0.5294117647058824,
+    NaN
+   ],
+   "lift": [
+    0.04513697265620733,
+    NaN
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.9009009009009008,
+    NaN
+   ],
+   "swing_s_med": [
+    0.25,
+    NaN
+   ],
+   "duty": [
+    0.5294117647058824,
+    NaN
+   ],
+   "lift_m": [
+    0.04513697265620733,
+    NaN
+   ],
+   "step_len_m": [
+    0.4893143589517905,
+    NaN
+   ],
+   "speed_mps": 0.9203814894403108
+  },
+  "slip": {
+   "left": {
+    "n_strict": 35,
+    "slip_p50": 0.39183982557919134,
+    "slip_p90": 0.9448622175030034,
+    "slide_frac_gt015": 1.0,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 114,
+    "slip_p50": 0.43535548329677537,
+    "slip_p90": 1.0248882454032564,
+    "slide_frac_gt015": 0.9736842105263158,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.8889,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 16.9054,
+   "twist_abs_p99_deg": 18.6162,
+   "tilt_max": 0.0815,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6086,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 0.813
+  },
+  "root_z": [
+   0.5615861415863037,
+   0.6438284516334534
+  ]
+ },
+ "x1_cmu_walk:35_05": {
+  "frames": 168,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.883746892193407,
+   "cadence": [
+    0.8620689655172414,
+    NaN
+   ],
+   "step": [
+    0.5076460422749611,
+    NaN
+   ],
+   "swing": [
+    0.24,
+    0.1
+   ],
+   "duty": [
+    0.5714285714285714,
+    0.9523809523809523
+   ],
+   "lift": [
+    0.05037340376722738,
+    0.02424210322968018
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.8620689655172414,
+    NaN
+   ],
+   "swing_s_med": [
+    0.24,
+    0.1
+   ],
+   "duty": [
+    0.5714285714285714,
+    0.9523809523809523
+   ],
+   "lift_m": [
+    0.05037340376722738,
+    0.02424210322968018
+   ],
+   "step_len_m": [
+    0.5076460422749611,
+    NaN
+   ],
+   "speed_mps": 0.883746892193407
+  },
+  "slip": {
+   "left": {
+    "n_strict": 45,
+    "slip_p50": 0.4408278276393577,
+    "slip_p90": 1.0284727141785595,
+    "slide_frac_gt015": 0.9777777777777777,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 97,
+    "slip_p50": 0.39460256264234483,
+    "slip_p90": 1.8647861259137386,
+    "slide_frac_gt015": 0.9072164948453608,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.6699,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 16.8256,
+   "twist_abs_p99_deg": 21.7837,
+   "tilt_max": 0.0788,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6145,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 10.5819
+  },
+  "root_z": [
+   0.5688199400901794,
+   0.6411743760108948
+  ]
+ },
+ "x1_cmu_walk:35_06": {
+  "frames": 173,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.8789078033244119,
+   "cadence": [
+    1.25,
+    NaN
+   ],
+   "step": [
+    0.3433058550728244,
+    NaN
+   ],
+   "swing": [
+    0.24,
+    NaN
+   ],
+   "duty": [
+    0.5606936416184971,
+    0.9942196531791907
+   ],
+   "lift": [
+    0.04019871856069721,
+    0.021186044244454742
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    1.25,
+    NaN
+   ],
+   "swing_s_med": [
+    0.24,
+    NaN
+   ],
+   "duty": [
+    0.5606936416184971,
+    0.9942196531791907
+   ],
+   "lift_m": [
+    0.04019871856069721,
+    0.021186044244454742
+   ],
+   "step_len_m": [
+    0.3433058550728244,
+    NaN
+   ],
+   "speed_mps": 0.8789078033244119
+  },
+  "slip": {
+   "left": {
+    "n_strict": 42,
+    "slip_p50": 0.3752359276902259,
+    "slip_p90": 1.5222909187459657,
+    "slide_frac_gt015": 0.9047619047619048,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 105,
+    "slip_p50": 0.42283799160730184,
+    "slip_p90": 1.2857370071787857,
+    "slide_frac_gt015": 0.9047619047619048,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.7391,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 16.247,
+   "twist_abs_p99_deg": 18.873,
+   "tilt_max": 0.0714,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6111,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 3.7019
+  },
+  "root_z": [
+   0.579667329788208,
+   0.6417505145072937
+  ]
+ },
+ "x1_cmu_walk:35_07": {
+  "frames": 140,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.9332124934205508,
+   "cadence": [
+    1.3888888888888888,
+    NaN
+   ],
+   "step": [
+    0.3435030799261135,
+    NaN
+   ],
+   "swing": [
+    0.24,
+    NaN
+   ],
+   "duty": [
+    0.5714285714285714,
+    NaN
+   ],
+   "lift": [
+    0.043162098977247466,
+    NaN
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    1.3888888888888888,
+    NaN
+   ],
+   "swing_s_med": [
+    0.24,
+    NaN
+   ],
+   "duty": [
+    0.5714285714285714,
+    NaN
+   ],
+   "lift_m": [
+    0.043162098977247466,
+    NaN
+   ],
+   "step_len_m": [
+    0.3435030799261135,
+    NaN
+   ],
+   "speed_mps": 0.9332124934205508
+  },
+  "slip": {
+   "left": {
+    "n_strict": 30,
+    "slip_p50": 0.45050844363117887,
+    "slip_p90": 1.2199640781451528,
+    "slide_frac_gt015": 0.9666666666666667,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 89,
+    "slip_p50": 0.44733021080551727,
+    "slip_p90": 2.2792189194294536,
+    "slide_frac_gt015": 0.9550561797752809,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.8423,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 17.2323,
+   "twist_abs_p99_deg": 19.4265,
+   "tilt_max": 0.0859,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6111,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 7.0734
+  },
+  "root_z": [
+   0.5719143748283386,
+   0.6413845419883728
+  ]
+ },
+ "x1_cmu_walk:35_08": {
+  "frames": 180,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.8916498132443011,
+   "cadence": [
+    0.9009009009009008,
+    NaN
+   ],
+   "step": [
+    0.48113388302846083,
+    NaN
+   ],
+   "swing": [
+    0.2,
+    NaN
+   ],
+   "duty": [
+    0.5555555555555556,
+    0.9777777777777777
+   ],
+   "lift": [
+    0.04453438254795689,
+    0.024486955655803617
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.9009009009009008,
+    NaN
+   ],
+   "swing_s_med": [
+    0.2,
+    NaN
+   ],
+   "duty": [
+    0.5555555555555556,
+    0.9777777777777777
+   ],
+   "lift_m": [
+    0.04453438254795689,
+    0.024486955655803617
+   ],
+   "step_len_m": [
+    0.48113388302846083,
+    NaN
+   ],
+   "speed_mps": 0.8916498132443011
+  },
+  "slip": {
+   "left": {
+    "n_strict": 46,
+    "slip_p50": 0.35526142893995266,
+    "slip_p90": 1.2123649353643642,
+    "slide_frac_gt015": 0.8695652173913043,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 112,
+    "slip_p50": 0.4320696071932416,
+    "slip_p90": 1.3870745342398862,
+    "slide_frac_gt015": 0.9553571428571429,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.8682,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 16.7163,
+   "twist_abs_p99_deg": 18.6261,
+   "tilt_max": 0.0677,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6137,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 0.4894
+  },
+  "root_z": [
+   0.5804874300956726,
+   0.6433033347129822
+  ]
+ },
+ "x1_cmu_walk:35_09": {
+  "frames": 150,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.8907803012561445,
+   "cadence": [
+    2.5,
+    NaN
+   ],
+   "step": [
+    0.17149209824552905,
+    NaN
+   ],
+   "swing": [
+    0.22,
+    NaN
+   ],
+   "duty": [
+    0.56,
+    0.9733333333333334
+   ],
+   "lift": [
+    0.05195076083539528,
+    0.0212184849650811
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    2.5,
+    NaN
+   ],
+   "swing_s_med": [
+    0.22,
+    NaN
+   ],
+   "duty": [
+    0.56,
+    0.9733333333333334
+   ],
+   "lift_m": [
+    0.05195076083539528,
+    0.0212184849650811
+   ],
+   "step_len_m": [
+    0.17149209824552905,
+    NaN
+   ],
+   "speed_mps": 0.8907803012561445
+  },
+  "slip": {
+   "left": {
+    "n_strict": 32,
+    "slip_p50": 0.3307282981375126,
+    "slip_p90": 0.8173830665321752,
+    "slide_frac_gt015": 0.90625,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 101,
+    "slip_p50": 0.4323924067028126,
+    "slip_p90": 1.5604699887857643,
+    "slide_frac_gt015": 0.8811881188118812,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.6481,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 16.1793,
+   "twist_abs_p99_deg": 17.8999,
+   "tilt_max": 0.0601,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6145,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 9.4185
+  },
+  "root_z": [
+   0.5952715277671814,
+   0.6410099864006042
+  ]
+ },
+ "x1_cmu_walk:35_10": {
+  "frames": 170,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.8986478866289718,
+   "cadence": [
+    0.8928571428571428,
+    NaN
+   ],
+   "step": [
+    0.4809811857500319,
+    NaN
+   ],
+   "swing": [
+    0.18,
+    NaN
+   ],
+   "duty": [
+    0.611764705882353,
+    0.9764705882352941
+   ],
+   "lift": [
+    0.04213903906961939,
+    0.022816248190282058
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.8928571428571428,
+    NaN
+   ],
+   "swing_s_med": [
+    0.18,
+    NaN
+   ],
+   "duty": [
+    0.611764705882353,
+    0.9764705882352941
+   ],
+   "lift_m": [
+    0.04213903906961939,
+    0.022816248190282058
+   ],
+   "step_len_m": [
+    0.4809811857500319,
+    NaN
+   ],
+   "speed_mps": 0.8986478866289718
+  },
+  "slip": {
+   "left": {
+    "n_strict": 50,
+    "slip_p50": 0.3545588141744481,
+    "slip_p90": 1.2652796354453433,
+    "slide_frac_gt015": 0.94,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 102,
+    "slip_p50": 0.40995944094194736,
+    "slip_p90": 1.3664891438365925,
+    "slide_frac_gt015": 0.9019607843137255,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.6788,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 16.3127,
+   "twist_abs_p99_deg": 17.3373,
+   "tilt_max": 0.0687,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6118,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 0.6397
+  },
+  "root_z": [
+   0.5854238271713257,
+   0.6398389935493469
+  ]
+ },
+ "x1_cmu_walk:35_11": {
+  "frames": 150,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.8798965408761306,
+   "cadence": [
+    0.9009009009009008,
+    0.9090909090909091
+   ],
+   "step": [
+    0.4754657002251813,
+    0.4706533988189937
+   ],
+   "swing": [
+    0.39,
+    0.12
+   ],
+   "duty": [
+    0.4866666666666667,
+    0.9333333333333333
+   ],
+   "lift": [
+    0.04723775893809552,
+    0.026179246493421827
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.9009009009009008,
+    0.9090909090909091
+   ],
+   "swing_s_med": [
+    0.39,
+    0.12
+   ],
+   "duty": [
+    0.4866666666666667,
+    0.9333333333333333
+   ],
+   "lift_m": [
+    0.04723775893809552,
+    0.026179246493421827
+   ],
+   "step_len_m": [
+    0.4754657002251813,
+    0.4706533988189937
+   ],
+   "speed_mps": 0.8798965408761306
+  },
+  "slip": {
+   "left": {
+    "n_strict": 43,
+    "slip_p50": 0.31733290523144514,
+    "slip_p90": 1.159379451041843,
+    "slide_frac_gt015": 0.8604651162790697,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 89,
+    "slip_p50": 0.3657988920359188,
+    "slip_p90": 1.0134448419370357,
+    "slide_frac_gt015": 0.9438202247191011,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.6846,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 14.8678,
+   "twist_abs_p99_deg": 15.6048,
+   "tilt_max": 0.0648,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6142,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 1.1917
+  },
+  "root_z": [
+   0.5920945405960083,
+   0.6402332186698914
+  ]
+ },
+ "x1_cmu_walk:35_12": {
+  "frames": 155,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.8552459819076599,
+   "cadence": [
+    0.8928571428571428,
+    NaN
+   ],
+   "step": [
+    0.466735415198604,
+    NaN
+   ],
+   "swing": [
+    0.24,
+    NaN
+   ],
+   "duty": [
+    0.5483870967741935,
+    NaN
+   ],
+   "lift": [
+    0.04575788628930132,
+    NaN
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.8928571428571428,
+    NaN
+   ],
+   "swing_s_med": [
+    0.24,
+    NaN
+   ],
+   "duty": [
+    0.5483870967741935,
+    NaN
+   ],
+   "lift_m": [
+    0.04575788628930132,
+    NaN
+   ],
+   "step_len_m": [
+    0.466735415198604,
+    NaN
+   ],
+   "speed_mps": 0.8552459819076599
+  },
+  "slip": {
+   "left": {
+    "n_strict": 27,
+    "slip_p50": 0.24290119494372628,
+    "slip_p90": 0.9326257140184653,
+    "slide_frac_gt015": 0.7777777777777778,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 111,
+    "slip_p50": 0.3974965387183206,
+    "slip_p90": 1.7974406831827057,
+    "slide_frac_gt015": 0.9279279279279279,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.7258,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 14.1164,
+   "twist_abs_p99_deg": 15.1205,
+   "tilt_max": 0.0604,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.614,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 11.1535
+  },
+  "root_z": [
+   0.5932285189628601,
+   0.6417743563652039
+  ]
+ },
+ "x1_cmu_walk:35_13": {
+  "frames": 179,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.8943503133735019,
+   "cadence": [
+    1.4285714285714284,
+    NaN
+   ],
+   "step": [
+    0.3136004245192116,
+    NaN
+   ],
+   "swing": [
+    0.2,
+    NaN
+   ],
+   "duty": [
+    0.6145251396648045,
+    NaN
+   ],
+   "lift": [
+    0.040109696066160425,
+    NaN
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    1.4285714285714284,
+    NaN
+   ],
+   "swing_s_med": [
+    0.2,
+    NaN
+   ],
+   "duty": [
+    0.6145251396648045,
+    NaN
+   ],
+   "lift_m": [
+    0.040109696066160425,
+    NaN
+   ],
+   "step_len_m": [
+    0.3136004245192116,
+    NaN
+   ],
+   "speed_mps": 0.8943503133735019
+  },
+  "slip": {
+   "left": {
+    "n_strict": 38,
+    "slip_p50": 0.43947922281864404,
+    "slip_p90": 1.3992483661068043,
+    "slide_frac_gt015": 0.9473684210526315,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 109,
+    "slip_p50": 0.4772123615539165,
+    "slip_p90": 2.101099174071056,
+    "slide_frac_gt015": 0.9541284403669725,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 1.0531,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 15.2623,
+   "twist_abs_p99_deg": 17.4196,
+   "tilt_max": 0.0666,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6117,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 11.6905
+  },
+  "root_z": [
+   0.5798222422599792,
+   0.6408745050430298
+  ]
+ },
+ "x1_cmu_walk:35_14": {
+  "frames": 161,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.8899456543318047,
+   "cadence": [
+    0.8771929824561403,
+    NaN
+   ],
+   "step": [
+    0.4975736585411854,
+    NaN
+   ],
+   "swing": [
+    0.28,
+    0.12
+   ],
+   "duty": [
+    0.577639751552795,
+    0.9627329192546584
+   ],
+   "lift": [
+    0.053589907661313406,
+    0.0264085091575674
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.8771929824561403,
+    NaN
+   ],
+   "swing_s_med": [
+    0.28,
+    0.12
+   ],
+   "duty": [
+    0.577639751552795,
+    0.9627329192546584
+   ],
+   "lift_m": [
+    0.053589907661313406,
+    0.0264085091575674
+   ],
+   "step_len_m": [
+    0.4975736585411854,
+    NaN
+   ],
+   "speed_mps": 0.8899456543318047
+  },
+  "slip": {
+   "left": {
+    "n_strict": 38,
+    "slip_p50": 0.3987344351060854,
+    "slip_p90": 0.9020455051883944,
+    "slide_frac_gt015": 0.9473684210526315,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 100,
+    "slip_p50": 0.3758092646026072,
+    "slip_p90": 1.3227223846578986,
+    "slide_frac_gt015": 0.91,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.7742,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 16.1249,
+   "twist_abs_p99_deg": 18.7646,
+   "tilt_max": 0.0807,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6131,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 2.5818
+  },
+  "root_z": [
+   0.5644978880882263,
+   0.6432347297668457
+  ]
+ },
+ "x1_cmu_walk:35_15": {
+  "frames": 159,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.8917183366445602,
+   "cadence": [
+    0.9009009009009008,
+    NaN
+   ],
+   "step": [
+    0.479842797176131,
+    NaN
+   ],
+   "swing": [
+    0.23,
+    NaN
+   ],
+   "duty": [
+    0.559748427672956,
+    NaN
+   ],
+   "lift": [
+    0.047041467910899505,
+    NaN
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.9009009009009008,
+    NaN
+   ],
+   "swing_s_med": [
+    0.23,
+    NaN
+   ],
+   "duty": [
+    0.559748427672956,
+    NaN
+   ],
+   "lift_m": [
+    0.047041467910899505,
+    NaN
+   ],
+   "step_len_m": [
+    0.479842797176131,
+    NaN
+   ],
+   "speed_mps": 0.8917183366445602
+  },
+  "slip": {
+   "left": {
+    "n_strict": 43,
+    "slip_p50": 0.37415228375397647,
+    "slip_p90": 1.44782051171437,
+    "slide_frac_gt015": 0.9069767441860465,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 97,
+    "slip_p50": 0.41658649467010717,
+    "slip_p90": 1.3263827869821894,
+    "slide_frac_gt015": 0.9175257731958762,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.7941,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 15.2269,
+   "twist_abs_p99_deg": 16.7748,
+   "tilt_max": 0.0644,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6129,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 0.8616
+  },
+  "root_z": [
+   0.5908306241035461,
+   0.6396506428718567
+  ]
+ },
+ "x1_cmu_walk:35_16": {
+  "frames": 175,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.8769039661508762,
+   "cadence": [
+    1.3513513513513513,
+    NaN
+   ],
+   "step": [
+    0.3196718832536792,
+    NaN
+   ],
+   "swing": [
+    0.28,
+    NaN
+   ],
+   "duty": [
+    0.5428571428571428,
+    0.9885714285714285
+   ],
+   "lift": [
+    0.051152358993163165,
+    0.026102719391656738
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    1.3513513513513513,
+    NaN
+   ],
+   "swing_s_med": [
+    0.28,
+    NaN
+   ],
+   "duty": [
+    0.5428571428571428,
+    0.9885714285714285
+   ],
+   "lift_m": [
+    0.051152358993163165,
+    0.026102719391656738
+   ],
+   "step_len_m": [
+    0.3196718832536792,
+    NaN
+   ],
+   "speed_mps": 0.8769039661508762
+  },
+  "slip": {
+   "left": {
+    "n_strict": 36,
+    "slip_p50": 0.3488950885683171,
+    "slip_p90": 0.8689877888720398,
+    "slide_frac_gt015": 0.8888888888888888,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 114,
+    "slip_p50": 0.43475864538706877,
+    "slip_p90": 1.6149363637678107,
+    "slide_frac_gt015": 0.9210526315789473,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.8537,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 15.4635,
+   "twist_abs_p99_deg": 16.6809,
+   "tilt_max": 0.0633,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6141,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 7.1677
+  },
+  "root_z": [
+   0.5928053855895996,
+   0.6418262720108032
+  ]
+ },
+ "x1_cmu_walk:35_28": {
+  "frames": 164,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.8789716468299011,
+   "cadence": [
+    0.8695652173913042,
+    NaN
+   ],
+   "step": [
+    0.48710890792037287,
+    NaN
+   ],
+   "swing": [
+    0.33,
+    NaN
+   ],
+   "duty": [
+    0.5121951219512195,
+    NaN
+   ],
+   "lift": [
+    0.05314627427885959,
+    NaN
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.8695652173913042,
+    NaN
+   ],
+   "swing_s_med": [
+    0.33,
+    NaN
+   ],
+   "duty": [
+    0.5121951219512195,
+    NaN
+   ],
+   "lift_m": [
+    0.05314627427885959,
+    NaN
+   ],
+   "step_len_m": [
+    0.48710890792037287,
+    NaN
+   ],
+   "speed_mps": 0.8789716468299011
+  },
+  "slip": {
+   "left": {
+    "n_strict": 37,
+    "slip_p50": 0.40787033475744827,
+    "slip_p90": 0.6349563974362769,
+    "slide_frac_gt015": 1.0,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 108,
+    "slip_p50": 0.46655278824944935,
+    "slip_p90": 1.5320394421488917,
+    "slide_frac_gt015": 0.9351851851851852,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.8513,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 16.031,
+   "twist_abs_p99_deg": 17.6367,
+   "tilt_max": 0.0756,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6098,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 1.2733
+  },
+  "root_z": [
+   0.5691807270050049,
+   0.6428669095039368
+  ]
+ },
+ "x1_cmu_walk:35_30": {
+  "frames": 162,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.8684418771896818,
+   "cadence": [
+    0.970873786407767,
+    NaN
+   ],
+   "step": [
+    0.43479929699820263,
+    NaN
+   ],
+   "swing": [
+    0.21000000000000002,
+    NaN
+   ],
+   "duty": [
+    0.6111111111111112,
+    0.9814814814814815
+   ],
+   "lift": [
+    0.046056625847239845,
+    0.023008876581225066
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.970873786407767,
+    NaN
+   ],
+   "swing_s_med": [
+    0.21000000000000002,
+    NaN
+   ],
+   "duty": [
+    0.6111111111111112,
+    0.9814814814814815
+   ],
+   "lift_m": [
+    0.046056625847239845,
+    0.023008876581225066
+   ],
+   "step_len_m": [
+    0.43479929699820263,
+    NaN
+   ],
+   "speed_mps": 0.8684418771896818
+  },
+  "slip": {
+   "left": {
+    "n_strict": 42,
+    "slip_p50": 0.3374281690593416,
+    "slip_p90": 0.7557738761503651,
+    "slide_frac_gt015": 0.9761904761904762,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 98,
+    "slip_p50": 0.35811476191022285,
+    "slip_p90": 1.273978420085817,
+    "slide_frac_gt015": 0.9285714285714286,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.3249,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 18.2643,
+   "twist_abs_p99_deg": 20.2855,
+   "tilt_max": 0.074,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6113,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 2.1543
+  },
+  "root_z": [
+   0.5830166935920715,
+   0.6392096281051636
+  ]
+ },
+ "x1_cmu_walk:35_31": {
+  "frames": 165,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.8731512403191523,
+   "cadence": [
+    0.8474576271186441,
+    NaN
+   ],
+   "step": [
+    0.5060122163391365,
+    NaN
+   ],
+   "swing": [
+    0.24,
+    NaN
+   ],
+   "duty": [
+    0.5818181818181818,
+    0.9878787878787879
+   ],
+   "lift": [
+    0.04394759738052335,
+    0.020585643444852683
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.8474576271186441,
+    NaN
+   ],
+   "swing_s_med": [
+    0.24,
+    NaN
+   ],
+   "duty": [
+    0.5818181818181818,
+    0.9878787878787879
+   ],
+   "lift_m": [
+    0.04394759738052335,
+    0.020585643444852683
+   ],
+   "step_len_m": [
+    0.5060122163391365,
+    NaN
+   ],
+   "speed_mps": 0.8731512403191523
+  },
+  "slip": {
+   "left": {
+    "n_strict": 54,
+    "slip_p50": 0.3501439006814196,
+    "slip_p90": 0.9901789949422247,
+    "slide_frac_gt015": 0.8888888888888888,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 95,
+    "slip_p50": 0.45486904019930147,
+    "slip_p90": 1.5427456396318526,
+    "slide_frac_gt015": 0.9789473684210527,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.5234,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 17.1869,
+   "twist_abs_p99_deg": 18.034,
+   "tilt_max": 0.0678,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6128,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 3.2184
+  },
+  "root_z": [
+   0.5791449546813965,
+   0.6414059400558472
+  ]
+ },
+ "x1_cmu_walk:35_32": {
+  "frames": 153,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.933901634896392,
+   "cadence": [
+    1.3157894736842106,
+    NaN
+   ],
+   "step": [
+    0.36158475355483627,
+    NaN
+   ],
+   "swing": [
+    0.22,
+    NaN
+   ],
+   "duty": [
+    0.49673202614379086,
+    NaN
+   ],
+   "lift": [
+    0.04794572013405083,
+    NaN
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    1.3157894736842106,
+    NaN
+   ],
+   "swing_s_med": [
+    0.22,
+    NaN
+   ],
+   "duty": [
+    0.49673202614379086,
+    NaN
+   ],
+   "lift_m": [
+    0.04794572013405083,
+    NaN
+   ],
+   "step_len_m": [
+    0.36158475355483627,
+    NaN
+   ],
+   "speed_mps": 0.933901634896392
+  },
+  "slip": {
+   "left": {
+    "n_strict": 33,
+    "slip_p50": 0.42276857740895635,
+    "slip_p90": 1.040449497197901,
+    "slide_frac_gt015": 0.9090909090909091,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 102,
+    "slip_p50": 0.3972759815413157,
+    "slip_p90": 1.4825820118190594,
+    "slide_frac_gt015": 0.9313725490196079,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.6578,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 17.902,
+   "twist_abs_p99_deg": 20.6398,
+   "tilt_max": 0.0615,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6114,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 13.9579
+  },
+  "root_z": [
+   0.580707311630249,
+   0.6430321931838989
+  ]
+ },
+ "x1_cmu_walk:35_33": {
+  "frames": 165,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.9714262311947133,
+   "cadence": [
+    1.7543859649122806,
+    NaN
+   ],
+   "step": [
+    0.26472366422073534,
+    NaN
+   ],
+   "swing": [
+    0.19,
+    NaN
+   ],
+   "duty": [
+    0.6181818181818182,
+    0.9818181818181818
+   ],
+   "lift": [
+    0.042087432403459905,
+    0.028460028092277795
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    1.7543859649122806,
+    NaN
+   ],
+   "swing_s_med": [
+    0.19,
+    NaN
+   ],
+   "duty": [
+    0.6181818181818182,
+    0.9818181818181818
+   ],
+   "lift_m": [
+    0.042087432403459905,
+    0.028460028092277795
+   ],
+   "step_len_m": [
+    0.26472366422073534,
+    NaN
+   ],
+   "speed_mps": 0.9714262311947133
+  },
+  "slip": {
+   "left": {
+    "n_strict": 40,
+    "slip_p50": 0.45459223402394555,
+    "slip_p90": 1.357996284223093,
+    "slide_frac_gt015": 0.925,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 93,
+    "slip_p50": 0.4808673758792886,
+    "slip_p90": 1.7830739743030042,
+    "slide_frac_gt015": 0.956989247311828,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.7778,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 20.3409,
+   "twist_abs_p99_deg": 22.4422,
+   "tilt_max": 0.0843,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6086,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 12.6241
+  },
+  "root_z": [
+   0.5591246485710144,
+   0.6394389271736145
+  ]
+ },
+ "x1_cmu_walk:35_34": {
+  "frames": 163,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.9382745731792155,
+   "cadence": [
+    1.3157894736842106,
+    NaN
+   ],
+   "step": [
+    0.3578698677244659,
+    NaN
+   ],
+   "swing": [
+    0.21000000000000002,
+    NaN
+   ],
+   "duty": [
+    0.5950920245398773,
+    NaN
+   ],
+   "lift": [
+    0.0449709468103179,
+    NaN
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    1.3157894736842106,
+    NaN
+   ],
+   "swing_s_med": [
+    0.21000000000000002,
+    NaN
+   ],
+   "duty": [
+    0.5950920245398773,
+    NaN
+   ],
+   "lift_m": [
+    0.0449709468103179,
+    NaN
+   ],
+   "step_len_m": [
+    0.3578698677244659,
+    NaN
+   ],
+   "speed_mps": 0.9382745731792155
+  },
+  "slip": {
+   "left": {
+    "n_strict": 34,
+    "slip_p50": 0.4035607041579461,
+    "slip_p90": 1.3241559084376802,
+    "slide_frac_gt015": 0.9705882352941176,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 103,
+    "slip_p50": 0.5264798284472643,
+    "slip_p90": 2.5438618486277447,
+    "slide_frac_gt015": 0.9320388349514563,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.8052,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 17.4227,
+   "twist_abs_p99_deg": 19.858,
+   "tilt_max": 0.0741,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6093,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 5.161
+  },
+  "root_z": [
+   0.5714793801307678,
+   0.6412001848220825
+  ]
+ },
+ "x1_cmu_walk:38_01": {
+  "frames": 137,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.9027683354909242,
+   "cadence": [
+    0.8333333333333334,
+    0.8771929824561403
+   ],
+   "step": [
+    0.5786968395191576,
+    0.5119832180865209
+   ],
+   "swing": [
+    0.68,
+    0.14
+   ],
+   "duty": [
+    0.4744525547445255,
+    0.8394160583941606
+   ],
+   "lift": [
+    0.10159384353081669,
+    0.06049197406244607
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.8333333333333334,
+    0.8771929824561403
+   ],
+   "swing_s_med": [
+    0.68,
+    0.14
+   ],
+   "duty": [
+    0.4744525547445255,
+    0.8394160583941606
+   ],
+   "lift_m": [
+    0.10159384353081669,
+    0.06049197406244607
+   ],
+   "step_len_m": [
+    0.5786968395191576,
+    0.5119832180865209
+   ],
+   "speed_mps": 0.9027683354909242
+  },
+  "slip": {
+   "left": {
+    "n_strict": 24,
+    "slip_p50": 0.3171764401347036,
+    "slip_p90": 0.929028365916667,
+    "slide_frac_gt015": 0.8333333333333334,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 86,
+    "slip_p50": 0.3202563055333906,
+    "slip_p90": 2.0447944172568184,
+    "slide_frac_gt015": 0.7906976744186046,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.9755,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 28.1326,
+   "twist_abs_p99_deg": 30.5217,
+   "tilt_max": 0.0255,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6318,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 41.2134
+  },
+  "root_z": [
+   0.6061301231384277,
+   0.6496819257736206
+  ]
+ },
+ "x1_cmu_walk:38_02": {
+  "frames": 165,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 1.0718933392476373,
+   "cadence": [
+    0.9523809523809523,
+    1.0
+   ],
+   "step": [
+    0.5331121515027999,
+    0.5528943292500603
+   ],
+   "swing": [
+    0.24,
+    NaN
+   ],
+   "duty": [
+    0.43636363636363634,
+    0.9575757575757575
+   ],
+   "lift": [
+    0.0686373680270071,
+    0.04435898001499279
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.9523809523809523,
+    1.0
+   ],
+   "swing_s_med": [
+    0.24,
+    NaN
+   ],
+   "duty": [
+    0.43636363636363634,
+    0.9575757575757575
+   ],
+   "lift_m": [
+    0.0686373680270071,
+    0.04435898001499279
+   ],
+   "step_len_m": [
+    0.5331121515027999,
+    0.5528943292500603
+   ],
+   "speed_mps": 1.0718933392476373
+  },
+  "slip": {
+   "left": {
+    "n_strict": 16,
+    "slip_p50": 0.395500327586512,
+    "slip_p90": 0.6986075435599278,
+    "slide_frac_gt015": 0.75,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 124,
+    "slip_p50": 0.5515343959509926,
+    "slip_p90": 2.24272030669311,
+    "slide_frac_gt015": 0.9274193548387096,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 1.1405,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 31.0983,
+   "twist_abs_p99_deg": 35.7213,
+   "tilt_max": 0.0255,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6276,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 2.2717
+  },
+  "root_z": [
+   0.593694269657135,
+   0.642102837562561
+  ]
+ },
+ "x1_cmu_walk:82_12": {
+  "frames": 158,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": false,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 1.1069702553570702,
+   "cadence": [
+    1.2195121951219512,
+    NaN
+   ],
+   "step": [
+    0.4451714209303786,
+    NaN
+   ],
+   "swing": [
+    0.12,
+    0.1
+   ],
+   "duty": [
+    0.8037974683544303,
+    0.9177215189873418
+   ],
+   "lift": [
+    0.03623582366555823,
+    0.05912467652781779
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    1.2195121951219512,
+    NaN
+   ],
+   "swing_s_med": [
+    0.12,
+    0.1
+   ],
+   "duty": [
+    0.8037974683544303,
+    0.9177215189873418
+   ],
+   "lift_m": [
+    0.03623582366555823,
+    0.05912467652781779
+   ],
+   "step_len_m": [
+    0.4451714209303786,
+    NaN
+   ],
+   "speed_mps": 1.1069702553570702
+  },
+  "slip": {
+   "left": {
+    "n_strict": 33,
+    "slip_p50": 0.8148414127139484,
+    "slip_p90": 1.6490726152899593,
+    "slide_frac_gt015": 0.9696969696969697,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 88,
+    "slip_p50": 0.753583549721853,
+    "slip_p90": 2.614993370915485,
+    "slide_frac_gt015": 0.9545454545454546,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": false,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 2.4814,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 39.1745,
+   "twist_abs_p99_deg": 42.5482,
+   "tilt_max": 0.0426,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6252,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 8.6948
+  },
+  "root_z": [
+   0.5887048244476318,
+   0.6439401507377625
+  ]
+ },
+ "x1_cmu_walk:82_13": {
+  "frames": 162,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": false,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 1.162160332233236,
+   "cadence": [
+    1.3513513513513513,
+    0.8695652173913042
+   ],
+   "step": [
+    0.4070060682322602,
+    0.6007008106316631
+   ],
+   "swing": [
+    0.18,
+    0.1
+   ],
+   "duty": [
+    0.8209876543209876,
+    0.9135802469135802
+   ],
+   "lift": [
+    0.03698054658156329,
+    0.05234259089396954
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    1.3513513513513513,
+    0.8695652173913042
+   ],
+   "swing_s_med": [
+    0.18,
+    0.1
+   ],
+   "duty": [
+    0.8209876543209876,
+    0.9135802469135802
+   ],
+   "lift_m": [
+    0.03698054658156329,
+    0.05234259089396954
+   ],
+   "step_len_m": [
+    0.4070060682322602,
+    0.6007008106316631
+   ],
+   "speed_mps": 1.162160332233236
+  },
+  "slip": {
+   "left": {
+    "n_strict": 41,
+    "slip_p50": 0.5361609775180392,
+    "slip_p90": 1.473682883507575,
+    "slide_frac_gt015": 0.975609756097561,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 86,
+    "slip_p50": 0.7245782432359569,
+    "slip_p90": 2.183120559264707,
+    "slide_frac_gt015": 0.9534883720930233,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": false,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 3.1474,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 38.6496,
+   "twist_abs_p99_deg": 40.621,
+   "tilt_max": 0.0402,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6242,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 12.7949
+  },
+  "root_z": [
+   0.5879359245300293,
+   0.6477225422859192
+  ]
+ },
+ "x1_phase2_heldout:137_03_turn": {
+  "frames": 390,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.14655372598401195,
+   "cadence": [
+    NaN,
+    NaN
+   ],
+   "step": [
+    NaN,
+    NaN
+   ],
+   "swing": [
+    NaN,
+    NaN
+   ],
+   "duty": [
+    0.9512820512820512,
+    NaN
+   ],
+   "lift": [
+    0.021299370681987256,
+    NaN
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    NaN,
+    NaN
+   ],
+   "swing_s_med": [
+    NaN,
+    NaN
+   ],
+   "duty": [
+    0.9512820512820512,
+    NaN
+   ],
+   "lift_m": [
+    0.021299370681987256,
+    NaN
+   ],
+   "step_len_m": [
+    NaN,
+    NaN
+   ],
+   "speed_mps": 0.14655372598401195
+  },
+  "slip": {
+   "left": {
+    "n_strict": 140,
+    "slip_p50": 0.08773264636837519,
+    "slip_p90": 0.22487246051464896,
+    "slide_frac_gt015": 0.2571428571428571,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 248,
+    "slip_p50": 0.16212623227286282,
+    "slip_p90": 1.0664009938629806,
+    "slide_frac_gt015": 0.5483870967741935,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.6593,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 20.3562,
+   "twist_abs_p99_deg": 25.0927,
+   "tilt_max": 0.0302,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6168,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 114.617
+  },
+  "root_z": [
+   0.6012104153633118,
+   0.6332295536994934
+  ]
+ },
+ "x1_phase2_heldout:137_12_turn": {
+  "frames": 390,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.4156736600493577,
+   "cadence": [
+    0.5555555555555556,
+    0.5586592178770949
+   ],
+   "step": [
+    0.3982087042567948,
+    0.4431492293726446
+   ],
+   "swing": [
+    0.72,
+    0.8500000000000001
+   ],
+   "duty": [
+    0.6948717948717948,
+    0.5743589743589743
+   ],
+   "lift": [
+    0.1470239536523454,
+    0.18912302252346963
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.5555555555555556,
+    0.5586592178770949
+   ],
+   "swing_s_med": [
+    0.72,
+    0.8500000000000001
+   ],
+   "duty": [
+    0.6948717948717948,
+    0.5743589743589743
+   ],
+   "lift_m": [
+    0.1470239536523454,
+    0.18912302252346963
+   ],
+   "step_len_m": [
+    0.3982087042567948,
+    0.4431492293726446
+   ],
+   "speed_mps": 0.4156736600493577
+  },
+  "slip": {
+   "left": {
+    "n_strict": 194,
+    "slip_p50": 0.2896863135978107,
+    "slip_p90": 0.7266720678763914,
+    "slide_frac_gt015": 0.7783505154639175,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 169,
+    "slip_p50": 0.27818940864661523,
+    "slip_p90": 0.9562331811343644,
+    "slide_frac_gt015": 0.6153846153846154,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.9403,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 25.6227,
+   "twist_abs_p99_deg": 31.4477,
+   "tilt_max": 0.0997,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6162,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 118.9933
+  },
+  "root_z": [
+   0.5748348236083984,
+   0.6407973766326904
+  ]
+ },
+ "x1_phase2_heldout:137_15_walk": {
+  "frames": 390,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.33617565555931106,
+   "cadence": [
+    0.4310344827586207,
+    0.9615384615384615
+   ],
+   "step": [
+    0.19798946308260834,
+    0.1131770316903198
+   ],
+   "swing": [
+    0.2,
+    0.2
+   ],
+   "duty": [
+    0.9435897435897436,
+    0.49230769230769234
+   ],
+   "lift": [
+    0.04241241169365841,
+    0.1525423632017189
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.4310344827586207,
+    0.9615384615384615
+   ],
+   "swing_s_med": [
+    0.2,
+    0.2
+   ],
+   "duty": [
+    0.9435897435897436,
+    0.49230769230769234
+   ],
+   "lift_m": [
+    0.04241241169365841,
+    0.1525423632017189
+   ],
+   "step_len_m": [
+    0.19798946308260834,
+    0.1131770316903198
+   ],
+   "speed_mps": 0.33617565555931106
+  },
+  "slip": {
+   "left": {
+    "n_strict": 284,
+    "slip_p50": 0.40102802711561447,
+    "slip_p90": 0.9482089894528093,
+    "slide_frac_gt015": 0.8309859154929577,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 73,
+    "slip_p50": 0.35237346438022654,
+    "slip_p90": 0.799664436570255,
+    "slide_frac_gt015": 0.8904109589041096,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 2.7599,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 25.4433,
+   "twist_abs_p99_deg": 37.1202,
+   "tilt_max": 0.0813,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6301,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 32.5386
+  },
+  "root_z": [
+   0.6052221059799194,
+   0.6569766998291016
+  ]
+ },
+ "x1_phase2_heldout:137_24_walk": {
+  "frames": 390,
+  "a_pass": true,
+  "b_pass": true,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.9386936776911848,
+   "cadence": [
+    1.1363636363636365,
+    1.0869565217391304
+   ],
+   "step": [
+    0.43679267940895866,
+    0.4234250811731114
+   ],
+   "swing": [
+    0.3,
+    0.24
+   ],
+   "duty": [
+    0.7769230769230769,
+    0.6384615384615384
+   ],
+   "lift": [
+    0.06447663560261141,
+    0.08333165244189658
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    1.1363636363636365,
+    1.0869565217391304
+   ],
+   "swing_s_med": [
+    0.3,
+    0.24
+   ],
+   "duty": [
+    0.7769230769230769,
+    0.6384615384615384
+   ],
+   "lift_m": [
+    0.06447663560261141,
+    0.08333165244189658
+   ],
+   "step_len_m": [
+    0.43679267940895866,
+    0.4234250811731114
+   ],
+   "speed_mps": 0.9386936776911848
+  },
+  "slip": {
+   "left": {
+    "n_strict": 207,
+    "slip_p50": 0.46216304814582765,
+    "slip_p90": 1.4363720336065378,
+    "slide_frac_gt015": 0.9082125603864735,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 149,
+    "slip_p50": 0.29949660079936313,
+    "slip_p90": 1.2543588270659285,
+    "slide_frac_gt015": 0.8120805369127517,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 2.0283,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 25.0917,
+   "twist_abs_p99_deg": 38.2993,
+   "tilt_max": 0.062,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6252,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 23.8534
+  },
+  "root_z": [
+   0.5951830744743347,
+   0.6458410024642944
+  ]
+ },
+ "x1_phase2_heldout:49_01_walk": {
+  "frames": 262,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.6906115141275722,
+   "cadence": [
+    1.4492753623188404,
+    1.0101010101010102
+   ],
+   "step": [
+    0.23566573539171654,
+    0.317884556589068
+   ],
+   "swing": [
+    0.22999999999999998,
+    0.2
+   ],
+   "duty": [
+    0.7290076335877863,
+    0.8091603053435115
+   ],
+   "lift": [
+    0.046928053636860305,
+    0.034017468749665075
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    1.4492753623188404,
+    1.0101010101010102
+   ],
+   "swing_s_med": [
+    0.22999999999999998,
+    0.2
+   ],
+   "duty": [
+    0.7290076335877863,
+    0.8091603053435115
+   ],
+   "lift_m": [
+    0.046928053636860305,
+    0.034017468749665075
+   ],
+   "step_len_m": [
+    0.23566573539171654,
+    0.317884556589068
+   ],
+   "speed_mps": 0.6906115141275722
+  },
+  "slip": {
+   "left": {
+    "n_strict": 102,
+    "slip_p50": 0.273583691288491,
+    "slip_p90": 0.6054313150236286,
+    "slide_frac_gt015": 0.8529411764705882,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 123,
+    "slip_p50": 0.21406527717343954,
+    "slip_p90": 0.6546627361071896,
+    "slide_frac_gt015": 0.7479674796747967,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.7847,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 26.2819,
+   "twist_abs_p99_deg": 28.0932,
+   "tilt_max": 0.0183,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6311,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 12.4729
+  },
+  "root_z": [
+   0.6205429434776306,
+   0.6442815661430359
+  ]
+ },
+ "x1_phase2_heldout:76_10_dance": {
+  "frames": 390,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.06204958164488593,
+   "cadence": [
+    NaN,
+    NaN
+   ],
+   "step": [
+    NaN,
+    NaN
+   ],
+   "swing": [
+    0.97,
+    1.36
+   ],
+   "duty": [
+    0.43846153846153846,
+    0.8256410256410256
+   ],
+   "lift": [
+    0.0518096650954753,
+    0.03593653816262752
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    NaN,
+    NaN
+   ],
+   "swing_s_med": [
+    0.97,
+    1.36
+   ],
+   "duty": [
+    0.43846153846153846,
+    0.8256410256410256
+   ],
+   "lift_m": [
+    0.0518096650954753,
+    0.03593653816262752
+   ],
+   "step_len_m": [
+    NaN,
+    NaN
+   ],
+   "speed_mps": 0.06204958164488593
+  },
+  "slip": {
+   "left": {
+    "n_strict": 87,
+    "slip_p50": 0.07337242431967081,
+    "slip_p90": 0.17648816054794786,
+    "slide_frac_gt015": 0.14942528735632185,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 296,
+    "slip_p50": 0.07208460827332241,
+    "slip_p90": 0.1927390170338525,
+    "slide_frac_gt015": 0.14864864864864866,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.8217,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 18.9397,
+   "twist_abs_p99_deg": 23.8304,
+   "tilt_max": 0.0377,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6175,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 17.5382
+  },
+  "root_z": [
+   0.6055615544319153,
+   0.6290407776832581
+  ]
+ },
+ "x1_phase2_heldout:91_10_walk": {
+  "frames": 390,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.394521914419229,
+   "cadence": [
+    0.5681818181818182,
+    0.5494505494505494
+   ],
+   "step": [
+    0.3552799382979708,
+    0.34274884957691537
+   ],
+   "swing": [
+    0.28,
+    0.3
+   ],
+   "duty": [
+    0.6897435897435897,
+    0.7205128205128205
+   ],
+   "lift": [
+    0.06575840488808762,
+    0.05140034409185957
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.5681818181818182,
+    0.5494505494505494
+   ],
+   "swing_s_med": [
+    0.28,
+    0.3
+   ],
+   "duty": [
+    0.6897435897435897,
+    0.7205128205128205
+   ],
+   "lift_m": [
+    0.06575840488808762,
+    0.05140034409185957
+   ],
+   "step_len_m": [
+    0.3552799382979708,
+    0.34274884957691537
+   ],
+   "speed_mps": 0.394521914419229
+  },
+  "slip": {
+   "left": {
+    "n_strict": 156,
+    "slip_p50": 0.19881537538959662,
+    "slip_p90": 0.6196283947062386,
+    "slide_frac_gt015": 0.6410256410256411,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 205,
+    "slip_p50": 0.2571607019373987,
+    "slip_p90": 0.7442386750617696,
+    "slide_frac_gt015": 0.7609756097560976,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 1.7782,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 18.0063,
+   "twist_abs_p99_deg": 22.1779,
+   "tilt_max": 0.0567,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6227,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 18.5296
+  },
+  "root_z": [
+   0.5965033173561096,
+   0.6389729380607605
+  ]
+ },
+ "x1_phase2_heldout:137_04_turn": {
+  "frames": 390,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.3325718799656218,
+   "cadence": [
+    0.8620689655172414,
+    0.5208333333333334
+   ],
+   "step": [
+    0.413850839039749,
+    0.4272026947977682
+   ],
+   "swing": [
+    0.6,
+    0.22999999999999998
+   ],
+   "duty": [
+    0.6897435897435897,
+    0.8538461538461538
+   ],
+   "lift": [
+    0.06194913640391982,
+    0.05149581844370913
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.8620689655172414,
+    0.5208333333333334
+   ],
+   "swing_s_med": [
+    0.6,
+    0.22999999999999998
+   ],
+   "duty": [
+    0.6897435897435897,
+    0.8538461538461538
+   ],
+   "lift_m": [
+    0.06194913640391982,
+    0.05149581844370913
+   ],
+   "step_len_m": [
+    0.413850839039749,
+    0.4272026947977682
+   ],
+   "speed_mps": 0.3325718799656218
+  },
+  "slip": {
+   "left": {
+    "n_strict": 122,
+    "slip_p50": 0.26925195905433374,
+    "slip_p90": 0.5276181082821304,
+    "slide_frac_gt015": 0.6721311475409836,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 244,
+    "slip_p50": 0.06135077619467695,
+    "slip_p90": 0.4356021044425796,
+    "slide_frac_gt015": 0.3319672131147541,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 1.1529,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 29.5586,
+   "twist_abs_p99_deg": 37.1798,
+   "tilt_max": 0.0494,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6146,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 102.2906
+  },
+  "root_z": [
+   0.5954638123512268,
+   0.6347939372062683
+  ]
+ },
+ "x1_phase2_heldout:137_19_walk": {
+  "frames": 390,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.2984352968547831,
+   "cadence": [
+    0.4629629629629629,
+    0.5847953216374269
+   ],
+   "step": [
+    0.07879349377491485,
+    0.12838960206385136
+   ],
+   "swing": [
+    0.36,
+    0.35
+   ],
+   "duty": [
+    0.6974358974358974,
+    0.7410256410256411
+   ],
+   "lift": [
+    0.07910736307720434,
+    0.07629559890014512
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.4629629629629629,
+    0.5847953216374269
+   ],
+   "swing_s_med": [
+    0.36,
+    0.35
+   ],
+   "duty": [
+    0.6974358974358974,
+    0.7410256410256411
+   ],
+   "lift_m": [
+    0.07910736307720434,
+    0.07629559890014512
+   ],
+   "step_len_m": [
+    0.07879349377491485,
+    0.12838960206385136
+   ],
+   "speed_mps": 0.2984352968547831
+  },
+  "slip": {
+   "left": {
+    "n_strict": 198,
+    "slip_p50": 0.36714933279163836,
+    "slip_p90": 0.9566905655361366,
+    "slide_frac_gt015": 0.8686868686868687,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 168,
+    "slip_p50": 0.24247078580399123,
+    "slip_p90": 0.5495499693100533,
+    "slide_frac_gt015": 0.7380952380952381,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 3.4586,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 34.2195,
+   "twist_abs_p99_deg": 37.0619,
+   "tilt_max": 0.0696,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6266,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 42.4134
+  },
+  "root_z": [
+   0.6045994162559509,
+   0.6494088768959045
+  ]
+ },
+ "x1_phase2_heldout:137_28_turn": {
+  "frames": 390,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.15528975437089873,
+   "cadence": [
+    0.3401360544217687,
+    1.0989010989010988
+   ],
+   "step": [
+    0.25225243683064275,
+    0.08674989336736318
+   ],
+   "swing": [
+    0.5900000000000001,
+    0.5
+   ],
+   "duty": [
+    0.8487179487179487,
+    0.5153846153846153
+   ],
+   "lift": [
+    0.048193028693982405,
+    0.10881836156744817
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.3401360544217687,
+    1.0989010989010988
+   ],
+   "swing_s_med": [
+    0.5900000000000001,
+    0.5
+   ],
+   "duty": [
+    0.8487179487179487,
+    0.5153846153846153
+   ],
+   "lift_m": [
+    0.048193028693982405,
+    0.10881836156744817
+   ],
+   "step_len_m": [
+    0.25225243683064275,
+    0.08674989336736318
+   ],
+   "speed_mps": 0.15528975437089873
+  },
+  "slip": {
+   "left": {
+    "n_strict": 273,
+    "slip_p50": 0.1319607539907363,
+    "slip_p90": 0.31591536177462964,
+    "slide_frac_gt015": 0.38461538461538464,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 111,
+    "slip_p50": 0.13357474713786915,
+    "slip_p90": 0.23399130515709166,
+    "slide_frac_gt015": 0.43243243243243246,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.9411,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 26.5214,
+   "twist_abs_p99_deg": 29.0416,
+   "tilt_max": 0.0306,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6287,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 101.2857
+  },
+  "root_z": [
+   0.6145973801612854,
+   0.6491941809654236
+  ]
+ },
+ "x1_phase2_heldout:137_41_walk": {
+  "frames": 390,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.06056447285384549,
+   "cadence": [
+    NaN,
+    NaN
+   ],
+   "step": [
+    NaN,
+    NaN
+   ],
+   "swing": [
+    NaN,
+    NaN
+   ],
+   "duty": [
+    NaN,
+    0.9897435897435898
+   ],
+   "lift": [
+    NaN,
+    0.021505626844124978
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    NaN,
+    NaN
+   ],
+   "swing_s_med": [
+    NaN,
+    NaN
+   ],
+   "duty": [
+    NaN,
+    0.9897435897435898
+   ],
+   "lift_m": [
+    NaN,
+    0.021505626844124978
+   ],
+   "step_len_m": [
+    NaN,
+    NaN
+   ],
+   "speed_mps": 0.06056447285384549
+  },
+  "slip": {
+   "left": {
+    "n_strict": 68,
+    "slip_p50": 0.047723507713161965,
+    "slip_p90": 0.08550494388448421,
+    "slide_frac_gt015": 0.014705882352941176,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 322,
+    "slip_p50": 0.030705064884547675,
+    "slip_p90": 0.10490620905616199,
+    "slide_frac_gt015": 0.06521739130434782,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 1.1439,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 13.9193,
+   "twist_abs_p99_deg": 24.2592,
+   "tilt_max": 0.0164,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6234,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 22.7755
+  },
+  "root_z": [
+   0.6162876486778259,
+   0.6416900753974915
+  ]
+ },
+ "x1_phase2_heldout:143_02_dance": {
+  "frames": 163,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.17877676114531546,
+   "cadence": [
+    1.5151515151515151,
+    2.0833333333333335
+   ],
+   "step": [
+    0.5050562186594091,
+    0.29528126580361475
+   ],
+   "swing": [
+    0.28,
+    0.18
+   ],
+   "duty": [
+    0.6380368098159509,
+    0.8834355828220859
+   ],
+   "lift": [
+    0.13671534135066846,
+    0.0946445869600762
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    1.5151515151515151,
+    2.0833333333333335
+   ],
+   "swing_s_med": [
+    0.28,
+    0.18
+   ],
+   "duty": [
+    0.6380368098159509,
+    0.8834355828220859
+   ],
+   "lift_m": [
+    0.13671534135066846,
+    0.0946445869600762
+   ],
+   "step_len_m": [
+    0.5050562186594091,
+    0.29528126580361475
+   ],
+   "speed_mps": 0.17877676114531546
+  },
+  "slip": {
+   "left": {
+    "n_strict": 18,
+    "slip_p50": 0.9638947022102731,
+    "slip_p90": 1.7121437798213042,
+    "slide_frac_gt015": 1.0,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 121,
+    "slip_p50": 0.1441399886724337,
+    "slip_p90": 0.7571339766844467,
+    "slide_frac_gt015": 0.47107438016528924,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 3.3842,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 19.8886,
+   "twist_abs_p99_deg": 23.0231,
+   "tilt_max": 0.103,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6277,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 6.1934
+  },
+  "root_z": [
+   0.5827599167823792,
+   0.6458474397659302
+  ]
+ },
+ "x1_phase2_heldout:76_11_dance": {
+  "frames": 204,
+  "a_pass": true,
+  "b_pass": true,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.5676399415778096,
+   "cadence": [
+    0.819672131147541,
+    0.7692307692307692
+   ],
+   "step": [
+    0.35558761920434345,
+    0.4006031719140252
+   ],
+   "swing": [
+    0.38,
+    0.48
+   ],
+   "duty": [
+    0.7941176470588235,
+    0.7009803921568627
+   ],
+   "lift": [
+    0.05170581735948849,
+    0.11798615991729212
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.819672131147541,
+    0.7692307692307692
+   ],
+   "swing_s_med": [
+    0.38,
+    0.48
+   ],
+   "duty": [
+    0.7941176470588235,
+    0.7009803921568627
+   ],
+   "lift_m": [
+    0.05170581735948849,
+    0.11798615991729212
+   ],
+   "step_len_m": [
+    0.35558761920434345,
+    0.4006031719140252
+   ],
+   "speed_mps": 0.5676399415778096
+  },
+  "slip": {
+   "left": {
+    "n_strict": 91,
+    "slip_p50": 0.45870502129877927,
+    "slip_p90": 0.9331229776649124,
+    "slide_frac_gt015": 0.9230769230769231,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 101,
+    "slip_p50": 0.2456965178793108,
+    "slip_p90": 0.4662925813978251,
+    "slide_frac_gt015": 0.7326732673267327,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 1.7678,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 14.7278,
+   "twist_abs_p99_deg": 18.4709,
+   "tilt_max": 0.093,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.5948,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 52.0958
+  },
+  "root_z": [
+   0.5314809679985046,
+   0.6197673678398132
+  ]
+ },
+ "x1_phase2_heldout:91_02_turn": {
+  "frames": 390,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.5831837278544736,
+   "cadence": [
+    1.5151515151515151,
+    1.0204081632653061
+   ],
+   "step": [
+    0.32188191180362474,
+    0.44090358093440973
+   ],
+   "swing": [
+    0.25,
+    0.21000000000000002
+   ],
+   "duty": [
+    0.8102564102564103,
+    0.8794871794871795
+   ],
+   "lift": [
+    0.06436475948846851,
+    0.07515520743697027
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    1.5151515151515151,
+    1.0204081632653061
+   ],
+   "swing_s_med": [
+    0.25,
+    0.21000000000000002
+   ],
+   "duty": [
+    0.8102564102564103,
+    0.8794871794871795
+   ],
+   "lift_m": [
+    0.06436475948846851,
+    0.07515520743697027
+   ],
+   "step_len_m": [
+    0.32188191180362474,
+    0.44090358093440973
+   ],
+   "speed_mps": 0.5831837278544736
+  },
+  "slip": {
+   "left": {
+    "n_strict": 114,
+    "slip_p50": 0.3449104366096268,
+    "slip_p90": 0.9030198827382504,
+    "slide_frac_gt015": 0.7543859649122807,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 251,
+    "slip_p50": 0.17236415342111383,
+    "slip_p90": 0.6299981291470869,
+    "slide_frac_gt015": 0.545816733067729,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 2.6599,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 20.7966,
+   "twist_abs_p99_deg": 28.375,
+   "tilt_max": 0.0877,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6147,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 182.262
+  },
+  "root_z": [
+   0.5772013068199158,
+   0.6347276568412781
+  ]
+ },
+ "x1_phase2_heldout:137_02_turn": {
+  "frames": 390,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.05238267972817247,
+   "cadence": [
+    NaN,
+    0.3846153846153846
+   ],
+   "step": [
+    NaN,
+    0.03226876616424261
+   ],
+   "swing": [
+    0.38,
+    0.42000000000000004
+   ],
+   "duty": [
+    0.9512820512820512,
+    0.4794871794871795
+   ],
+   "lift": [
+    0.05718623766797046,
+    0.06911167771248927
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    NaN,
+    0.3846153846153846
+   ],
+   "swing_s_med": [
+    0.38,
+    0.42000000000000004
+   ],
+   "duty": [
+    0.9512820512820512,
+    0.4794871794871795
+   ],
+   "lift_m": [
+    0.05718623766797046,
+    0.06911167771248927
+   ],
+   "step_len_m": [
+    NaN,
+    0.03226876616424261
+   ],
+   "speed_mps": 0.05238267972817247
+  },
+  "slip": {
+   "left": {
+    "n_strict": 349,
+    "slip_p50": 0.06623475940323464,
+    "slip_p90": 0.4719031336605485,
+    "slide_frac_gt015": 0.36103151862464183,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 28,
+    "slip_p50": 0.07949055388501092,
+    "slip_p90": 1.5740955611357623,
+    "slide_frac_gt015": 0.17857142857142858,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 2.6303,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 26.55,
+   "twist_abs_p99_deg": 33.8275,
+   "tilt_max": 0.0909,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6103,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 70.6717
+  },
+  "root_z": [
+   0.5354822874069214,
+   0.6435858607292175
+  ]
+ },
+ "x1_phase2_heldout:137_29_walk": {
+  "frames": 390,
+  "a_pass": true,
+  "b_pass": true,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.8880181357902637,
+   "cadence": [
+    0.8928571428571428,
+    0.9259259259259258
+   ],
+   "step": [
+    0.4663703228070465,
+    0.44381293579371833
+   ],
+   "swing": [
+    0.53,
+    0.45
+   ],
+   "duty": [
+    0.6666666666666666,
+    0.6948717948717948
+   ],
+   "lift": [
+    0.0775540598300553,
+    0.08346359930380282
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    0.8928571428571428,
+    0.9259259259259258
+   ],
+   "swing_s_med": [
+    0.53,
+    0.45
+   ],
+   "duty": [
+    0.6666666666666666,
+    0.6948717948717948
+   ],
+   "lift_m": [
+    0.0775540598300553,
+    0.08346359930380282
+   ],
+   "step_len_m": [
+    0.4663703228070465,
+    0.44381293579371833
+   ],
+   "speed_mps": 0.8880181357902637
+  },
+  "slip": {
+   "left": {
+    "n_strict": 169,
+    "slip_p50": 0.37961391610519224,
+    "slip_p90": 0.9218137646931521,
+    "slide_frac_gt015": 0.7751479289940828,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 185,
+    "slip_p50": 0.21451863992019488,
+    "slip_p90": 0.8490980733302579,
+    "slide_frac_gt015": 0.6432432432432432,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 1.2683,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 30.1721,
+   "twist_abs_p99_deg": 33.6384,
+   "tilt_max": 0.0446,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6254,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 36.0466
+  },
+  "root_z": [
+   0.5866670608520508,
+   0.6499118208885193
+  ]
+ },
+ "x1_phase2_heldout:76_09_walk": {
+  "frames": 390,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.05817156000960007,
+   "cadence": [
+    NaN,
+    NaN
+   ],
+   "step": [
+    NaN,
+    NaN
+   ],
+   "swing": [
+    1.42,
+    NaN
+   ],
+   "duty": [
+    0.40512820512820513,
+    NaN
+   ],
+   "lift": [
+    0.038139784233242116,
+    NaN
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    NaN,
+    NaN
+   ],
+   "swing_s_med": [
+    1.42,
+    NaN
+   ],
+   "duty": [
+    0.40512820512820513,
+    NaN
+   ],
+   "lift_m": [
+    0.038139784233242116,
+    NaN
+   ],
+   "step_len_m": [
+    NaN,
+    NaN
+   ],
+   "speed_mps": 0.05817156000960007
+  },
+  "slip": {
+   "left": {
+    "n_strict": 44,
+    "slip_p50": 0.10026464922447437,
+    "slip_p90": 0.24312251153585374,
+    "slide_frac_gt015": 0.3409090909090909,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 340,
+    "slip_p50": 0.05425377514637738,
+    "slip_p90": 0.16225740474496886,
+    "slide_frac_gt015": 0.11764705882352941,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 0.3091,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 27.2001,
+   "twist_abs_p99_deg": 30.7761,
+   "tilt_max": 0.0459,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6251,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 32.9357
+  },
+  "root_z": [
+   0.6097323298454285,
+   0.631742000579834
+  ]
+ },
+ "x1_phase2_heldout:91_04_turn": {
+  "frames": 390,
+  "a_pass": true,
+  "b_pass": false,
+  "s_pass": false,
+  "r_pass": true,
+  "fk_sole_maxdiff_m": null,
+  "gait": {
+   "speed": 0.6716306857833059,
+   "cadence": [
+    1.3888888888888888,
+    1.0204081632653061
+   ],
+   "step": [
+    0.26259093047379484,
+    0.3828347790561757
+   ],
+   "swing": [
+    0.44,
+    0.24
+   ],
+   "duty": [
+    0.6871794871794872,
+    0.782051282051282
+   ],
+   "lift": [
+    0.09730124956029246,
+    0.09314016942619047
+   ]
+  },
+  "bands": {
+   "cadence_hz": [
+    1.3888888888888888,
+    1.0204081632653061
+   ],
+   "swing_s_med": [
+    0.44,
+    0.24
+   ],
+   "duty": [
+    0.6871794871794872,
+    0.782051282051282
+   ],
+   "lift_m": [
+    0.09730124956029246,
+    0.09314016942619047
+   ],
+   "step_len_m": [
+    0.26259093047379484,
+    0.3828347790561757
+   ],
+   "speed_mps": 0.6716306857833059
+  },
+  "slip": {
+   "left": {
+    "n_strict": 104,
+    "slip_p50": 0.38984887229212306,
+    "slip_p90": 0.8323641730243825,
+    "slide_frac_gt015": 0.8942307692307693,
+    "contact_frac_z3mm": 0.5
+   },
+   "right": {
+    "n_strict": 246,
+    "slip_p50": 0.2578063617452601,
+    "slip_p90": 0.8835844001040531,
+    "slide_frac_gt015": 0.6178861788617886,
+    "contact_frac_z3mm": 0.5
+   }
+  },
+  "flight": 0,
+  "r_gates": {
+   "wrist_err_p50_m": null,
+   "wrist_err_p90_m": null,
+   "arm_at_limit_frac": true,
+   "arm_qd_max": true,
+   "lumbar_margin_ok": true,
+   "chest_yaw_err_p90_deg": null,
+   "twist_abs_p99_deg": true,
+   "tilt_max": true,
+   "joint_over_limit_max_rad": true,
+   "sole_pen_m": true,
+   "root_z_mean_band": true,
+   "self_collision_frames": true
+  },
+  "r_metrics": {
+   "wrist_err_p50_m": 0.0,
+   "wrist_err_p90_m": 0.0,
+   "arm_at_limit_frac": 0.0,
+   "arm_qd_max": 2.8227,
+   "lumbar_margin_ok": 1.0,
+   "chest_yaw_err_p90_deg": 23.2089,
+   "twist_abs_p99_deg": 33.6522,
+   "tilt_max": 0.0831,
+   "joint_over_limit_max_rad": 0.0,
+   "sole_pen_m": -0.0,
+   "root_z_mean_band": 0.6154,
+   "self_collision_frames": 0,
+   "net_yaw_err_deg": 157.2073
+  },
+  "root_z": [
+   0.5744354128837585,
+   0.6406044960021973
+  ]
+ }
+}
