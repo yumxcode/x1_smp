@@ -142,7 +142,7 @@ def x1_forward_smp_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
         (
           mdp.swing_bonus,
           0.5,
-          {},
+          {"command_name": "steering"},
         ),
       ),
       "w_task": 0.5,

@@ -72,6 +72,10 @@ def main() -> int:
           _c.rewards['task_smp_additive'].params['task_terms']],
           '| band', _c.commands['steering'].tar_speed_min, '-',
           _c.commands['steering'].tar_speed_max, flush=True)
+    import inspect as _inspect
+    from smp.rl.tasks.steering.mdp import rewards as _rewards_mod
+    _src = _inspect.getsource(_rewards_mod.swing_bonus)
+    print('[policy] swing_bonus fwd-projected:', 'tar_dir_w' in _src, flush=True)
 
     os.environ.setdefault('WANDB_MODE', 'disabled')
 

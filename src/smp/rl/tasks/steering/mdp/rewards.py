@@ -87,6 +87,7 @@ def contact_guard(
 
 def swing_bonus(
   env: "ManagerBasedRlEnv",
+  command_name: str = "steering",
   z_swing: float = 0.073,
   z_width: float = 0.006,
   v_full: float = 0.30,
@@ -106,11 +107,19 @@ def swing_bonus(
   (~0 swing phases / 20 s) earns ~0. Wired at weight 0.5.
   """
   robot = env.scene["robot"]
+  cmd: "SteeringCommand" = env.command_manager.get_term(command_name)  # type: ignore[assignment]
   idx = env._smp_ee_indexes[:2]  # type: ignore[attr-defined]  (ankles)
   foot_z = robot.data.body_link_pos_w[:, idx, 2] - env.scene.env_origins[:, 2:3]
   off_gnd = torch.sigmoid((foot_z - z_swing) / z_width)
-  v = robot.data.body_link_lin_vel_w[:, idx, :2].norm(dim=-1)
-  per_foot = off_gnd * (v / v_full).clamp(0.0, 1.0)
+  v_vec = robot.data.body_link_lin_vel_w[:, idx, :2]
+  # G3'' (exp_5f6ae123): FORWARD PROJECTION instead of |v| -- the G3' per-frame
+  # isotropic speed term paid more for short QUICK steps (cadence 2.63-2.94 Hz
+  # vs R1 band [0.55,1.2], eval/g4_results_g3p.json) and paid sideways swings
+  # (training error_face ~0.9 rad). v.tar_dir integrates to forward swing
+  # DISPLACEMENT: frequency-neutral (pay per meter of forward swing travel),
+  # and lateral swings earn 0.
+  v_fwd = (v_vec * cmd.tar_dir_w.unsqueeze(1)).sum(dim=-1).clamp_min(0.0)
+  per_foot = off_gnd * (v_fwd / v_full).clamp(0.0, 1.0)
   return per_foot.mean(dim=-1)
 
 
