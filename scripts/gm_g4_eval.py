@@ -30,6 +30,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / 'src'))
 sys.path.insert(0, str(ROOT / 'scripts'))
 sys.path.insert(0, str(ROOT / 'audit'))
+sys.path.insert(0, str(ROOT / 'pipeline'))  # stance_anchor lives here (r3 crash)
 
 CKPT = str(ROOT / 'data' / 'policy' / 'model_g3_6000.pt')
 PRIOR = str(ROOT / 'data' / 'prior' / 'x1_walk_prior_v3.pt')
