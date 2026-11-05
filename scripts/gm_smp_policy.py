@@ -101,11 +101,21 @@ def main() -> int:
            f'--agent.max-iterations={args.max_iterations}',
            f'--env.events.init_smp_state.params.ckpt_path={prior}'] + extra
     if args.resume:
-        # mjlab train CLI has no --resume; use the agent flags (TASK_20261106_027
-        # crash: Unrecognized options: --resume). load_checkpoint accepts an
-        # ABSOLUTE path (pathlib join keeps it), which sidesteps the log-dir glob.
+        # mjlab resume semantics (third_party/mjlab/src/mjlab/utils/os.py
+        # get_checkpoint_path): the ckpt is resolved by REGEX over FILE NAMES
+        # inside <logs/rsl_rl/<run_name>>/<run_dir>/ -- absolute paths never
+        # match (TASK_20261106_028: 'No checkpoint found' after mkdir fix;
+        # 027: flag unrecognized; r2: log path missing). Seed a run dir.
+        import shutil
+        src = Path(args.resume)
+        seed_dir = ROOT / 'logs' / 'rsl_rl' / 'smp_forward_x1' / 'seed_resume'
+        seed_dir.mkdir(parents=True, exist_ok=True)
+        seed_name = f'model_{int(src.stem.split("_")[-1]):d}.pt' \
+            if src.stem.split("_")[-1].isdigit() else src.name
+        shutil.copy(src, seed_dir / seed_name)
         cmd += ['--agent.resume', 'True',
-                '--agent.load_checkpoint', args.resume]
+                '--agent.load_run', 'seed_resume',
+                '--agent.load_checkpoint', seed_name]
     print('[policy] exec:', ' '.join(cmd), flush=True)
     t0 = time.time()
     proc = subprocess.run(cmd, cwd=str(ROOT), env=env)
