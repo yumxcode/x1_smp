@@ -39,10 +39,17 @@ SECS = 20.0
 
 def install_stack() -> bool:
     import subprocess
+    # tyro pinned: today's mirror resolved a newer tyro whose `TypeForm`
+    # import is shadowed by Isaac Sim's prebundled typing_extensions
+    # (TASK_20261105_387 crash); the same spec worked on prior tasks, so this
+    # is dependency-resolution drift, pinned explicitly.
     for idx in ('', 'https://pypi.org/simple', 'https://mirrors.aliyun.com/pypi/simple/'):
         flag = ['--index-url', idx] if idx else []
         r = subprocess.run([sys.executable, '-m', 'pip', 'install', 'mjlab==1.6.0',
-                            'warp-lang==1.16.0', *flag], capture_output=True, text=True)
+                            'warp-lang==1.16.0', 'tyro==0.8.14', *flag],
+                           capture_output=True, text=True)
+        print('pip:', (r.stdout or '').strip().splitlines()[-1][:160] if (r.stdout or '').strip() else
+              (r.stderr or '').strip().splitlines()[-1][:160], flush=True)
         if r.returncode == 0:
             print(f'pip OK idx={idx or "default"}', flush=True)
             return True
