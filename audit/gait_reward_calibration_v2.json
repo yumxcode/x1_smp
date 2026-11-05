@@ -1,0 +1,23 @@
+{
+ "swing_bonus_demo_mean": 0.20539622202698418,
+ "midband_penalty_demo_mean": 0.26034528856020467,
+ "contact_guard_demo_mean": 0.41881943294342533,
+ "swing_frac": 0.1867391304347826,
+ "band_frac": 0.2926086956521739,
+ "ankle_z_strict_p50": 0.04267814820544685,
+ "ankle_z_swing_p50": 0.07972664844476238,
+ "vel_err_scale": 3.0,
+ "variant_decision": {
+  "wired": [
+   "vel_err_scale=3.0",
+   "swing_bonus w=0.5",
+   "contact_guard w=0.5 (unchanged)"
+  ],
+  "dropped": "midband_penalty w=0.5 -- calibration falsified: demo band mean 0.260 vs G4-shuffle ~0.08-0.12, penalty would hit walking harder than the failure mode",
+  "mechanism_update": "G4 translation is sub-band pivot rolling (soles <4mm 90% frames), not in-band hops; discriminant lever = swing occupancy (demo 0.205 vs G4 ~0)",
+  "accounting_per_step": {
+   "true_walk@0.45": "~1.27 (task 0.50 + smp 0.50 + guard 0.21 + swing 0.10)",
+   "pivot_shuffle@0.27": "~0.85-1.00 (task 0.45 + smp 0.35-0.50 + guard 0.05 + swing 0)"
+  }
+ }
+}

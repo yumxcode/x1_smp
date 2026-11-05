@@ -83,3 +83,68 @@ def contact_guard(
   v = robot.data.body_link_lin_vel_w[:, idx, :2].norm(dim=-1)
   per_foot = contact * torch.exp(-math.log(2.0) * (v / v_half) ** 2)
   return per_foot.mean(dim=-1)
+
+
+def swing_bonus(
+  env: "ManagerBasedRlEnv",
+  z_swing: float = 0.073,
+  z_width: float = 0.006,
+  v_full: float = 0.30,
+) -> torch.Tensor:
+  """True-stepping positive term (G3' variant, targets the G4 micro-shuffle
+  failure mode fnd_9a894dca): per foot,
+  ``sigmoid((ankle_z - z_swing)/z_width) * clamp(|v_ankle_xy|/v_full, 0, 1)``
+  -- pays only for a foot that is CLEARLY off the ground (ankle_z > ~73mm ~
+  sole >30mm, i.e. above the ABS-detector swing threshold) AND translating
+  forward-speed-sized. Physics-solved v3 demo: swing frames carry ankle XY
+  speed p50 1.18 m/s, so real swings saturate the clamp; pivot-rolling
+  (G4 policy: soles <4mm, ~0 swing frames/20s) earns ~0.
+
+  Unit calibration on the v3 library (audit/gait_reward_calibration_v2.json,
+  2026-11-05): demo mean 0.205 (18.7% of foot-frames above z_swing, ankle
+  swing-speed p50 1.18 m/s -> clamp saturated); the G4 pivot-shuffle policy
+  (~0 swing phases / 20 s) earns ~0. Wired at weight 0.5.
+  """
+  robot = env.scene["robot"]
+  idx = env._smp_ee_indexes[:2]  # type: ignore[attr-defined]  (ankles)
+  foot_z = robot.data.body_link_pos_w[:, idx, 2] - env.scene.env_origins[:, 2:3]
+  off_gnd = torch.sigmoid((foot_z - z_swing) / z_width)
+  v = robot.data.body_link_lin_vel_w[:, idx, :2].norm(dim=-1)
+  per_foot = off_gnd * (v / v_full).clamp(0.0, 1.0)
+  return per_foot.mean(dim=-1)
+
+
+def midband_penalty(
+  env: "ManagerBasedRlEnv",
+  z_lo: float = 0.046,
+  z_hi: float = 0.073,
+  z_width: float = 0.004,
+  v_free: float = 0.05,
+  v_full: float = 0.15,
+) -> torch.Tensor:
+  """Micro-shuffle penalty (G3' variant): per foot, a NEGATIVE term active
+  only in the dead band BETWEEN the guard's contact zone and the swing zone
+  (ankle_z in (z_lo, z_hi) ~ sole (3, 30mm)) while translating
+  ``-band(z) * clamp((|v|-v_free)/(v_full-v_free), 0, 1)``. The G4 policy
+  bought translation with 3-8mm hops exactly inside this band, invisible to
+  both the slip metric (sole z<3mm) and the swing detector (z>25mm) while
+  still collecting partial guard credit. Physics-solved v3 demo only passes
+  through the band briefly at lift-off/touchdown (mean value 0.036), so the
+  penalty discriminates shuffle from walk.
+
+  CALIBRATION FALSIFIED pre-training (audit/gait_reward_calibration_v2.json):
+  the v3 demo itself occupies the band 29.3% of foot-frames (mean 0.260)
+  -- MORE than the G4 micro-shuffle policy (~8-12%, soles <4mm on 90% of
+  frames: its translation is sub-band pivot rolling, not in-band hops).
+  This penalty would punish real walking harder than the failure mode, so it
+  is NOT wired into forward_env_cfg. Kept for the record.
+  """
+  robot = env.scene["robot"]
+  idx = env._smp_ee_indexes[:2]  # type: ignore[attr-defined]  (ankles)
+  foot_z = robot.data.body_link_pos_w[:, idx, 2] - env.scene.env_origins[:, 2:3]
+  band = (torch.sigmoid((foot_z - z_lo) / z_width)
+          * (1.0 - torch.sigmoid((foot_z - z_hi) / z_width)))
+  v = robot.data.body_link_lin_vel_w[:, idx, :2].norm(dim=-1)
+  moving = ((v - v_free) / (v_full - v_free)).clamp(0.0, 1.0)
+  per_foot = band * moving
+  return -per_foot.mean(dim=-1)

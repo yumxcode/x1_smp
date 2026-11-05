@@ -117,12 +117,30 @@ def x1_forward_smp_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
         (
           mdp.steering_target_velocity,
           1.0,
-          {"command_name": "steering", "vel_err_scale": 0.5},
+          # G3' variant: 0.5 -> 3.0. At 0.5 the shuffle speed discount (0.27 vs
+          # cmd 0.45, err^2=0.032) cost only exp(-0.016)=1.6% of the task term
+          # -- no pressure to track the command. At 3.0 the same discount costs
+          # 9%, and demos (92% tracking) stay at 99.5%+.
+          {"command_name": "steering", "vel_err_scale": 3.0},
         ),
         # G3 (sect. 6-5): explicit contact guard (unit-calibrated, see
         # mdp.rewards.contact_guard docstring) on top of the additive form.
         (
           mdp.contact_guard,
+          0.5,
+          {},
+        ),
+        # G3' variant (audit round 1), calibrated on the v3 library
+        # (audit/gait_reward_calibration_v2.json). The G4 failure mode is
+        # sub-band pivot rolling (fnd_9a894dca: soles <4mm on 90% frames, ~0
+        # swing phases / 20 s). swing_bonus pays only above the ABS swing
+        # threshold with forward-sized speed: demo mean 0.205 vs pivot-gait
+        # ~0; weight 0.5 restores the intended per-step magnitude. The
+        # midband penalty was DESIGNED but calibration falsified it (demo
+        # occupies the band 29% -> would punish walking more than the
+        # shuffle) -- see mdp.midband_penalty docstring; NOT wired.
+        (
+          mdp.swing_bonus,
           0.5,
           {},
         ),
