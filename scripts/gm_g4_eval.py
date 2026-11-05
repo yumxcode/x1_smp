@@ -32,7 +32,12 @@ sys.path.insert(0, str(ROOT / 'scripts'))
 sys.path.insert(0, str(ROOT / 'audit'))
 sys.path.insert(0, str(ROOT / 'pipeline'))  # stance_anchor lives here (r3 crash)
 
-CKPT = str(ROOT / 'data' / 'policy' / 'model_g3_6000.pt')
+# G4 ckpt under test: default = G3' variant (audit round 1); override with
+# G4_CKPT env var (e.g. to re-evaluate the G3 baseline model_g3_6000.pt).
+import os as _os
+CKPT = _os.environ.get(
+    'G4_CKPT', str(ROOT / 'data' / 'policy' / 'model_g3p_6000.pt'))
+print(f'[g4] ckpt={CKPT}', flush=True)
 PRIOR = str(ROOT / 'data' / 'prior' / 'x1_walk_prior_v3.pt')
 SPEEDS = (0.45, 0.50)
 SECS = 20.0
