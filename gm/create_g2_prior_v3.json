@@ -1,0 +1,1 @@
+{"task": "TASK_20261105_086", "account": 58, "purpose": "G2 prior v3 (fixed qvel)", "supersedes": "TASK_20261105_085 (zeroed root ang vel -> NaN channels)"}

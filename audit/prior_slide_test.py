@@ -77,7 +77,17 @@ def sds_reward(model, sched, x0, k=K, ws=WS):
 
 
 def main():
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--windows-dir', default='data/windows')
+    ap.add_argument('--ckpts', nargs='*', default=None,
+                    help='tag=path pairs; default = the R1/R3 checkpoints (unchanged)')
+    ap.add_argument('--ws', type=float, nargs='*', default=None,
+                    help='extra w_s values to sweep (default WS=6.0 only)')
+    ap.add_argument('--out', default=None)
+    args = ap.parse_args()
     out = {}
+    ws_list = [WS] + [w for w in (args.ws or []) if w != WS]
     # clip speeds from the independent audit (fallback: meta)
     speeds = {}
     try:
@@ -85,9 +95,13 @@ def main():
         speeds = {n: v['speed_mps'] for n, v in ind.items()}
     except FileNotFoundError:
         pass
-    win_files = sorted((ROOT / 'data' / 'windows').glob('*.npz'))
-    for tag, ckpt in (('r1_59d', ROOT / 'data/prior/x1_walk_prior.pt'),
-                      ('r3_63d', ROOT / 'data/prior/x1_walk_prior_r3.pt')):
+    win_files = sorted((ROOT / args.windows_dir).glob('*.npz'))
+    pairs = args.ckpts or []
+    ckpt_iter = ([(t, ROOT / p) for t, p in (kv.split('=', 1) for kv in pairs)]
+                 if pairs else
+                 [('r1_59d', ROOT / 'data/prior/x1_walk_prior.pt'),
+                  ('r3_63d', ROOT / 'data/prior/x1_walk_prior_r3.pt')])
+    for tag, ckpt in ckpt_iter:
         model, sched, q_low, q_high, F = load(ckpt)
         res = {'ckpt': str(ckpt), 'feature_dim': F}
         intact_all, t1_all, t2_all, t3_all = [], [], [], []
@@ -142,16 +156,40 @@ def main():
                                  for g, xs in groups.items()}
         res['per_clip'] = per_clip
         res['summary'] = entry
+        for w in ws_list[1:]:
+            r3w = None
+            if t3_all:
+                with torch.no_grad():
+                    rw = []
+                    for f in win_files:
+                        wins_w = torch.from_numpy(np.load(f)['windows'].astype(np.float32))[:400]
+                        x0w = 2.0 * (wins_w - q_low) / (q_high - q_low + 1e-8) - 1.0
+                        x3w = x0w.clone()
+                        x3w[:, :, EE_FOOT] = x3w[:, :, EE_FOOT].mean(dim=1, keepdim=True)
+                        x3w[:, :, J0:J0 + 29] = x3w[:, :, J0:J0 + 29].mean(dim=1, keepdim=True)
+                        zc = wins_w[:, :, ANKLE_Z].amin(dim=(1, 2))
+                        zl = 2.0 * (zc[:, None] - q_low[ANKLE_Z]) / (q_high[ANKLE_Z] - q_low[ANKLE_Z] + 1e-8) - 1.0
+                        x3w[:, :, ANKLE_Z] = zl[:, None, :].expand(-1, wins_w.shape[1], 2).clone()
+                        z0n = 2.0 * (0.0 - q_low[ANKLE_DZ]) / (q_high[ANKLE_DZ] - q_low[ANKLE_DZ] + 1e-8) - 1.0
+                        x3w[:, :, ANKLE_DZ] = torch.as_tensor(z0n, dtype=torch.float32)
+                        rw.append((sds_reward(model, sched, x3w, ws=w), sds_reward(model, sched, x0w, ws=w)))
+                    r3w = float(np.mean([a.mean().item() for a, _ in rw]) / max(np.mean([b.mean().item() for _, b in rw]), 1e-9))
+            entry[f'ratio_t3_ws{w}'] = r3w
         out[tag] = res
         print(f"== {tag}: intact {r0:.4f} | T1 foot-freeze ratio {entry['ratio_t1']:.3f} | "
               f"T2 +joint-freeze ratio {entry['ratio_t2']:.3f}"
               + (f" | T3 slide-signature ratio {entry['ratio_t3']:.3f}" if 'ratio_t3' in entry else ''), flush=True)
+        for w in ws_list[1:]:
+            if entry.get(f'ratio_t3_ws{w}') is not None:
+                print(f"   T3 ratio @ws={w}: {entry[f'ratio_t3_ws{w}']:.3f}", flush=True)
         for g, st in entry['speed_groups'].items():
             if st['n']:
                 print(f"   speed {g}: n={st['n']} intact {st['intact']:.4f}"
                       + (f" slide {st['t3']:.4f}" if st.get('t3') else ''), flush=True)
-    Path(ROOT / 'audit' / 'prior_slide_test.json').write_text(json.dumps(out, indent=1))
-    print('-> audit/prior_slide_test.json')
+    outp = Path(args.out) if args.out else (ROOT / 'audit' / 'prior_slide_test.json')
+    outp.parent.mkdir(parents=True, exist_ok=True)
+    outp.write_text(json.dumps(out, indent=1))
+    print(f'-> {outp}')
 
 
 if __name__ == '__main__':

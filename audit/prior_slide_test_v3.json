@@ -1,0 +1,68 @@
+{
+ "v3_63d": {
+  "ckpt": "/Users/yumx/code/X1_SMP/data/prior/x1_walk_prior_v3.pt",
+  "feature_dim": 63,
+  "per_clip": {
+   "c9196_walk05": {
+    "n": 400,
+    "intact": 0.9680565595626831,
+    "t1_freeze_foot": 0.8595114946365356,
+    "t2_freeze_joint_foot": 0.587730348110199,
+    "t3_slide": 0.2618197202682495,
+    "speed": null
+   },
+   "sx50_walk05": {
+    "n": 400,
+    "intact": 0.9742905497550964,
+    "t1_freeze_foot": 0.8928720355033875,
+    "t2_freeze_joint_foot": 0.5288417339324951,
+    "t3_slide": 0.31870922446250916,
+    "speed": null
+   },
+   "sx70_walk05": {
+    "n": 400,
+    "intact": 0.9715701341629028,
+    "t1_freeze_foot": 0.8929577469825745,
+    "t2_freeze_joint_foot": 0.5122174620628357,
+    "t3_slide": 0.313932329416275,
+    "speed": null
+   },
+   "y8000_walk05": {
+    "n": 400,
+    "intact": 0.9715778827667236,
+    "t1_freeze_foot": 0.8780273199081421,
+    "t2_freeze_joint_foot": 0.5872361660003662,
+    "t3_slide": 0.30603328347206116,
+    "speed": null
+   }
+  },
+  "summary": {
+   "intact": 0.9713737368583679,
+   "t1_freeze_foot": 0.8808421492576599,
+   "ratio_t1": 0.9068004577789939,
+   "t2_freeze_joint_foot": 0.5540063977241516,
+   "ratio_t2": 0.5703328973211976,
+   "t3_slide_signature": 0.3001236319541931,
+   "ratio_t3": 0.3089682380386952,
+   "speed_groups": {
+    "<0.6": {
+     "n": 0,
+     "intact": null,
+     "t3": null
+    },
+    "0.6-0.7": {
+     "n": 0,
+     "intact": null,
+     "t3": null
+    },
+    ">=0.7": {
+     "n": 0,
+     "intact": null,
+     "t3": null
+    }
+   },
+   "ratio_t3_ws12.0": 0.10579775166683758,
+   "ratio_t3_ws24.0": 0.0158792401651169
+  }
+ }
+}
