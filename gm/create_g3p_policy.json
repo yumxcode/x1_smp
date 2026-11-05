@@ -1,1 +1,1 @@
-{"task": "TASK_20261105_454", "account": 58, "purpose": "G3' swing variant 6k"}
+{"task": "TASK_20261105_472", "account": 62, "purpose": "G3' swing variant 6k (supersedes 456 10k misconfig)", "probe_expected": "iters=6000 + task_terms swing_bonus 0.5"}
