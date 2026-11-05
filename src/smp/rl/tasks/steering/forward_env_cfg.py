@@ -95,8 +95,10 @@ def x1_forward_smp_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
     resampling_time_range=(6.0, 12.0),
     rand_tar_dir=False,
     rand_face_dir=False,
-    tar_speed_min=0.4,
-    tar_speed_max=0.9,
+    # G3 (amendment rev3): target 0.45 m/s; band centered on the v3 physics
+    # library (0.455-0.482 m/s, cad 0.78 Hz) with margin both sides.
+    tar_speed_min=0.35,
+    tar_speed_max=0.60,
     debug_vis=False,
   )
   command_obs = ObservationTermCfg(
@@ -117,6 +119,13 @@ def x1_forward_smp_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
           1.0,
           {"command_name": "steering", "vel_err_scale": 0.5},
         ),
+        # G3 (sect. 6-5): explicit contact guard (unit-calibrated, see
+        # mdp.rewards.contact_guard docstring) on top of the additive form.
+        (
+          mdp.contact_guard,
+          0.5,
+          {},
+        ),
       ),
       "w_task": 0.5,
       "w_smp": 0.5,
@@ -124,7 +133,7 @@ def x1_forward_smp_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
   )
   import os
   cfg.events["init_smp_state"].params["ckpt_path"] = os.environ.get(
-    "SMP_PRIOR_CKPT", "data/prior/x1_walk_prior.pt")
+    "SMP_PRIOR_CKPT", "data/prior/x1_walk_prior_v3.pt")
   cfg.terminations["base_too_low"] = TerminationTermCfg(
     func=mdp.root_height_below_minimum,
     params={"minimum_height": 0.28, "asset_cfg": SceneEntityCfg("robot")},

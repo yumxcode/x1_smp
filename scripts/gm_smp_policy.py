@@ -45,7 +45,7 @@ def main() -> int:
     ap.add_argument('--resume', default='')
     args, extra = ap.parse_known_args()
 
-    prior = Path(os.environ.get('SMP_PRIOR_CKPT', ROOT / 'data' / 'prior' / 'x1_walk_prior_r3.pt'))
+    prior = Path(os.environ.get('SMP_PRIOR_CKPT', ROOT / 'data' / 'prior' / 'x1_walk_prior_v3.pt'))
     print(f'[policy] task={TASK_ID} envs={args.num_envs} iters={args.max_iterations} prior={prior}', flush=True)
     if not prior.exists():
         print(f'FAIL: prior checkpoint missing: {prior}', flush=True)
@@ -64,6 +64,14 @@ def main() -> int:
     from smp.x1_asset import get_x1_robot_cfg
     get_x1_robot_cfg()
     print('[policy] X1 EntityCfg builds OK', flush=True)
+
+    # runtime effectiveness probe (unconditional): reward composition + band
+    from smp.rl.tasks.steering.forward_env_cfg import x1_forward_smp_env_cfg
+    _c = x1_forward_smp_env_cfg(play=True)
+    print('[policy] task_terms:', [(f.__name__, w) for f, w, _ in
+          _c.rewards['task_smp_additive'].params['task_terms']],
+          '| band', _c.commands['steering'].tar_speed_min, '-',
+          _c.commands['steering'].tar_speed_max, flush=True)
 
     os.environ.setdefault('WANDB_MODE', 'disabled')
 

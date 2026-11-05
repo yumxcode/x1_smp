@@ -54,3 +54,32 @@ def steering_face_direction(
   char_face_w = torch.stack([torch.cos(heading_w), torch.sin(heading_w)], dim=-1)
   face_dot = (cmd.face_dir_w * char_face_w).sum(dim=-1)
   return face_dot.clamp_min(0.0)
+
+
+def contact_guard(
+  env: "ManagerBasedRlEnv",
+  z0: float = 0.060,
+  z_width: float = 0.012,
+  v_half: float = 0.20,
+) -> torch.Tensor:
+  """Explicit contact-consistency guard (AUDIT_FAILURE sect. 6-5): per foot,
+  ``sigmoid((z0 - ankle_z)/z_width) * exp(-ln2 * (|v_ankle_xy|/v_half)^2)`` --
+  ~1 for a planted, non-sliding foot; ~0 for a near-ground foot translating
+  fast (the sliding failure mode); ~0 for a swung foot (no free reward).
+
+  Unit calibration on the v3 physics-solved library (audit 2026-11-05):
+  ankle-link XY speed on strict-contact frames (sole z<3mm) p50=0.006,
+  p90=0.078, p99=0.34; v_half=0.20 keeps data p50 -> 0.999 while the R3
+  sliding policy (both feet ~1mm, v~0.6) -> 0.002. Reward accounting at
+  0.5/0.5 additive + guard weight 0.5: proper walk ~1.11 vs slide ~0.66 vs
+  stand ~0.65 -- walking wins decisively, standing gains nothing.
+  """
+  import math
+
+  robot = env.scene["robot"]
+  idx = env._smp_ee_indexes[:2]  # type: ignore[attr-defined]  (ankles)
+  foot_z = robot.data.body_link_pos_w[:, idx, 2] - env.scene.env_origins[:, 2:3]
+  contact = torch.sigmoid((z0 - foot_z) / z_width)
+  v = robot.data.body_link_lin_vel_w[:, idx, :2].norm(dim=-1)
+  per_foot = contact * torch.exp(-math.log(2.0) * (v / v_half) ** 2)
+  return per_foot.mean(dim=-1)
