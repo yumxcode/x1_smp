@@ -101,7 +101,11 @@ def main() -> int:
            f'--agent.max-iterations={args.max_iterations}',
            f'--env.events.init_smp_state.params.ckpt_path={prior}'] + extra
     if args.resume:
-        cmd += ['--resume', args.resume]
+        # mjlab train CLI has no --resume; use the agent flags (TASK_20261106_027
+        # crash: Unrecognized options: --resume). load_checkpoint accepts an
+        # ABSOLUTE path (pathlib join keeps it), which sidesteps the log-dir glob.
+        cmd += ['--agent.resume', 'True',
+                '--agent.load_checkpoint', args.resume]
     print('[policy] exec:', ' '.join(cmd), flush=True)
     t0 = time.time()
     proc = subprocess.run(cmd, cwd=str(ROOT), env=env)
