@@ -1,0 +1,84 @@
+{
+ "v045": {
+  "frames": 1000,
+  "feet": {
+   "L": {
+    "sole_z_p50_mm": -488842.7477168022,
+    "sole_z_p90_mm": -19132.28489908646,
+    "z_gt5mm_frac": 0.007,
+    "airborne_gt25mm_frac": 0.0,
+    "abs_swings_n": 0,
+    "abs_swing_s": [],
+    "abs_cadence_hz": null,
+    "contact_slip_p50": 0.7195813187652207,
+    "contact_slip_p90": 3.6124653602278465,
+    "slide_frac_gt015": 0.895748987854251
+   },
+   "R": {
+    "sole_z_p50_mm": -489015.2247776851,
+    "sole_z_p90_mm": -18844.844037628987,
+    "z_gt5mm_frac": 0.015,
+    "airborne_gt25mm_frac": 0.014,
+    "abs_swings_n": 1,
+    "abs_swing_s": [
+     0.28
+    ],
+    "abs_cadence_hz": null,
+    "contact_slip_p50": 0.6880875691644776,
+    "contact_slip_p90": 4.428567425228219,
+    "slide_frac_gt015": 0.8669396110542477
+   }
+  },
+  "flight_frames_both_gt25mm": 0,
+  "root_speed_p50": 0.28761117724950674,
+  "xy_travel_m": 0.07854487051813609,
+  "root_z_range": [
+   -1954.328047236479,
+   0.5899063360171186
+  ],
+  "heading_offset_deg_p50": 106.14623250981539,
+  "speed_cmd": 0.45
+ },
+ "v050": {
+  "frames": 1000,
+  "feet": {
+   "L": {
+    "sole_z_p50_mm": -489665.05618918285,
+    "sole_z_p90_mm": -18962.158375331826,
+    "z_gt5mm_frac": 0.009,
+    "airborne_gt25mm_frac": 0.005,
+    "abs_swings_n": 1,
+    "abs_swing_s": [
+     0.12
+    ],
+    "abs_cadence_hz": null,
+    "contact_slip_p50": 0.9602876750194451,
+    "contact_slip_p90": 4.18190432140142,
+    "slide_frac_gt015": 0.9725609756097561
+   },
+   "R": {
+    "sole_z_p50_mm": -489941.6887048391,
+    "sole_z_p90_mm": -18629.53428853063,
+    "z_gt5mm_frac": 0.015,
+    "airborne_gt25mm_frac": 0.014,
+    "abs_swings_n": 1,
+    "abs_swing_s": [
+     0.28
+    ],
+    "abs_cadence_hz": null,
+    "contact_slip_p50": 0.5838307434853217,
+    "contact_slip_p90": 3.8699369839790676,
+    "slide_frac_gt015": 0.9273285568065507
+   }
+  },
+  "flight_frames_both_gt25mm": 5,
+  "root_speed_p50": 0.5019546784668816,
+  "xy_travel_m": 3.745988105950633,
+  "root_z_range": [
+   -1960.275008657652,
+   0.5898955999636846
+  ],
+  "heading_offset_deg_p50": 79.11223006346694,
+  "speed_cmd": 0.5
+ }
+}
