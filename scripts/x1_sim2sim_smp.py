@@ -69,6 +69,17 @@ def build_model() -> mujoco.MjModel:
             ctrlrange=[-4.0, 4.0],
             ctrllimited=True,
         )
+    # FLOOR: mjlab's TerrainEntityCfg adds the plane at scene level; the robot
+    # XML has none (audit round 2 caught the first replay free-falling 1954 m).
+    plane = spec.worldbody.add_geom()
+    plane.name = 'floor'
+    plane.type = mujoco.mjtGeom.mjGEOM_PLANE
+    plane.size = [0.0, 0.0, 0.1]
+    plane.pos = [0.0, 0.0, 0.0]
+    plane.contype = 1
+    plane.conaffinity = 1
+    plane.condim = 3
+    plane.friction = [1.0, 0.005, 0.0001]
     m = spec.compile()
     # foot contact geom params (x1_collision_cfgs; friction 0.6 = mid of the
     # training DR range [0.3, 1.2])
@@ -76,11 +87,15 @@ def build_model() -> mujoco.MjModel:
     for g in range(m.ngeom):
         n = mujoco.mj_id2name(m, mujoco.mjtObj.mjOBJ_GEOM, g) or ''
         if n in foot_geoms:
-            m.geom_condim[g] = 3
-            m.geom_priority[g] = 1
+            m.geom_contype[g] = 1   # CollisionCfg sets contype/conaffinity=1 on
+            m.geom_conaffinity[g] = 1  # all '.*_collision' geoms; the stock XML
+            m.geom_condim[g] = 3    # leaves them 0 (no contact) -- the second
+            m.geom_priority[g] = 1  # replay fell THROUGH the floor without this
             m.geom_friction[g, 0] = 0.6
             m.geom_solref[g, 0] = 0.02
         elif n.endswith('_collision'):
+            m.geom_contype[g] = 1
+            m.geom_conaffinity[g] = 1
             m.geom_condim[g] = 1
     m.opt.timestep = 0.002
     return m
@@ -145,6 +160,7 @@ def rollout(actor: Actor, speed: float, secs: float, init_frame: np.ndarray,
     mujoco.mj_forward(m, d)
 
     qpos_log = np.zeros((n_steps, len(d.qpos)))
+    fell = False
     last_a = np.zeros(29)
     frames_dir = out_prefix.parent / f'{out_prefix.name}_frames'
     rend = cam = None
@@ -178,7 +194,9 @@ def rollout(actor: Actor, speed: float, secs: float, init_frame: np.ndarray,
             mujoco.mj_step(m, d)
         last_a = a
         qpos_log[t] = d.qpos
-        if not np.isfinite(d.qpos).all():
+        if not np.isfinite(d.qpos).all() or d.qpos[2] < 0.28:
+            # training termination: base_too_low minimum_height 0.28
+            fell = True
             qpos_log = qpos_log[:t + 1]
             break
         if rend is not None and t % 4 == 0:
@@ -188,7 +206,7 @@ def rollout(actor: Actor, speed: float, secs: float, init_frame: np.ndarray,
             iio.imwrite(frames_dir / f'f{t:05d}.png', rend.render())
     if rend is not None:
         rend.close()
-    return qpos_log
+    return qpos_log, fell
 
 
 def main() -> int:
@@ -214,12 +232,13 @@ def main() -> int:
     report = {}
     for speed in args.speeds:
         tag = f'v{speed:.2f}'.replace('.', '')
-        qpos = rollout(actor, speed, args.secs, init, bool(args.render), out / tag)
+        qpos, fell = rollout(actor, speed, args.secs, init, bool(args.render), out / tag)
         np.savez_compressed(out / f'{tag}_qpos.npz', qpos=qpos)
         r = analyse(qpos)
         r['speed_cmd'] = speed
+        r['fell'] = fell
         report[tag] = r
-        print(f'[s2s] {tag}: fell={r is None} speed_p50={r["root_speed_p50"]:.3f} '
+        print(f'[s2s] {tag}: fell={fell} speed_p50={r["root_speed_p50"]:.3f} '
               f'heading={r["heading_offset_deg_p50"]:.0f}deg '
               f'cad={r["feet"]["L"]["abs_cadence_hz"]}/{r["feet"]["R"]["abs_cadence_hz"]} '
               f'z5mm={r["feet"]["L"]["z_gt5mm_frac"]:.2f}/{r["feet"]["R"]["z_gt5mm_frac"]:.2f}',
