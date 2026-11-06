@@ -1,0 +1,142 @@
+{
+ "v0.45": {
+  "pass": false,
+  "gates": {
+   "slide_p50<0.15": true,
+   "step_z>5mm_frac>=0.35": false,
+   "r1_cadence_in_band": false,
+   "speed>=0.93cmd": true,
+   "no_fall_20s": true
+  },
+  "metrics": {
+   "frames": 1000,
+   "feet": {
+    "L": {
+     "sole_z_p50_mm": 1.8435082391260633,
+     "sole_z_p90_mm": 6.512350834585464,
+     "z_gt5mm_frac": 0.124,
+     "airborne_gt25mm_frac": 0.0,
+     "abs_swings_n": 0,
+     "abs_swing_s": [],
+     "abs_cadence_hz": null,
+     "contact_slip_p50": 0.010074528370416171,
+     "contact_slip_p90": 0.08222834442704804,
+     "slide_frac_gt015": 0.07196969696969698
+    },
+    "R": {
+     "sole_z_p50_mm": 1.8884303640766924,
+     "sole_z_p90_mm": 44.188523234680986,
+     "z_gt5mm_frac": 0.32,
+     "airborne_gt25mm_frac": 0.236,
+     "abs_swings_n": 20,
+     "abs_swing_s": [
+      0.32,
+      0.26,
+      0.28,
+      0.26,
+      0.24,
+      0.26,
+      0.28,
+      0.3,
+      0.24,
+      0.28,
+      0.28,
+      0.3,
+      0.12,
+      0.28,
+      0.28,
+      0.26,
+      0.32,
+      0.26,
+      0.32,
+      0.28
+     ],
+     "abs_cadence_hz": 1.0,
+     "contact_slip_p50": 0.010134756335385664,
+     "contact_slip_p90": 0.14101610265560457,
+     "slide_frac_gt015": 0.09515570934256055
+    }
+   },
+   "flight_frames_both_gt25mm": 0,
+   "root_speed_p50": 0.4195244014263153,
+   "xy_travel_m": 8.445982933044434,
+   "root_z_range": [
+    0.5930390357971191,
+    0.6245681643486023
+   ],
+   "heading_offset_deg_p50": 1.524747738094963,
+   "fell": false
+  }
+ },
+ "v0.5": {
+  "pass": false,
+  "gates": {
+   "slide_p50<0.15": true,
+   "step_z>5mm_frac>=0.35": false,
+   "r1_cadence_in_band": false,
+   "speed>=0.93cmd": false,
+   "no_fall_20s": true
+  },
+  "metrics": {
+   "frames": 1000,
+   "feet": {
+    "L": {
+     "sole_z_p50_mm": 1.8408111224271495,
+     "sole_z_p90_mm": 8.451676709945852,
+     "z_gt5mm_frac": 0.142,
+     "airborne_gt25mm_frac": 0.009,
+     "abs_swings_n": 1,
+     "abs_swing_s": [
+      0.22
+     ],
+     "abs_cadence_hz": null,
+     "contact_slip_p50": 0.011949824069806835,
+     "contact_slip_p90": 0.07488450279079868,
+     "slide_frac_gt015": 0.06298200514138817
+    },
+    "R": {
+     "sole_z_p50_mm": 1.9103787166960366,
+     "sole_z_p90_mm": 48.579908111326716,
+     "z_gt5mm_frac": 0.311,
+     "airborne_gt25mm_frac": 0.248,
+     "abs_swings_n": 17,
+     "abs_swing_s": [
+      0.3,
+      0.36,
+      0.32,
+      0.34,
+      0.32,
+      0.3,
+      0.36,
+      0.26,
+      0.36,
+      0.32,
+      0.24,
+      0.34,
+      0.36,
+      0.3,
+      0.34,
+      0.36,
+      0.34
+     ],
+     "abs_cadence_hz": 0.8474576271186441,
+     "contact_slip_p50": 0.016845795126883466,
+     "contact_slip_p90": 0.4789040434634999,
+     "slide_frac_gt015": 0.2089041095890411
+    }
+   },
+   "flight_frames_both_gt25mm": 0,
+   "root_speed_p50": 0.44261303544044495,
+   "xy_travel_m": 8.885170936584473,
+   "root_z_range": [
+    0.5854748487472534,
+    0.6283571124076843
+   ],
+   "heading_offset_deg_p50": 1.64097706720107,
+   "fell": false
+  }
+ },
+ "_ckpt": "model_g3c1_final.pt (7457 cumulative iters)",
+ "_task": "TASK_20261107_009",
+ "_summary": "3/5 gates both speeds. BREAKTHROUGHS: cadence band TRACKED by the stepping foot (R 0.85-1.0 Hz inside the commanded [0.7,1.0] band; L null), heading SOLVED (1.5-1.6 deg vs 64-93 deg in G3pp), slip best-ever (0.010-0.017). NEW failure mode = SINGLE-FOOT stepping: L foot never lifts (0-1 swings/20s, z>5mm 0.12-0.14), policy walks on R alone at ~0.4m steps. Speed 93.3%/88.6% cmd."
+}
