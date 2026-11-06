@@ -187,11 +187,22 @@ def phase_gait(
   foot_z = robot.data.body_link_pos_w[:, idx, 2] - env.scene.env_origins[:, 2:3]
   air = torch.sigmoid((foot_z - 0.073) / 0.006)          # clearly off ground
   plant = torch.sigmoid((0.060 - foot_z) / 0.012)         # guard's contact zone
+  v_vec = robot.data.body_link_lin_vel_w[:, idx, :2]
+  v_fwd = (v_vec * cmd.tar_dir_w.unsqueeze(1)).sum(dim=-1).clamp_min(0.0)
+  travel = (v_fwd / 0.30).clamp(0.0, 1.0)                 # forward swing travel
 
   p = cmd.gait_phase / (2.0 * math.pi)                    # cycle pos [0,1)
-  per_foot = []
+  swings = []
   for k, center in ((0, swing_center_left), (1, swing_center_left - 0.5)):
     d = torch.remainder(p - center + 0.5, 1.0) - 0.5      # signed dist to center
-    swing = torch.sigmoid((swing_width / 2 - torch.abs(d)) / edge_soft)
-    per_foot.append(swing * air[:, k] + (1.0 - swing) * plant[:, k])
-  return 0.5 * (per_foot[0] + per_foot[1])
+    swings.append(torch.sigmoid((swing_width / 2 - torch.abs(d)) / edge_soft))
+  s_L, s_R = swings
+  # G3-C2 payment form (exp_cc15ed32): swing pays only with REAL forward travel
+  # (lift + step, closes the lift-without-stepping loophole); stance pays only
+  # while the OTHER foot is inside its swing window (true support timing); the
+  # double-stance windows pay 0. A permanently planted foot loses all income
+  # outside the partner's swing windows -> single-foot gait (fnd_b234164e,
+  # G3-C1: L never lifted) is no longer near-optimal.
+  r_L = s_L * air[:, 0] * travel[:, 0] + (1.0 - s_L) * plant[:, 0] * s_R
+  r_R = s_R * air[:, 1] * travel[:, 1] + (1.0 - s_R) * plant[:, 1] * s_L
+  return 0.5 * (r_L + r_R)

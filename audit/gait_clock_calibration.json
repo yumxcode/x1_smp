@@ -29,5 +29,11 @@
   "edge": 0.04,
   "demo_mean_value": 0.556,
   "note": "demo under its OWN clock; soft air/plant masks cap the ceiling at ~0.75-0.8 (ankle swing p50 0.0797 -> air 0.75; planted p50 0.0427 -> plant 0.81)"
+ },
+ "g3c2_new_form": {
+  "demo_mean": 0.323,
+  "single_foot_mean": 0.276,
+  "discriminates": false,
+  "form": "s*air*travel + (1-s)*plant*s_other"
  }
 }
