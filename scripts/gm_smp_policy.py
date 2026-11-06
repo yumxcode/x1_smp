@@ -76,6 +76,13 @@ def main() -> int:
     from smp.rl.tasks.steering.mdp import rewards as _rewards_mod
     _src = _inspect.getsource(_rewards_mod.swing_bonus)
     print('[policy] swing_bonus fwd-projected:', 'tar_dir_w' in _src, flush=True)
+    _cmd_cfg = _c.commands['steering']
+    print('[policy] gait_clock:', getattr(_cmd_cfg, 'gait_clock', False),
+          'freq_range:', getattr(_cmd_cfg, 'gait_freq_min', None),
+          '-', getattr(_cmd_cfg, 'gait_freq_max', None),
+          '| phase_gait wired:', any(f.__name__ == 'phase_gait' for f, _, _ in
+                                     _c.rewards['task_smp_additive'].params['task_terms']),
+          flush=True)
 
     os.environ.setdefault('WANDB_MODE', 'disabled')
 

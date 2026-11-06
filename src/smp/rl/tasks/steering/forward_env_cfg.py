@@ -99,6 +99,12 @@ def x1_forward_smp_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
     # library (0.455-0.482 m/s, cad 0.78 Hz) with margin both sides.
     tar_speed_min=0.35,
     tar_speed_max=0.60,
+    # G3-C1 (amendment rev4): gait clock -- cadence commanded in-band
+    # [0.70, 1.00] Hz (R1 band [0.55, 1.2]), phase observed (sin/cos/freq),
+    # phase_gait reward schedules the stance/swing alternation.
+    gait_clock=True,
+    gait_freq_min=0.70,
+    gait_freq_max=1.00,
     debug_vis=False,
   )
   command_obs = ObservationTermCfg(
@@ -141,7 +147,22 @@ def x1_forward_smp_env_cfg(play: bool = False) -> ManagerBasedRlEnvCfg:
         # shuffle) -- see mdp.midband_penalty docstring; NOT wired.
         (
           mdp.swing_bonus,
+          0.3,
+          {"command_name": "steering"},
+        ),
+        # G3-C1: the clock-conditioned alternation reward (see
+        # mdp.rewards.phase_gait) -- cadence is now COMMANDED and scheduled;
+        # swing_bonus drops to 0.3 (timing handover to phase_gait).
+        (
+          mdp.phase_gait,
           0.5,
+          {},
+        ),
+        # G3-C1: heading term (fnd_8ec2bc0a -- swing rewards decouple foot
+        # motion from body heading; error_face drifted 0.9-1.3 rad).
+        (
+          mdp.steering_face_direction,
+          0.3,
           {"command_name": "steering"},
         ),
       ),

@@ -157,3 +157,41 @@ def midband_penalty(
   moving = ((v - v_free) / (v_full - v_free)).clamp(0.0, 1.0)
   per_foot = band * moving
   return -per_foot.mean(dim=-1)
+
+
+def phase_gait(
+  env: "ManagerBasedRlEnv",
+  command_name: str = "steering",
+  swing_width: float = 0.40,
+  swing_center_left: float = 0.84,
+  edge_soft: float = 0.04,
+) -> torch.Tensor:
+  """Clock-conditioned gait reward (G3-C1, amendment rev4): pays for feet that
+  follow the commanded gait phase -- each foot should be AIRBORNE inside its
+  phase swing window (raised-cosine-soft, width `swing_width` of the cycle,
+  duty = 1 - swing_width ~ 0.60, the v3 AMP demo regime) and PLANTED outside
+  it; left/right windows are antiphase. Requires cfg gait_clock=True on the
+  steering command (sin/cos/freq observed by the policy).
+
+  Unit calibration on the v3 physics-solved library against its own gait
+  clock: see audit/gait_clock_calibration.json. Rationale: three reward-only
+  rounds never pulled cadence into R1 [0.55,1.2] Hz (fnd_63ef26fd) -- here
+  cadence is COMMANDED (sampled in-band) and the phase reward schedules the
+  alternation, so the clock is both observable and rewarded.
+  """
+  import math
+
+  robot = env.scene["robot"]
+  cmd: "SteeringCommand" = env.command_manager.get_term(command_name)  # type: ignore[assignment]
+  idx = env._smp_ee_indexes[:2]  # type: ignore[attr-defined]  (ankles)
+  foot_z = robot.data.body_link_pos_w[:, idx, 2] - env.scene.env_origins[:, 2:3]
+  air = torch.sigmoid((foot_z - 0.073) / 0.006)          # clearly off ground
+  plant = torch.sigmoid((0.060 - foot_z) / 0.012)         # guard's contact zone
+
+  p = cmd.gait_phase / (2.0 * math.pi)                    # cycle pos [0,1)
+  per_foot = []
+  for k, center in ((0, swing_center_left), (1, swing_center_left - 0.5)):
+    d = torch.remainder(p - center + 0.5, 1.0) - 0.5      # signed dist to center
+    swing = torch.sigmoid((swing_width / 2 - torch.abs(d)) / edge_soft)
+    per_foot.append(swing * air[:, k] + (1.0 - swing) * plant[:, k])
+  return 0.5 * (per_foot[0] + per_foot[1])

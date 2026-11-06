@@ -47,9 +47,21 @@ class SteeringCommand(CommandTerm):
     self.tar_dir_w[..., 0] = 1.0
     self.face_dir_w[..., 0] = 1.0
 
+    # Gait clock (amendment rev4, exp G3-C1): per-env cadence command sampled
+    # in [gait_freq_min, gait_freq_max] at each resample + a per-episode phase
+    # offset. The clock is OBSERVABLE (sin/cos + freq appended to the command)
+    # and the phase_gait reward schedules stance/swing windows against it --
+    # cadence becomes a commanded quantity instead of an uncontrolled
+    # morphology degree of freedom (fnd_63ef26fd: 3 reward rounds never pulled
+    # it into the R1 band).
+    self.gait_freq = torch.zeros(self.num_envs, device=self.device)
+    self.phase0 = torch.zeros(self.num_envs, device=self.device)
+
     # Heading-frame command exposed to the policy: [tar_dir_x, tar_dir_y,
-    # tar_speed, face_dir_x, face_dir_y].
-    self.command_b = torch.zeros(self.num_envs, 5, device=self.device)
+    # tar_speed, face_dir_x, face_dir_y] (+ [sin(phase), cos(phase),
+    # gait_freq] when cfg.gait_clock).
+    self.command_b = torch.zeros(
+      self.num_envs, 8 if self.cfg.gait_clock else 5, device=self.device)
 
     self.metrics["error_vel_xy"] = torch.zeros(self.num_envs, device=self.device)
     self.metrics["error_face"] = torch.zeros(self.num_envs, device=self.device)
@@ -98,11 +110,29 @@ class SteeringCommand(CommandTerm):
     self.face_dir_w[env_ids, 0] = torch.cos(face_theta)
     self.face_dir_w[env_ids, 1] = torch.sin(face_theta)
 
+    if self.cfg.gait_clock:
+      self.gait_freq[env_ids] = torch.empty(n, device=self.device).uniform_(
+        self.cfg.gait_freq_min, self.cfg.gait_freq_max)
+      self.phase0[env_ids] = torch.empty(n, device=self.device).uniform_(
+        0.0, 2.0 * math.pi)
+
+  @property
+  def gait_phase(self) -> torch.Tensor:
+    """Phase (rad, [0, 2pi)) of the per-env gait clock, from episode time."""
+    t = self._env.episode_length_buf.float() * self._env.step_dt
+    return torch.remainder(2.0 * math.pi * self.gait_freq * t + self.phase0,
+                           2.0 * math.pi)
+
   def _update_command(self, env_ids: torch.Tensor | None = None) -> None:
     heading_w = self.robot.data.heading_w
     self.command_b[:, 0:2] = _dir_world_to_local(self.tar_dir_w, heading_w)
     self.command_b[:, 2] = self.tar_speed
     self.command_b[:, 3:5] = _dir_world_to_local(self.face_dir_w, heading_w)
+    if self.cfg.gait_clock:
+      phase = self.gait_phase
+      self.command_b[:, 5] = torch.sin(phase)
+      self.command_b[:, 6] = torch.cos(phase)
+      self.command_b[:, 7] = self.gait_freq
 
   # GUI.
 
@@ -229,6 +259,9 @@ class SteeringCommandCfg(CommandTermCfg):
   rand_face_dir: bool = True
   tar_speed_min: float = 0.5
   tar_speed_max: float = 3.0
+  gait_clock: bool = False
+  gait_freq_min: float = 0.70
+  gait_freq_max: float = 1.00
 
   @dataclass
   class VizCfg:

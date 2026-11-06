@@ -1,0 +1,33 @@
+{
+ "sx70_walk05": {
+  "freq": 0.739,
+  "duty_L": 0.76,
+  "duty_R": 0.9,
+  "phase_gait_value": 0.565
+ },
+ "sx50_walk05": {
+  "freq": 0.739,
+  "duty_L": 0.81,
+  "duty_R": 0.85,
+  "phase_gait_value": 0.568
+ },
+ "y8000_walk05": {
+  "freq": 0.783,
+  "duty_L": 0.66,
+  "duty_R": 0.86,
+  "phase_gait_value": 0.421
+ },
+ "c9196_walk05": {
+  "freq": 0.783,
+  "duty_L": 0.68,
+  "duty_R": 0.77,
+  "phase_gait_value": 0.671
+ },
+ "_summary": {
+  "swing_width": 0.3,
+  "swing_center_left": 0.84,
+  "edge": 0.04,
+  "demo_mean_value": 0.556,
+  "note": "demo under its OWN clock; soft air/plant masks cap the ceiling at ~0.75-0.8 (ankle swing p50 0.0797 -> air 0.75; planted p50 0.0427 -> plant 0.81)"
+ }
+}
