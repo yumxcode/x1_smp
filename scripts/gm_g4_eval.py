@@ -173,6 +173,13 @@ def analyse(qpos: np.ndarray, prior: np.ndarray | None = None) -> dict:
     out['root_speed_p50'] = float(np.median(vxy[lo:hi]))
     out['xy_travel_m'] = float(np.hypot(*(qpos[-1, :2] - qpos[0, :2])))
     out['root_z_range'] = [float(qpos[:, 2].min()), float(qpos[:, 2].max())]
+    # Heading honesty metric (G3'/G3'' crab-walk risk: training error_face
+    # 0.9-1.3 rad). Yaw of the pelvis from the root quaternion (wxyz), vs the
+    # command direction (+x). Reported, NOT gated -- the preregistered G4 gate
+    # set has no heading term; a large offset means the gait is a crab walk.
+    qw, qx, qy, qz = qpos[:, 3], qpos[:, 4], qpos[:, 5], qpos[:, 6]
+    yaw = np.arctan2(2 * (qw * qz + qx * qy), 1 - 2 * (qy ** 2 + qz ** 2))
+    out['heading_offset_deg_p50'] = float(np.median(np.abs(yaw[lo:hi])) * 180 / np.pi)
     return out
 
 
