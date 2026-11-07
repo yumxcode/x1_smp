@@ -1,0 +1,181 @@
+{
+ "v0.45": {
+  "pass": true,
+  "gates": {
+   "slide_p50<0.15": true,
+   "step_z>5mm_frac>=0.35": true,
+   "r1_cadence_in_band": true,
+   "speed>=0.93cmd": true,
+   "no_fall_20s": true
+  },
+  "metrics": {
+   "frames": 1000,
+   "feet": {
+    "L": {
+     "sole_z_p50_mm": 1.9083461490474116,
+     "sole_z_p90_mm": 201.75409656040048,
+     "z_gt5mm_frac": 0.449,
+     "airborne_gt25mm_frac": 0.423,
+     "abs_swings_n": 20,
+     "abs_swing_s": [
+      0.42,
+      0.42,
+      0.44,
+      0.44,
+      0.4,
+      0.46,
+      0.4,
+      0.42,
+      0.44,
+      0.44,
+      0.44,
+      0.46,
+      0.42,
+      0.42,
+      0.38,
+      0.4,
+      0.42,
+      0.44,
+      0.42,
+      0.46
+     ],
+     "abs_cadence_hz": 1.0,
+     "contact_slip_p50": 0.012092008110924896,
+     "contact_slip_p90": 0.03063938050581766,
+     "slide_frac_gt015": 0.0
+    },
+    "R": {
+     "sole_z_p50_mm": 20.772887484244638,
+     "sole_z_p90_mm": 202.0749467723711,
+     "z_gt5mm_frac": 0.528,
+     "airborne_gt25mm_frac": 0.491,
+     "abs_swings_n": 20,
+     "abs_swing_s": [
+      0.52,
+      0.5,
+      0.5,
+      0.52,
+      0.48,
+      0.5,
+      0.52,
+      0.48,
+      0.46,
+      0.5,
+      0.44,
+      0.52,
+      0.5,
+      0.56,
+      0.52,
+      0.52,
+      0.52,
+      0.44,
+      0.48,
+      0.5
+     ],
+     "abs_cadence_hz": 1.0,
+     "contact_slip_p50": 0.011443914830011805,
+     "contact_slip_p90": 0.04373198314665301,
+     "slide_frac_gt015": 0.005249343832020997
+    }
+   },
+   "flight_frames_both_gt25mm": 0,
+   "root_speed_p50": 0.4626501798629761,
+   "xy_travel_m": 9.235058784484863,
+   "root_z_range": [
+    0.5534624457359314,
+    0.6288187503814697
+   ],
+   "heading_offset_deg_p50": 4.4677121134699656,
+   "fell": false
+  }
+ },
+ "v0.5": {
+  "pass": true,
+  "gates": {
+   "slide_p50<0.15": true,
+   "step_z>5mm_frac>=0.35": true,
+   "r1_cadence_in_band": true,
+   "speed>=0.93cmd": true,
+   "no_fall_20s": true
+  },
+  "metrics": {
+   "frames": 1000,
+   "feet": {
+    "L": {
+     "sole_z_p50_mm": 1.9307978087060549,
+     "sole_z_p90_mm": 230.71442091210884,
+     "z_gt5mm_frac": 0.459,
+     "airborne_gt25mm_frac": 0.435,
+     "abs_swings_n": 18,
+     "abs_swing_s": [
+      0.28,
+      0.48,
+      0.46,
+      0.54,
+      0.5,
+      0.52,
+      0.52,
+      0.52,
+      0.5,
+      0.48,
+      0.5,
+      0.5,
+      0.48,
+      0.52,
+      0.5,
+      0.52,
+      0.52,
+      0.42
+     ],
+     "abs_cadence_hz": 0.8771929824561404,
+     "contact_slip_p50": 0.011090574656771508,
+     "contact_slip_p90": 0.03003808202550046,
+     "slide_frac_gt015": 0.0
+    },
+    "R": {
+     "sole_z_p50_mm": 16.240502933174117,
+     "sole_z_p90_mm": 237.20221158158392,
+     "z_gt5mm_frac": 0.52,
+     "airborne_gt25mm_frac": 0.489,
+     "abs_swings_n": 18,
+     "abs_swing_s": [
+      0.48,
+      0.6,
+      0.56,
+      0.52,
+      0.58,
+      0.54,
+      0.56,
+      0.56,
+      0.56,
+      0.58,
+      0.56,
+      0.58,
+      0.56,
+      0.56,
+      0.54,
+      0.58,
+      0.62,
+      0.4
+     ],
+     "abs_cadence_hz": 0.8771929824561404,
+     "contact_slip_p50": 0.010810918433761672,
+     "contact_slip_p90": 0.039989651902616004,
+     "slide_frac_gt015": 0.002531645569620253
+    }
+   },
+   "flight_frames_both_gt25mm": 0,
+   "root_speed_p50": 0.49695509672164917,
+   "xy_travel_m": 9.874292373657227,
+   "root_z_range": [
+    0.5366277694702148,
+    0.6317297220230103
+   ],
+   "heading_offset_deg_p50": 5.123846552124424,
+   "fell": false
+  }
+ },
+ "_ckpt": "model_g3c2_final.pt (iter 5000, cumulative ~6800)",
+ "_task": "TASK_20261107_087 (account 63, rev5 authorization)",
+ "_summary": "ALL 5 GATES PASS BOTH SPEEDS -- first full G4 pass in the project. v0.45: speed 0.463 (103% cmd), cadence 1.00/1.00 Hz (band [0.55,1.2]), swings 20/20 symmetric, z>5mm 0.45/0.53, slip 0.012/0.011, no fall, heading 4.5 deg. v0.5: speed 0.497 (99.4% cmd), cadence 0.877/0.877 Hz, swings 18/18, z>5mm 0.46/0.52, slip 0.011/0.011, no fall, heading 5.1 deg. The gait-clock + phase_gait-v2 payment form (swing needs travel, support timed to partner swing) achieved symmetric alternating stepping at commanded in-band cadence."
+}
