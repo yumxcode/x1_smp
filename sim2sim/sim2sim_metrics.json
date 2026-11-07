@@ -3,54 +3,13 @@
   "frames": 13,
   "feet": {
    "L": {
-    "sole_z_p50_mm": 9.685066967352016,
-    "sole_z_p90_mm": 18.250501478878043,
-    "z_gt5mm_frac": 0.6153846153846154,
-    "airborne_gt25mm_frac": 0.0,
-    "abs_swings_n": 0,
-    "abs_swing_s": [],
-    "abs_cadence_hz": null,
-    "contact_slip_p50": 0.40244899047499477,
-    "contact_slip_p90": 0.40244899047499477,
-    "slide_frac_gt015": 1.0
-   },
-   "R": {
-    "sole_z_p50_mm": 179.078194670999,
-    "sole_z_p90_mm": 440.7185497133362,
-    "z_gt5mm_frac": 0.8461538461538461,
+    "sole_z_p50_mm": 104.81844517549261,
+    "sole_z_p90_mm": 197.61479821494478,
+    "z_gt5mm_frac": 0.9230769230769231,
     "airborne_gt25mm_frac": 0.7692307692307693,
     "abs_swings_n": 1,
     "abs_swing_s": [
-     0.2
-    ],
-    "abs_cadence_hz": null,
-    "contact_slip_p50": null,
-    "contact_slip_p90": null,
-    "slide_frac_gt015": null
-   }
-  },
-  "flight_frames_both_gt25mm": 0,
-  "root_speed_p50": 0.3738693519476072,
-  "xy_travel_m": 0.05327064884827789,
-  "root_z_range": [
-   0.24857584243405384,
-   0.5906490394125549
-  ],
-  "heading_offset_deg_p50": 4.712434118642273,
-  "speed_cmd": 0.45,
-  "fell": true
- },
- "v050": {
-  "frames": 12,
-  "feet": {
-   "L": {
-    "sole_z_p50_mm": 25.22419886981084,
-    "sole_z_p90_mm": 48.5383166500262,
-    "z_gt5mm_frac": 0.8333333333333334,
-    "airborne_gt25mm_frac": 0.5,
-    "abs_swings_n": 1,
-    "abs_swing_s": [
-     0.16
+     0.22
     ],
     "abs_cadence_hz": null,
     "contact_slip_p50": null,
@@ -58,10 +17,10 @@
     "slide_frac_gt015": null
    },
    "R": {
-    "sole_z_p50_mm": 140.60891584830938,
-    "sole_z_p90_mm": 410.49202100375555,
-    "z_gt5mm_frac": 0.8333333333333334,
-    "airborne_gt25mm_frac": 0.75,
+    "sole_z_p50_mm": 92.11506380736171,
+    "sole_z_p90_mm": 190.65833917975073,
+    "z_gt5mm_frac": 0.8461538461538461,
+    "airborne_gt25mm_frac": 0.6923076923076923,
     "abs_swings_n": 1,
     "abs_swing_s": [
      0.18
@@ -72,14 +31,57 @@
     "slide_frac_gt015": null
    }
   },
-  "flight_frames_both_gt25mm": 6,
-  "root_speed_p50": 0.3652561530470957,
-  "xy_travel_m": 0.024356032407770154,
+  "flight_frames_both_gt25mm": 8,
+  "root_speed_p50": 0.6240922540067635,
+  "xy_travel_m": 0.11461014138132838,
   "root_z_range": [
-   0.27350367316162466,
-   0.5906263214100886
+   0.27903904295735465,
+   0.5905093162889252
   ],
-  "heading_offset_deg_p50": 5.1596821725051845,
+  "heading_offset_deg_p50": 14.667833837711717,
+  "speed_cmd": 0.45,
+  "fell": true
+ },
+ "v050": {
+  "frames": 13,
+  "feet": {
+   "L": {
+    "sole_z_p50_mm": 105.46314302864815,
+    "sole_z_p90_mm": 205.82680775152534,
+    "z_gt5mm_frac": 0.9230769230769231,
+    "airborne_gt25mm_frac": 0.7692307692307693,
+    "abs_swings_n": 1,
+    "abs_swing_s": [
+     0.22
+    ],
+    "abs_cadence_hz": null,
+    "contact_slip_p50": null,
+    "contact_slip_p90": null,
+    "slide_frac_gt015": null
+   },
+   "R": {
+    "sole_z_p50_mm": 91.26587059554777,
+    "sole_z_p90_mm": 180.45601752368123,
+    "z_gt5mm_frac": 0.8461538461538461,
+    "airborne_gt25mm_frac": 0.6923076923076923,
+    "abs_swings_n": 1,
+    "abs_swing_s": [
+     0.18
+    ],
+    "abs_cadence_hz": null,
+    "contact_slip_p50": null,
+    "contact_slip_p90": null,
+    "slide_frac_gt015": null
+   }
+  },
+  "flight_frames_both_gt25mm": 8,
+  "root_speed_p50": 0.5941815986435056,
+  "xy_travel_m": 0.11613242647228432,
+  "root_z_range": [
+   0.2796838313662374,
+   0.5906880624665792
+  ],
+  "heading_offset_deg_p50": 13.178245512169537,
   "speed_cmd": 0.5,
   "fell": true
  }

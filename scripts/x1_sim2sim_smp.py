@@ -28,6 +28,7 @@ analyse() as scripts/gm_g4_eval.py.
 from __future__ import annotations
 
 import argparse
+import math
 import json
 import subprocess
 import sys
@@ -179,6 +180,12 @@ def rollout(actor: Actor, speed: float, secs: float, init_frame: np.ndarray,
         c, s = np.cos(-yaw), np.sin(-yaw)
         tar_b = np.array([c, s])          # world +x in heading frame
         face_b = np.array([c, s])
+        # G3-C2: gait-clock obs (sin/cos/freq appended; phase from episode
+        # time, phase0=0, freq fixed mid-band 0.85 Hz -- in-distribution since
+        # training sampled phase0 uniform and freq in [0.7, 1.0])
+        t_ep = t / 50.0
+        gait_f = 0.85
+        phase = math.fmod(2.0 * math.pi * gait_f * t_ep, 2.0 * math.pi)
         obs = np.concatenate([
             d.sensordata[adr['body-linear-vel']:adr['body-linear-vel'] + 3],
             d.sensordata[adr['body-angular-velocity']:adr['body-angular-velocity'] + 3],
@@ -186,7 +193,8 @@ def rollout(actor: Actor, speed: float, secs: float, init_frame: np.ndarray,
             d.qpos[7:7 + 29],
             d.qvel[6:6 + 29],
             last_a,
-            [tar_b[0], tar_b[1], speed, face_b[0], face_b[1]],
+            [tar_b[0], tar_b[1], speed, face_b[0], face_b[1],
+             math.sin(phase), math.cos(phase), gait_f],
         ])
         a = actor(obs)
         d.ctrl[:] = a * scale
